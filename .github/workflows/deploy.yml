@@ -28,7 +28,8 @@ jobs:
           python-version: '3.12'
       - run: npm ci
       - name: Descargar imágenes de Wikimedia Commons (verifica licencias)
-        run: python3 scripts/commons_catalog.py || echo "Aviso: revisa el registro de Commons; la publicación continúa."
+        run: |
+          python3 scripts/commons_catalog.py || echo "Aviso - revisa el registro de Commons; la publicacion continua."
       - name: Pruebas de contenido y lógica
         run: npm test
       - name: Construir
