@@ -1,0 +1,326 @@
+{
+  "id": 7,
+  "bloque": "C",
+  "titulo": "Caso integrador y cuándo derivar",
+  "subtitulo": "Unir lo aprendido y reconocer las señales de alarma",
+  "minutos": 22,
+  "objetivos": [
+    "Reconocer las señales de alarma que requieren atención médica urgente.",
+    "Aplicar la regla FAST para sospechar un ictus.",
+    "Recordar qué signos de sangrado vigilar en quien toma anticoagulantes.",
+    "Resolver un caso con decisiones seguras, paso a paso."
+  ],
+  "lecciones": [
+    {
+      "id": "d7-l1",
+      "titulo": "Señales de un infarto",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d7-l1-t1",
+          "tipo": "pregunta-previa",
+          "titulo": "Antes de empezar",
+          "texto": "",
+          "fuentes": [
+            "F56"
+          ],
+          "pregunta": {
+            "id": "d7-l1-p0",
+            "tipo": "verdadero-falso",
+            "enunciado": "Un infarto siempre empieza con un dolor de pecho fuerte y repentino, como en las películas.",
+            "respuesta": false,
+            "explicacion": "Falso. A menudo empieza lento, con una molestia leve en el pecho que va y viene.",
+            "fuentes": [
+              "F56"
+            ]
+          }
+        },
+        {
+          "id": "d7-l1-t2",
+          "tipo": "alerta",
+          "titulo": "La molestia del pecho",
+          "texto": "Molestia en el centro del pecho que dura más de unos minutos o que se va y vuelve: presión, opresión, sensación de lleno o dolor.",
+          "fuentes": [
+            "F56",
+            "F42"
+          ]
+        },
+        {
+          "id": "d7-l1-t3",
+          "tipo": "alerta",
+          "titulo": "Otras zonas y síntomas",
+          "texto": "Dolor en uno o ambos brazos, espalda, cuello, mandíbula o estómago. Falta de aire, sudor frío, náuseas o mareo.",
+          "fuentes": [
+            "F56",
+            "F42"
+          ]
+        },
+        {
+          "id": "d7-l1-t4",
+          "tipo": "dato",
+          "titulo": "En las mujeres",
+          "texto": "Pueden predominar la falta de aire, las náuseas o vómitos y el dolor de espalda o mandíbula.",
+          "fuentes": [
+            "F57"
+          ]
+        },
+        {
+          "id": "d7-l1-t5",
+          "tipo": "alerta",
+          "titulo": "Qué hacer",
+          "texto": "Llamar a emergencias de inmediato (en Ecuador, ECU 911). No esperar a ver si se pasa ni intentar tratarlo con plantas.",
+          "fuentes": [
+            "F56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d7-l2",
+      "titulo": "Ictus: la regla FAST",
+      "minutos": 3,
+      "tarjetas": [
+        {
+          "id": "d7-l2-t1",
+          "tipo": "concepto",
+          "titulo": "Cada minuto cuenta",
+          "texto": "El ictus ocurre cuando se interrumpe el riego de una parte del cerebro o se rompe un vaso. Reconocerlo rápido permite llegar antes al tratamiento.",
+          "fuentes": [
+            "F43"
+          ]
+        },
+        {
+          "id": "d7-l2-t2",
+          "tipo": "alerta",
+          "titulo": "FAST",
+          "texto": "F (face): cara caída de un lado. A (arm): brazo débil. S (speech): habla alterada o difícil de entender. T (time): es tiempo de llamar a emergencias.",
+          "fuentes": [
+            "F43"
+          ]
+        },
+        {
+          "id": "d7-l2-t3",
+          "tipo": "alerta",
+          "titulo": "Otras señales repentinas",
+          "texto": "Problemas para ver con uno o ambos ojos, dificultad para caminar o pérdida del equilibrio, y dolor de cabeza intenso sin causa conocida.",
+          "fuentes": [
+            "F43"
+          ]
+        },
+        {
+          "id": "d7-l2-t4",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Conecte con el día 3",
+          "texto": "La fibrilación auricular favorece coágulos que pueden viajar al cerebro. Por eso una persona con FA que de repente no puede hablar bien necesita emergencias, no esperar.",
+          "fuentes": [
+            "F59",
+            "F43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d7-l3",
+      "titulo": "Coágulos y sangrado",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d7-l3-t1",
+          "tipo": "alerta",
+          "titulo": "Pierna hinchada de un solo lado",
+          "texto": "Hinchazón o dolor en una sola pierna, con calor y enrojecimiento, puede ser una trombosis venosa profunda. En una persona con cáncer, el riesgo es mayor: consultar pronto.",
+          "fuentes": [
+            "F40",
+            "F39"
+          ]
+        },
+        {
+          "id": "d7-l3-t2",
+          "tipo": "alerta",
+          "titulo": "Falta de aire repentina",
+          "texto": "Falta de aire súbita, dolor de pecho al respirar hondo, latidos rápidos o tos con sangre pueden indicar embolia pulmonar: es una urgencia.",
+          "fuentes": [
+            "F41"
+          ]
+        },
+        {
+          "id": "d7-l3-t3",
+          "tipo": "alerta",
+          "titulo": "Sangrado con anticoagulantes",
+          "texto": "En quien toma warfarina: sangrado que no se detiene, sangrado de nariz o encías, orina rosada o marrón, heces negras o rojas, vómito con sangre o moretones fáciles. Llamar al médico de inmediato.",
+          "fuentes": [
+            "F47"
+          ]
+        },
+        {
+          "id": "d7-l3-t4",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Conecte con el día 6",
+          "texto": "Si esa persona empezó hace poco un suplemento de ginkgo o ajo, es un dato que el médico debe conocer: ambos pueden aumentar el riesgo de sangrado.",
+          "fuentes": [
+            "F74",
+            "F75",
+            "F47"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d7-l4",
+      "titulo": "Antes del caso: su papel",
+      "minutos": 3,
+      "tarjetas": [
+        {
+          "id": "d7-l4-t1",
+          "tipo": "concepto",
+          "titulo": "Educador, no prescriptor",
+          "texto": "Su papel es informar con fuentes, escuchar, preguntar qué plantas y suplementos se usan, y animar a contarlo al médico. No es diagnosticar ni cambiar tratamientos.",
+          "fuentes": [
+            "F72",
+            "F12"
+          ],
+          "imagen": "img-ia-d7-conversacion"
+        },
+        {
+          "id": "d7-l4-t2",
+          "tipo": "concepto",
+          "titulo": "Tres preguntas útiles",
+          "texto": "1) ¿Qué medicamentos toma? 2) ¿Qué plantas, infusiones o suplementos usa o piensa usar? 3) ¿Su equipo médico lo sabe?",
+          "fuentes": [
+            "F72",
+            "F47"
+          ]
+        },
+        {
+          "id": "d7-l4-t3",
+          "tipo": "alerta",
+          "titulo": "Lo que nunca",
+          "texto": "No sugerir que una planta sustituye o retrasa el tratamiento del cáncer. Ninguna terapia complementaria ha demostrado prevenir el cáncer ni hacerlo desaparecer.",
+          "fuentes": [
+            "F72"
+          ]
+        },
+        {
+          "id": "d7-l4-t4",
+          "tipo": "dato",
+          "titulo": "Ahora, el caso",
+          "texto": "En el caso integrador tomará decisiones en 8 pasos. Verá una explicación en cada respuesta. El puntaje es solo una referencia: puede repetirlo cuantas veces quiera.",
+          "fuentes": [
+            "F72"
+          ]
+        }
+      ]
+    }
+  ],
+  "practica": [
+    {
+      "id": "d7-q1",
+      "tipo": "opcion-multiple",
+      "enunciado": "Una persona tiene opresión en el pecho desde hace 15 minutos, con sudor frío. ¿Qué es lo correcto?",
+      "opciones": [
+        {
+          "texto": "Llamar a emergencias de inmediato",
+          "correcta": true,
+          "explicacion": "Son señales de posible infarto: cada minuto cuenta."
+        },
+        {
+          "texto": "Recomendar una infusión y esperar",
+          "correcta": false,
+          "explicacion": "Ante señales de infarto no se espera ni se trata con plantas."
+        },
+        {
+          "texto": "Pedirle que se acueste y llamar mañana al médico",
+          "correcta": false,
+          "explicacion": "Es una urgencia: hay que llamar a emergencias ahora."
+        }
+      ],
+      "fuentes": [
+        "F56",
+        "F42"
+      ]
+    },
+    {
+      "id": "d7-q2",
+      "tipo": "ordenar",
+      "enunciado": "Ordene las letras de la regla FAST.",
+      "pasos": [
+        "Cara caída",
+        "Brazo débil",
+        "Habla alterada",
+        "Tiempo de llamar a emergencias"
+      ],
+      "explicacion": "F-A-S-T: cara, brazo, habla y tiempo.",
+      "fuentes": [
+        "F43"
+      ]
+    },
+    {
+      "id": "d7-q3",
+      "tipo": "verdadero-falso",
+      "enunciado": "Una pierna hinchada y dolorosa de un solo lado en una persona con cáncer puede ser una trombosis y merece consulta pronta.",
+      "respuesta": true,
+      "explicacion": "Verdadero. El cáncer aumenta el riesgo de coágulos.",
+      "fuentes": [
+        "F40",
+        "F39"
+      ]
+    },
+    {
+      "id": "d7-q4",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es un signo de sangrado que debe vigilar quien toma warfarina?",
+      "opciones": [
+        {
+          "texto": "Heces negras o rojas",
+          "correcta": true,
+          "explicacion": "Es un signo de sangrado digestivo: llamar al médico de inmediato."
+        },
+        {
+          "texto": "Ganas de dormir después de comer",
+          "correcta": false,
+          "explicacion": "No es un signo de sangrado."
+        },
+        {
+          "texto": "Uñas que crecen rápido",
+          "correcta": false,
+          "explicacion": "No es un signo de sangrado."
+        }
+      ],
+      "fuentes": [
+        "F47"
+      ]
+    }
+  ],
+  "audio": {
+    "archivo": "audio/dia-7.mp3",
+    "titulo": "Resumen del día 7",
+    "estado": "pendiente",
+    "origen": "NotebookLM"
+  },
+  "resumen": {
+    "titulo": "Lo esencial del día 7",
+    "puntos": [
+      "Infarto: molestia en el pecho que dura o vuelve, con falta de aire, sudor o náuseas: emergencias.",
+      "Ictus: FAST (cara, brazo, habla, tiempo).",
+      "Pierna hinchada de un lado o falta de aire súbita: posible coágulo.",
+      "Con anticoagulantes, vigilar sangrados y avisar sobre plantas y suplementos.",
+      "Su papel: informar, preguntar y derivar; nunca reemplazar el tratamiento."
+    ],
+    "imagen": "img-nlm-d7-infografia"
+  },
+  "fuentes": [
+    "F12",
+    "F39",
+    "F40",
+    "F41",
+    "F42",
+    "F43",
+    "F47",
+    "F56",
+    "F57",
+    "F59",
+    "F72",
+    "F74",
+    "F75"
+  ]
+}

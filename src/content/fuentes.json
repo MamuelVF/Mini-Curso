@@ -1,0 +1,530 @@
+[
+  {
+    "id": "F01",
+    "titulo": "McEvoy JW, et al. 2024 ESC Guidelines for the management of elevated blood pressure and hypertension. Eur Heart J. PMID 39210715",
+    "url": "https://doi.org/10.1093/eurheartj/ehae178",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F02",
+    "titulo": "Jones DW, et al. 2025 AHA/ACC/AANP/… Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. Circulation. PMID 40811497",
+    "url": "https://doi.org/10.1161/CIR.0000000000001356",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F03",
+    "titulo": "Vrints C, et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. PMID 39210710",
+    "url": "https://doi.org/10.1093/eurheartj/ehae177",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F04",
+    "titulo": "Køber L, et al. 2026 ESC Guidelines for the management of heart failure. Eur Heart J. PMID 42661420",
+    "url": "https://doi.org/10.1093/eurheartj/ehag100",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F05",
+    "titulo": "Heidenreich PA, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation. PMID 35363499",
+    "url": "https://doi.org/10.1161/CIR.0000000000001063",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F06",
+    "titulo": "ESC. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. PMID 39210723",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39210723/",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F07",
+    "titulo": "Visseren FLJ, et al. 2021 ESC Guidelines on cardiovascular disease prevention in clinical practice. Eur Heart J. PMID 34458905",
+    "url": "https://doi.org/10.1093/eurheartj/ehab484",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F08",
+    "titulo": "Lloyd-Jones DM, et al. Life's Essential 8. Circulation. PMID 35766027",
+    "url": "https://doi.org/10.1161/CIR.0000000000001078",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F09",
+    "titulo": "Blumenthal RS, et al. 2026 ACC/AHA/… Guideline on the Management of Dyslipidemia. Circulation. PMID 41824552",
+    "url": "https://doi.org/10.1161/CIR.0000000000001423",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F10",
+    "titulo": "Creager MA, et al. 2026 AHA/ACC/… Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults. Circulation. PMID 41712677",
+    "url": "https://doi.org/10.1161/CIR.0000000000001415",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F11",
+    "titulo": "Lyon AR, et al. 2022 ESC Guidelines on cardio-oncology (con EHA, ESTRO e IC-OS). Eur Heart J. PMID 36017568. Sigue siendo la guía ESC vigente. No encontré una versión posterior",
+    "url": "https://doi.org/10.1093/eurheartj/ehac244",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F12",
+    "titulo": "Dent S, et al. Prevention and management of cardiovascular disease in adults with cancer: IC-OS / MASCC clinical practice statement. Cardio-Oncology (acceso abierto). PMID 42216106",
+    "url": "https://doi.org/10.1186/s40959-026-00481-3",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F13",
+    "titulo": "Key NS, et al. Venous Thromboembolism Prophylaxis and Treatment in Patients With Cancer: ASCO Guideline Update. J Clin Oncol. PMID 37075273",
+    "url": "https://doi.org/10.1200/JCO.23.00294",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F14",
+    "titulo": "Hanahan D. Hallmarks of Cancer: New Dimensions. Cancer Discov. PMID 35022204",
+    "url": "https://doi.org/10.1158/2159-8290.CD-21-1059",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F15",
+    "titulo": "Venous Thrombosis and Cancer: What Would Dr. Trousseau Teach Today? Ann Intern Med. PMID 28828491",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28828491/",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F16",
+    "titulo": "PCRonline. A review of the 2024 ESC Guidelines on elevated blood pressure and hypertension (resumen de las categorías)",
+    "url": "https://www.pcronline.com/Cases-resources-images/Tools-and-Practice/The-Essentials/Hypertension/A-review-of-the-2024-ESC-Guidelines-on-elevated-blood-pressure-and-hypertension",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F20",
+    "titulo": "NCI. ¿Qué es el cáncer? (ES)",
+    "url": "https://www.cancer.gov/espanol/cancer/naturaleza/que-es",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F21",
+    "titulo": "NCI. Metastatic Cancer: When Cancer Spreads",
+    "url": "https://www.cancer.gov/types/metastatic-cancer",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F22",
+    "titulo": "NCI. Quimioterapia para tratar el cáncer (ES)",
+    "url": "https://www.cancer.gov/espanol/cancer/tratamiento/tipos/quimioterapia",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F23",
+    "titulo": "NCI. Targeted Therapy for Cancer",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F24",
+    "titulo": "NCI. Immunotherapy for Cancer",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F25",
+    "titulo": "NCI. Efectos secundarios de la radioterapia (ES)",
+    "url": "https://www.cancer.gov/espanol/cancer/tratamiento/tipos/radioterapia/efectos-secundarios",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F26",
+    "titulo": "NCI. Efectos tardíos del tratamiento (ES)",
+    "url": "https://www.cancer.gov/espanol/cancer/sobrellevar/supervivencia/efectos-tardios",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F27",
+    "titulo": "NCI. Medicina complementaria y alternativa (ES)",
+    "url": "https://www.cancer.gov/espanol/cancer/tratamiento/mca",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F28",
+    "titulo": "NCI. Discovery: Natural Compound Offers Hope (historia del paclitaxel)",
+    "url": "https://www.cancer.gov/research/progress/discovery/taxol",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F29",
+    "titulo": "NCI. Diccionario de cáncer (ES)",
+    "url": "https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-cancer",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F30",
+    "titulo": "MedlinePlus. Presión arterial alta (ES)",
+    "url": "https://medlineplus.gov/spanish/highbloodpressure.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F31",
+    "titulo": "MedlinePlus. Ateroesclerosis (ES)",
+    "url": "https://medlineplus.gov/spanish/atherosclerosis.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F32",
+    "titulo": "MedlinePlus. Colesterol (ES)",
+    "url": "https://medlineplus.gov/spanish/cholesterol.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F33",
+    "titulo": "MedlinePlus. Cardiopatía coronaria (ES)",
+    "url": "https://medlineplus.gov/spanish/ency/article/007115.htm",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F34",
+    "titulo": "MedlinePlus. Fallo cardíaco (ES)",
+    "url": "https://medlineplus.gov/spanish/heartfailure.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F35",
+    "titulo": "MedlinePlus. Arritmia (ES)",
+    "url": "https://medlineplus.gov/spanish/arrhythmia.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F36",
+    "titulo": "MedlinePlus. Electrocardiograma (ES)",
+    "url": "https://medlineplus.gov/spanish/ency/article/003868.htm",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F37",
+    "titulo": "MedlinePlus. Cómo prevenir las enfermedades del corazón (ES)",
+    "url": "https://medlineplus.gov/spanish/howtopreventheartdisease.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F38",
+    "titulo": "MedlinePlus. Enfermedades de las válvulas del corazón (ES)",
+    "url": "https://medlineplus.gov/spanish/heartvalvediseases.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F39",
+    "titulo": "MedlinePlus. Coágulos sanguíneos (ES)",
+    "url": "https://medlineplus.gov/spanish/bloodclots.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F40",
+    "titulo": "MedlinePlus. Trombosis venosa profunda (ES)",
+    "url": "https://medlineplus.gov/spanish/deepveinthrombosis.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F41",
+    "titulo": "MedlinePlus. Embolismo pulmonar (ES)",
+    "url": "https://medlineplus.gov/spanish/pulmonaryembolism.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F42",
+    "titulo": "MedlinePlus. Ataque cardíaco (ES)",
+    "url": "https://medlineplus.gov/spanish/heartattack.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F43",
+    "titulo": "MedlinePlus. Accidente cerebrovascular (ES)",
+    "url": "https://medlineplus.gov/spanish/stroke.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F44",
+    "titulo": "MedlinePlus. Digoxina (ES)",
+    "url": "https://medlineplus.gov/spanish/druginfo/meds/a682301-es.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F45",
+    "titulo": "MedlinePlus. Inyección de paclitaxel (ES)",
+    "url": "https://medlineplus.gov/spanish/druginfo/meds/a607070-es.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F46",
+    "titulo": "MedlinePlus. Inyección de vincristina (ES)",
+    "url": "https://medlineplus.gov/spanish/druginfo/meds/a682822-es.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F47",
+    "titulo": "MedlinePlus. Warfarina (ES)",
+    "url": "https://medlineplus.gov/spanish/druginfo/meds/a682277-es.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F48",
+    "titulo": "OMS. Cardiovascular diseases (CVDs), nota descriptiva (31 jul 2025)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F49",
+    "titulo": "OMS. Hipertensión, nota descriptiva (25 sep 2025)",
+    "url": "https://www.who.int/es/news-room/fact-sheets/detail/hypertension",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F50",
+    "titulo": "OMS. Cáncer, nota descriptiva (3 jul 2026)",
+    "url": "https://www.who.int/es/news-room/fact-sheets/detail/cancer",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F51",
+    "titulo": "AHA. Understanding Blood Pressure Readings",
+    "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F52",
+    "titulo": "AHA. What is Atherosclerosis?",
+    "url": "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/atherosclerosis",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F53",
+    "titulo": "AHA. What is Heart Failure?",
+    "url": "https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F54",
+    "titulo": "AHA. What is an Arrhythmia?",
+    "url": "https://www.heart.org/en/health-topics/arrhythmia/about-arrhythmia",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F55",
+    "titulo": "AHA. Life's Essential 8 (versión divulgativa)",
+    "url": "https://www.heart.org/en/healthy-living/healthy-lifestyle/lifes-essential-8",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F56",
+    "titulo": "AHA. Warning Signs of a Heart Attack",
+    "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F57",
+    "titulo": "AHA. Heart Attack Symptoms in Women",
+    "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack/heart-attack-symptoms-in-women",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F58",
+    "titulo": "AHA. Ejection Fraction Heart Failure Measurement",
+    "url": "https://www.heart.org/en/health-topics/heart-failure/diagnosing-heart-failure/ejection-fraction-heart-failure-measurement",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F59",
+    "titulo": "AHA. What is Atrial Fibrillation?",
+    "url": "https://www.heart.org/en/health-topics/atrial-fibrillation/what-is-atrial-fibrillation-afib-or-af",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F60",
+    "titulo": "OpenStax. Anatomy and Physiology 2e, cap. 19.1 Heart Anatomy",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F61",
+    "titulo": "OpenStax. 19.2 Cardiac Muscle and Electrical Activity",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F62",
+    "titulo": "OpenStax. 19.3 Cardiac Cycle",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-3-cardiac-cycle",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F63",
+    "titulo": "OpenStax. 19.4 Cardiac Physiology",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-4-cardiac-physiology",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F64",
+    "titulo": "OpenStax. 20.1 Structure and Function of Blood Vessels",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F65",
+    "titulo": "OpenStax. 20.2 Blood Flow, Blood Pressure, and Resistance",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F66",
+    "titulo": "OpenStax. 20.4 Homeostatic Regulation of the Vascular System",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-4-homeostatic-regulation-of-the-vascular-system",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F67",
+    "titulo": "OpenStax. 20.5 Circulatory Pathways",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F68",
+    "titulo": "OpenStax. 18.5 Hemostasis",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F69",
+    "titulo": "OpenStax. Biology 2e, 30.5 Transport of Water and Solutes in Plants (para la analogía vegetal)",
+    "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F70",
+    "titulo": "NCCIH. Herbs at a Glance (fichas por planta: evidencia, seguridad e interacciones)",
+    "url": "https://www.nccih.nih.gov/health/herbsataglance",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F71",
+    "titulo": "NCCIH. Herb-Drug Interactions: What the Science Says (para profesionales)",
+    "url": "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F72",
+    "titulo": "NCCIH. Cancer and Complementary Health Approaches: What You Need To Know",
+    "url": "https://www.nccih.nih.gov/health/cancer-and-complementary-health-approaches-what-you-need-to-know",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F73",
+    "titulo": "NCCIH. St. John's Wort (hipérico)",
+    "url": "https://www.nccih.nih.gov/health/st-johns-wort",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F74",
+    "titulo": "NCCIH. Ginkgo",
+    "url": "https://www.nccih.nih.gov/health/ginkgo",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F75",
+    "titulo": "NCCIH. Garlic (ajo)",
+    "url": "https://www.nccih.nih.gov/health/garlic",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F76",
+    "titulo": "NCCIH. Turmeric (cúrcuma)",
+    "url": "https://www.nccih.nih.gov/health/turmeric",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F77",
+    "titulo": "NCCIH. Green Tea (té verde)",
+    "url": "https://www.nccih.nih.gov/health/green-tea",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F78",
+    "titulo": "NCCIH. Hawthorn (espino blanco)",
+    "url": "https://www.nccih.nih.gov/health/hawthorn",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F79",
+    "titulo": "NCCIH. Asian Ginseng",
+    "url": "https://www.nccih.nih.gov/health/asian-ginseng",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F80",
+    "titulo": "NCCIH. Natural Doesn't Necessarily Mean Safer, or Better",
+    "url": "https://www.nccih.nih.gov/health/know-science/natural-doesnt-mean-better",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F81",
+    "titulo": "Memorial Sloan Kettering. About Herbs (buscador; las fichas por planta se citarán una a una en la Fase 4)",
+    "url": "https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F82",
+    "titulo": "Newman DJ, Cragg GM. Natural Products as Sources of New Drugs over the Nearly Four Decades from 01/1981 to 09/2019. J Nat Prod. PMID 32162523",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32162523/",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F83",
+    "titulo": "Vinca alkaloids and analogues as anti-cancer agents: Looking back, peering ahead. Bioorg Med Chem Lett. PMID 30122223",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30122223/",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F84",
+    "titulo": "Withering and the foxglove: the making of a myth. Br Heart J. PMID 3899150 (acceso abierto)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3899150/",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F85",
+    "titulo": "NCI. Immune Checkpoint Inhibitors",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F86",
+    "titulo": "MedlinePlus. Doxorrubicina (ES)",
+    "url": "https://medlineplus.gov/spanish/druginfo/meds/a682221-es.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F87",
+    "titulo": "MedlinePlus. Inyección de trastuzumab (ES)",
+    "url": "https://medlineplus.gov/spanish/druginfo/meds/a699019-es.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F88",
+    "titulo": "MedlinePlus. Inyección de fluorouracilo (ES)",
+    "url": "https://medlineplus.gov/spanish/druginfo/meds/a682708-es.html",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F89",
+    "titulo": "Revisión: A Comprehensive Review on Unveiling the Journey of Digoxin. Cureus 2024. PMID 38650769",
+    "url": "https://doi.org/10.7759/cureus.56755",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F90",
+    "titulo": "NCI. Drug Dictionary (vincristina, vinblastina, digoxina)",
+    "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "F91",
+    "titulo": "NCCIH. Licorice Root (regaliz)",
+    "url": "https://www.nccih.nih.gov/health/licorice-root",
+    "consultado": "2026-11-01"
+  }
+]

@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/lora';
+
+@theme {
+  --font-serif: 'Lora Variable', Georgia, 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --color-fondo: #f6f5ef;
+  --color-papel: #fffefa;
+  --color-tinta: #24302a;
+  --color-suave: #5b665f;
+  --color-linea: #dcdccf;
+  --color-verde-50: #eef3ea;
+  --color-verde-100: #dfe9d9;
+  --color-verde-300: #a9c29f;
+  --color-verde-500: #4f7f5a;
+  --color-verde-700: #2f5d3f;
+  --color-verde-900: #1f3d2b;
+  --color-tierra: #8a6d4b;
+  --color-alerta: #9a3b2e;
+  --color-alerta-50: #f8ebe7;
+  --color-ok: #2f6b45;
+}
+
+html { background: var(--color-fondo); color: var(--color-tinta); -webkit-text-size-adjust: 100%; }
+body { margin: 0; font-family: var(--font-sans); font-size: 17px; line-height: 1.55; min-height: 100dvh; }
+h1, h2, h3 { font-family: var(--font-serif); line-height: 1.25; color: var(--color-verde-900); }
+@layer base { a { color: var(--color-verde-700); text-decoration: underline; text-underline-offset: 2px; } }
+:focus-visible { outline: 3px solid var(--color-verde-500); outline-offset: 2px; border-radius: 6px; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; padding: .6rem 1.1rem;
+  border-radius: 14px; font-weight: 600; border: 1px solid transparent; cursor: pointer; transition: background .15s, transform .1s; }
+.btn:active { transform: scale(.98); }
+.btn-primario { background: var(--color-verde-700); color: #fff; }
+.btn-primario:hover { background: var(--color-verde-900); }
+.btn-secundario { background: var(--color-papel); color: var(--color-verde-900); border-color: var(--color-linea); }
+.btn-secundario:hover { background: var(--color-verde-50); }
+.btn[disabled] { opacity: .45; cursor: default; }
+.tarjeta { background: var(--color-papel); border: 1px solid var(--color-linea); border-radius: 20px; }
+.etiqueta { display: inline-block; font-size: .75rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase;
+  padding: .15rem .55rem; border-radius: 999px; background: var(--color-verde-100); color: var(--color-verde-900); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+}

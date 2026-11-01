@@ -1,0 +1,739 @@
+[
+  {
+    "id": "d1-f1",
+    "dia": 1,
+    "frente": "¿Cuáles son las 4 cavidades del corazón?",
+    "reverso": "Aurícula derecha, ventrículo derecho, aurícula izquierda y ventrículo izquierdo.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f2",
+    "dia": 1,
+    "frente": "¿Qué hacen las aurículas?",
+    "reverso": "Reciben la sangre que llega al corazón y la pasan a los ventrículos.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f3",
+    "dia": 1,
+    "frente": "¿Por qué el ventrículo izquierdo tiene la pared más gruesa?",
+    "reverso": "Porque bombea sangre a todo el cuerpo, un circuito con más resistencia.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f4",
+    "dia": 1,
+    "frente": "Válvula entre aurícula y ventrículo derechos",
+    "reverso": "Tricúspide.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f5",
+    "dia": 1,
+    "frente": "Válvula entre aurícula y ventrículo izquierdos",
+    "reverso": "Mitral (o bicúspide).",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f6",
+    "dia": 1,
+    "frente": "¿Qué impide que la mitral se dé la vuelta?",
+    "reverso": "Las cuerdas tendinosas, unidas a los músculos papilares.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f7",
+    "dia": 1,
+    "frente": "¿Qué es el \"lub\"?",
+    "reverso": "El cierre de la tricúspide y la mitral al contraerse los ventrículos.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f8",
+    "dia": 1,
+    "frente": "¿Qué es el \"dub\"?",
+    "reverso": "El cierre de la pulmonar y la aórtica al relajarse los ventrículos.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f9",
+    "dia": 1,
+    "frente": "Sístole",
+    "reverso": "Fase de contracción del corazón, cuando expulsa sangre.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f10",
+    "dia": 1,
+    "frente": "Diástole",
+    "reverso": "Fase de relajación, cuando las cavidades se llenan.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f11",
+    "dia": 1,
+    "frente": "¿Adónde lleva la sangre el circuito pulmonar?",
+    "reverso": "Del ventrículo derecho a los pulmones y de vuelta a la aurícula izquierda.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f12",
+    "dia": 1,
+    "frente": "¿Cuál es el marcapasos natural del corazón?",
+    "reverso": "El nódulo sinusal (sinoauricular).",
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "id": "d1-f13",
+    "dia": 1,
+    "frente": "¿Qué representa el complejo QRS?",
+    "reverso": "La activación eléctrica de los ventrículos.",
+    "fuentes": [
+      "F61",
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f14",
+    "dia": 1,
+    "frente": "¿Dónde ocurre el intercambio de oxígeno y nutrientes?",
+    "reverso": "En los capilares.",
+    "fuentes": [
+      "F64"
+    ]
+  },
+  {
+    "id": "d1-f15",
+    "dia": 1,
+    "frente": "¿Qué arterias alimentan al propio corazón?",
+    "reverso": "Las arterias coronarias.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d3-f1",
+    "dia": 3,
+    "frente": "Insuficiencia cardiaca",
+    "reverso": "El corazón no logra bombear la sangre que el cuerpo necesita.",
+    "fuentes": [
+      "F53"
+    ]
+  },
+  {
+    "id": "d3-f2",
+    "dia": 3,
+    "frente": "Dos síntomas típicos de insuficiencia cardiaca",
+    "reverso": "Cansancio y falta de aire.",
+    "fuentes": [
+      "F53"
+    ]
+  },
+  {
+    "id": "d3-f3",
+    "dia": 3,
+    "frente": "Fracción de eyección",
+    "reverso": "Porcentaje de sangre que sale del ventrículo izquierdo en cada latido.",
+    "fuentes": [
+      "F58"
+    ]
+  },
+  {
+    "id": "d3-f4",
+    "dia": 3,
+    "frente": "Fracción de eyección normal",
+    "reverso": "Entre 55% y 70%.",
+    "fuentes": [
+      "F58"
+    ]
+  },
+  {
+    "id": "d3-f5",
+    "dia": 3,
+    "frente": "¿Con qué examen se mide habitualmente la FE?",
+    "reverso": "Con un ecocardiograma.",
+    "fuentes": [
+      "F58"
+    ]
+  },
+  {
+    "id": "d3-f6",
+    "dia": 3,
+    "frente": "Onda P",
+    "reverso": "Activación eléctrica de las aurículas.",
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "id": "d3-f7",
+    "dia": 3,
+    "frente": "Onda T",
+    "reverso": "Recuperación (repolarización) de los ventrículos.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d3-f8",
+    "dia": 3,
+    "frente": "Frecuencia cardiaca normal en reposo en un ECG",
+    "reverso": "60 a 100 latidos por minuto.",
+    "fuentes": [
+      "F36"
+    ]
+  },
+  {
+    "id": "d3-f9",
+    "dia": 3,
+    "frente": "Fibrilación auricular",
+    "reverso": "Arritmia en la que las aurículas laten de forma desordenada e irregular.",
+    "fuentes": [
+      "F59"
+    ]
+  },
+  {
+    "id": "d3-f10",
+    "dia": 3,
+    "frente": "Principal peligro de la fibrilación auricular",
+    "reverso": "Coágulos que pueden causar un ictus.",
+    "fuentes": [
+      "F59"
+    ]
+  },
+  {
+    "id": "d3-f11",
+    "dia": 3,
+    "frente": "Las 4 conductas de Life's Essential 8",
+    "reverso": "Comer mejor, moverse más, no usar tabaco y dormir bien.",
+    "fuentes": [
+      "F55"
+    ]
+  },
+  {
+    "id": "d3-f12",
+    "dia": 3,
+    "frente": "Los 4 factores de Life's Essential 8",
+    "reverso": "Peso, colesterol, glucosa y presión arterial.",
+    "fuentes": [
+      "F55"
+    ]
+  },
+  {
+    "id": "d5-f1",
+    "dia": 5,
+    "frente": "Cardio-oncología",
+    "reverso": "Especialidad que cuida el corazón de las personas con cáncer.",
+    "fuentes": [
+      "F11",
+      "F12"
+    ]
+  },
+  {
+    "id": "d5-f2",
+    "dia": 5,
+    "frente": "Cardiotoxicidad",
+    "reverso": "Daño del corazón o los vasos causado por un tratamiento contra el cáncer.",
+    "fuentes": [
+      "F11"
+    ]
+  },
+  {
+    "id": "d5-f3",
+    "dia": 5,
+    "frente": "Familia de la doxorrubicina",
+    "reverso": "Antraciclinas.",
+    "fuentes": [
+      "F86"
+    ]
+  },
+  {
+    "id": "d5-f4",
+    "dia": 5,
+    "frente": "¿Cuándo puede dañar el corazón la doxorrubicina?",
+    "reverso": "Durante el tratamiento o meses a años después.",
+    "fuentes": [
+      "F86"
+    ]
+  },
+  {
+    "id": "d5-f5",
+    "dia": 5,
+    "frente": "Trastuzumab",
+    "reverso": "Anticuerpo monoclonal para ciertos cánceres de mama y estómago; requiere vigilar el corazón.",
+    "fuentes": [
+      "F87"
+    ]
+  },
+  {
+    "id": "d5-f6",
+    "dia": 5,
+    "frente": "Inhibidores de puntos de control",
+    "reverso": "Inmunoterapia que quita un freno del sistema inmunitario.",
+    "fuentes": [
+      "F85"
+    ]
+  },
+  {
+    "id": "d5-f7",
+    "dia": 5,
+    "frente": "Miocarditis",
+    "reverso": "Inflamación del músculo del corazón; efecto raro de la inmunoterapia.",
+    "fuentes": [
+      "F85"
+    ]
+  },
+  {
+    "id": "d5-f8",
+    "dia": 5,
+    "frente": "Dos problemas tardíos de la radioterapia en el tórax",
+    "reverso": "Insuficiencia cardiaca y enfermedad arterial coronaria.",
+    "fuentes": [
+      "F26"
+    ]
+  },
+  {
+    "id": "d5-f9",
+    "dia": 5,
+    "frente": "Prueba de referencia para la función del ventrículo",
+    "reverso": "Ecocardiograma.",
+    "fuentes": [
+      "F12"
+    ]
+  },
+  {
+    "id": "d5-f10",
+    "dia": 5,
+    "frente": "Marcadores en sangre de daño cardiaco",
+    "reverso": "Troponina y péptido natriurético (BNP).",
+    "fuentes": [
+      "F12"
+    ]
+  },
+  {
+    "id": "d5-f11",
+    "dia": 5,
+    "frente": "Primer paso antes de un tratamiento contra el cáncer",
+    "reverso": "Evaluar el riesgo cardiovascular.",
+    "fuentes": [
+      "F12"
+    ]
+  },
+  {
+    "id": "d5-f12",
+    "dia": 5,
+    "frente": "¿Quién decide ajustar el tratamiento?",
+    "reverso": "El equipo de oncología y cardiología con el paciente.",
+    "fuentes": [
+      "F11",
+      "F12"
+    ]
+  },
+  {
+    "id": "d2-f1",
+    "dia": 2,
+    "frente": "¿Qué indica el primer número de la presión arterial?",
+    "reverso": "La presión sistólica: durante la contracción de los ventrículos.",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d2-f2",
+    "dia": 2,
+    "frente": "¿Qué indica el segundo número?",
+    "reverso": "La presión diastólica: mientras el corazón se relaja.",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d2-f3",
+    "dia": 2,
+    "frente": "¿En qué unidad se mide la presión arterial?",
+    "reverso": "En milímetros de mercurio (mmHg).",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d2-f4",
+    "dia": 2,
+    "frente": "¿De qué potencia del radio depende la resistencia de un vaso?",
+    "reverso": "De la cuarta potencia (resistencia ∝ 1/r⁴).",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d2-f5",
+    "dia": 2,
+    "frente": "Umbral de hipertensión según OMS y ESC",
+    "reverso": "140/90 mmHg o más.",
+    "fuentes": [
+      "F49",
+      "F01"
+    ]
+  },
+  {
+    "id": "d2-f6",
+    "dia": 2,
+    "frente": "¿Desde qué cifra habla la AHA de hipertensión etapa 1?",
+    "reverso": "Desde 130 de sistólica u 80 de diastólica.",
+    "fuentes": [
+      "F51"
+    ]
+  },
+  {
+    "id": "d2-f7",
+    "dia": 2,
+    "frente": "¿Por qué se llama a la hipertensión \"asesino silencioso\"?",
+    "reverso": "Porque casi nunca da síntomas; solo se detecta midiendo la presión.",
+    "fuentes": [
+      "F49",
+      "F66"
+    ]
+  },
+  {
+    "id": "d2-f8",
+    "dia": 2,
+    "frente": "¿Con qué empieza la aterosclerosis?",
+    "reverso": "Con un daño en el endotelio de la arteria.",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d2-f9",
+    "dia": 2,
+    "frente": "¿De qué está hecha una placa de ateroma?",
+    "reverso": "Lípidos, glóbulos blancos, calcio y restos celulares en la pared arterial.",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d2-f10",
+    "dia": 2,
+    "frente": "Colesterol LDL",
+    "reverso": "El llamado \"malo\": niveles altos favorecen la placa.",
+    "fuentes": [
+      "F32"
+    ]
+  },
+  {
+    "id": "d2-f11",
+    "dia": 2,
+    "frente": "Colesterol HDL",
+    "reverso": "El llamado \"bueno\": lleva colesterol al hígado para eliminarlo.",
+    "fuentes": [
+      "F32"
+    ]
+  },
+  {
+    "id": "d2-f12",
+    "dia": 2,
+    "frente": "¿Qué pasa si se rompe una placa en una coronaria?",
+    "reverso": "Se forma un coágulo que puede cerrar la arteria y causar un infarto.",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d4-f1",
+    "dia": 4,
+    "frente": "Cáncer",
+    "reverso": "Enfermedad en la que algunas células se multiplican sin control y se diseminan.",
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "id": "d4-f2",
+    "dia": 4,
+    "frente": "Tumor benigno",
+    "reverso": "Bulto que no invade los tejidos vecinos ni se disemina.",
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "id": "d4-f3",
+    "dia": 4,
+    "frente": "Tres orígenes de los cambios genéticos del cáncer",
+    "reverso": "Errores al copiar el ADN, daños ambientales y herencia.",
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "id": "d4-f4",
+    "dia": 4,
+    "frente": "Oncogén",
+    "reverso": "Gen alterado que empuja a la célula a multiplicarse (el \"acelerador\").",
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "id": "d4-f5",
+    "dia": 4,
+    "frente": "Gen supresor de tumores",
+    "reverso": "Gen que frena la división celular; si se inactiva, la célula pierde control.",
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "id": "d4-f6",
+    "dia": 4,
+    "frente": "Apoptosis",
+    "reverso": "Muerte celular programada; las células cancerosas la evitan.",
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "id": "d4-f7",
+    "dia": 4,
+    "frente": "Angiogénesis tumoral",
+    "reverso": "Formación de vasos sanguíneos hacia el tumor para nutrirlo.",
+    "fuentes": [
+      "F20",
+      "F14"
+    ]
+  },
+  {
+    "id": "d4-f8",
+    "dia": 4,
+    "frente": "Metástasis",
+    "reverso": "Diseminación del cáncer a otras partes del cuerpo con formación de tumores nuevos.",
+    "fuentes": [
+      "F21"
+    ]
+  },
+  {
+    "id": "d4-f9",
+    "dia": 4,
+    "frente": "Sitios más comunes de metástasis",
+    "reverso": "Hueso, hígado y pulmón.",
+    "fuentes": [
+      "F21"
+    ]
+  },
+  {
+    "id": "d4-f10",
+    "dia": 4,
+    "frente": "Muertes por cáncer en 2024 según la OMS",
+    "reverso": "Casi 10 millones.",
+    "fuentes": [
+      "F50"
+    ]
+  },
+  {
+    "id": "d4-f11",
+    "dia": 4,
+    "frente": "Porcentaje de cánceres evitables según la OMS",
+    "reverso": "Cerca del 38%.",
+    "fuentes": [
+      "F50"
+    ]
+  },
+  {
+    "id": "d4-f12",
+    "dia": 4,
+    "frente": "Carcinoma",
+    "reverso": "El tipo de cáncer más común; se origina en las células epiteliales.",
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "id": "d6-f1",
+    "dia": 6,
+    "frente": "Tres pasos de la hemostasia",
+    "reverso": "Espasmo vascular, tapón de plaquetas y coagulación.",
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "id": "d6-f2",
+    "dia": 6,
+    "frente": "¿Para qué necesita el hígado la vitamina K?",
+    "reverso": "Para fabricar muchos factores de coagulación.",
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "id": "d6-f3",
+    "dia": 6,
+    "frente": "Émbolo",
+    "reverso": "Trozo de coágulo que se suelta y viaja por la sangre.",
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "id": "d6-f4",
+    "dia": 6,
+    "frente": "Signos de TVP",
+    "reverso": "Dolor o hinchazón, calor y enrojecimiento en una extremidad.",
+    "fuentes": [
+      "F40"
+    ]
+  },
+  {
+    "id": "d6-f5",
+    "dia": 6,
+    "frente": "Embolia pulmonar",
+    "reverso": "Urgencia: falta de aire, dolor de pecho, latidos rápidos.",
+    "fuentes": [
+      "F41"
+    ]
+  },
+  {
+    "id": "d6-f6",
+    "dia": 6,
+    "frente": "Digoxina",
+    "reverso": "Glucósido cardiaco derivado de la dedalera (Digitalis).",
+    "fuentes": [
+      "F89"
+    ]
+  },
+  {
+    "id": "d6-f7",
+    "dia": 6,
+    "frente": "Paclitaxel",
+    "reverso": "Fármaco contra el cáncer aislado de la corteza del tejo del Pacífico.",
+    "fuentes": [
+      "F28"
+    ]
+  },
+  {
+    "id": "d6-f8",
+    "dia": 6,
+    "frente": "Vincristina",
+    "reverso": "Alcaloide de la vinca de Madagascar (Catharanthus roseus).",
+    "fuentes": [
+      "F90"
+    ]
+  },
+  {
+    "id": "d6-f9",
+    "dia": 6,
+    "frente": "¿Alguna terapia complementaria ha demostrado prevenir el cáncer?",
+    "reverso": "No.",
+    "fuentes": [
+      "F72"
+    ]
+  },
+  {
+    "id": "d6-f10",
+    "dia": 6,
+    "frente": "Dos plantas que aumentan el riesgo de sangrado con warfarina",
+    "reverso": "Ginkgo y ajo (en suplemento).",
+    "fuentes": [
+      "F74",
+      "F75",
+      "F47"
+    ]
+  },
+  {
+    "id": "d6-f11",
+    "dia": 6,
+    "frente": "¿Por qué el hipérico debilita fármacos?",
+    "reverso": "Activa enzimas del hígado (CYP450) y la glicoproteína P.",
+    "fuentes": [
+      "F71"
+    ]
+  },
+  {
+    "id": "d6-f12",
+    "dia": 6,
+    "frente": "Riesgo cardiaco del regaliz",
+    "reverso": "La glicirricina puede causar latidos irregulares.",
+    "fuentes": [
+      "F91"
+    ]
+  },
+  {
+    "id": "d7-f1",
+    "dia": 7,
+    "frente": "Molestia de pecho típica de infarto",
+    "reverso": "Presión u opresión en el centro del pecho que dura minutos o va y viene.",
+    "fuentes": [
+      "F56"
+    ]
+  },
+  {
+    "id": "d7-f2",
+    "dia": 7,
+    "frente": "Regla FAST",
+    "reverso": "Cara, brazo, habla: es tiempo de llamar a emergencias.",
+    "fuentes": [
+      "F43"
+    ]
+  },
+  {
+    "id": "d7-f3",
+    "dia": 7,
+    "frente": "Número de emergencias en Ecuador",
+    "reverso": "ECU 911.",
+    "fuentes": [
+      "F56"
+    ]
+  },
+  {
+    "id": "d7-f4",
+    "dia": 7,
+    "frente": "Señal de TVP",
+    "reverso": "Pierna hinchada y dolorosa de un solo lado.",
+    "fuentes": [
+      "F40"
+    ]
+  },
+  {
+    "id": "d7-f5",
+    "dia": 7,
+    "frente": "Signos de sangrado con warfarina",
+    "reverso": "Sangrado que no para, heces negras, orina oscura, moretones fáciles.",
+    "fuentes": [
+      "F47"
+    ]
+  },
+  {
+    "id": "d7-f6",
+    "dia": 7,
+    "frente": "Tres preguntas del educador",
+    "reverso": "¿Qué medicamentos toma? ¿Qué plantas o suplementos? ¿Lo sabe su médico?",
+    "fuentes": [
+      "F72"
+    ]
+  }
+]

@@ -1,0 +1,490 @@
+{
+  "id": 2,
+  "bloque": "A",
+  "titulo": "Presión arterial, hipertensión y aterosclerosis",
+  "subtitulo": "La presión que mueve la sangre y lo que daña las arterias",
+  "minutos": 23,
+  "objetivos": [
+    "Explicar qué miden la presión sistólica y la diastólica.",
+    "Relacionar el bombeo del corazón y el ancho de los vasos con la presión.",
+    "Conocer las categorías de presión y por qué las guías no coinciden del todo.",
+    "Explicar por qué la hipertensión es silenciosa y qué órganos daña.",
+    "Ordenar las etapas de la placa de ateroma y relacionarla con el infarto."
+  ],
+  "lecciones": [
+    {
+      "id": "d2-l1",
+      "titulo": "Qué es la presión arterial",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d2-l1-t1",
+          "tipo": "pregunta-previa",
+          "titulo": "Antes de empezar",
+          "texto": "",
+          "fuentes": [
+            "F65"
+          ],
+          "pregunta": {
+            "id": "d2-l1-p0",
+            "tipo": "opcion-multiple",
+            "enunciado": "En una lectura de 120/80, ¿qué representa el 120?",
+            "opciones": [
+              {
+                "texto": "La presión cuando el corazón se contrae",
+                "correcta": true,
+                "explicacion": "El primer número es la presión sistólica, durante la contracción de los ventrículos."
+              },
+              {
+                "texto": "La presión cuando el corazón se relaja",
+                "correcta": false,
+                "explicacion": "Esa es la diastólica, el segundo número."
+              },
+              {
+                "texto": "Los latidos por minuto",
+                "correcta": false,
+                "explicacion": "Los latidos se miden aparte; 120/80 son presiones en mmHg."
+              }
+            ],
+            "fuentes": [
+              "F65"
+            ]
+          }
+        },
+        {
+          "id": "d2-l1-t2",
+          "tipo": "concepto",
+          "titulo": "Dos números",
+          "texto": "La presión arterial se mide en milímetros de mercurio (mmHg), normalmente en la arteria del brazo. Se escribe como dos números: sistólica sobre diastólica, por ejemplo 120/80.",
+          "fuentes": [
+            "F65"
+          ]
+        },
+        {
+          "id": "d2-l1-t3",
+          "tipo": "concepto",
+          "titulo": "Sistólica y diastólica",
+          "texto": "La sistólica (alrededor de 120 mmHg) es la presión cuando los ventrículos expulsan la sangre. La diastólica (alrededor de 80 mmHg) es la presión mientras el corazón se relaja entre latidos.",
+          "fuentes": [
+            "F65",
+            "F49"
+          ]
+        },
+        {
+          "id": "d2-l1-t4",
+          "tipo": "dato",
+          "titulo": "Presión de pulso",
+          "texto": "La diferencia entre ambos números se llama presión de pulso. Con 120/80, la presión de pulso es de 40 mmHg.",
+          "fuentes": [
+            "F65"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-l2",
+      "titulo": "Bombeo y resistencia",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d2-l2-t1",
+          "tipo": "concepto",
+          "titulo": "De qué depende la presión",
+          "texto": "La presión en las arterias depende, entre otras cosas, de cuánta sangre bombea el corazón por minuto (gasto cardiaco) y de cuánta resistencia oponen los vasos.",
+          "fuentes": [
+            "F65"
+          ]
+        },
+        {
+          "id": "d2-l2-t2",
+          "tipo": "concepto",
+          "titulo": "El ancho del vaso manda",
+          "texto": "La resistencia depende muchísimo del radio del vaso: es inversamente proporcional al radio elevado a la cuarta potencia. Por eso un pequeño estrechamiento cambia mucho la presión y el flujo.",
+          "fuentes": [
+            "F65"
+          ],
+          "diagrama": "presion"
+        },
+        {
+          "id": "d2-l2-t3",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Ejemplo: estrechar un 20%",
+          "texto": "Si el radio baja al 80% de lo normal, la resistencia se multiplica por 1 ÷ 0,8⁴ ≈ 2,4. Con el mismo bombeo, la presión necesaria para mover la sangre sube mucho. Pruébelo con el control deslizante.",
+          "fuentes": [
+            "F65"
+          ]
+        },
+        {
+          "id": "d2-l2-t4",
+          "tipo": "concepto",
+          "titulo": "Arterias que pierden elasticidad",
+          "texto": "Con la edad y el daño, las arterias se vuelven más rígidas (arteriosclerosis). Eso aumenta la presión y la resistencia, y obliga al corazón a trabajar más.",
+          "fuentes": [
+            "F65"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-l3",
+      "titulo": "Hipertensión: cifras y riesgos",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d2-l3-t1",
+          "tipo": "concepto",
+          "titulo": "Las categorías de la AHA",
+          "texto": "Según la American Heart Association: normal, menos de 120/80; elevada, 120-129 de sistólica con menos de 80; hipertensión etapa 1, 130-139 u 80-89; etapa 2, 140/90 o más.",
+          "fuentes": [
+            "F51",
+            "F02"
+          ]
+        },
+        {
+          "id": "d2-l3-t2",
+          "tipo": "concepto",
+          "titulo": "Las categorías de la ESC",
+          "texto": "La guía europea de 2024 llama \"no elevada\" a menos de 120/70, \"elevada\" a 120-139 o 70-89, e hipertensión a 140/90 o más. La OMS también usa 140/90, medido en dos días distintos.",
+          "fuentes": [
+            "F01",
+            "F16",
+            "F49"
+          ]
+        },
+        {
+          "id": "d2-l3-t3",
+          "tipo": "alerta",
+          "titulo": "¿Por qué no coinciden?",
+          "texto": "Las guías de distintas sociedades revisan la evidencia con criterios propios y cambian con el tiempo. Lo importante es medir bien la presión, que la interprete un profesional y consultar siempre la guía vigente.",
+          "fuentes": [
+            "F01",
+            "F02"
+          ]
+        },
+        {
+          "id": "d2-l3-t4",
+          "tipo": "concepto",
+          "titulo": "Un problema silencioso",
+          "texto": "La hipertensión casi nunca da síntomas. La única forma de detectarla es medir la presión. La OMS estima que en 2024 había 1400 millones de adultos de 30 a 79 años con hipertensión, y que el 44% no lo sabía.",
+          "fuentes": [
+            "F49",
+            "F66"
+          ]
+        },
+        {
+          "id": "d2-l3-t5",
+          "tipo": "concepto",
+          "titulo": "Qué daña",
+          "texto": "Si no se controla, la hipertensión puede causar angina, infarto, insuficiencia cardiaca, arritmias, accidente cerebrovascular y daño en los riñones.",
+          "fuentes": [
+            "F49"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-l4",
+      "titulo": "Aterosclerosis paso a paso",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d2-l4-t1",
+          "tipo": "concepto",
+          "titulo": "Empieza con una herida",
+          "texto": "Todo comienza con un daño en el endotelio, la capa interna de la arteria. Puede deberse a la glucosa alta, infecciones, el tabaco, el exceso de lípidos en sangre o la presión alta constante.",
+          "fuentes": [
+            "F65"
+          ]
+        },
+        {
+          "id": "d2-l4-t2",
+          "tipo": "concepto",
+          "titulo": "Inflamación y depósito",
+          "texto": "El daño causa inflamación, que endurece la pared. El colesterol y los triglicéridos se cuelan entre las células dañadas y quedan atrapados, junto con glóbulos blancos, calcio y restos celulares.",
+          "fuentes": [
+            "F65"
+          ]
+        },
+        {
+          "id": "d2-l4-t3",
+          "tipo": "concepto",
+          "titulo": "La placa",
+          "texto": "Esa acumulación se llama placa o ateroma (del griego \"papilla\", por su aspecto). Con el tiempo estrecha la arteria y la vuelve menos flexible.",
+          "fuentes": [
+            "F65",
+            "F52",
+            "F31"
+          ],
+          "imagen": "img-d2-arteria"
+        },
+        {
+          "id": "d2-l4-t4",
+          "tipo": "analogia",
+          "titulo": "Analogía: una tubería con sarro",
+          "texto": "Imagine una manguera de riego en la que se va pegando sarro por dentro. El agua pasa con más dificultad y hay que empujar con más fuerza. Pero la arteria no es un tubo inerte: la placa es un tejido vivo e inflamado.",
+          "fuentes": [
+            "F65"
+          ]
+        },
+        {
+          "id": "d2-l4-t5",
+          "tipo": "pregunta-previa",
+          "titulo": "Compruebe lo aprendido",
+          "texto": "",
+          "fuentes": [
+            "F65"
+          ],
+          "pregunta": {
+            "id": "d2-l4-p1",
+            "tipo": "ordenar",
+            "enunciado": "Ordene cómo se forma una placa de ateroma.",
+            "pasos": [
+              "Daño en el endotelio",
+              "Inflamación de la pared",
+              "Lípidos y glóbulos blancos quedan atrapados",
+              "Placa que estrecha la arteria"
+            ],
+            "explicacion": "Primero hay una lesión del endotelio; la inflamación permite que lípidos y células se acumulen hasta formar la placa.",
+            "fuentes": [
+              "F65"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2-l5",
+      "titulo": "Colesterol: el bueno, el malo y el contexto",
+      "minutos": 3,
+      "tarjetas": [
+        {
+          "id": "d2-l5-t1",
+          "tipo": "concepto",
+          "titulo": "Una sustancia necesaria",
+          "texto": "El colesterol es una sustancia parecida a la cera que está en todas las células. El cuerpo lo usa para fabricar hormonas, vitamina D y sustancias que ayudan a digerir. El propio cuerpo produce todo el que necesita.",
+          "fuentes": [
+            "F32"
+          ]
+        },
+        {
+          "id": "d2-l5-t2",
+          "tipo": "concepto",
+          "titulo": "Viaja en lipoproteínas",
+          "texto": "Los lípidos no se disuelven en la sangre: viajan unidos a proteínas, formando lipoproteínas. Las principales son LDL, HDL y VLDL.",
+          "fuentes": [
+            "F32"
+          ]
+        },
+        {
+          "id": "d2-l5-t3",
+          "tipo": "concepto",
+          "titulo": "LDL y HDL",
+          "texto": "Al LDL se le llama colesterol \"malo\" porque un nivel alto favorece la placa en las arterias. Al HDL se le llama \"bueno\" porque lleva colesterol de vuelta al hígado, que lo elimina.",
+          "fuentes": [
+            "F32"
+          ]
+        },
+        {
+          "id": "d2-l5-t4",
+          "tipo": "dato",
+          "titulo": "Para profundizar",
+          "texto": "Las metas de colesterol dependen del riesgo de cada persona y las fija el médico según guías como la de dislipidemia ACC/AHA 2026.",
+          "fuentes": [
+            "F09"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-l6",
+      "titulo": "Del ateroma al infarto",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d2-l6-t1",
+          "tipo": "concepto",
+          "titulo": "Cuando la placa se rompe",
+          "texto": "A veces la placa se rompe y deja pequeñas heridas en la pared. Las plaquetas acuden a taponar y se forma un coágulo que puede cerrar la arteria de golpe.",
+          "fuentes": [
+            "F65"
+          ]
+        },
+        {
+          "id": "d2-l6-t2",
+          "tipo": "concepto",
+          "titulo": "Infarto e ictus",
+          "texto": "Si eso ocurre en una arteria coronaria, causa un infarto de miocardio. Si ocurre en una arteria del cerebro, causa un accidente cerebrovascular.",
+          "fuentes": [
+            "F65",
+            "F60"
+          ]
+        },
+        {
+          "id": "d2-l6-t3",
+          "tipo": "concepto",
+          "titulo": "Isquemia",
+          "texto": "Aunque no se cierre del todo, una arteria estrecha reduce el flujo (isquemia) y el oxígeno (hipoxia) de los tejidos que irriga. En el corazón esto puede notarse como angina: dolor o presión en el pecho.",
+          "fuentes": [
+            "F65",
+            "F03"
+          ]
+        },
+        {
+          "id": "d2-l6-t4",
+          "tipo": "alerta",
+          "titulo": "Señales de alarma",
+          "texto": "Un dolor o presión en el centro del pecho que dura más de unos minutos, con o sin falta de aire, requiere atención médica urgente. Vea \"Cuándo derivar\".",
+          "fuentes": [
+            "F56"
+          ]
+        },
+        {
+          "id": "d2-l6-t5",
+          "tipo": "dato",
+          "titulo": "La buena noticia",
+          "texto": "El ejercicio ayuda a la salud de los vasos: reduce la velocidad de formación de placa y baja la presión arterial.",
+          "fuentes": [
+            "F66"
+          ]
+        }
+      ]
+    }
+  ],
+  "practica": [
+    {
+      "id": "d2-q1",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es la presión diastólica en una lectura de 130/85?",
+      "opciones": [
+        {
+          "texto": "85 mmHg",
+          "correcta": true,
+          "explicacion": "Es el segundo número: la presión mientras el corazón se relaja."
+        },
+        {
+          "texto": "130 mmHg",
+          "correcta": false,
+          "explicacion": "130 es la sistólica, durante la contracción."
+        },
+        {
+          "texto": "45 mmHg",
+          "correcta": false,
+          "explicacion": "45 sería la presión de pulso (130 − 85)."
+        }
+      ],
+      "fuentes": [
+        "F65"
+      ]
+    },
+    {
+      "id": "d2-q2",
+      "tipo": "verdadero-falso",
+      "enunciado": "La hipertensión suele dar síntomas claros desde el principio.",
+      "respuesta": false,
+      "explicacion": "Falso. Suele ser silenciosa: la única forma de detectarla es medir la presión.",
+      "fuentes": [
+        "F49",
+        "F66"
+      ]
+    },
+    {
+      "id": "d2-q3",
+      "tipo": "opcion-multiple",
+      "enunciado": "Si una arteria se estrecha un poco, ¿qué pasa con la resistencia?",
+      "opciones": [
+        {
+          "texto": "Aumenta mucho",
+          "correcta": true,
+          "explicacion": "La resistencia depende del radio a la cuarta potencia, así que un pequeño estrechamiento la aumenta mucho."
+        },
+        {
+          "texto": "Baja",
+          "correcta": false,
+          "explicacion": "Un vaso más estrecho opone más resistencia, no menos."
+        },
+        {
+          "texto": "No cambia",
+          "correcta": false,
+          "explicacion": "El radio es uno de los factores que más influye en la resistencia."
+        }
+      ],
+      "fuentes": [
+        "F65"
+      ]
+    },
+    {
+      "id": "d2-q4",
+      "tipo": "ordenar",
+      "enunciado": "Ordene lo que puede pasar después de que una placa se rompe.",
+      "pasos": [
+        "La placa se rompe",
+        "Las plaquetas acuden a la herida",
+        "Se forma un coágulo",
+        "La arteria se cierra y el tejido sufre"
+      ],
+      "explicacion": "La rotura activa las plaquetas; el coágulo puede cerrar la arteria y causar un infarto o un ictus.",
+      "fuentes": [
+        "F65"
+      ]
+    },
+    {
+      "id": "d2-q5",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Por qué al HDL se le llama colesterol \"bueno\"?",
+      "opciones": [
+        {
+          "texto": "Porque lleva colesterol de vuelta al hígado",
+          "correcta": true,
+          "explicacion": "El hígado luego lo elimina del cuerpo."
+        },
+        {
+          "texto": "Porque no contiene colesterol",
+          "correcta": false,
+          "explicacion": "Sí contiene colesterol; la diferencia está en hacia dónde lo lleva."
+        },
+        {
+          "texto": "Porque se obtiene solo de las plantas",
+          "correcta": false,
+          "explicacion": "El HDL lo fabrica el propio cuerpo."
+        }
+      ],
+      "fuentes": [
+        "F32"
+      ]
+    }
+  ],
+  "audio": {
+    "archivo": "audio/dia-2.mp3",
+    "titulo": "Resumen del día 2",
+    "estado": "pendiente",
+    "origen": "NotebookLM"
+  },
+  "resumen": {
+    "titulo": "Lo esencial del día 2",
+    "puntos": [
+      "La presión se escribe sistólica/diastólica, en mmHg.",
+      "Depende del bombeo y de la resistencia; el radio del vaso influye muchísimo.",
+      "Hipertensión: 140/90 o más (OMS y ESC); la AHA ya la considera desde 130/80.",
+      "Es silenciosa: hay que medirla.",
+      "La placa nace de un daño en el endotelio, inflamación y lípidos atrapados.",
+      "Si la placa se rompe, un coágulo puede causar un infarto o un ictus."
+    ],
+    "imagen": "img-nlm-d2-infografia"
+  },
+  "fuentes": [
+    "F01",
+    "F02",
+    "F03",
+    "F09",
+    "F16",
+    "F31",
+    "F32",
+    "F49",
+    "F51",
+    "F52",
+    "F56",
+    "F60",
+    "F65",
+    "F66"
+  ]
+}

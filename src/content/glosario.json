@@ -1,0 +1,675 @@
+[
+  {
+    "termino": "Aurícula",
+    "definicion": "Cavidad superior del corazón que recibe la sangre. Hay una derecha y una izquierda.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Ventrículo",
+    "definicion": "Cavidad inferior del corazón que bombea la sangre hacia los pulmones (derecho) o hacia el cuerpo (izquierdo).",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Válvula tricúspide",
+    "definicion": "Válvula de tres valvas entre la aurícula y el ventrículo derechos.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Válvula mitral",
+    "definicion": "Válvula de dos valvas entre la aurícula y el ventrículo izquierdos. También se llama bicúspide.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Válvulas semilunares",
+    "definicion": "Las válvulas pulmonar y aórtica, a la salida de los ventrículos. Tienen forma de bolsillo.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Cuerdas tendinosas",
+    "definicion": "Cordones de tejido conectivo que unen las válvulas tricúspide y mitral a los músculos papilares.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Sístole",
+    "definicion": "Fase de contracción del ciclo cardiaco.",
+    "dia": 1,
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "termino": "Diástole",
+    "definicion": "Fase de relajación y llenado del ciclo cardiaco.",
+    "dia": 1,
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "termino": "Volumen sistólico",
+    "definicion": "Sangre que expulsa un ventrículo en cada latido; en reposo, unos 70-80 mL.",
+    "dia": 1,
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "termino": "Nódulo sinusal",
+    "definicion": "Grupo de células de la aurícula derecha que inicia cada latido; el marcapasos natural.",
+    "dia": 1,
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "termino": "Nódulo auriculoventricular",
+    "definicion": "Punto de paso del impulso eléctrico entre aurículas y ventrículos, donde hay una breve pausa.",
+    "dia": 1,
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "termino": "Fibras de Purkinje",
+    "definicion": "Fibras que reparten el impulso eléctrico por todo el músculo de los ventrículos.",
+    "dia": 1,
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "termino": "Circulación pulmonar",
+    "definicion": "Circuito corto que lleva la sangre del ventrículo derecho a los pulmones y de vuelta a la aurícula izquierda.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Circulación sistémica",
+    "definicion": "Circuito largo que lleva la sangre del ventrículo izquierdo a todo el cuerpo y de vuelta a la aurícula derecha.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Capilar",
+    "definicion": "Vaso sanguíneo más fino, de 5 a 10 micrómetros, donde ocurre el intercambio con los tejidos.",
+    "dia": 1,
+    "fuentes": [
+      "F64"
+    ]
+  },
+  {
+    "termino": "Arterias coronarias",
+    "definicion": "Arterias que nacen de la aorta y llevan sangre al propio músculo cardiaco.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Soplo",
+    "definicion": "Ruido anormal del corazón causado por un flujo turbulento de sangre, por ejemplo por una válvula que falla.",
+    "dia": 1,
+    "fuentes": [
+      "F60",
+      "F62"
+    ]
+  },
+  {
+    "termino": "Insuficiencia cardiaca",
+    "definicion": "Situación en la que el corazón no bombea la sangre que el cuerpo necesita.",
+    "dia": 3,
+    "fuentes": [
+      "F53",
+      "F34"
+    ]
+  },
+  {
+    "termino": "Disnea",
+    "definicion": "Falta de aire o dificultad para respirar.",
+    "dia": 3,
+    "fuentes": [
+      "F53"
+    ]
+  },
+  {
+    "termino": "Fracción de eyección",
+    "definicion": "Porcentaje de la sangre del ventrículo izquierdo que sale en cada latido; normal entre 55% y 70%.",
+    "dia": 3,
+    "fuentes": [
+      "F58"
+    ]
+  },
+  {
+    "termino": "Ecocardiograma",
+    "definicion": "Ecografía del corazón; permite ver las válvulas y medir la fracción de eyección.",
+    "dia": 3,
+    "fuentes": [
+      "F60",
+      "F58"
+    ]
+  },
+  {
+    "termino": "Miocardiopatía",
+    "definicion": "Enfermedad del músculo cardiaco.",
+    "dia": 3,
+    "fuentes": [
+      "F58"
+    ]
+  },
+  {
+    "termino": "Electrocardiograma (ECG)",
+    "definicion": "Examen indoloro que registra la actividad eléctrica del corazón.",
+    "dia": 3,
+    "fuentes": [
+      "F36"
+    ]
+  },
+  {
+    "termino": "Complejo QRS",
+    "definicion": "Parte del ECG que corresponde a la activación de los ventrículos.",
+    "dia": 3,
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "termino": "Arritmia",
+    "definicion": "Alteración de la frecuencia o del ritmo del latido.",
+    "dia": 3,
+    "fuentes": [
+      "F35"
+    ]
+  },
+  {
+    "termino": "Fibrilación auricular",
+    "definicion": "Arritmia frecuente en la que las aurículas laten de forma irregular; favorece la formación de coágulos.",
+    "dia": 3,
+    "fuentes": [
+      "F59"
+    ]
+  },
+  {
+    "termino": "Anticoagulante",
+    "definicion": "Medicamento que dificulta la coagulación de la sangre para prevenir coágulos.",
+    "dia": 3,
+    "fuentes": [
+      "F59",
+      "F47"
+    ]
+  },
+  {
+    "termino": "Ictus",
+    "definicion": "Accidente cerebrovascular: daño cerebral por falta de riego o por sangrado.",
+    "dia": 3,
+    "fuentes": [
+      "F43"
+    ]
+  },
+  {
+    "termino": "Life's Essential 8",
+    "definicion": "Las 8 medidas de salud cardiovascular de la American Heart Association.",
+    "dia": 3,
+    "fuentes": [
+      "F08"
+    ]
+  },
+  {
+    "termino": "Cardio-oncología",
+    "definicion": "Área que une cardiología y oncología para proteger el corazón de las personas con cáncer.",
+    "dia": 5,
+    "fuentes": [
+      "F11",
+      "F12"
+    ]
+  },
+  {
+    "termino": "Cardiotoxicidad",
+    "definicion": "Daño cardiovascular causado por un tratamiento contra el cáncer.",
+    "dia": 5,
+    "fuentes": [
+      "F11"
+    ]
+  },
+  {
+    "termino": "Antraciclinas",
+    "definicion": "Familia de medicamentos contra el cáncer, como la doxorrubicina, que puede dañar el corazón.",
+    "dia": 5,
+    "fuentes": [
+      "F86",
+      "F26"
+    ]
+  },
+  {
+    "termino": "Anticuerpo monoclonal",
+    "definicion": "Proteína fabricada en laboratorio que se une a un blanco específico; el trastuzumab es un ejemplo.",
+    "dia": 5,
+    "fuentes": [
+      "F87"
+    ]
+  },
+  {
+    "termino": "Antimetabolito",
+    "definicion": "Tipo de medicamento contra el cáncer, como el fluorouracilo.",
+    "dia": 5,
+    "fuentes": [
+      "F88"
+    ]
+  },
+  {
+    "termino": "Inmunoterapia",
+    "definicion": "Tratamiento que ayuda al sistema inmunitario a combatir el cáncer.",
+    "dia": 5,
+    "fuentes": [
+      "F24",
+      "F85"
+    ]
+  },
+  {
+    "termino": "Punto de control inmunitario",
+    "definicion": "Freno natural que evita que las defensas ataquen células sanas.",
+    "dia": 5,
+    "fuentes": [
+      "F85"
+    ]
+  },
+  {
+    "termino": "Miocarditis",
+    "definicion": "Inflamación del músculo del corazón.",
+    "dia": 5,
+    "fuentes": [
+      "F85"
+    ]
+  },
+  {
+    "termino": "Troponina",
+    "definicion": "Proteína del músculo cardiaco que se mide en sangre como marcador de daño.",
+    "dia": 5,
+    "fuentes": [
+      "F12"
+    ]
+  },
+  {
+    "termino": "Péptido natriurético (BNP)",
+    "definicion": "Sustancia que se mide en sangre como marcador de sobrecarga del corazón.",
+    "dia": 5,
+    "fuentes": [
+      "F12"
+    ]
+  },
+  {
+    "termino": "Efecto tardío",
+    "definicion": "Problema de salud causado por el tratamiento que aparece meses o años después.",
+    "dia": 5,
+    "fuentes": [
+      "F26"
+    ]
+  },
+  {
+    "termino": "Superviviente de cáncer",
+    "definicion": "Persona que vive después de un diagnóstico de cáncer.",
+    "dia": 5,
+    "fuentes": [
+      "F12",
+      "F26"
+    ]
+  },
+  {
+    "termino": "Presión sistólica",
+    "definicion": "Presión en las arterias durante la contracción de los ventrículos; el primer número de la lectura.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Presión diastólica",
+    "definicion": "Presión en las arterias mientras el corazón se relaja; el segundo número.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "mmHg",
+    "definicion": "Milímetros de mercurio, la unidad en que se mide la presión arterial.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Gasto cardiaco",
+    "definicion": "Cantidad de sangre que bombea el corazón por minuto.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Resistencia vascular",
+    "definicion": "Oposición de los vasos al paso de la sangre; aumenta mucho cuando el vaso se estrecha.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Hipertensión",
+    "definicion": "Presión arterial alta de forma persistente. La OMS y la ESC la definen desde 140/90 mmHg; la AHA, desde 130/80.",
+    "dia": 2,
+    "fuentes": [
+      "F49",
+      "F01",
+      "F51"
+    ]
+  },
+  {
+    "termino": "Endotelio",
+    "definicion": "Capa de células que recubre el interior de los vasos y del corazón.",
+    "dia": 2,
+    "fuentes": [
+      "F65",
+      "F60"
+    ]
+  },
+  {
+    "termino": "Arteriosclerosis",
+    "definicion": "Endurecimiento y pérdida de elasticidad de las arterias.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Aterosclerosis",
+    "definicion": "Acumulación de placa (lípidos, células y calcio) en la pared de las arterias.",
+    "dia": 2,
+    "fuentes": [
+      "F65",
+      "F31"
+    ]
+  },
+  {
+    "termino": "Placa de ateroma",
+    "definicion": "Depósito en la pared arterial que la estrecha y puede romperse.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Lipoproteína",
+    "definicion": "Combinación de lípidos y proteínas que transporta el colesterol en la sangre (LDL, HDL, VLDL).",
+    "dia": 2,
+    "fuentes": [
+      "F32"
+    ]
+  },
+  {
+    "termino": "Isquemia",
+    "definicion": "Falta de flujo de sangre suficiente en un tejido.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Angina de pecho",
+    "definicion": "Dolor o presión en el pecho por falta de riego en el corazón.",
+    "dia": 2,
+    "fuentes": [
+      "F49",
+      "F03"
+    ]
+  },
+  {
+    "termino": "Émbolo",
+    "definicion": "Fragmento (de coágulo o de placa) que viaja por la sangre hasta tapar una arteria más pequeña.",
+    "dia": 2,
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "termino": "Tumor",
+    "definicion": "Bulto de tejido formado por células que se multiplican de más; puede ser benigno o maligno.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Maligno",
+    "definicion": "Que invade tejidos vecinos y puede diseminarse; sinónimo de canceroso.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Benigno",
+    "definicion": "Tumor que no invade ni se disemina.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Oncogén",
+    "definicion": "Versión alterada de un protooncogén que hace que la célula se multiplique sin control.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Gen supresor de tumores",
+    "definicion": "Gen que frena la división celular.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Apoptosis",
+    "definicion": "Muerte celular programada.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Angiogénesis",
+    "definicion": "Formación de vasos sanguíneos nuevos; los tumores la provocan para nutrirse.",
+    "dia": 4,
+    "fuentes": [
+      "F20",
+      "F14"
+    ]
+  },
+  {
+    "termino": "Metástasis",
+    "definicion": "Proceso por el que el cáncer se disemina y forma tumores en otros órganos.",
+    "dia": 4,
+    "fuentes": [
+      "F21",
+      "F20"
+    ]
+  },
+  {
+    "termino": "Microambiente tumoral",
+    "definicion": "Células inmunitarias, fibroblastos, moléculas y vasos que rodean al tumor.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Carcinoma",
+    "definicion": "Cáncer que se origina en las células epiteliales; el tipo más común.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Sarcoma",
+    "definicion": "Cáncer del hueso o de tejidos blandos como músculo, grasa o vasos.",
+    "dia": 4,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Carcinógeno",
+    "definicion": "Agente físico, químico o biológico que puede causar cáncer.",
+    "dia": 4,
+    "fuentes": [
+      "F50"
+    ]
+  },
+  {
+    "termino": "Hemostasia",
+    "definicion": "Proceso que detiene una hemorragia: espasmo vascular, tapón de plaquetas y coagulación.",
+    "dia": 6,
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "termino": "Plaqueta",
+    "definicion": "Fragmento celular de la sangre que forma el primer tapón en una herida.",
+    "dia": 6,
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "termino": "Fibrina",
+    "definicion": "Proteína en forma de hilos que forma la malla del coágulo.",
+    "dia": 6,
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "termino": "Trombo",
+    "definicion": "Coágulo que se forma dentro de un vaso sanguíneo.",
+    "dia": 6,
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "termino": "Émbolo",
+    "definicion": "Fragmento que viaja por la sangre y puede tapar un vaso.",
+    "dia": 6,
+    "fuentes": [
+      "F68"
+    ]
+  },
+  {
+    "termino": "Trombosis venosa profunda (TVP)",
+    "definicion": "Coágulo en una vena profunda, casi siempre de la pierna.",
+    "dia": 6,
+    "fuentes": [
+      "F40"
+    ]
+  },
+  {
+    "termino": "Embolia pulmonar",
+    "definicion": "Bloqueo de una arteria del pulmón por un coágulo; es una urgencia.",
+    "dia": 6,
+    "fuentes": [
+      "F41"
+    ]
+  },
+  {
+    "termino": "Glucósido cardiaco",
+    "definicion": "Compuesto, como la digoxina, que aumenta la fuerza de contracción del corazón.",
+    "dia": 6,
+    "fuentes": [
+      "F90",
+      "F89"
+    ]
+  },
+  {
+    "termino": "Margen terapéutico estrecho",
+    "definicion": "Poca diferencia entre la cantidad útil y la tóxica de un fármaco.",
+    "dia": 6,
+    "fuentes": [
+      "F89"
+    ]
+  },
+  {
+    "termino": "Alcaloides de la vinca",
+    "definicion": "Fármacos contra el cáncer obtenidos de Catharanthus roseus, como la vincristina.",
+    "dia": 6,
+    "fuentes": [
+      "F83",
+      "F90"
+    ]
+  },
+  {
+    "termino": "Citocromo P450",
+    "definicion": "Grupo de enzimas, sobre todo del hígado, que transforman y eliminan fármacos.",
+    "dia": 6,
+    "fuentes": [
+      "F71"
+    ]
+  },
+  {
+    "termino": "Interacción planta-fármaco",
+    "definicion": "Cambio en el efecto de un medicamento causado por una planta o suplemento.",
+    "dia": 6,
+    "fuentes": [
+      "F71"
+    ]
+  },
+  {
+    "termino": "Infarto de miocardio",
+    "definicion": "Muerte de una parte del músculo del corazón por falta de riego; es una urgencia.",
+    "dia": 7,
+    "fuentes": [
+      "F42"
+    ]
+  },
+  {
+    "termino": "FAST",
+    "definicion": "Regla para reconocer un ictus: cara, brazo, habla y tiempo.",
+    "dia": 7,
+    "fuentes": [
+      "F43"
+    ]
+  },
+  {
+    "termino": "Derivar",
+    "definicion": "Enviar a la persona a la atención médica adecuada.",
+    "dia": 7,
+    "fuentes": [
+      "F12"
+    ]
+  }
+]

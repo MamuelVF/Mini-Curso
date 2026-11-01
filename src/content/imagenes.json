@@ -1,0 +1,216 @@
+[
+  {
+    "id": "img-d1-torax",
+    "archivo": "img/commons/img-d1-torax.png",
+    "titulo": "Corazón y pulmones vistos de frente (Gray, lámina 490)",
+    "alt": "Ilustración anatómica antigua del corazón en el centro del tórax, entre los dos pulmones.",
+    "origen": "commons",
+    "autor": "Henry Vandyke Carter (Gray's Anatomy, 1918)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gray490.png",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d1-cavidades",
+    "archivo": "img/commons/img-d1-cavidades.png",
+    "titulo": "Diagrama del corazón con sus cavidades y vasos",
+    "alt": "Corte del corazón con aurículas, ventrículos, válvulas y grandes vasos rotulados en español; azul la sangre pobre en oxígeno y rojo la rica en oxígeno.",
+    "origen": "commons",
+    "autor": "ZooFari y colaboradores de Wikimedia Commons",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Heart_diagram-es.svg",
+    "consultado": "2026-11-01",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-d1-valvulas",
+    "archivo": "img/commons/img-d1-valvulas.png",
+    "titulo": "Base de los ventrículos con las cuatro válvulas (Gray, lámina 496)",
+    "alt": "Vista superior del corazón sin aurículas que muestra las cuatro válvulas: mitral, tricúspide, aórtica y pulmonar.",
+    "origen": "commons",
+    "autor": "Henry Vandyke Carter (Gray's Anatomy, 1918)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gray496.png",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d2-arteria",
+    "archivo": "img/commons/img-d2-arteria.png",
+    "titulo": "Arteria normal frente a arteria con placa",
+    "alt": "Comparación de una arteria normal y otra parcialmente bloqueada por una placa de ateroma que reduce el paso de la sangre.",
+    "origen": "commons",
+    "autor": "BruceBlaus (Blausen Medical)",
+    "licencia": "CC BY 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blausen_0052_Artery_NormalvPartially-BlockedVessel.png",
+    "consultado": "2026-11-01",
+    "urlLicencia": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "id": "img-d4-celula",
+    "archivo": "img/commons/img-d4-celula.jpg",
+    "titulo": "Célula de cáncer de mama al microscopio electrónico",
+    "alt": "Célula de cáncer de mama vista con microscopio electrónico de barrido, con superficie irregular llena de prolongaciones.",
+    "origen": "commons",
+    "autor": "Instituto Nacional del Cáncer (NCI, EE. UU.)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Breast_cancer_cell_%281%29.jpg",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d4-metastasis",
+    "archivo": "img/commons/img-d4-metastasis.png",
+    "titulo": "Células cancerosas que pasan a la sangre",
+    "alt": "Esquema de células de un tumor que atraviesan la pared de un vaso sanguíneo y viajan por la sangre.",
+    "origen": "commons",
+    "autor": "Cancer Research UK",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Diagram_showing_cancer_cells_spreading_into_the_blood_stream_CRUK_448.svg",
+    "consultado": "2026-11-01",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d6-coagulo",
+    "archivo": "img/commons/img-d6-coagulo.jpg",
+    "titulo": "Coágulo al microscopio electrónico",
+    "alt": "Glóbulos rojos atrapados en una red de hilos de fibrina, vistos con microscopio electrónico de barrido.",
+    "origen": "commons",
+    "autor": "Janice Carr (CDC, EE. UU.)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blood_clot_in_scanning_electron_microscopy.jpg",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d6-digitalis",
+    "archivo": "img/commons/img-d6-digitalis.jpg",
+    "titulo": "Dedalera (Digitalis purpurea)",
+    "alt": "Planta de dedalera con su espiga de flores púrpuras en forma de dedal.",
+    "origen": "commons",
+    "autor": "Jörg Hempel",
+    "licencia": "CC BY-SA 3.0 de",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_LC0101.jpg",
+    "consultado": "2026-11-01",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  },
+  {
+    "id": "img-d6-tejo",
+    "archivo": "img/commons/img-d6-tejo.jpg",
+    "titulo": "Corteza del tejo del Pacífico (Taxus brevifolia)",
+    "alt": "Tronco de tejo del Pacífico con la corteza rojiza que se desprende en láminas.",
+    "origen": "commons",
+    "autor": "Gobierno de los Estados Unidos",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Yew_bark_Taxol_PD.jpg",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d6-vinca",
+    "archivo": "img/commons/img-d6-vinca.jpg",
+    "titulo": "Vinca de Madagascar (Catharanthus roseus)",
+    "alt": "Flores rosadas de cinco pétalos de la vinca de Madagascar con su centro más oscuro.",
+    "origen": "commons",
+    "autor": "Joydeep",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus24_08_2012_%282%29.JPG",
+    "consultado": "2026-11-01",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-nlm-d1-infografia",
+    "archivo": "img/notebooklm/dia-1-infografia.png",
+    "titulo": "Infografía del día 1",
+    "alt": "Infografía con los puntos clave del día 1, generada con NotebookLM a partir de las fuentes del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d2-infografia",
+    "archivo": "img/notebooklm/dia-2-infografia.png",
+    "titulo": "Infografía del día 2",
+    "alt": "Infografía con los puntos clave del día 2, generada con NotebookLM a partir de las fuentes del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d3-infografia",
+    "archivo": "img/notebooklm/dia-3-infografia.png",
+    "titulo": "Infografía del día 3",
+    "alt": "Infografía con los puntos clave del día 3, generada con NotebookLM a partir de las fuentes del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d4-infografia",
+    "archivo": "img/notebooklm/dia-4-infografia.png",
+    "titulo": "Infografía del día 4",
+    "alt": "Infografía con los puntos clave del día 4, generada con NotebookLM a partir de las fuentes del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d5-infografia",
+    "archivo": "img/notebooklm/dia-5-infografia.png",
+    "titulo": "Infografía del día 5",
+    "alt": "Infografía con los puntos clave del día 5, generada con NotebookLM a partir de las fuentes del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d6-infografia",
+    "archivo": "img/notebooklm/dia-6-infografia.png",
+    "titulo": "Infografía del día 6",
+    "alt": "Infografía con los puntos clave del día 6, generada con NotebookLM a partir de las fuentes del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d7-infografia",
+    "archivo": "img/notebooklm/dia-7-infografia.png",
+    "titulo": "Infografía del día 7",
+    "alt": "Infografía con los puntos clave del día 7, generada con NotebookLM a partir de las fuentes del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-ia-d4-huerto",
+    "archivo": "img/ia/d4-huerto.png",
+    "titulo": "Analogía: un huerto ordenado y una planta que crece sin control",
+    "alt": "Ilustración de un huerto con hileras de plantas ordenadas y una sola planta que crece desmedida invadiendo a sus vecinas.",
+    "origen": "ia",
+    "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
+    "licencia": "Ilustración generada con IA, uso educativo"
+  },
+  {
+    "id": "img-ia-d6-resina",
+    "archivo": "img/ia/d6-resina.png",
+    "titulo": "Analogía: un árbol que sella su herida con resina",
+    "alt": "Ilustración de un tronco con un corte en la corteza cubierto por gotas de resina ámbar.",
+    "origen": "ia",
+    "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
+    "licencia": "Ilustración generada con IA, uso educativo"
+  },
+  {
+    "id": "img-ia-d6-natural",
+    "archivo": "img/ia/d6-natural.png",
+    "titulo": "Natural no significa seguro",
+    "alt": "Ilustración de frascos de hierbas secas junto a una lupa y un cuaderno de notas, con una señal de precaución discreta.",
+    "origen": "ia",
+    "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
+    "licencia": "Ilustración generada con IA, uso educativo"
+  },
+  {
+    "id": "img-ia-d7-conversacion",
+    "archivo": "img/ia/d7-conversacion.png",
+    "titulo": "Un educador en salud conversa con una persona",
+    "alt": "Ilustración de dos adultos conversando en una mesa con plantas y un cuaderno; uno escucha con atención.",
+    "origen": "ia",
+    "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
+    "licencia": "Ilustración generada con IA, uso educativo"
+  }
+]

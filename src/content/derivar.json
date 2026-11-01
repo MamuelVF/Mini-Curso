@@ -1,0 +1,57 @@
+{
+  "introduccion": "Ante cualquiera de estas señales, la persona debe recibir atención médica urgente (en Ecuador, ECU 911). No espere a ver si se pasa y no intente tratarlo con plantas.",
+  "grupos": [
+    {
+      "titulo": "Posible infarto (ataque al corazón)",
+      "senales": [
+        "Molestia en el centro del pecho que dura más de unos minutos, o que se va y vuelve: presión, opresión, sensación de lleno o dolor.",
+        "Dolor o molestia en uno o ambos brazos, la espalda, el cuello, la mandíbula o el estómago.",
+        "Falta de aire, con o sin dolor de pecho.",
+        "Sudor frío, náuseas, latidos rápidos o irregulares, cansancio inusual o sensación de desmayo."
+      ],
+      "nota": "En las mujeres pueden predominar síntomas como falta de aire, náuseas, vómitos, dolor de espalda u hombro, o cansancio inusual.",
+      "fuentes": ["F56", "F57", "F42"]
+    },
+    {
+      "titulo": "Posible accidente cerebrovascular (ictus)",
+      "senales": [
+        "Adormecimiento o debilidad repentina de la cara, el brazo o la pierna, sobre todo de un lado del cuerpo.",
+        "Confusión repentina, dificultad para hablar o para entender.",
+        "Problemas repentinos para ver con uno o ambos ojos.",
+        "Dificultad repentina para caminar, mareo o pérdida del equilibrio.",
+        "Dolor de cabeza intenso y repentino sin causa conocida."
+      ],
+      "nota": "Regla FAST: Cara caída, Brazo débil, Habla alterada: es Tiempo de llamar a emergencias.",
+      "fuentes": ["F43"]
+    },
+    {
+      "titulo": "Posible coágulo en una pierna (trombosis venosa profunda)",
+      "senales": [
+        "Hinchazón o dolor en una sola pierna (o brazo).",
+        "Calor y enrojecimiento de la piel sobre la zona."
+      ],
+      "nota": "Es especialmente importante en personas con cáncer, que tienen más riesgo de trombosis.",
+      "fuentes": ["F40", "F13"]
+    },
+    {
+      "titulo": "Posible embolia pulmonar",
+      "senales": [
+        "Falta de aire repentina o respiración rápida.",
+        "Dolor de pecho que empeora al respirar hondo o al toser.",
+        "Latidos acelerados, tos con sangre, mareo o desmayo."
+      ],
+      "fuentes": ["F41"]
+    },
+    {
+      "titulo": "Sangrado en personas que toman anticoagulantes",
+      "senales": [
+        "Sangrado que no se detiene, sangrado de nariz o encías.",
+        "Toser o vomitar sangre o algo parecido a posos de café.",
+        "Orina rosada, roja o marrón oscuro; heces rojas o negras.",
+        "Moretones que aparecen con facilidad, dolor de cabeza, mareo o debilidad."
+      ],
+      "nota": "Algunas plantas y suplementos pueden aumentar el riesgo de sangrado con anticoagulantes (día 6).",
+      "fuentes": ["F47"]
+    }
+  ]
+}

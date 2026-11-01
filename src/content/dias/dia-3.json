@@ -1,0 +1,465 @@
+{
+  "id": 3,
+  "bloque": "A",
+  "titulo": "Insuficiencia cardiaca, arritmias y prevención",
+  "subtitulo": "Cuando la bomba se cansa o pierde el ritmo, y cómo cuidarla",
+  "minutos": 21,
+  "objetivos": [
+    "Definir la insuficiencia cardiaca y sus síntomas típicos.",
+    "Explicar qué es la fracción de eyección.",
+    "Reconocer la onda P, el QRS y la onda T en un ECG sencillo.",
+    "Explicar qué es la fibrilación auricular y por qué aumenta el riesgo de ictus.",
+    "Enumerar los 8 esenciales de la salud cardiovascular."
+  ],
+  "lecciones": [
+    {
+      "id": "d3-l1",
+      "titulo": "Cuando la bomba se cansa",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d3-l1-t1",
+          "tipo": "pregunta-previa",
+          "titulo": "Antes de empezar",
+          "texto": "",
+          "fuentes": [
+            "F53"
+          ],
+          "pregunta": {
+            "id": "d3-l1-p0",
+            "tipo": "verdadero-falso",
+            "enunciado": "\"Insuficiencia cardiaca\" significa que el corazón dejó de latir.",
+            "respuesta": false,
+            "explicacion": "Falso. Significa que el corazón no bombea tan bien como debería y no cubre todas las necesidades del cuerpo.",
+            "fuentes": [
+              "F53"
+            ]
+          }
+        },
+        {
+          "id": "d3-l1-t2",
+          "tipo": "concepto",
+          "titulo": "Qué es",
+          "texto": "En la insuficiencia cardiaca el músculo del corazón no logra bombear la sangre que el cuerpo necesita. El corazón no puede seguir el ritmo de su trabajo y los tejidos reciben menos oxígeno.",
+          "fuentes": [
+            "F53",
+            "F34"
+          ]
+        },
+        {
+          "id": "d3-l1-t3",
+          "tipo": "concepto",
+          "titulo": "Cómo se nota",
+          "texto": "Lo típico es el cansancio y la falta de aire. Caminar, subir escaleras o cargar bolsas se vuelve difícil. También puede haber tos e hinchazón por retención de líquidos.",
+          "fuentes": [
+            "F53",
+            "F34"
+          ]
+        },
+        {
+          "id": "d3-l1-t4",
+          "tipo": "concepto",
+          "titulo": "El cuerpo intenta compensar",
+          "texto": "Al principio el corazón se agranda, gana músculo y late más rápido. Los vasos se estrechan y los riñones retienen sal y agua. Eso disimula el problema durante un tiempo, pero a la larga sobrecarga aún más al corazón.",
+          "fuentes": [
+            "F53"
+          ]
+        },
+        {
+          "id": "d3-l1-t5",
+          "tipo": "dato",
+          "titulo": "Se puede manejar",
+          "texto": "No suele tener cura, pero muchas personas viven bien con tratamiento médico y hábitos saludables. Las guías de referencia son la ESC 2026 y la AHA/ACC/HFSA 2022.",
+          "fuentes": [
+            "F53",
+            "F04",
+            "F05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3-l2",
+      "titulo": "La fracción de eyección",
+      "minutos": 3,
+      "tarjetas": [
+        {
+          "id": "d3-l2-t1",
+          "tipo": "concepto",
+          "titulo": "Un porcentaje clave",
+          "texto": "La fracción de eyección (FE) indica qué porcentaje de la sangre del ventrículo izquierdo sale en cada latido. Una FE de 60% significa que se expulsa el 60% de la sangre que había dentro.",
+          "fuentes": [
+            "F58"
+          ]
+        },
+        {
+          "id": "d3-l2-t2",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Ejemplo con números del día 1",
+          "texto": "Si el ventrículo tiene unos 130 mL al final del llenado y expulsa unos 75 mL, la FE es 75 ÷ 130 ≈ 58%. Está dentro de lo normal.",
+          "fuentes": [
+            "F62",
+            "F58"
+          ]
+        },
+        {
+          "id": "d3-l2-t3",
+          "tipo": "concepto",
+          "titulo": "Valores de referencia",
+          "texto": "Una FE normal está entre 55% y 70%. Entre 41% y 49% se considera levemente reducida. Por debajo de 40% suele indicar insuficiencia cardiaca o miocardiopatía.",
+          "fuentes": [
+            "F58"
+          ]
+        },
+        {
+          "id": "d3-l2-t4",
+          "tipo": "alerta",
+          "titulo": "FE normal no siempre es corazón sano",
+          "texto": "Se puede tener insuficiencia cardiaca con FE normal (\"preservada\"): el músculo está tan grueso y rígido que el ventrículo se llena poco, aunque expulse un porcentaje normal.",
+          "fuentes": [
+            "F58"
+          ]
+        },
+        {
+          "id": "d3-l2-t5",
+          "tipo": "dato",
+          "titulo": "Por qué importa para el día 5",
+          "texto": "La FE se mide con un ecocardiograma y es una de las herramientas para vigilar el corazón durante algunos tratamientos contra el cáncer.",
+          "fuentes": [
+            "F58",
+            "F11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3-l3",
+      "titulo": "Leer un ECG sin miedo",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d3-l3-t1",
+          "tipo": "concepto",
+          "titulo": "Qué es un electrocardiograma",
+          "texto": "El ECG registra la actividad eléctrica del corazón con pequeños electrodos pegados en brazos, piernas y tórax. Es indoloro: no se envía electricidad al cuerpo.",
+          "fuentes": [
+            "F36"
+          ]
+        },
+        {
+          "id": "d3-l3-t2",
+          "tipo": "concepto",
+          "titulo": "Las tres ondas",
+          "texto": "Onda P: activación de las aurículas. Complejo QRS: activación de los ventrículos, justo antes de que se contraigan. Onda T: recuperación de los ventrículos.",
+          "fuentes": [
+            "F61",
+            "F62"
+          ],
+          "diagrama": "ecg"
+        },
+        {
+          "id": "d3-l3-t3",
+          "tipo": "concepto",
+          "titulo": "Un ritmo normal",
+          "texto": "En reposo, un ECG normal suele mostrar entre 60 y 100 latidos por minuto, con un ritmo constante y uniforme.",
+          "fuentes": [
+            "F36"
+          ]
+        },
+        {
+          "id": "d3-l3-t4",
+          "tipo": "pregunta-previa",
+          "titulo": "Compruebe lo aprendido",
+          "texto": "",
+          "fuentes": [
+            "F61"
+          ],
+          "pregunta": {
+            "id": "d3-l3-p1",
+            "tipo": "opcion-multiple",
+            "enunciado": "¿Qué parte del ECG corresponde a la activación de los ventrículos?",
+            "opciones": [
+              {
+                "texto": "El complejo QRS",
+                "correcta": true,
+                "explicacion": "El QRS es la activación eléctrica de los ventrículos, seguida de su contracción."
+              },
+              {
+                "texto": "La onda P",
+                "correcta": false,
+                "explicacion": "La onda P corresponde a las aurículas."
+              },
+              {
+                "texto": "La onda T",
+                "correcta": false,
+                "explicacion": "La onda T es la recuperación de los ventrículos."
+              }
+            ],
+            "fuentes": [
+              "F61",
+              "F62"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3-l4",
+      "titulo": "Arritmias y fibrilación auricular",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d3-l4-t1",
+          "tipo": "concepto",
+          "titulo": "Qué es una arritmia",
+          "texto": "Una arritmia es un problema en la frecuencia o el ritmo del latido: demasiado rápido, demasiado lento o irregular.",
+          "fuentes": [
+            "F35",
+            "F54"
+          ]
+        },
+        {
+          "id": "d3-l4-t2",
+          "tipo": "concepto",
+          "titulo": "Fibrilación auricular",
+          "texto": "Es la arritmia más frecuente. Las aurículas laten de forma desordenada e irregular, y no expulsan bien la sangre.",
+          "fuentes": [
+            "F59",
+            "F06"
+          ]
+        },
+        {
+          "id": "d3-l4-t3",
+          "tipo": "concepto",
+          "titulo": "Por qué preocupa: los coágulos",
+          "texto": "La sangre se estanca en las aurículas y puede coagular. Si un coágulo sale hacia el cerebro, causa un ictus. La fibrilación auricular se asocia a un riesgo de ictus unas cinco veces mayor.",
+          "fuentes": [
+            "F59"
+          ]
+        },
+        {
+          "id": "d3-l4-t4",
+          "tipo": "concepto",
+          "titulo": "Cómo se siente",
+          "texto": "Algunas personas notan el corazón \"aleteando\" o latiendo muy rápido, con mareo o falta de aire. Otras no sienten nada y se enteran en un control.",
+          "fuentes": [
+            "F59"
+          ]
+        },
+        {
+          "id": "d3-l4-t5",
+          "tipo": "alerta",
+          "titulo": "Relevante para la fitoterapia",
+          "texto": "Por el riesgo de coágulos, muchas personas con fibrilación auricular toman anticoagulantes. Algunas plantas pueden aumentar el riesgo de sangrado con ellos: lo veremos el día 6.",
+          "fuentes": [
+            "F59",
+            "F71"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3-l5",
+      "titulo": "Los 8 esenciales de la salud cardiovascular",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d3-l5-t1",
+          "tipo": "concepto",
+          "titulo": "Life's Essential 8",
+          "texto": "La American Heart Association resume la salud cardiovascular en 8 medidas, divididas en dos grupos: 4 conductas y 4 factores de salud.",
+          "fuentes": [
+            "F08",
+            "F55"
+          ]
+        },
+        {
+          "id": "d3-l5-t2",
+          "tipo": "concepto",
+          "titulo": "Las 4 conductas",
+          "texto": "1) Comer mejor. 2) Moverse más: 150 minutos semanales de actividad moderada o 75 de intensa en adultos. 3) No usar tabaco ni nicotina. 4) Dormir bien: 7 a 9 horas en la mayoría de los adultos.",
+          "fuentes": [
+            "F55"
+          ]
+        },
+        {
+          "id": "d3-l5-t3",
+          "tipo": "concepto",
+          "titulo": "Los 4 factores",
+          "texto": "5) Peso saludable. 6) Colesterol controlado. 7) Glucosa en sangre controlada. 8) Presión arterial controlada.",
+          "fuentes": [
+            "F55"
+          ]
+        },
+        {
+          "id": "d3-l5-t4",
+          "tipo": "dato",
+          "titulo": "La prevención funciona",
+          "texto": "La OMS señala que la mayoría de las enfermedades cardiovasculares se pueden prevenir actuando sobre el tabaco, la mala alimentación, la obesidad, la inactividad, el alcohol y la contaminación del aire.",
+          "fuentes": [
+            "F48",
+            "F07"
+          ]
+        },
+        {
+          "id": "d3-l5-t5",
+          "tipo": "analogia",
+          "titulo": "Analogía: el cuidado del huerto",
+          "texto": "Como en un huerto, la salud del corazón depende de muchos cuidados pequeños y constantes (riego, suelo, luz) más que de una sola intervención. Los 8 esenciales funcionan juntos.",
+          "fuentes": [
+            "F55"
+          ]
+        }
+      ]
+    }
+  ],
+  "practica": [
+    {
+      "id": "d3-q1",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué síntomas son típicos de la insuficiencia cardiaca?",
+      "opciones": [
+        {
+          "texto": "Cansancio y falta de aire",
+          "correcta": true,
+          "explicacion": "Al llegar menos sangre y oxígeno a los tejidos, aparecen fatiga y disnea."
+        },
+        {
+          "texto": "Fiebre y dolor de garganta",
+          "correcta": false,
+          "explicacion": "Son síntomas de infección, no de insuficiencia cardiaca."
+        },
+        {
+          "texto": "Picor en la piel",
+          "correcta": false,
+          "explicacion": "No es un síntoma típico de insuficiencia cardiaca."
+        }
+      ],
+      "fuentes": [
+        "F53"
+      ]
+    },
+    {
+      "id": "d3-q2",
+      "tipo": "opcion-multiple",
+      "enunciado": "Una fracción de eyección de 60% significa que…",
+      "opciones": [
+        {
+          "texto": "En cada latido sale el 60% de la sangre del ventrículo izquierdo",
+          "correcta": true,
+          "explicacion": "Eso mide la FE; 60% está en el rango normal (55-70%)."
+        },
+        {
+          "texto": "El corazón late 60 veces por minuto",
+          "correcta": false,
+          "explicacion": "Eso es la frecuencia cardiaca, no la FE."
+        },
+        {
+          "texto": "El corazón funciona al 60% de su capacidad máxima",
+          "correcta": false,
+          "explicacion": "La FE no mide la capacidad máxima; mide el porcentaje que se expulsa en cada latido."
+        }
+      ],
+      "fuentes": [
+        "F58"
+      ]
+    },
+    {
+      "id": "d3-q3",
+      "tipo": "verdadero-falso",
+      "enunciado": "Se puede tener insuficiencia cardiaca con una fracción de eyección normal.",
+      "respuesta": true,
+      "explicacion": "Verdadero. Se llama insuficiencia cardiaca con FE preservada: el ventrículo es rígido y se llena poco.",
+      "fuentes": [
+        "F58"
+      ]
+    },
+    {
+      "id": "d3-q4",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Por qué la fibrilación auricular aumenta el riesgo de ictus?",
+      "opciones": [
+        {
+          "texto": "La sangre se estanca en las aurículas y puede formar coágulos",
+          "correcta": true,
+          "explicacion": "Un coágulo puede viajar al cerebro y tapar una arteria."
+        },
+        {
+          "texto": "Porque sube mucho la presión arterial",
+          "correcta": false,
+          "explicacion": "El mecanismo principal es la formación de coágulos en las aurículas."
+        },
+        {
+          "texto": "Porque el corazón deja de latir",
+          "correcta": false,
+          "explicacion": "El corazón sigue latiendo, pero de forma irregular."
+        }
+      ],
+      "fuentes": [
+        "F59"
+      ]
+    },
+    {
+      "id": "d3-q5",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál de estos NO es uno de los 8 esenciales de la AHA?",
+      "opciones": [
+        {
+          "texto": "Tomar suplementos vitamínicos",
+          "correcta": true,
+          "explicacion": "No forma parte de Life's Essential 8."
+        },
+        {
+          "texto": "Dormir bien",
+          "correcta": false,
+          "explicacion": "Dormir de 7 a 9 horas sí es uno de los 8."
+        },
+        {
+          "texto": "Controlar la presión arterial",
+          "correcta": false,
+          "explicacion": "Sí es uno de los 4 factores de salud."
+        }
+      ],
+      "fuentes": [
+        "F55"
+      ]
+    }
+  ],
+  "audio": {
+    "archivo": "audio/dia-3.mp3",
+    "titulo": "Resumen del día 3",
+    "estado": "pendiente",
+    "origen": "NotebookLM"
+  },
+  "resumen": {
+    "titulo": "Lo esencial del día 3",
+    "puntos": [
+      "Insuficiencia cardiaca: el corazón no bombea lo que el cuerpo necesita; da cansancio y falta de aire.",
+      "La fracción de eyección normal está entre 55% y 70%.",
+      "ECG: P (aurículas), QRS (ventrículos), T (recuperación).",
+      "La fibrilación auricular favorece coágulos y aumenta el riesgo de ictus.",
+      "Life's Essential 8: comida, actividad, sin tabaco, sueño, peso, colesterol, glucosa y presión."
+    ],
+    "imagen": "img-nlm-d3-infografia"
+  },
+  "fuentes": [
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F11",
+    "F34",
+    "F35",
+    "F36",
+    "F48",
+    "F53",
+    "F54",
+    "F55",
+    "F58",
+    "F59",
+    "F61",
+    "F62",
+    "F71"
+  ]
+}
