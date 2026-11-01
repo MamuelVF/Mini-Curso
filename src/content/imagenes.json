@@ -179,7 +179,7 @@
   },
   {
     "id": "img-ia-d4-huerto",
-    "archivo": "img/ia/d4-huerto.png",
+    "archivo": "img/ia/d4-huerto.jpg",
     "titulo": "Analogía: un huerto ordenado y una planta que crece sin control",
     "alt": "Ilustración de un huerto con hileras de plantas ordenadas y una sola planta que crece desmedida invadiendo a sus vecinas.",
     "origen": "ia",
@@ -188,7 +188,7 @@
   },
   {
     "id": "img-ia-d6-resina",
-    "archivo": "img/ia/d6-resina.png",
+    "archivo": "img/ia/d6-resina.jpg",
     "titulo": "Analogía: un árbol que sella su herida con resina",
     "alt": "Ilustración de un tronco con un corte en la corteza cubierto por gotas de resina ámbar.",
     "origen": "ia",
@@ -197,7 +197,7 @@
   },
   {
     "id": "img-ia-d6-natural",
-    "archivo": "img/ia/d6-natural.png",
+    "archivo": "img/ia/d6-natural.jpg",
     "titulo": "Natural no significa seguro",
     "alt": "Ilustración de frascos de hierbas secas junto a una lupa y un cuaderno de notas, con una señal de precaución discreta.",
     "origen": "ia",
@@ -206,7 +206,7 @@
   },
   {
     "id": "img-ia-d7-conversacion",
-    "archivo": "img/ia/d7-conversacion.png",
+    "archivo": "img/ia/d7-conversacion.jpg",
     "titulo": "Un educador en salud conversa con una persona",
     "alt": "Ilustración de dos adultos conversando en una mesa con plantas y un cuaderno; uno escucha con atención.",
     "origen": "ia",

@@ -5,7 +5,7 @@ El curso usa tres tipos de imágenes. Cada una muestra siempre su autor y su lic
 | Tipo | Cuántas | Quién las consigue | Dónde van |
 |---|---|---|---|
 | Wikimedia Commons (anatomía, plantas, microscopía) | 10 | Las descarga el script `scripts/commons_catalog.py` (lo corre GitHub Actions en cada publicación, o tú con `python3 scripts/commons_catalog.py`) | `public/img/commons/` |
-| Ilustraciones con IA (solo analogías, nunca anatomía) | 4 | Tú, con Gemini y los prompts de abajo | `public/img/ia/` |
+| Ilustraciones con IA (solo analogías, nunca anatomía) | 4 | Generadas con Gemini (listas) | `public/img/ia/` |
 | Infografías de NotebookLM (resumen de cada día) | 7 | Tú, con NotebookLM (ver `notebooklm/GUIA_NOTEBOOKLM.md`) | `public/img/notebooklm/` |
 
 Mientras una imagen no exista, la app simplemente no la muestra: nada se rompe.
@@ -37,20 +37,20 @@ Descarté dos candidatas: un ecocardiograma sin autor declarado en Commons y un 
 1. Abre Gemini e inicia sesión tú mismo.
 2. Pega el prompt tal cual.
 3. Si el resultado tiene letras, manos raras o algo que parezca un órgano, pide otra versión.
-4. Descarga la imagen en PNG, renómbrala como indica la tabla y guárdala en `public/img/ia/`.
+4. Descarga la imagen, renómbrala como indica la tabla y guárdala en `public/img/ia/`.
 
 **Estilo común (ya incluido en cada prompt):** ilustración plana y cálida tipo libro de texto moderno, paleta verde salvia (#2f5d3f), tierra (#8a6d4b) y crema (#f6f5ef), formato horizontal 4:3, sin texto, fondo limpio.
 
-### img-ia-d4-huerto → `public/img/ia/d4-huerto.png`
+### img-ia-d4-huerto → `public/img/ia/d4-huerto.jpg`
 > Ilustración plana y cálida tipo libro de texto moderno. Un huerto visto de lado con hileras ordenadas de plantas iguales, separadas por espacios regulares. En el centro, una sola planta crece de forma desmedida y desordenada, con tallos que invaden a sus vecinas. Paleta verde salvia, tierra y crema. Formato horizontal 4:3. Sin texto, sin letras, sin personas. Fondo limpio.
 
-### img-ia-d6-resina → `public/img/ia/d6-resina.png`
+### img-ia-d6-resina → `public/img/ia/d6-resina.jpg`
 > Ilustración plana y cálida tipo libro de texto moderno. Primer plano del tronco de un árbol con un corte reciente en la corteza, cubierto por gotas de resina color ámbar que sellan la herida. Luz suave. Paleta verde salvia, tierra, ámbar y crema. Formato horizontal 4:3. Sin texto, sin letras, sin personas. Fondo limpio.
 
-### img-ia-d6-natural → `public/img/ia/d6-natural.png`
+### img-ia-d6-natural → `public/img/ia/d6-natural.jpg`
 > Ilustración plana y cálida tipo libro de texto moderno. Sobre una mesa de madera, varios frascos de vidrio con hierbas secas y hojas, una lupa y un cuaderno abierto con dibujos de hojas. A un lado, un pequeño triángulo de precaución sin texto. Ambiente sereno y profesional. Paleta verde salvia, tierra y crema. Formato horizontal 4:3. Sin texto, sin letras, sin etiquetas legibles, sin pastillas ni jeringas.
 
-### img-ia-d7-conversacion → `public/img/ia/d7-conversacion.png`
+### img-ia-d7-conversacion → `public/img/ia/d7-conversacion.jpg`
 > Ilustración plana y cálida tipo libro de texto moderno. Dos adultos latinoamericanos de mediana edad conversan sentados a una mesa con una planta en maceta y un cuaderno. Uno escucha con atención y gesto amable; el otro explica. Ambiente de consulta tranquila, no hospitalaria. Paleta verde salvia, tierra y crema. Formato horizontal 4:3. Sin texto, sin letras, sin batas médicas ni estetoscopios.
 
 ## 3. Infografías de NotebookLM
