@@ -33,16 +33,21 @@ def limpiar(html):
     return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', html or '')).strip()
 
 
-def consultar(titulos, ancho=ANCHO):
-    q = {'action': 'query', 'format': 'json', 'prop': 'imageinfo', 'iiprop': 'url|extmetadata|mime',
-         'iiurlwidth': str(ancho), 'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist',
-         'titles': '|'.join('File:' + t for t in titulos)}
-    datos = json.loads(pedir(API + '?' + urllib.parse.urlencode(q)))
-    norm = {n['to']: n['from'] for n in datos['query'].get('normalized', [])}
+def consultar(titulos, ancho=ANCHO, lote=25):
+    """Pide la información en lotes: la API de Commons acepta como mucho 50 títulos por consulta."""
     res = {}
-    for p in datos['query']['pages'].values():
-        original = norm.get(p['title'], p['title']).replace('File:', '')
-        res[original] = p.get('imageinfo', [None])[0]
+    for i in range(0, len(titulos), lote):
+        parte = titulos[i:i + lote]
+        q = {'action': 'query', 'format': 'json', 'prop': 'imageinfo', 'iiprop': 'url|extmetadata|mime',
+             'iiurlwidth': str(ancho), 'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist',
+             'titles': '|'.join('File:' + t for t in parte)}
+        datos = json.loads(pedir(API + '?' + urllib.parse.urlencode(q)))
+        if 'query' not in datos:
+            raise RuntimeError('Commons respondió sin resultados: ' + json.dumps(datos.get('error', datos))[:300])
+        norm = {n['to']: n['from'] for n in datos['query'].get('normalized', [])}
+        for p in datos['query']['pages'].values():
+            original = norm.get(p['title'], p['title']).replace('File:', '')
+            res[original] = p.get('imageinfo', [None])[0]
     return res
 
 
