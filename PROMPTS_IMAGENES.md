@@ -55,4 +55,4 @@ Descarté dos candidatas: un ecocardiograma sin autor declarado en Commons y un 
 
 ## 3. Infografías de NotebookLM
 
-Guarda cada infografía como `public/img/notebooklm/dia-N-infografia.png` (N de 1 a 7). Aparecen al final de cada día, en "Lo esencial del día", con la etiqueta "NotebookLM". Revisa que no incluyan dosis ni afirmaciones que no estén en las fuentes antes de guardarlas.
+Guarda cada infografía como `public/img/notebooklm/dia-N-infografia.jpg` (N de 1 a 7). Aparecen al final de cada día, en "Lo esencial del día", con la etiqueta "NotebookLM". Revisa que no incluyan dosis ni afirmaciones que no estén en las fuentes antes de guardarlas.

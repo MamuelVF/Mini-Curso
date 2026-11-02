@@ -32,7 +32,7 @@ Al generar cada elemento, pega el prompt correspondiente en el campo de personal
 | # | Qué generar | Prompt de personalización | Dónde guardarlo |
 |---|---|---|---|
 | 1 | **Resumen en audio** (formato "Breve" o "Resumen"; si no existe, "Análisis detallado" con duración corta) | `En español neutro. Dirigido a un biólogo con 30 años en fitoterapia que no es médico. Duración breve (8-12 minutos). Enfócate en: {ENFOQUE}. Usa analogías del mundo vegetal cuando ayuden. No menciones dosis. No digas ni insinúes que alguna planta cura el cáncer. Termina con 3 ideas clave para recordar.` | Descarga → `public\audio\dia-N.mp3` (si baja como .m4a o .wav, déjalo así y yo lo convierto) |
-| 2 | **Infografía** (si tu versión la tiene) | `En español. Estilo limpio y sobrio, tonos verdes y beige. Resume los objetivos del día: {ENFOQUE}. Sin dosis.` | `public\img\notebooklm\dia-N-infografia.png` |
+| 2 | **Infografía** (si tu versión la tiene) | `En español. Estilo limpio y sobrio, tonos verdes y beige. Resume los objetivos del día: {ENFOQUE}. Sin dosis.` | `public\img\notebooklm\dia-N-infografia.jpg` |
 | 3 | **Mapa mental** | (no lleva prompt) | Descárgalo o haz una captura → `public\img\notebooklm\dia-N-mapa-mental.png` |
 | 4 | **Guía de estudio** (en Informes) | `En español. Una página. Conceptos clave con definiciones simples y 5 preguntas de repaso fáciles.` | Copia el texto → `notebooklm\dia-N\generado\guia-estudio.md` |
 | 5 | **Tarjetas didácticas** | `En español. 15 tarjetas fáciles, una idea por tarjeta, respuestas de una frase.` | Copia o exporta → `notebooklm\dia-N\generado\tarjetas.md` |

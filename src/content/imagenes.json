@@ -116,7 +116,7 @@
   },
   {
     "id": "img-nlm-d1-infografia",
-    "archivo": "img/notebooklm/dia-1-infografia.png",
+    "archivo": "img/notebooklm/dia-1-infografia.jpg",
     "titulo": "Infografía del día 1",
     "alt": "Infografía con los puntos clave del día 1, generada con NotebookLM a partir de las fuentes del curso.",
     "origen": "notebooklm",
@@ -125,7 +125,7 @@
   },
   {
     "id": "img-nlm-d2-infografia",
-    "archivo": "img/notebooklm/dia-2-infografia.png",
+    "archivo": "img/notebooklm/dia-2-infografia.jpg",
     "titulo": "Infografía del día 2",
     "alt": "Infografía con los puntos clave del día 2, generada con NotebookLM a partir de las fuentes del curso.",
     "origen": "notebooklm",
@@ -134,7 +134,7 @@
   },
   {
     "id": "img-nlm-d3-infografia",
-    "archivo": "img/notebooklm/dia-3-infografia.png",
+    "archivo": "img/notebooklm/dia-3-infografia.jpg",
     "titulo": "Infografía del día 3",
     "alt": "Infografía con los puntos clave del día 3, generada con NotebookLM a partir de las fuentes del curso.",
     "origen": "notebooklm",
@@ -143,7 +143,7 @@
   },
   {
     "id": "img-nlm-d4-infografia",
-    "archivo": "img/notebooklm/dia-4-infografia.png",
+    "archivo": "img/notebooklm/dia-4-infografia.jpg",
     "titulo": "Infografía del día 4",
     "alt": "Infografía con los puntos clave del día 4, generada con NotebookLM a partir de las fuentes del curso.",
     "origen": "notebooklm",
@@ -152,7 +152,7 @@
   },
   {
     "id": "img-nlm-d5-infografia",
-    "archivo": "img/notebooklm/dia-5-infografia.png",
+    "archivo": "img/notebooklm/dia-5-infografia.jpg",
     "titulo": "Infografía del día 5",
     "alt": "Infografía con los puntos clave del día 5, generada con NotebookLM a partir de las fuentes del curso.",
     "origen": "notebooklm",
@@ -161,7 +161,7 @@
   },
   {
     "id": "img-nlm-d6-infografia",
-    "archivo": "img/notebooklm/dia-6-infografia.png",
+    "archivo": "img/notebooklm/dia-6-infografia.jpg",
     "titulo": "Infografía del día 6",
     "alt": "Infografía con los puntos clave del día 6, generada con NotebookLM a partir de las fuentes del curso.",
     "origen": "notebooklm",
@@ -170,7 +170,7 @@
   },
   {
     "id": "img-nlm-d7-infografia",
-    "archivo": "img/notebooklm/dia-7-infografia.png",
+    "archivo": "img/notebooklm/dia-7-infografia.jpg",
     "titulo": "Infografía del día 7",
     "alt": "Infografía con los puntos clave del día 7, generada con NotebookLM a partir de las fuentes del curso.",
     "origen": "notebooklm",

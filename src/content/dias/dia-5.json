@@ -428,7 +428,7 @@
   "audio": {
     "archivo": "audio/dia-5.mp3",
     "titulo": "Resumen del día 5",
-    "estado": "pendiente",
+    "estado": "listo",
     "origen": "NotebookLM"
   },
   "resumen": {

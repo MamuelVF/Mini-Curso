@@ -294,7 +294,7 @@
   "audio": {
     "archivo": "audio/dia-7.mp3",
     "titulo": "Resumen del día 7",
-    "estado": "pendiente",
+    "estado": "listo",
     "origen": "NotebookLM"
   },
   "resumen": {
