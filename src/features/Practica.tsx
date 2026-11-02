@@ -26,7 +26,7 @@ export function Practica({ diaId }: { diaId: number }) {
           <p className="text-suave">Su resultado de referencia</p>
           <p className="text-5xl font-serif font-semibold text-verde-700 my-3">{aciertos} de {total}</p>
           <p>{mensajePuntaje(aciertos, total)}</p>
-          <p className="text-sm text-suave mt-3">Este puntaje no decide nada: puede seguir con el curso cuando quiera.</p>
+          <p className="text-sm text-suave mt-3">Este puntaje no decide nada: puedes seguir con el curso cuando quieras.</p>
         </div>
         <div className="grid gap-3 mt-5">
           <a className="btn btn-primario no-underline" href={d.id < 7 ? `#/dia/${d.id + 1}` : '#/'}>{d.id < 7 ? `Ir al día ${d.id + 1}` : 'Volver al inicio'}</a>

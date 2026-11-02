@@ -5,10 +5,12 @@ import { Presion } from './Presion'
 import { ECG } from './ECG'
 import { Cardiotoxicidad } from './Cardiotoxicidad'
 import { Coagulacion } from './Coagulacion'
+import { Valvula } from './Valvula'
 
 export const DIAGRAMAS: { id: IdDiagrama; titulo: string; dia: number; listo: boolean }[] = [
   { id: 'ciclo-cardiaco', titulo: 'Ciclo cardiaco animado', dia: 1, listo: true },
   { id: 'circulacion', titulo: 'Recorrido de la sangre', dia: 1, listo: true },
+  { id: 'valvula', titulo: 'Una válvula: puerta de un solo sentido', dia: 1, listo: true },
   { id: 'presion', titulo: 'Presión y resistencia', dia: 2, listo: true },
   { id: 'ecg', titulo: 'Un electrocardiograma sencillo', dia: 3, listo: true },
   { id: 'cardiotoxicidad', titulo: 'Mapa de cardiotoxicidad', dia: 5, listo: true },
@@ -23,6 +25,7 @@ export function Diagrama({ id }: { id: IdDiagrama; compacto?: boolean }) {
     case 'ecg': return <ECG />
     case 'cardiotoxicidad': return <Cardiotoxicidad />
     case 'coagulacion': return <Coagulacion />
+    case 'valvula': return <Valvula />
     default: return <p className="tarjeta p-4 text-suave">Este diagrama estará disponible pronto.</p>
   }
 }

@@ -2,24 +2,31 @@ import { useEffect, useState } from 'react'
 import { useMovimientoReducido } from './usarMovimiento'
 import { IcoPausa, IcoPlay } from '../components/Iconos'
 
-type Fase = { nombre: string; texto: string; auriculas: boolean; ventriculos: boolean; av: boolean; sl: boolean; flujo: 'av' | 'sl' | null; ruido?: string }
-// Fuente: OpenStax A&P 2e, 19.3 Cardiac Cycle (F62)
+// Fuente: OpenStax A&P 2e, 19.2 y 19.3 (F61, F62). Esquema didáctico simplificado.
+type Fase = { nombre: string; texto: string; aur: boolean; ven: boolean; av: boolean; sl: boolean; flujo: 'av' | 'sl' | null; chispa?: 'sa' | 'av'; ruido?: string }
 const FASES: Fase[] = [
-  { nombre: 'Diástole: llenado', texto: 'Todo está relajado. La sangre pasa sola de las aurículas a los ventrículos y llena un 70-80% de su capacidad.', auriculas: false, ventriculos: false, av: true, sl: false, flujo: 'av' },
-  { nombre: 'Sístole auricular', texto: 'Las aurículas se contraen y empujan el 20-30% restante hacia los ventrículos.', auriculas: true, ventriculos: false, av: true, sl: false, flujo: 'av' },
-  { nombre: 'Inicio de la sístole ventricular', texto: 'Los ventrículos se contraen. Sube la presión y se cierran la tricúspide y la mitral: primer ruido, "lub".', auriculas: false, ventriculos: true, av: false, sl: false, flujo: null, ruido: 'lub' },
-  { nombre: 'Eyección', texto: 'La presión supera la de las arterias: se abren la pulmonar y la aórtica, y sale la sangre (unos 70-80 mL).', auriculas: false, ventriculos: true, av: false, sl: true, flujo: 'sl' },
-  { nombre: 'Inicio de la diástole', texto: 'Los ventrículos se relajan y se cierran la pulmonar y la aórtica: segundo ruido, "dub". Luego vuelve el llenado.', auriculas: false, ventriculos: false, av: false, sl: false, flujo: null, ruido: 'dub' },
+  { nombre: 'Se llena', texto: 'El corazón está relajado. La sangre entra y va llenando las cuatro cavidades.', aur: false, ven: false, av: true, sl: false, flujo: 'av' },
+  { nombre: 'Las aurículas aprietan', texto: 'Una chispa eléctrica, el marcapasos natural del corazón, hace que las aurículas se aprieten y terminen de llenar los ventrículos.', aur: true, ven: false, av: true, sl: false, flujo: 'av', chispa: 'sa' },
+  { nombre: '"Lub": se cierran las puertas', texto: 'La chispa llega a los ventrículos y empiezan a apretar. Las puertas entre aurículas y ventrículos (válvulas) se cierran de golpe: es el primer sonido, "lub".', aur: false, ven: true, av: false, sl: false, flujo: null, chispa: 'av', ruido: 'lub' },
+  { nombre: 'Sale la sangre', texto: 'Los ventrículos aprietan fuerte, se abren las puertas de salida y la sangre sale: el lado azul la manda a los pulmones y el rojo a todo el cuerpo.', aur: false, ven: true, av: false, sl: true, flujo: 'sl' },
+  { nombre: '"Dub": se relaja', texto: 'Los ventrículos se relajan y las puertas de salida se cierran: es el segundo sonido, "dub". Y todo vuelve a empezar, unas 70 veces por minuto.', aur: false, ven: false, av: false, sl: false, flujo: null, ruido: 'dub' },
 ]
 
-function Valvula({ x, y, abierta, vertical = false, etiqueta }: { x: number; y: number; abierta: boolean; vertical?: boolean; etiqueta: string }) {
-  const d = 16
-  const a = abierta ? 55 : 0
-  const rot = vertical ? 90 : 0
+const AZUL = '#4a6aa5', ROJO = '#c0443b'
+const CORAZON = 'M180 228 C166 196 112 194 110 238 C108 276 150 306 180 334 C210 306 252 276 250 238 C248 194 194 196 180 228 Z'
+const CAV = {
+  ad: { x: 0, y: 0, w: 180, h: 262, c: [146, 240], color: AZUL },
+  ai: { x: 180, y: 0, w: 180, h: 262, c: [214, 240], color: ROJO },
+  vd: { x: 0, y: 262, w: 180, h: 120, c: [152, 290], color: AZUL },
+  vi: { x: 180, y: 262, w: 180, h: 120, c: [208, 290], color: ROJO },
+} as const
+
+function Valvula({ x, y, abierta }: { x: number; y: number; abierta: boolean }) {
+  const a = abierta ? 60 : 0
   return (
-    <g transform={`translate(${x} ${y}) rotate(${rot})`} aria-label={`${etiqueta}: ${abierta ? 'abierta' : 'cerrada'}`}>
-      <line x1={-d} y1={0} x2={-2} y2={0} stroke="#1f3d2b" strokeWidth={4} strokeLinecap="round" transform={`rotate(${a} ${-d} 0)`} style={{ transition: 'transform .35s' }} />
-      <line x1={d} y1={0} x2={2} y2={0} stroke="#1f3d2b" strokeWidth={4} strokeLinecap="round" transform={`rotate(${-a} ${d} 0)`} style={{ transition: 'transform .35s' }} />
+    <g transform={`translate(${x} ${y})`}>
+      <line x1={-12} y1={0} x2={-1} y2={0} stroke="#fff7e8" strokeWidth={3.2} strokeLinecap="round" transform={`rotate(${a} -12 0)`} style={{ transition: 'transform .3s' }} />
+      <line x1={12} y1={0} x2={1} y2={0} stroke="#fff7e8" strokeWidth={3.2} strokeLinecap="round" transform={`rotate(${-a} 12 0)`} style={{ transition: 'transform .3s' }} />
     </g>
   )
 }
@@ -30,52 +37,58 @@ export function CicloCardiaco() {
   const [auto, setAuto] = useState(!reducido)
   useEffect(() => {
     if (!auto) return
-    const t = setInterval(() => setF((x) => (x + 1) % FASES.length), 2600)
+    const t = setInterval(() => setF((x) => (x + 1) % FASES.length), 2400)
     return () => clearInterval(t)
   }, [auto])
   const fase = FASES[f]
-  const rojo = '#b5473f', azul = '#4a6aa5'
-  const esc = (c: boolean) => (c ? 0.94 : 1)
+  const aprieta = (id: keyof typeof CAV) => (id === 'ad' || id === 'ai' ? fase.aur : fase.ven)
+
   return (
     <figure className="tarjeta p-3">
-      <svg viewBox="0 0 320 260" className="w-full h-auto" role="img" aria-labelledby="cc-t cc-d">
-        <title id="cc-t">Ciclo cardiaco</title>
+      <svg viewBox="0 0 360 300" className="w-full h-auto" role="img" aria-labelledby="cc-t cc-d">
+        <title id="cc-t">El corazón latiendo</title>
         <desc id="cc-d">{fase.nombre}. {fase.texto}</desc>
-        {/* Arterias de salida */}
-        <rect x="83" y="6" width="44" height="40" rx="8" fill={azul} opacity=".85" />
-        <text x="105" y="30" textAnchor="middle" fontSize="8.5" fill="#fff">T. pulm.</text>
-        <rect x="193" y="6" width="44" height="40" rx="8" fill={rojo} opacity=".85" />
-        <text x="215" y="30" textAnchor="middle" fontSize="9" fill="#fff">Aorta</text>
-        {/* Aurículas */}
-        <g style={{ transformOrigin: '90px 90px', transform: `scale(${esc(fase.auriculas)})`, transition: 'transform .35s' }}>
-          <rect x="30" y="58" width="120" height="62" rx="18" fill={azul} opacity={fase.auriculas ? 1 : 0.7} />
-          <text x="90" y="94" textAnchor="middle" fontSize="12" fill="#fff">Aurícula der.</text>
+        <defs>
+          <marker id="fl" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#fff" /></marker>
+          {Object.entries(CAV).map(([id, q]) => <clipPath key={id} id={`cv-${id}`}><rect x={q.x} y={q.y} width={q.w} height={q.h} /></clipPath>)}
+          <filter id="chispa"><feGaussianBlur stdDeviation="2.5" /></filter>
+        </defs>
+        <g transform="translate(-90 -226) scale(1.5)">
+          {/* Arterias de salida */}
+          <path d="M150 210 C148 190 140 178 128 168" fill="none" stroke={AZUL} strokeWidth="14" strokeLinecap="round" />
+          <path d="M210 210 C210 180 236 166 252 186" fill="none" stroke={ROJO} strokeWidth="15" strokeLinecap="round" />
+          <text x="92" y="160" fontSize="8" fill="#24302a">a los pulmones</text>
+          <text x="236" y="204" fontSize="8" fill="#24302a">al cuerpo</text>
+          {/* Cavidades */}
+          {(Object.keys(CAV) as (keyof typeof CAV)[]).map((id) => {
+            const q = CAV[id], ap = aprieta(id)
+            return (
+              <g key={id} clipPath={`url(#cv-${id})`}>
+                <g style={{ transformOrigin: `${q.c[0]}px ${q.c[1]}px`, transform: `scale(${ap ? 0.9 : 1})`, transition: 'transform .3s' }}>
+                  <path d={CORAZON} fill={q.color} opacity={ap ? 1 : 0.78} />
+                </g>
+              </g>
+            )
+          })}
+          <path d={CORAZON} fill="none" stroke="#7a2e29" strokeWidth="2" />
+          <path d="M180 230 V330" stroke="#7a2e29" strokeWidth="3" />
+          {/* Válvulas: entre aurículas y ventrículos, y de salida */}
+          <Valvula x={146} y={262} abierta={fase.av} />
+          <Valvula x={214} y={262} abierta={fase.av} />
+          <Valvula x={150} y={212} abierta={fase.sl} />
+          <Valvula x={210} y={212} abierta={fase.sl} />
+          <g fontSize="7.5" fill="#fff" textAnchor="middle" fontWeight="600">
+            <text x="142" y="244">Aurícula</text><text x="218" y="244">Aurícula</text>
+            <text x="157" y="296">Ventrículo</text><text x="203" y="296">Ventrículo</text>
+          </g>
+          {/* Flujo de sangre */}
+          {fase.flujo === 'av' && <><path d="M146 246 v30" stroke="#fff" strokeWidth="2.5" markerEnd="url(#fl)" /><path d="M214 246 v30" stroke="#fff" strokeWidth="2.5" markerEnd="url(#fl)" /></>}
+          {fase.flujo === 'sl' && <><path d="M148 205 C146 192 140 184 132 176" stroke="#fff" strokeWidth="2.5" fill="none" markerEnd="url(#fl)" /><path d="M211 205 C212 186 228 176 244 182" stroke="#fff" strokeWidth="2.5" fill="none" markerEnd="url(#fl)" /></>}
+          {/* Chispa eléctrica */}
+          {fase.chispa === 'sa' && <g><circle cx="126" cy="226" r="7" fill="#ffd34d" filter="url(#chispa)" /><circle cx="126" cy="226" r="3" fill="#fff6c9" /></g>}
+          {fase.chispa === 'av' && <g><circle cx="176" cy="262" r="7" fill="#ffd34d" filter="url(#chispa)" /><circle cx="176" cy="262" r="3" fill="#fff6c9" /><path d="M176 268 V318" stroke="#ffd34d" strokeWidth="2" strokeDasharray="3 3" /></g>}
         </g>
-        <g style={{ transformOrigin: '230px 90px', transform: `scale(${esc(fase.auriculas)})`, transition: 'transform .35s' }}>
-          <rect x="170" y="58" width="120" height="62" rx="18" fill={rojo} opacity={fase.auriculas ? 1 : 0.7} />
-          <text x="230" y="94" textAnchor="middle" fontSize="12" fill="#fff">Aurícula izq.</text>
-        </g>
-        {/* Ventrículos */}
-        <g style={{ transformOrigin: '90px 185px', transform: `scale(${esc(fase.ventriculos)})`, transition: 'transform .35s' }}>
-          <path d="M30 138 h120 v40 q0 60 -60 70 q-60 -10 -60 -70z" fill={azul} opacity={fase.ventriculos ? 1 : 0.7} />
-          <text x="90" y="185" textAnchor="middle" fontSize="12" fill="#fff">Ventrículo der.</text>
-        </g>
-        <g style={{ transformOrigin: '230px 185px', transform: `scale(${esc(fase.ventriculos)})`, transition: 'transform .35s' }}>
-          <path d="M170 138 h120 v40 q0 60 -60 70 q-60 -10 -60 -70z" fill={rojo} opacity={fase.ventriculos ? 1 : 0.7} />
-          <text x="230" y="185" textAnchor="middle" fontSize="12" fill="#fff">Ventrículo izq.</text>
-        </g>
-        {/* Válvulas */}
-        <Valvula x={90} y={129} abierta={fase.av} etiqueta="Tricúspide" />
-        <Valvula x={230} y={129} abierta={fase.av} etiqueta="Mitral" />
-        <Valvula x={105} y={52} abierta={fase.sl} etiqueta="Pulmonar" />
-        <Valvula x={215} y={52} abierta={fase.sl} etiqueta="Aórtica" />
-        <text x="16" y="133" fontSize="9" fill="#5b665f">Tricúspide</text>
-        <text x="258" y="133" fontSize="9" fill="#5b665f">Mitral</text>
-        {/* Flujo */}
-        {fase.flujo === 'av' && (<><path d="M90 112 v34" stroke="#fff" strokeWidth="3" markerEnd="url(#fl)" /><path d="M230 112 v34" stroke="#fff" strokeWidth="3" markerEnd="url(#fl)" /></>)}
-        {fase.flujo === 'sl' && (<><path d="M105 64 v-26" stroke="#fff" strokeWidth="3" markerEnd="url(#fl)" /><path d="M215 64 v-26" stroke="#fff" strokeWidth="3" markerEnd="url(#fl)" /></>)}
-        {fase.ruido && <text x="160" y="250" textAnchor="middle" fontSize="16" fontWeight="700" fill="#8a6d4b">♪ {fase.ruido}</text>}
-        <defs><marker id="fl" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#fff" /></marker></defs>
+        {fase.ruido && <text x="305" y="262" textAnchor="middle" fontSize="20" fontWeight="700" fill="#8a6d4b">♪ {fase.ruido}</text>}
       </svg>
       <figcaption>
         <p className="font-semibold text-verde-900">{f + 1}. {fase.nombre}</p>
@@ -85,7 +98,7 @@ export function CicloCardiaco() {
           <button className="btn btn-secundario" onClick={() => setAuto(!auto)} aria-label={auto ? 'Pausar animación' : 'Reproducir animación'}>{auto ? <IcoPausa /> : <IcoPlay />}</button>
           <button className="btn btn-secundario flex-1" onClick={() => { setAuto(false); setF((f + 1) % FASES.length) }}>Siguiente</button>
         </div>
-        <p className="text-xs text-suave mt-2">Esquema simplificado (vista de frente: el lado derecho del corazón aparece a la izquierda). Fuente: OpenStax A&P 2e, 19.3.</p>
+        <p className="text-xs text-suave mt-2">Visto de frente: el lado derecho del corazón (azul) aparece a la izquierda. Esquema simplificado. Fuente: OpenStax A&P 2e, 19.2 y 19.3.</p>
       </figcaption>
     </figure>
   )

@@ -18,7 +18,7 @@ const tarjeta = z.object({
   texto: z.string().max(420, 'Carga cognitiva: máximo ~60-70 palabras por tarjeta'),
   fuentes,
   imagen: z.string().optional(),
-  diagrama: z.enum(['ciclo-cardiaco', 'circulacion', 'presion', 'cardiotoxicidad', 'ecg', 'coagulacion']).optional(),
+  diagrama: z.enum(['ciclo-cardiaco', 'circulacion', 'presion', 'cardiotoxicidad', 'ecg', 'coagulacion', 'valvula']).optional(),
   pregunta: pregunta.optional(),
 }).refine((t) => t.tipo !== 'pregunta-previa' || t.pregunta, 'Una tarjeta de pregunta necesita su pregunta')
 

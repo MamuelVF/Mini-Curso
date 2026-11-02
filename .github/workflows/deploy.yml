@@ -29,6 +29,7 @@ jobs:
       - run: npm ci
       - name: Descargar imágenes de Wikimedia Commons (verifica licencias)
         run: |
+          command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q ffmpeg)
           python3 scripts/commons_catalog.py || echo "Aviso - revisa el registro de Commons; la publicacion continua."
       - name: Pruebas de contenido y lógica
         run: npm test

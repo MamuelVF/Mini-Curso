@@ -34,6 +34,65 @@
     "consultado": "2026-11-01"
   },
   {
+    "id": "img-d1-latido",
+    "archivo": "img/commons/img-d1-latido.webp",
+    "titulo": "Corazón latiendo (animación 3D)",
+    "alt": "Animación de un corazón humano en 3D, cortado por la mitad, que se contrae y se relaja en cada latido.",
+    "origen": "commons",
+    "autor": "DrJanaOfficial",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:CG_Heart.gif",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d1-ecg",
+    "archivo": "img/commons/img-d1-ecg.webp",
+    "titulo": "La señal eléctrica recorre el corazón",
+    "alt": "Animación de un corte del corazón en el que una señal roja baja desde arriba hasta los ventrículos, mientras abajo se dibuja la línea del electrocardiograma.",
+    "origen": "commons",
+    "autor": "Kalumet",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:ECG_principle_slow.gif",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-d1-alveolo",
+    "archivo": "img/commons/img-d1-alveolo.png",
+    "titulo": "Intercambio de gases en el alvéolo",
+    "alt": "Esquema de una bolsita de aire del pulmón (alvéolo) junto a un capilar con glóbulos rojos: el oxígeno pasa del aire a la sangre y el dióxido de carbono pasa de la sangre al aire.",
+    "origen": "commons",
+    "autor": "domdomegg",
+    "licencia": "CC BY 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gas_exchange_in_the_aveolus_simple_(es).svg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "img-d1-globulos",
+    "archivo": "img/commons/img-d1-globulos.jpg",
+    "titulo": "Glóbulo rojo, plaqueta y glóbulo blanco al microscopio electrónico",
+    "alt": "Foto de microscopio: a la izquierda un glóbulo rojo con forma de disco hundido en el centro, en medio una plaqueta pequeña y a la derecha un glóbulo blanco redondo y rugoso.",
+    "origen": "commons",
+    "autor": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-Frederick)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d1-vasos",
+    "archivo": "img/commons/img-d1-vasos.png",
+    "titulo": "Arteria, capilar y vena",
+    "alt": "Dibujo de tres tubos: una arteria roja de pared gruesa, un capilar rosado muy fino y una vena azul de pared más delgada.",
+    "origen": "commons",
+    "autor": "Christinelmiller",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Artery_Vein_Capillary_Comparison.png",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
     "id": "img-d2-arteria",
     "archivo": "img/commons/img-d2-arteria.png",
     "titulo": "Arteria normal frente a arteria con placa",

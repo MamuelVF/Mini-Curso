@@ -1,141 +1,5 @@
 [
   {
-    "id": "d1-f1",
-    "dia": 1,
-    "frente": "¿Cuáles son las 4 cavidades del corazón?",
-    "reverso": "Aurícula derecha, ventrículo derecho, aurícula izquierda y ventrículo izquierdo.",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "id": "d1-f2",
-    "dia": 1,
-    "frente": "¿Qué hacen las aurículas?",
-    "reverso": "Reciben la sangre que llega al corazón y la pasan a los ventrículos.",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "id": "d1-f3",
-    "dia": 1,
-    "frente": "¿Por qué el ventrículo izquierdo tiene la pared más gruesa?",
-    "reverso": "Porque bombea sangre a todo el cuerpo, un circuito con más resistencia.",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "id": "d1-f4",
-    "dia": 1,
-    "frente": "Válvula entre aurícula y ventrículo derechos",
-    "reverso": "Tricúspide.",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "id": "d1-f5",
-    "dia": 1,
-    "frente": "Válvula entre aurícula y ventrículo izquierdos",
-    "reverso": "Mitral (o bicúspide).",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "id": "d1-f6",
-    "dia": 1,
-    "frente": "¿Qué impide que la mitral se dé la vuelta?",
-    "reverso": "Las cuerdas tendinosas, unidas a los músculos papilares.",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "id": "d1-f7",
-    "dia": 1,
-    "frente": "¿Qué es el \"lub\"?",
-    "reverso": "El cierre de la tricúspide y la mitral al contraerse los ventrículos.",
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "id": "d1-f8",
-    "dia": 1,
-    "frente": "¿Qué es el \"dub\"?",
-    "reverso": "El cierre de la pulmonar y la aórtica al relajarse los ventrículos.",
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "id": "d1-f9",
-    "dia": 1,
-    "frente": "Sístole",
-    "reverso": "Fase de contracción del corazón, cuando expulsa sangre.",
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "id": "d1-f10",
-    "dia": 1,
-    "frente": "Diástole",
-    "reverso": "Fase de relajación, cuando las cavidades se llenan.",
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "id": "d1-f11",
-    "dia": 1,
-    "frente": "¿Adónde lleva la sangre el circuito pulmonar?",
-    "reverso": "Del ventrículo derecho a los pulmones y de vuelta a la aurícula izquierda.",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "id": "d1-f12",
-    "dia": 1,
-    "frente": "¿Cuál es el marcapasos natural del corazón?",
-    "reverso": "El nódulo sinusal (sinoauricular).",
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "id": "d1-f13",
-    "dia": 1,
-    "frente": "¿Qué representa el complejo QRS?",
-    "reverso": "La activación eléctrica de los ventrículos.",
-    "fuentes": [
-      "F61",
-      "F62"
-    ]
-  },
-  {
-    "id": "d1-f14",
-    "dia": 1,
-    "frente": "¿Dónde ocurre el intercambio de oxígeno y nutrientes?",
-    "reverso": "En los capilares.",
-    "fuentes": [
-      "F64"
-    ]
-  },
-  {
-    "id": "d1-f15",
-    "dia": 1,
-    "frente": "¿Qué arterias alimentan al propio corazón?",
-    "reverso": "Las arterias coronarias.",
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
     "id": "d3-f1",
     "dia": 3,
     "frente": "Insuficiencia cardiaca",
@@ -734,6 +598,132 @@
     "reverso": "¿Qué medicamentos toma? ¿Qué plantas o suplementos? ¿Lo sabe su médico?",
     "fuentes": [
       "F72"
+    ]
+  },
+  {
+    "id": "d1-f1",
+    "dia": 1,
+    "frente": "¿Cuántos cuartos tiene el corazón?",
+    "reverso": "Cuatro: dos aurículas arriba y dos ventrículos abajo.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f2",
+    "dia": 1,
+    "frente": "¿Qué hacen las aurículas?",
+    "reverso": "Reciben la sangre que llega al corazón.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f3",
+    "dia": 1,
+    "frente": "¿Qué hacen los ventrículos?",
+    "reverso": "Empujan la sangre fuera del corazón.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f4",
+    "dia": 1,
+    "frente": "¿Por qué el lado izquierdo es más grueso?",
+    "reverso": "Porque empuja la sangre a todo el cuerpo, que es el viaje largo.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f5",
+    "dia": 1,
+    "frente": "¿Para qué sirven las válvulas?",
+    "reverso": "Para que la sangre vaya en un solo sentido, como puertas que solo abren hacia adelante.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f6",
+    "dia": 1,
+    "frente": "¿Qué es el \"lub-dub\"?",
+    "reverso": "El ruido de las válvulas al cerrarse en cada latido.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f7",
+    "dia": 1,
+    "frente": "¿Adónde manda la sangre el lado derecho del corazón?",
+    "reverso": "A los pulmones, para que tome oxígeno.",
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "id": "d1-f8",
+    "dia": 1,
+    "frente": "¿Qué pasa en los pulmones?",
+    "reverso": "La sangre deja el dióxido de carbono y toma oxígeno.",
+    "fuentes": [
+      "F93"
+    ]
+  },
+  {
+    "id": "d1-f9",
+    "dia": 1,
+    "frente": "¿Quién transporta el oxígeno en la sangre?",
+    "reverso": "Los glóbulos rojos.",
+    "fuentes": [
+      "F92"
+    ]
+  },
+  {
+    "id": "d1-f10",
+    "dia": 1,
+    "frente": "Sístole",
+    "reverso": "Cuando el corazón aprieta y saca la sangre.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f11",
+    "dia": 1,
+    "frente": "Diástole",
+    "reverso": "Cuando el corazón se relaja y se vuelve a llenar.",
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "id": "d1-f12",
+    "dia": 1,
+    "frente": "¿Qué pone en marcha cada latido?",
+    "reverso": "Una señal eléctrica que nace en el marcapasos natural del corazón.",
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "id": "d1-f13",
+    "dia": 1,
+    "frente": "Arterias y venas: ¿cuál sale y cuál regresa?",
+    "reverso": "Las arterias sacan la sangre del corazón; las venas la regresan.",
+    "fuentes": [
+      "F64"
+    ]
+  },
+  {
+    "id": "d1-f14",
+    "dia": 1,
+    "frente": "¿Dónde se entrega el oxígeno a las células?",
+    "reverso": "En los capilares, los vasos más finos.",
+    "fuentes": [
+      "F64"
     ]
   }
 ]

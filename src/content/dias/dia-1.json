@@ -2,48 +2,48 @@
   "id": 1,
   "bloque": "A",
   "titulo": "El corazón y la circulación",
-  "subtitulo": "Una bomba doble y su sistema de riego",
-  "minutos": 22,
+  "subtitulo": "Cómo funciona la bomba que nunca descansa",
+  "minutos": 18,
   "objetivos": [
-    "Nombrar las 4 cavidades y las 4 válvulas del corazón.",
-    "Ordenar el recorrido de la sangre por la circulación pulmonar y la sistémica.",
-    "Explicar qué ocurre en la sístole y en la diástole.",
-    "Describir el sistema eléctrico del corazón.",
-    "Diferenciar arterias, venas y capilares."
+    "Saber dónde está el corazón y cuáles son sus cuatro partes.",
+    "Entender para qué sirven las válvulas.",
+    "Seguir el viaje de la sangre: a los pulmones y a todo el cuerpo.",
+    "Entender qué pasa en cada latido y qué lo pone en marcha.",
+    "Distinguir arterias, venas y capilares."
   ],
   "lecciones": [
     {
       "id": "d1-l1",
-      "titulo": "Una bomba doble",
+      "titulo": "Tu corazón, una bomba doble",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d1-l1-t1",
           "tipo": "pregunta-previa",
           "titulo": "Antes de empezar",
-          "texto": "Piense un momento antes de seguir.",
+          "texto": "",
           "fuentes": [
             "F60"
           ],
           "pregunta": {
             "id": "d1-l1-p0",
             "tipo": "opcion-multiple",
-            "enunciado": "¿Cuántas cavidades tiene el corazón humano?",
+            "enunciado": "¿Más o menos de qué tamaño es tu corazón?",
             "opciones": [
               {
-                "texto": "Dos",
+                "texto": "Como una pelota de fútbol",
                 "correcta": false,
-                "explicacion": "El corazón de los peces tiene dos cavidades principales; el humano tiene más."
+                "explicacion": "Es mucho más pequeño que eso."
               },
               {
-                "texto": "Cuatro",
+                "texto": "Como tu puño",
                 "correcta": true,
-                "explicacion": "Dos aurículas arriba y dos ventrículos abajo."
+                "explicacion": "Así es: más o menos del tamaño de un puño cerrado."
               },
               {
-                "texto": "Seis",
+                "texto": "Como una uva",
                 "correcta": false,
-                "explicacion": "No. Son cuatro: dos aurículas y dos ventrículos."
+                "explicacion": "Es bastante más grande: más o menos como tu puño."
               }
             ],
             "fuentes": [
@@ -54,8 +54,8 @@
         {
           "id": "d1-l1-t2",
           "tipo": "concepto",
-          "titulo": "Del tamaño de un puño",
-          "texto": "El corazón está en el centro del tórax, entre los dos pulmones. Mide unos 12 cm de largo y pesa entre 250 y 350 gramos. Tiene forma parecida a una piña: ancho arriba (la base) y afinado abajo (el ápice).",
+          "titulo": "Está en el centro del pecho",
+          "texto": "El corazón está en medio del pecho, entre los dos pulmones, un poco inclinado hacia la izquierda. Es un músculo hueco: por dentro está lleno de sangre y, al apretarse, la empuja.",
           "fuentes": [
             "F60"
           ],
@@ -64,8 +64,8 @@
         {
           "id": "d1-l1-t3",
           "tipo": "concepto",
-          "titulo": "Cuatro cavidades",
-          "texto": "Arriba están las dos aurículas: reciben la sangre. Abajo están los dos ventrículos: la bombean. El lado derecho envía sangre a los pulmones y el lado izquierdo, al resto del cuerpo.",
+          "titulo": "Cuatro cuartos",
+          "texto": "Por dentro tiene cuatro espacios. Arriba, dos aurículas: son las salas de llegada de la sangre. Abajo, dos ventrículos: son las bombas que la empujan hacia afuera. El lado izquierdo tiene la pared más gruesa porque empuja la sangre a todo el cuerpo.",
           "fuentes": [
             "F60"
           ],
@@ -73,73 +73,47 @@
         },
         {
           "id": "d1-l1-t4",
-          "tipo": "concepto",
-          "titulo": "¿Por qué el ventrículo izquierdo es más grueso?",
-          "texto": "Los dos ventrículos expulsan la misma cantidad de sangre en cada latido. Pero el izquierdo empuja la sangre por todo el cuerpo, un circuito largo y con más resistencia. Por eso su pared muscular es mucho más gruesa.",
-          "fuentes": [
-            "F60"
-          ]
-        },
-        {
-          "id": "d1-l1-t5",
           "tipo": "dato",
-          "titulo": "Un trabajo sin descanso",
-          "texto": "A unos 75 latidos por minuto, el corazón late cerca de 108 000 veces al día. En reposo, cada ventrículo expulsa unos 70 mL por latido: alrededor de 5 litros por minuto.",
+          "titulo": "Nunca descansa",
+          "texto": "Late unas 70 veces por minuto, de día y de noche: más de 100 000 veces al día. En cada minuto mueve unos 5 litros de sangre.",
           "fuentes": [
             "F60"
-          ]
+          ],
+          "imagen": "img-d1-latido"
         }
       ]
     },
     {
       "id": "d1-l2",
-      "titulo": "Válvulas: puertas de un solo sentido",
-      "minutos": 4,
+      "titulo": "Las válvulas: puertas de un solo sentido",
+      "minutos": 3,
       "tarjetas": [
         {
           "id": "d1-l2-t1",
           "tipo": "concepto",
-          "titulo": "Cuatro puertas",
-          "texto": "Las válvulas hacen que la sangre circule en una sola dirección. Dos están entre aurículas y ventrículos (válvulas auriculoventriculares) y dos a la salida de los ventrículos (válvulas semilunares).",
+          "titulo": "Puertas que solo abren hacia adelante",
+          "texto": "Dentro del corazón hay cuatro válvulas. Funcionan como puertas que se abren solo hacia un lado: dejan pasar la sangre hacia adelante y se cierran si intenta volver. Prueba la animación.",
+          "fuentes": [
+            "F60"
+          ],
+          "diagrama": "valvula"
+        },
+        {
+          "id": "d1-l2-t2",
+          "tipo": "concepto",
+          "titulo": "Dónde están",
+          "texto": "Hay una puerta entre cada aurícula y su ventrículo, y otra a la salida de cada ventrículo. En la imagen se ven las cuatro desde arriba, como si le quitáramos la tapa al corazón.",
           "fuentes": [
             "F60"
           ],
           "imagen": "img-d1-valvulas"
         },
         {
-          "id": "d1-l2-t2",
-          "tipo": "concepto",
-          "titulo": "Sus nombres",
-          "texto": "Lado derecho: tricúspide (aurícula → ventrículo) y pulmonar (ventrículo → tronco pulmonar). Lado izquierdo: mitral o bicúspide (aurícula → ventrículo) y aórtica (ventrículo → aorta).",
-          "fuentes": [
-            "F60"
-          ]
-        },
-        {
           "id": "d1-l2-t3",
-          "tipo": "concepto",
-          "titulo": "Cuerdas que sujetan",
-          "texto": "La tricúspide y la mitral están atadas a los músculos papilares por las cuerdas tendinosas. Cuando el ventrículo se contrae, esas cuerdas se tensan e impiden que la válvula se dé la vuelta hacia la aurícula. Las semilunares no tienen cuerdas: son bolsillos que se llenan y se cierran solos.",
-          "fuentes": [
-            "F60"
-          ]
-        },
-        {
-          "id": "d1-l2-t4",
-          "tipo": "concepto",
-          "titulo": "El \"lub-dub\"",
-          "texto": "Los ruidos del corazón son el cierre de las válvulas. El primero (\"lub\") es el cierre de la tricúspide y la mitral cuando se contraen los ventrículos. El segundo (\"dub\") es el cierre de la pulmonar y la aórtica cuando se relajan.",
-          "fuentes": [
-            "F62"
-          ]
-        },
-        {
-          "id": "d1-l2-t5",
           "tipo": "alerta",
-          "titulo": "Cuando una válvula falla",
-          "texto": "Una válvula puede quedar rígida y estrecha (estenosis) o no cerrar bien y dejar volver la sangre (insuficiencia o regurgitación). Esto suele oírse como un soplo, y se estudia con un ecocardiograma.",
+          "titulo": "Cuando una puerta falla",
+          "texto": "A veces una válvula se pone dura y se abre poco, o no cierra bien y deja que la sangre se regrese. El médico puede oír un ruido extra, llamado soplo, y lo revisa con una ecografía del corazón.",
           "fuentes": [
-            "F60",
             "F38"
           ]
         }
@@ -147,7 +121,7 @@
     },
     {
       "id": "d1-l3",
-      "titulo": "Dos circuitos: pulmonar y sistémico",
+      "titulo": "Los dos viajes de la sangre",
       "minutos": 4,
       "tarjetas": [
         {
@@ -161,9 +135,9 @@
           "pregunta": {
             "id": "d1-l3-p0",
             "tipo": "verdadero-falso",
-            "enunciado": "Todas las arterias llevan sangre rica en oxígeno.",
-            "respuesta": false,
-            "explicacion": "Falso. Las arterias pulmonares llevan sangre pobre en oxígeno hacia los pulmones. \"Arteria\" significa que la sangre sale del corazón, no que tenga oxígeno.",
+            "enunciado": "La sangre pasa por el corazón dos veces en cada vuelta completa.",
+            "respuesta": true,
+            "explicacion": "Verdadero. Primero va del corazón a los pulmones y regresa; luego sale del corazón hacia todo el cuerpo y regresa otra vez.",
             "fuentes": [
               "F60"
             ]
@@ -172,18 +146,8 @@
         {
           "id": "d1-l3-t2",
           "tipo": "concepto",
-          "titulo": "Circuito pulmonar (corto)",
-          "texto": "El ventrículo derecho bombea sangre pobre en oxígeno al tronco pulmonar y a las arterias pulmonares. En los capilares de los pulmones la sangre suelta dióxido de carbono y toma oxígeno. Vuelve por las venas pulmonares a la aurícula izquierda.",
-          "fuentes": [
-            "F60"
-          ],
-          "diagrama": "circulacion"
-        },
-        {
-          "id": "d1-l3-t3",
-          "tipo": "concepto",
-          "titulo": "Circuito sistémico (largo)",
-          "texto": "El ventrículo izquierdo bombea sangre rica en oxígeno a la aorta. Las arterias se ramifican en arteriolas y capilares, donde se entregan oxígeno y nutrientes a los tejidos. La sangre vuelve por vénulas y venas hasta las venas cavas y la aurícula derecha.",
+          "titulo": "Dos viajes, uno corto y uno largo",
+          "texto": "El lado derecho (azul) manda la sangre a los pulmones: es el viaje corto. El lado izquierdo (rojo) la manda a todo el cuerpo: es el viaje largo. Toca cada parte del dibujo para ver qué hace.",
           "fuentes": [
             "F60",
             "F67"
@@ -191,35 +155,38 @@
           "diagrama": "circulacion"
         },
         {
-          "id": "d1-l3-t4",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Ejemplo: el viaje de una gota",
-          "texto": "Una gota que llega por la vena cava superior pasa por: aurícula derecha → válvula tricúspide → ventrículo derecho → válvula pulmonar → pulmones → venas pulmonares → aurícula izquierda → válvula mitral → ventrículo izquierdo → válvula aórtica → aorta → cuerpo.",
+          "id": "d1-l3-t3",
+          "tipo": "concepto",
+          "titulo": "En los pulmones se carga de oxígeno",
+          "texto": "En los pulmones hay muchísimas bolsitas de aire rodeadas de vasos muy finos. Ahí la sangre deja el dióxido de carbono, que sale cuando exhalas, y toma el oxígeno del aire que respiraste.",
           "fuentes": [
-            "F60"
-          ]
+            "F93",
+            "F92"
+          ],
+          "imagen": "img-d1-alveolo"
         },
         {
-          "id": "d1-l3-t5",
+          "id": "d1-l3-t4",
           "tipo": "concepto",
-          "titulo": "El corazón también se alimenta",
-          "texto": "El músculo cardiaco recibe sangre por sus propias arterias, las coronarias, que nacen al inicio de la aorta. Si una coronaria se tapa, la zona que irriga puede morir: eso es un infarto. Lo veremos el día 2.",
+          "titulo": "Los glóbulos rojos son los camiones",
+          "texto": "El oxígeno viaja dentro de los glóbulos rojos, unas células con forma de disco hundido en el centro. Una sola gota de sangre tiene millones. Recogen oxígeno en los pulmones y lo entregan en todo el cuerpo.",
           "fuentes": [
-            "F60"
-          ]
+            "F92"
+          ],
+          "imagen": "img-d1-globulos"
         }
       ]
     },
     {
       "id": "d1-l4",
-      "titulo": "El ciclo cardiaco",
+      "titulo": "Qué pasa en cada latido",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d1-l4-t1",
           "tipo": "concepto",
-          "titulo": "Contraerse y relajarse",
-          "texto": "Cada latido es un ciclo cardiaco. La sístole es la fase de contracción, cuando el corazón expulsa sangre. La diástole es la fase de relajación, cuando las cavidades se llenan.",
+          "titulo": "Apretar y soltar",
+          "texto": "Cada latido tiene dos momentos. Primero el corazón aprieta y saca la sangre: se llama sístole. Luego se relaja y se vuelve a llenar: se llama diástole. El \"lub-dub\" que se oye con el estetoscopio son las puertas cerrándose.",
           "fuentes": [
             "F62"
           ],
@@ -228,34 +195,17 @@
         {
           "id": "d1-l4-t2",
           "tipo": "concepto",
-          "titulo": "La sangre va de más a menos presión",
-          "texto": "Como cualquier fluido, la sangre se mueve desde donde hay más presión hacia donde hay menos. Las válvulas se abren y se cierran solas según esas diferencias de presión.",
+          "titulo": "Una chispa lo enciende",
+          "texto": "Cada latido empieza con una pequeña señal eléctrica. Nace arriba, en el marcapasos natural del corazón, y baja por unos \"cables\" hasta los ventrículos. En la animación, las líneas rojas son esa señal y abajo se ve lo que dibuja un electrocardiograma.",
           "fuentes": [
-            "F62"
-          ]
+            "F61"
+          ],
+          "imagen": "img-d1-ecg"
         },
         {
           "id": "d1-l4-t3",
-          "tipo": "concepto",
-          "titulo": "El llenado",
-          "texto": "Con todo relajado, la sangre pasa sola de las aurículas a los ventrículos: así se llena un 70-80% del ventrículo. Después las aurículas se contraen y aportan el 20-30% restante.",
-          "fuentes": [
-            "F62"
-          ]
-        },
-        {
-          "id": "d1-l4-t4",
-          "tipo": "concepto",
-          "titulo": "La expulsión",
-          "texto": "Los ventrículos se contraen, la presión sube y se cierran la tricúspide y la mitral. Cuando la presión supera la de las arterias, se abren la pulmonar y la aórtica y sale la sangre: unos 70-80 mL por latido. En el ventrículo quedan unos 50-60 mL.",
-          "fuentes": [
-            "F62"
-          ]
-        },
-        {
-          "id": "d1-l4-t5",
           "tipo": "pregunta-previa",
-          "titulo": "Compruebe lo aprendido",
+          "titulo": "Comprueba lo aprendido",
           "texto": "",
           "fuentes": [
             "F62"
@@ -263,22 +213,22 @@
           "pregunta": {
             "id": "d1-l4-p1",
             "tipo": "opcion-multiple",
-            "enunciado": "Durante la sístole ventricular, ¿qué válvulas están abiertas?",
+            "enunciado": "¿Qué es la sístole?",
             "opciones": [
               {
-                "texto": "La tricúspide y la mitral",
-                "correcta": false,
-                "explicacion": "Al contraerse el ventrículo, estas se cierran para que la sangre no vuelva a las aurículas."
-              },
-              {
-                "texto": "La pulmonar y la aórtica",
+                "texto": "Cuando el corazón aprieta y saca la sangre",
                 "correcta": true,
-                "explicacion": "Se abren para dejar salir la sangre hacia los pulmones y hacia el cuerpo."
+                "explicacion": "Exacto. La diástole es lo contrario: cuando se relaja y se llena."
               },
               {
-                "texto": "Las cuatro a la vez",
+                "texto": "Cuando el corazón se relaja y se llena",
                 "correcta": false,
-                "explicacion": "Nunca están las cuatro abiertas: eso dejaría la sangre ir y venir."
+                "explicacion": "Eso es la diástole. La sístole es cuando aprieta."
+              },
+              {
+                "texto": "El ruido de las válvulas",
+                "correcta": false,
+                "explicacion": "Los ruidos son las válvulas cerrándose; la sístole es el momento en que el corazón aprieta."
               }
             ],
             "fuentes": [
@@ -290,105 +240,34 @@
     },
     {
       "id": "d1-l5",
-      "titulo": "La chispa eléctrica",
-      "minutos": 4,
+      "titulo": "Las tuberías: arterias, venas y capilares",
+      "minutos": 3,
       "tarjetas": [
         {
           "id": "d1-l5-t1",
           "tipo": "concepto",
-          "titulo": "Un marcapasos natural",
-          "texto": "El latido nace en el nódulo sinusal (nódulo sinoauricular), en la aurícula derecha. Es el grupo de células que se activa más rápido, por eso marca el ritmo: el ritmo sinusal.",
+          "titulo": "Tres tipos de tubos",
+          "texto": "Las arterias sacan la sangre del corazón y tienen paredes gruesas y fuertes. Las venas la regresan y tienen paredes más finas. Entre ellas están los capilares, tan finos que los glóbulos rojos pasan casi en fila: ahí se entrega el oxígeno a cada célula.",
           "fuentes": [
-            "F61"
-          ]
+            "F64"
+          ],
+          "imagen": "img-d1-vasos"
         },
         {
           "id": "d1-l5-t2",
-          "tipo": "concepto",
-          "titulo": "Una pausa necesaria",
-          "texto": "El impulso recorre las aurículas y llega al nódulo auriculoventricular, donde hace una pausa breve antes de pasar a los ventrículos. Así las aurículas terminan de contraerse antes de que lo hagan los ventrículos.",
-          "fuentes": [
-            "F61",
-            "F62"
-          ]
-        },
-        {
-          "id": "d1-l5-t3",
-          "tipo": "concepto",
-          "titulo": "Cables hacia los ventrículos",
-          "texto": "Del nódulo auriculoventricular sale el haz de His, que se divide en dos ramas por el tabique y termina en las fibras de Purkinje. Estas reparten el impulso a todo el músculo de los ventrículos en unos 75 milisegundos.",
-          "fuentes": [
-            "F61"
-          ]
-        },
-        {
-          "id": "d1-l5-t4",
-          "tipo": "dato",
-          "titulo": "Un sistema con respaldo",
-          "texto": "Cada parte del sistema puede generar su propio impulso, pero más lento. Si el nódulo sinusal falla, el nódulo auriculoventricular puede mantener entre 40 y 60 latidos por minuto.",
-          "fuentes": [
-            "F61"
-          ]
-        },
-        {
-          "id": "d1-l5-t5",
-          "tipo": "concepto",
-          "titulo": "Lo que dibuja el electrocardiograma",
-          "texto": "El ECG registra esta electricidad. La onda P corresponde a la activación de las aurículas, el complejo QRS a la de los ventrículos y la onda T a su recuperación. Lo leeremos con calma el día 3.",
-          "fuentes": [
-            "F61",
-            "F62"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "d1-l6",
-      "titulo": "Vasos: el sistema de riego",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d1-l6-t1",
-          "tipo": "concepto",
-          "titulo": "Arterias",
-          "texto": "Llevan la sangre desde el corazón. Tienen paredes gruesas porque reciben la sangre con más presión. Se ramifican en arteriolas y luego en capilares.",
-          "fuentes": [
-            "F64"
-          ]
-        },
-        {
-          "id": "d1-l6-t2",
-          "tipo": "concepto",
-          "titulo": "Capilares",
-          "texto": "Son los vasos más finos: miden de 5 a 10 micrómetros, apenas lo justo para que pase un glóbulo rojo. Su pared es casi solo endotelio y deja pasar sustancias. Ahí ocurre el intercambio con los tejidos.",
-          "fuentes": [
-            "F64"
-          ]
-        },
-        {
-          "id": "d1-l6-t3",
-          "tipo": "concepto",
-          "titulo": "Venas",
-          "texto": "Devuelven la sangre al corazón. Tienen paredes más delgadas y muchas, sobre todo en las piernas y brazos, tienen válvulas para que la sangre no retroceda. Funcionan como reservorio: guardan cerca del 64% del volumen de sangre.",
-          "fuentes": [
-            "F64"
-          ]
-        },
-        {
-          "id": "d1-l6-t4",
           "tipo": "analogia",
-          "titulo": "Analogía: xilema y floema",
-          "texto": "Como el xilema y el floema de una planta, los vasos reparten agua, nutrientes y señales a todo el organismo. Pero hay una gran diferencia: la planta no tiene bomba. El agua sube por el xilema gracias a la transpiración de las hojas (cohesión-tensión), mientras que nosotros dependemos de un corazón que empuja.",
+          "titulo": "Como el riego de una planta",
+          "texto": "Las plantas también tienen tubos que reparten agua y alimento: el xilema y el floema. La gran diferencia es que la planta no tiene corazón: el agua sube porque las hojas la van \"jalando\" al evaporarla. Nosotros, en cambio, necesitamos una bomba.",
           "fuentes": [
             "F69",
             "F64"
           ]
         },
         {
-          "id": "d1-l6-t5",
+          "id": "d1-l5-t3",
           "tipo": "dato",
-          "titulo": "Por qué importa",
-          "texto": "Las enfermedades cardiovasculares son la primera causa de muerte en el mundo. En 2022 causaron unos 19,8 millones de muertes, cerca del 32% del total. La mayoría pueden prevenirse.",
+          "titulo": "Por qué importa cuidarlo",
+          "texto": "Las enfermedades del corazón y de los vasos son la primera causa de muerte en el mundo: unos 19,8 millones de personas en 2022. La buena noticia es que la mayoría se pueden prevenir. De eso hablaremos mañana.",
           "fuentes": [
             "F48"
           ]
@@ -400,27 +279,22 @@
     {
       "id": "d1-q1",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Qué cavidad bombea la sangre hacia todo el cuerpo?",
+      "enunciado": "¿Qué parte del corazón empuja la sangre hacia todo el cuerpo?",
       "opciones": [
         {
-          "texto": "Aurícula derecha",
+          "texto": "La aurícula derecha",
           "correcta": false,
-          "explicacion": "La aurícula derecha recibe la sangre que vuelve del cuerpo."
+          "explicacion": "Las aurículas reciben la sangre; no la mandan al cuerpo."
         },
         {
-          "texto": "Ventrículo derecho",
+          "texto": "El ventrículo derecho",
           "correcta": false,
-          "explicacion": "El ventrículo derecho bombea hacia los pulmones."
+          "explicacion": "El ventrículo derecho la manda a los pulmones."
         },
         {
-          "texto": "Ventrículo izquierdo",
+          "texto": "El ventrículo izquierdo",
           "correcta": true,
-          "explicacion": "Por eso es la cavidad con la pared más gruesa."
-        },
-        {
-          "texto": "Aurícula izquierda",
-          "correcta": false,
-          "explicacion": "La aurícula izquierda recibe la sangre que llega de los pulmones."
+          "explicacion": "Por eso es la parte con la pared más gruesa."
         }
       ],
       "fuentes": [
@@ -430,9 +304,9 @@
     {
       "id": "d1-q2",
       "tipo": "verdadero-falso",
-      "enunciado": "Las venas pulmonares llevan sangre rica en oxígeno.",
-      "respuesta": true,
-      "explicacion": "Verdadero. Son las únicas venas del adulto con sangre rica en oxígeno: la traen de los pulmones a la aurícula izquierda.",
+      "enunciado": "Las válvulas dejan que la sangre vaya y venga libremente.",
+      "respuesta": false,
+      "explicacion": "Falso. Son puertas de un solo sentido: dejan pasar la sangre hacia adelante y se cierran si intenta volver.",
       "fuentes": [
         "F60"
       ]
@@ -440,68 +314,67 @@
     {
       "id": "d1-q3",
       "tipo": "ordenar",
-      "enunciado": "Ordene el recorrido de la sangre desde la aurícula derecha.",
+      "enunciado": "Ordena el viaje de la sangre empezando por el lado derecho del corazón.",
       "pasos": [
-        "Aurícula derecha",
-        "Ventrículo derecho",
-        "Pulmones",
-        "Aurícula izquierda",
-        "Ventrículo izquierdo",
-        "Aorta"
+        "Lado derecho del corazón",
+        "Pulmones (se carga de oxígeno)",
+        "Lado izquierdo del corazón",
+        "Todo el cuerpo (entrega el oxígeno)"
       ],
-      "explicacion": "La sangre pasa del lado derecho a los pulmones, vuelve al lado izquierdo y sale por la aorta hacia el cuerpo.",
+      "explicacion": "La sangre va del lado derecho a los pulmones, vuelve al lado izquierdo y de ahí sale a todo el cuerpo.",
       "fuentes": [
-        "F60"
+        "F60",
+        "F67"
       ]
     },
     {
       "id": "d1-q4",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Qué produce el primer ruido del corazón (\"lub\")?",
+      "enunciado": "¿Qué llevan los glóbulos rojos desde los pulmones al resto del cuerpo?",
       "opciones": [
         {
-          "texto": "El cierre de la tricúspide y la mitral",
+          "texto": "Oxígeno",
           "correcta": true,
-          "explicacion": "Se cierran al empezar la contracción de los ventrículos."
+          "explicacion": "Lo recogen en los pulmones y lo entregan en los tejidos."
         },
         {
-          "texto": "El cierre de la pulmonar y la aórtica",
+          "texto": "Dióxido de carbono",
           "correcta": false,
-          "explicacion": "Ese es el segundo ruido (\"dub\"), cuando los ventrículos se relajan."
+          "explicacion": "El dióxido de carbono va al revés: del cuerpo a los pulmones para salir al exhalar."
         },
         {
-          "texto": "La contracción de las aurículas",
+          "texto": "Electricidad",
           "correcta": false,
-          "explicacion": "La contracción de las aurículas normalmente no produce un ruido audible."
+          "explicacion": "La señal eléctrica viaja por el músculo del corazón, no en la sangre."
         }
       ],
       "fuentes": [
-        "F62"
+        "F92"
       ]
     },
     {
       "id": "d1-q5",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Dónde nace normalmente cada latido?",
+      "enunciado": "¿En qué vasos se entrega el oxígeno a las células?",
       "opciones": [
         {
-          "texto": "En el nódulo sinusal",
+          "texto": "En las arterias",
+          "correcta": false,
+          "explicacion": "Las arterias llevan la sangre, pero sus paredes son gruesas."
+        },
+        {
+          "texto": "En los capilares",
           "correcta": true,
-          "explicacion": "Es el marcapasos natural del corazón."
+          "explicacion": "Son tan finos que dejan pasar el oxígeno hacia las células."
         },
         {
-          "texto": "En las fibras de Purkinje",
+          "texto": "En las venas",
           "correcta": false,
-          "explicacion": "Las fibras de Purkinje reparten el impulso en los ventrículos, al final del recorrido."
-        },
-        {
-          "texto": "En la aorta",
-          "correcta": false,
-          "explicacion": "La aorta es una arteria; no genera impulsos eléctricos."
+          "explicacion": "Las venas regresan la sangre al corazón."
         }
       ],
       "fuentes": [
-        "F61"
+        "F64"
       ]
     }
   ],
@@ -514,12 +387,12 @@
   "resumen": {
     "titulo": "Lo esencial del día 1",
     "puntos": [
-      "El corazón tiene 4 cavidades: 2 aurículas que reciben y 2 ventrículos que bombean.",
-      "4 válvulas mantienen la sangre en un solo sentido; su cierre es el \"lub-dub\".",
-      "Lado derecho → pulmones; lado izquierdo → cuerpo.",
-      "Sístole = contracción; diástole = relajación y llenado.",
-      "El latido nace en el nódulo sinusal y se reparte por el haz de His y las fibras de Purkinje.",
-      "Arterias salen del corazón, venas vuelven y en los capilares ocurre el intercambio."
+      "El corazón es un músculo del tamaño de tu puño con 4 cuartos: 2 aurículas que reciben y 2 ventrículos que empujan.",
+      "Las 4 válvulas son puertas de un solo sentido; al cerrarse hacen el \"lub-dub\".",
+      "Lado derecho: manda la sangre a los pulmones. Lado izquierdo: a todo el cuerpo.",
+      "En los pulmones la sangre toma oxígeno, y los glóbulos rojos lo llevan a cada célula.",
+      "Cada latido: el corazón aprieta (sístole) y se relaja (diástole), encendido por una chispa eléctrica.",
+      "Las arterias salen del corazón, las venas regresan y en los capilares se entrega el oxígeno."
     ],
     "imagen": "img-nlm-d1-infografia"
   },
@@ -531,6 +404,8 @@
     "F62",
     "F64",
     "F67",
-    "F69"
+    "F69",
+    "F92",
+    "F93"
   ]
 }

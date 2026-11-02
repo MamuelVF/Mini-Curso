@@ -10,7 +10,7 @@ Uso:  python3 scripts/commons_catalog.py           (consulta y descarga)
       python3 scripts/commons_catalog.py --sin-descargar
 Solo usa la biblioteca estándar de Python.
 """
-import json, os, re, sys, urllib.parse, urllib.request, datetime
+import json, os, re, sys, shutil, subprocess, tempfile, urllib.parse, urllib.request, datetime
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTA = os.path.join(RAIZ, 'scripts', 'commons_lista.json')
@@ -20,6 +20,7 @@ API = 'https://commons.wikimedia.org/w/api.php'
 UA = 'CursoCorazonYCancer/1.0 (proyecto educativo; https://biovinces.com)'
 PERMITIDAS = re.compile(r'^(Public domain|CC0|CC BY(-SA)? \d\.\d)', re.I)
 ANCHO = 900
+ANCHO_GIF = 480  # los GIF animados se piden a 480 px (Commons los sirve animados) y se pasan a WebP animado
 
 
 def pedir(url):
@@ -32,9 +33,9 @@ def limpiar(html):
     return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', html or '')).strip()
 
 
-def consultar(titulos):
+def consultar(titulos, ancho=ANCHO):
     q = {'action': 'query', 'format': 'json', 'prop': 'imageinfo', 'iiprop': 'url|extmetadata|mime',
-         'iiurlwidth': str(ANCHO), 'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist',
+         'iiurlwidth': str(ancho), 'iiextmetadatafilter': 'LicenseShortName|LicenseUrl|Artist',
          'titles': '|'.join('File:' + t for t in titulos)}
     datos = json.loads(pedir(API + '?' + urllib.parse.urlencode(q)))
     norm = {n['to']: n['from'] for n in datos['query'].get('normalized', [])}
@@ -48,7 +49,11 @@ def consultar(titulos):
 def main():
     descargar = '--sin-descargar' not in sys.argv
     lista = json.load(open(LISTA, encoding='utf-8'))
-    info = consultar([x['archivo_commons'] for x in lista])
+    info = consultar([x['archivo_commons'] for x in lista if not x['archivo_commons'].lower().endswith('.gif')])
+    gifs = [x['archivo_commons'] for x in lista if x['archivo_commons'].lower().endswith('.gif')]
+    if gifs:
+        info.update(consultar(gifs, ANCHO_GIF))
+    hay_ffmpeg = shutil.which('ffmpeg') is not None
     hoy = datetime.date.today().isoformat()
     os.makedirs(CARPETA, exist_ok=True)
     nuevas, errores = [], []
@@ -60,11 +65,20 @@ def main():
         lic = m.get('LicenseShortName', {}).get('value', '')
         if not PERMITIDAS.match(lic):
             errores.append(f"{x['id']}: licencia no permitida ({lic})"); continue
-        ext = '.png' if ii['mime'] in ('image/svg+xml', 'image/png') else '.jpg'
+        es_gif = ii['mime'] == 'image/gif'
+        ext = ('.webp' if hay_ffmpeg else '.gif') if es_gif else '.png' if ii['mime'] in ('image/svg+xml', 'image/png') else '.jpg'
         archivo = f"img/commons/{x['id']}{ext}"
         if descargar:
-            with open(os.path.join(RAIZ, 'public', archivo), 'wb') as f:
-                f.write(pedir(ii.get('thumburl') or ii['url']))
+            datos = pedir(ii.get('thumburl') or ii['url'])
+            destino = os.path.join(RAIZ, 'public', archivo)
+            if es_gif and hay_ffmpeg:
+                with tempfile.NamedTemporaryFile(suffix='.gif') as t:
+                    t.write(datos); t.flush()
+                    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', t.name, '-loop', '0', '-quality', '70',
+                                    '-c:v', 'libwebp_anim', destino], check=True)
+            else:
+                with open(destino, 'wb') as f:
+                    f.write(datos)
         e = {'id': x['id'], 'archivo': archivo, 'titulo': x['titulo'], 'alt': x['alt'], 'origen': 'commons',
              'autor': limpiar(m.get('Artist', {}).get('value')) or 'Autor no indicado en Commons',
              'licencia': 'Dominio público' if lic.lower().startswith('public domain') else lic,

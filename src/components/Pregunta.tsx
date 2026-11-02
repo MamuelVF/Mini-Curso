@@ -95,7 +95,7 @@ function Ordenar({ p, onRespondida }: { p: Extract<P, { tipo: 'ordenar' }>; onRe
   }
   return (
     <div>
-      <p className="text-sm text-suave mb-2">Toque los pasos en orden. Toque de nuevo para quitar uno.</p>
+      <p className="text-sm text-suave mb-2">Toca los pasos en orden. Toca de nuevo para quitar uno.</p>
       <div className="grid gap-2">
         {mezcla.map((paso) => {
           const n = orden.indexOf(paso)

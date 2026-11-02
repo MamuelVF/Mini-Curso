@@ -7,7 +7,7 @@ import { IcoAlerta, IcoHoja } from './Iconos'
 
 const estilos: Record<Tarjeta['tipo'], { etiqueta: string; clase: string }> = {
   concepto: { etiqueta: 'Concepto', clase: '' },
-  'pregunta-previa': { etiqueta: 'Piense un momento', clase: '' },
+  'pregunta-previa': { etiqueta: 'Piensa un momento', clase: '' },
   'ejemplo-resuelto': { etiqueta: 'Ejemplo resuelto', clase: '' },
   analogia: { etiqueta: 'Analogía vegetal', clase: 'bg-verde-50' },
   alerta: { etiqueta: 'Atención', clase: 'bg-alerta-50 border-alerta/30' },
@@ -24,9 +24,10 @@ export function TarjetaVista({ t, onRespondida }: { t: Tarjeta; onRespondida?: (
         {e.etiqueta}
       </span>
       <h2 id={`${t.id}-t`} className="text-xl font-semibold mt-2">{t.titulo}</h2>
-      {t.texto && <p className="mt-2 text-[1.05rem]">{t.texto}</p>}
-      {t.diagrama && <div className="mt-4"><Diagrama id={t.diagrama} compacto /></div>}
-      <ImagenCreditada id={t.imagen} className="mt-4" />
+      {/* Primero lo visual, luego el texto: el dibujo explica y el texto acompaña */}
+      <ImagenCreditada id={t.imagen} className="mt-3" />
+      {t.diagrama && <div className="mt-3"><Diagrama id={t.diagrama} compacto /></div>}
+      {t.texto && <p className="mt-3 text-[1.05rem]">{t.texto}</p>}
       {t.pregunta && <div className="mt-3"><Pregunta p={t.pregunta} onRespondida={onRespondida} /></div>}
       {!t.pregunta && <Fuentes ids={t.fuentes} />}
     </article>

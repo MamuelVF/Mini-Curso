@@ -50,7 +50,7 @@ export function Leccion({ diaId, leccionId }: { diaId: number; leccionId: string
         <button className="btn btn-secundario" onClick={retroceder} disabled={i === 0}>Anterior</button>
         <button className="btn btn-primario" onClick={avanzar}>{ultima ? (siguienteLeccion ? 'Terminar lección' : 'Terminar el día') : 'Siguiente'}</button>
       </div>
-      <p className="text-center text-sm text-suave mt-3">{i + 1} de {total} · también puede deslizar</p>
+      <p className="text-center text-sm text-suave mt-3">{i + 1} de {total} · también puedes deslizar</p>
     </Pagina>
   )
 }

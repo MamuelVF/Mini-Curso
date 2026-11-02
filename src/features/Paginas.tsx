@@ -116,7 +116,7 @@ export function Progreso() {
       </ul>
       <p className="text-sm text-suave mt-3">Tarjetas de repaso vistas: {Object.keys(e.fsrs).length}</p>
       <h2 className="text-lg font-semibold mt-6 mb-2">Sus datos</h2>
-      <p className="text-sm text-suave">Su progreso se guarda solo en este dispositivo. No se envía a ningún servidor.</p>
+      <p className="text-sm text-suave">Tu progreso se guarda solo en este dispositivo. No se envía a ningún servidor.</p>
       <div className="grid gap-2 mt-3">
         <button className="btn btn-secundario" onClick={descargar}>Guardar copia del progreso</button>
         <label className="btn btn-secundario">Cargar copia del progreso<input type="file" accept="application/json" className="sr-only" onChange={(ev) => cargar(ev.target.files?.[0])} /></label>

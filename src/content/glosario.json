@@ -1,142 +1,5 @@
 [
   {
-    "termino": "Aurícula",
-    "definicion": "Cavidad superior del corazón que recibe la sangre. Hay una derecha y una izquierda.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Ventrículo",
-    "definicion": "Cavidad inferior del corazón que bombea la sangre hacia los pulmones (derecho) o hacia el cuerpo (izquierdo).",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Válvula tricúspide",
-    "definicion": "Válvula de tres valvas entre la aurícula y el ventrículo derechos.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Válvula mitral",
-    "definicion": "Válvula de dos valvas entre la aurícula y el ventrículo izquierdos. También se llama bicúspide.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Válvulas semilunares",
-    "definicion": "Las válvulas pulmonar y aórtica, a la salida de los ventrículos. Tienen forma de bolsillo.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Cuerdas tendinosas",
-    "definicion": "Cordones de tejido conectivo que unen las válvulas tricúspide y mitral a los músculos papilares.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Sístole",
-    "definicion": "Fase de contracción del ciclo cardiaco.",
-    "dia": 1,
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "termino": "Diástole",
-    "definicion": "Fase de relajación y llenado del ciclo cardiaco.",
-    "dia": 1,
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "termino": "Volumen sistólico",
-    "definicion": "Sangre que expulsa un ventrículo en cada latido; en reposo, unos 70-80 mL.",
-    "dia": 1,
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "termino": "Nódulo sinusal",
-    "definicion": "Grupo de células de la aurícula derecha que inicia cada latido; el marcapasos natural.",
-    "dia": 1,
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "termino": "Nódulo auriculoventricular",
-    "definicion": "Punto de paso del impulso eléctrico entre aurículas y ventrículos, donde hay una breve pausa.",
-    "dia": 1,
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "termino": "Fibras de Purkinje",
-    "definicion": "Fibras que reparten el impulso eléctrico por todo el músculo de los ventrículos.",
-    "dia": 1,
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "termino": "Circulación pulmonar",
-    "definicion": "Circuito corto que lleva la sangre del ventrículo derecho a los pulmones y de vuelta a la aurícula izquierda.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Circulación sistémica",
-    "definicion": "Circuito largo que lleva la sangre del ventrículo izquierdo a todo el cuerpo y de vuelta a la aurícula derecha.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Capilar",
-    "definicion": "Vaso sanguíneo más fino, de 5 a 10 micrómetros, donde ocurre el intercambio con los tejidos.",
-    "dia": 1,
-    "fuentes": [
-      "F64"
-    ]
-  },
-  {
-    "termino": "Arterias coronarias",
-    "definicion": "Arterias que nacen de la aorta y llevan sangre al propio músculo cardiaco.",
-    "dia": 1,
-    "fuentes": [
-      "F60"
-    ]
-  },
-  {
-    "termino": "Soplo",
-    "definicion": "Ruido anormal del corazón causado por un flujo turbulento de sangre, por ejemplo por una válvula que falla.",
-    "dia": 1,
-    "fuentes": [
-      "F60",
-      "F62"
-    ]
-  },
-  {
     "termino": "Insuficiencia cardiaca",
     "definicion": "Situación en la que el corazón no bombea la sangre que el cuerpo necesita.",
     "dia": 3,
@@ -670,6 +533,103 @@
     "dia": 7,
     "fuentes": [
       "F12"
+    ]
+  },
+  {
+    "termino": "Aurícula",
+    "definicion": "Cada uno de los dos cuartos de arriba del corazón. Reciben la sangre.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Ventrículo",
+    "definicion": "Cada uno de los dos cuartos de abajo del corazón. Empujan la sangre hacia afuera.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Válvula",
+    "definicion": "Puerta dentro del corazón que deja pasar la sangre en un solo sentido.",
+    "dia": 1,
+    "fuentes": [
+      "F60"
+    ]
+  },
+  {
+    "termino": "Soplo",
+    "definicion": "Ruido extra en el corazón que puede aparecer, por ejemplo, cuando una válvula no funciona bien.",
+    "dia": 1,
+    "fuentes": [
+      "F38"
+    ]
+  },
+  {
+    "termino": "Sístole",
+    "definicion": "Momento del latido en que el corazón aprieta y saca la sangre.",
+    "dia": 1,
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "termino": "Diástole",
+    "definicion": "Momento del latido en que el corazón se relaja y se llena.",
+    "dia": 1,
+    "fuentes": [
+      "F62"
+    ]
+  },
+  {
+    "termino": "Glóbulo rojo",
+    "definicion": "Célula de la sangre con forma de disco que lleva el oxígeno desde los pulmones a todo el cuerpo.",
+    "dia": 1,
+    "fuentes": [
+      "F92"
+    ]
+  },
+  {
+    "termino": "Marcapasos natural",
+    "definicion": "Grupo de células del corazón (el nódulo sinusal) donde nace la señal eléctrica de cada latido.",
+    "dia": 1,
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "termino": "Electrocardiograma",
+    "definicion": "Prueba que dibuja la actividad eléctrica del corazón.",
+    "dia": 1,
+    "fuentes": [
+      "F61",
+      "F36"
+    ]
+  },
+  {
+    "termino": "Arteria",
+    "definicion": "Vaso que saca la sangre del corazón. Tiene paredes gruesas.",
+    "dia": 1,
+    "fuentes": [
+      "F64"
+    ]
+  },
+  {
+    "termino": "Vena",
+    "definicion": "Vaso que regresa la sangre al corazón. Tiene paredes más finas.",
+    "dia": 1,
+    "fuentes": [
+      "F64"
+    ]
+  },
+  {
+    "termino": "Capilar",
+    "definicion": "El vaso más fino. Ahí se entrega el oxígeno a las células.",
+    "dia": 1,
+    "fuentes": [
+      "F64"
     ]
   }
 ]
