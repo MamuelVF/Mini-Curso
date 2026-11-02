@@ -1,9 +1,9 @@
 [
  {
-  "id": "img-d1-torax",
-  "archivo_commons": "Gray490.png",
-  "titulo": "Corazón y pulmones vistos de frente (Gray, lámina 490)",
-  "alt": "Ilustración anatómica antigua del corazón en el centro del tórax, entre los dos pulmones."
+  "id": "img-d1-alveolo",
+  "archivo_commons": "Gas exchange in the aveolus simple (es).svg",
+  "titulo": "Intercambio de gases en el alvéolo",
+  "alt": "Esquema de una bolsita de aire del pulmón (alvéolo) junto a un capilar con glóbulos rojos: el oxígeno pasa del aire a la sangre y el dióxido de carbono pasa de la sangre al aire."
  },
  {
   "id": "img-d1-cavidades",
@@ -12,10 +12,16 @@
   "alt": "Corte del corazón con aurículas, ventrículos, válvulas y grandes vasos rotulados en español; azul la sangre pobre en oxígeno y rojo la rica en oxígeno."
  },
  {
-  "id": "img-d1-valvulas",
-  "archivo_commons": "Gray496.png",
-  "titulo": "Base de los ventrículos con las cuatro válvulas (Gray, lámina 496)",
-  "alt": "Vista superior del corazón sin aurículas que muestra las cuatro válvulas: mitral, tricúspide, aórtica y pulmonar."
+  "id": "img-d1-ecg",
+  "archivo_commons": "ECG principle slow.gif",
+  "titulo": "La señal eléctrica recorre el corazón",
+  "alt": "Animación de un corte del corazón en el que una señal roja baja desde arriba hasta los ventrículos, mientras abajo se dibuja la línea del electrocardiograma."
+ },
+ {
+  "id": "img-d1-globulos",
+  "archivo_commons": "Red White Blood cells.jpg",
+  "titulo": "Glóbulo rojo, plaqueta y glóbulo blanco al microscopio electrónico",
+  "alt": "Foto de microscopio: a la izquierda un glóbulo rojo con forma de disco hundido en el centro, en medio una plaqueta pequeña y a la derecha un glóbulo blanco redondo y rugoso."
  },
  {
   "id": "img-d1-latido",
@@ -24,22 +30,16 @@
   "alt": "Animación de un corazón humano en 3D, cortado por la mitad, que se contrae y se relaja en cada latido."
  },
  {
-  "id": "img-d1-ecg",
-  "archivo_commons": "ECG principle slow.gif",
-  "titulo": "La señal eléctrica recorre el corazón",
-  "alt": "Animación de un corte del corazón en el que una señal roja baja desde arriba hasta los ventrículos, mientras abajo se dibuja la línea del electrocardiograma."
+  "id": "img-d1-torax",
+  "archivo_commons": "Gray490.png",
+  "titulo": "Corazón y pulmones vistos de frente (Gray, lámina 490)",
+  "alt": "Ilustración anatómica antigua del corazón en el centro del tórax, entre los dos pulmones."
  },
  {
-  "id": "img-d1-alveolo",
-  "archivo_commons": "Gas exchange in the aveolus simple (es).svg",
-  "titulo": "Intercambio de gases en el alvéolo",
-  "alt": "Esquema de una bolsita de aire del pulmón (alvéolo) junto a un capilar con glóbulos rojos: el oxígeno pasa del aire a la sangre y el dióxido de carbono pasa de la sangre al aire."
- },
- {
-  "id": "img-d1-globulos",
-  "archivo_commons": "Red White Blood cells.jpg",
-  "titulo": "Glóbulo rojo, plaqueta y glóbulo blanco al microscopio electrónico",
-  "alt": "Foto de microscopio: a la izquierda un glóbulo rojo con forma de disco hundido en el centro, en medio una plaqueta pequeña y a la derecha un glóbulo blanco redondo y rugoso."
+  "id": "img-d1-valvulas",
+  "archivo_commons": "Gray496.png",
+  "titulo": "Base de los ventrículos con las cuatro válvulas (Gray, lámina 496)",
+  "alt": "Vista superior del corazón sin aurículas que muestra las cuatro válvulas: mitral, tricúspide, aórtica y pulmonar."
  },
  {
   "id": "img-d1-vasos",
@@ -54,10 +54,100 @@
   "alt": "Comparación de una arteria normal y otra parcialmente bloqueada por una placa de ateroma que reduce el paso de la sangre."
  },
  {
+  "id": "img-d2-ateroma",
+  "archivo_commons": "Atherosclerosis diagram.png",
+  "titulo": "Arteria normal y arteria con placa",
+  "alt": "Dibujo de una arteria normal y otra con una placa de grasa en la pared que reduce el paso de la sangre."
+ },
+ {
+  "id": "img-d2-complicaciones",
+  "archivo_commons": "Main complications of persistent high blood pressure.svg",
+  "titulo": "Órganos que puede dañar la presión alta",
+  "alt": "Silueta del cuerpo con flechas a los órganos que puede dañar la presión alta: cerebro, ojos, corazón, riñones y vasos."
+ },
+ {
+  "id": "img-d2-ictus",
+  "archivo_commons": "Blausen 0836 Stroke.png",
+  "titulo": "Ictus: una arteria del cerebro tapada",
+  "alt": "Cabeza con el cerebro y una arteria tapada por un coágulo; la zona del cerebro sin sangre aparece oscura."
+ },
+ {
+  "id": "img-d2-infarto",
+  "archivo_commons": "Blausen 0463 HeartAttack-es.png",
+  "titulo": "Infarto de miocardio",
+  "alt": "Corazón con una arteria coronaria tapada por una placa y un coágulo, y la zona del músculo dañada por falta de sangre, con rótulos en español."
+ },
+ {
+  "id": "img-d2-tension",
+  "archivo_commons": "Checking blood pressure at home.jpg",
+  "titulo": "Midiendo la presión en casa",
+  "alt": "Persona midiendo su presión arterial con un aparato digital y un brazalete en el brazo."
+ },
+ {
+  "id": "img-d3-eco",
+  "archivo_commons": "Apikal4D.gif",
+  "titulo": "Ecografía del corazón en movimiento",
+  "alt": "Animación de una ecografía del corazón en la que se ven las cuatro cavidades y las válvulas abriéndose y cerrándose."
+ },
+ {
+  "id": "img-d3-edema",
+  "archivo_commons": "Combinpedal.jpg",
+  "titulo": "Pies y tobillos hinchados",
+  "alt": "Foto de dos pies y tobillos hinchados por retención de líquido."
+ },
+ {
+  "id": "img-d3-fa",
+  "archivo_commons": "Afib ecg.jpg",
+  "titulo": "Electrocardiograma con fibrilación auricular",
+  "alt": "Dos trazos de electrocardiograma: arriba latidos irregulares sin onda P (fibrilación auricular) y abajo un ritmo normal."
+ },
+ {
+  "id": "img-d3-insuficiencia",
+  "archivo_commons": "Heartfailure.jpg",
+  "titulo": "Síntomas de la insuficiencia cardiaca",
+  "alt": "Figura de una persona con señalados los síntomas de la insuficiencia cardiaca: falta de aire, cansancio e hinchazón."
+ },
+ {
+  "id": "img-d3-ondas",
+  "archivo_commons": "SinusRhythmLabels.svg",
+  "titulo": "Un latido en el electrocardiograma",
+  "alt": "Trazo de un latido normal en el electrocardiograma con las ondas P, Q, R, S y T señaladas."
+ },
+ {
+  "id": "img-d4-adn",
+  "archivo_commons": "DNA animation.gif",
+  "titulo": "La doble hélice del ADN",
+  "alt": "Animación de una molécula de ADN girando, con sus dos hebras enrolladas en espiral."
+ },
+ {
   "id": "img-d4-celula",
   "archivo_commons": "Breast cancer cell (1).jpg",
   "titulo": "Célula de cáncer de mama al microscopio electrónico",
   "alt": "Célula de cáncer de mama vista con microscopio electrónico de barrido, con superficie irregular llena de prolongaciones."
+ },
+ {
+  "id": "img-d4-defensas",
+  "archivo_commons": "Killer T cells surround a cancer cell.png",
+  "titulo": "Glóbulos blancos atacando una célula de cáncer",
+  "alt": "Imagen de microscopio en colores: varios glóbulos blancos (linfocitos T) rodean a una célula de cáncer más grande."
+ },
+ {
+  "id": "img-d4-division",
+  "archivo_commons": "Major events in mitosis.svg",
+  "titulo": "Una célula se divide en dos",
+  "alt": "Secuencia de dibujos de una célula que copia sus cromosomas, los reparte y se parte en dos células hijas."
+ },
+ {
+  "id": "img-d4-freno",
+  "archivo_commons": "Diagram showing how cells know when to stop dividing CRUK 128.svg",
+  "titulo": "Cómo saben las células cuándo dejar de dividirse",
+  "alt": "Dibujo de una capa de células que se dividen para cerrar un hueco y se detienen cuando se tocan entre sí."
+ },
+ {
+  "id": "img-d4-maligno",
+  "archivo_commons": "Diagram showing a malignant tumour CRUK 069.svg",
+  "titulo": "Un tumor maligno",
+  "alt": "Dibujo de un grupo de células cancerosas que crecen rápido, rompen la capa que las separa e invaden el tejido vecino; algunas se sueltan hacia un vaso."
  },
  {
   "id": "img-d4-metastasis",
@@ -66,10 +156,40 @@
   "alt": "Esquema de células de un tumor que atraviesan la pared de un vaso sanguíneo y viajan por la sangre."
  },
  {
+  "id": "img-d4-nofumar",
+  "archivo_commons": "Twemoji12 1f6ad.svg",
+  "titulo": "Prohibido fumar",
+  "alt": "Símbolo de un cigarrillo tachado dentro de un círculo rojo."
+ },
+ {
+  "id": "img-d4-vasos",
+  "archivo_commons": "Diagram showing why cancer cells need their own blood supply.svg",
+  "titulo": "El tumor se fabrica sus vasos",
+  "alt": "Dibujo de un tumor al que llegan vasos sanguíneos nuevos que le llevan oxígeno y alimento."
+ },
+ {
+  "id": "img-d5-eco-foto",
+  "archivo_commons": "Echocardiogram in US Navy.jpg",
+  "titulo": "Una ecografía del corazón",
+  "alt": "Foto de una persona acostada mientras una técnica le hace una ecografía del corazón con una sonda sobre el pecho."
+ },
+ {
+  "id": "img-d5-radioterapia",
+  "archivo_commons": "Tomotherapy nci-vol-4478-300.jpg",
+  "titulo": "Máquina de radioterapia",
+  "alt": "Foto de una paciente acostada en la camilla de una máquina de radioterapia mientras una técnica la prepara."
+ },
+ {
   "id": "img-d6-coagulo",
   "archivo_commons": "Blood clot in scanning electron microscopy.jpg",
   "titulo": "Coágulo al microscopio electrónico",
   "alt": "Glóbulos rojos atrapados en una red de hilos de fibrina, vistos con microscopio electrónico de barrido."
+ },
+ {
+  "id": "img-d6-curcuma",
+  "archivo_commons": "Curcuma longa roots.jpg",
+  "titulo": "Raíz de cúrcuma",
+  "alt": "Trozos de raíz de cúrcuma, uno de ellos cortado mostrando el interior anaranjado, junto a cúrcuma en polvo."
  },
  {
   "id": "img-d6-digitalis",
@@ -78,15 +198,57 @@
   "alt": "Planta de dedalera con su espiga de flores púrpuras en forma de dedal."
  },
  {
+  "id": "img-d6-embolia",
+  "archivo_commons": "3D Medical Animation still shot Pulmonary Embolism.jpg",
+  "titulo": "Embolia pulmonar",
+  "alt": "Imagen 3D de los pulmones con un coágulo atascado en una arteria pulmonar."
+ },
+ {
+  "id": "img-d6-ginkgo",
+  "archivo_commons": "Ginkgo biloba leaves in radial arrangement - 2019-10-25 focus stack.jpg",
+  "titulo": "Hojas de ginkgo",
+  "alt": "Hojas amarillas de ginkgo, con su forma de abanico, ordenadas en círculo."
+ },
+ {
+  "id": "img-d6-hiperico",
+  "archivo_commons": "Millepertuis perforé (Hypericum perforatum).jpg",
+  "titulo": "Hierba de San Juan (hipérico)",
+  "alt": "Planta de hipérico con muchas flores amarillas de cinco pétalos."
+ },
+ {
+  "id": "img-d6-regaliz",
+  "archivo_commons": "Glycyrrhiza glabra (Pile of Spanish wood chips).jpg",
+  "titulo": "Raíz de regaliz",
+  "alt": "Montón de trozos secos de raíz de regaliz."
+ },
+ {
   "id": "img-d6-tejo",
   "archivo_commons": "Yew bark Taxol PD.jpg",
   "titulo": "Corteza del tejo del Pacífico (Taxus brevifolia)",
   "alt": "Tronco de tejo del Pacífico con la corteza rojiza que se desprende en láminas."
  },
  {
+  "id": "img-d6-tvp",
+  "archivo_commons": "Blausen 0290 DeepVeinThrombosis.png",
+  "titulo": "Coágulo en una vena de la pierna",
+  "alt": "Pierna con una vena profunda ampliada en la que se ve un coágulo que tapa el paso de la sangre."
+ },
+ {
+  "id": "img-d6-unagato",
+  "archivo_commons": "Corteza y espina curva de uña de gato (Uncaria tomentosa).jpg",
+  "titulo": "Uña de gato (Uncaria tomentosa)",
+  "alt": "Tallo de la liana uña de gato con sus espinas curvas en forma de garra."
+ },
+ {
   "id": "img-d6-vinca",
   "archivo_commons": "Catharanthus roseus24 08 2012 (2).JPG",
   "titulo": "Vinca de Madagascar (Catharanthus roseus)",
   "alt": "Flores rosadas de cinco pétalos de la vinca de Madagascar con su centro más oscuro."
+ },
+ {
+  "id": "img-d7-fast",
+  "archivo_commons": "Identify the symptoms of a stroke using the FAST method.svg",
+  "titulo": "La regla FAST para reconocer un ictus",
+  "alt": "Cuatro dibujos: cara caída, brazo débil, dificultad para hablar y un reloj que indica que es hora de llamar a emergencias."
  }
 ]

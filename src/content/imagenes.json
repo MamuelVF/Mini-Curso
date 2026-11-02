@@ -1,14 +1,15 @@
 [
   {
-    "id": "img-d1-torax",
-    "archivo": "img/commons/img-d1-torax.png",
-    "titulo": "Corazón y pulmones vistos de frente (Gray, lámina 490)",
-    "alt": "Ilustración anatómica antigua del corazón en el centro del tórax, entre los dos pulmones.",
+    "id": "img-d1-alveolo",
+    "archivo": "img/commons/img-d1-alveolo.png",
+    "titulo": "Intercambio de gases en el alvéolo",
+    "alt": "Esquema de una bolsita de aire del pulmón (alvéolo) junto a un capilar con glóbulos rojos: el oxígeno pasa del aire a la sangre y el dióxido de carbono pasa de la sangre al aire.",
     "origen": "commons",
-    "autor": "Henry Vandyke Carter (Gray's Anatomy, 1918)",
-    "licencia": "Dominio público",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gray490.png",
-    "consultado": "2026-11-01"
+    "autor": "domdomegg",
+    "licencia": "CC BY 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gas_exchange_in_the_aveolus_simple_(es).svg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by/4.0"
   },
   {
     "id": "img-d1-cavidades",
@@ -23,15 +24,27 @@
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
-    "id": "img-d1-valvulas",
-    "archivo": "img/commons/img-d1-valvulas.png",
-    "titulo": "Base de los ventrículos con las cuatro válvulas (Gray, lámina 496)",
-    "alt": "Vista superior del corazón sin aurículas que muestra las cuatro válvulas: mitral, tricúspide, aórtica y pulmonar.",
+    "id": "img-d1-ecg",
+    "archivo": "img/commons/img-d1-ecg.webp",
+    "titulo": "La señal eléctrica recorre el corazón",
+    "alt": "Animación de un corte del corazón en el que una señal roja baja desde arriba hasta los ventrículos, mientras abajo se dibuja la línea del electrocardiograma.",
     "origen": "commons",
-    "autor": "Henry Vandyke Carter (Gray's Anatomy, 1918)",
+    "autor": "Kalumet",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:ECG_principle_slow.gif",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-d1-globulos",
+    "archivo": "img/commons/img-d1-globulos.jpg",
+    "titulo": "Glóbulo rojo, plaqueta y glóbulo blanco al microscopio electrónico",
+    "alt": "Foto de microscopio: a la izquierda un glóbulo rojo con forma de disco hundido en el centro, en medio una plaqueta pequeña y a la derecha un glóbulo blanco redondo y rugoso.",
+    "origen": "commons",
+    "autor": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-Frederick)",
     "licencia": "Dominio público",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gray496.png",
-    "consultado": "2026-11-01"
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
+    "consultado": "2026-11-02"
   },
   {
     "id": "img-d1-latido",
@@ -46,39 +59,26 @@
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "id": "img-d1-ecg",
-    "archivo": "img/commons/img-d1-ecg.webp",
-    "titulo": "La señal eléctrica recorre el corazón",
-    "alt": "Animación de un corte del corazón en el que una señal roja baja desde arriba hasta los ventrículos, mientras abajo se dibuja la línea del electrocardiograma.",
+    "id": "img-d1-torax",
+    "archivo": "img/commons/img-d1-torax.png",
+    "titulo": "Corazón y pulmones vistos de frente (Gray, lámina 490)",
+    "alt": "Ilustración anatómica antigua del corazón en el centro del tórax, entre los dos pulmones.",
     "origen": "commons",
-    "autor": "Kalumet",
-    "licencia": "CC BY-SA 3.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:ECG_principle_slow.gif",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
-  },
-  {
-    "id": "img-d1-alveolo",
-    "archivo": "img/commons/img-d1-alveolo.png",
-    "titulo": "Intercambio de gases en el alvéolo",
-    "alt": "Esquema de una bolsita de aire del pulmón (alvéolo) junto a un capilar con glóbulos rojos: el oxígeno pasa del aire a la sangre y el dióxido de carbono pasa de la sangre al aire.",
-    "origen": "commons",
-    "autor": "domdomegg",
-    "licencia": "CC BY 4.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gas_exchange_in_the_aveolus_simple_(es).svg",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by/4.0"
-  },
-  {
-    "id": "img-d1-globulos",
-    "archivo": "img/commons/img-d1-globulos.jpg",
-    "titulo": "Glóbulo rojo, plaqueta y glóbulo blanco al microscopio electrónico",
-    "alt": "Foto de microscopio: a la izquierda un glóbulo rojo con forma de disco hundido en el centro, en medio una plaqueta pequeña y a la derecha un glóbulo blanco redondo y rugoso.",
-    "origen": "commons",
-    "autor": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-Frederick)",
+    "autor": "Henry Vandyke Carter (Gray's Anatomy, 1918)",
     "licencia": "Dominio público",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
-    "consultado": "2026-11-02"
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gray490.png",
+    "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d1-valvulas",
+    "archivo": "img/commons/img-d1-valvulas.png",
+    "titulo": "Base de los ventrículos con las cuatro válvulas (Gray, lámina 496)",
+    "alt": "Vista superior del corazón sin aurículas que muestra las cuatro válvulas: mitral, tricúspide, aórtica y pulmonar.",
+    "origen": "commons",
+    "autor": "Henry Vandyke Carter (Gray's Anatomy, 1918)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Gray496.png",
+    "consultado": "2026-11-01"
   },
   {
     "id": "img-d1-vasos",
@@ -105,6 +105,133 @@
     "urlLicencia": "https://creativecommons.org/licenses/by/3.0"
   },
   {
+    "id": "img-d2-ateroma",
+    "archivo": "img/commons/img-d2-ateroma.png",
+    "titulo": "Arteria normal y arteria con placa",
+    "alt": "Dibujo de una arteria normal y otra con una placa de grasa en la pared que reduce el paso de la sangre.",
+    "origen": "commons",
+    "autor": "NHLBI",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Atherosclerosis_diagram.png",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d2-complicaciones",
+    "archivo": "img/commons/img-d2-complicaciones.png",
+    "titulo": "Órganos que puede dañar la presión alta",
+    "alt": "Silueta del cuerpo con flechas a los órganos que puede dañar la presión alta: cerebro, ojos, corazón, riñones y vasos.",
+    "origen": "commons",
+    "autor": "Mikael Häggström",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Main_complications_of_persistent_high_blood_pressure.svg",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d2-ictus",
+    "archivo": "img/commons/img-d2-ictus.png",
+    "titulo": "Ictus: una arteria del cerebro tapada",
+    "alt": "Cabeza con el cerebro y una arteria tapada por un coágulo; la zona del cerebro sin sangre aparece oscura.",
+    "origen": "commons",
+    "autor": "Blausen Medical Communications, Inc.",
+    "licencia": "CC BY 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blausen_0836_Stroke.png",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "id": "img-d2-infarto",
+    "archivo": "img/commons/img-d2-infarto.png",
+    "titulo": "Infarto de miocardio",
+    "alt": "Corazón con una arteria coronaria tapada por una placa y un coágulo, y la zona del músculo dañada por falta de sangre, con rótulos en español.",
+    "origen": "commons",
+    "autor": "Blausen Medical Communications, Inc.",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blausen_0463_HeartAttack-es.png",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d2-tension",
+    "archivo": "img/commons/img-d2-tension.jpg",
+    "titulo": "Midiendo la presión en casa",
+    "alt": "Persona midiendo su presión arterial con un aparato digital y un brazalete en el brazo.",
+    "origen": "commons",
+    "autor": "Beendy234",
+    "licencia": "CC0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Checking_blood_pressure_at_home.jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "id": "img-d3-eco",
+    "archivo": "img/commons/img-d3-eco.webp",
+    "titulo": "Ecografía del corazón en movimiento",
+    "alt": "Animación de una ecografía del corazón en la que se ven las cuatro cavidades y las válvulas abriéndose y cerrándose.",
+    "origen": "commons",
+    "autor": "Kjetil Lenes",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Apikal4D.gif",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-d3-edema",
+    "archivo": "img/commons/img-d3-edema.jpg",
+    "titulo": "Pies y tobillos hinchados",
+    "alt": "Foto de dos pies y tobillos hinchados por retención de líquido.",
+    "origen": "commons",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Combinpedal.jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-d3-fa",
+    "archivo": "img/commons/img-d3-fa.jpg",
+    "titulo": "Electrocardiograma con fibrilación auricular",
+    "alt": "Dos trazos de electrocardiograma: arriba latidos irregulares sin onda P (fibrilación auricular) y abajo un ritmo normal.",
+    "origen": "commons",
+    "autor": "J. Heuser",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Afib_ecg.jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-d3-insuficiencia",
+    "archivo": "img/commons/img-d3-insuficiencia.jpg",
+    "titulo": "Síntomas de la insuficiencia cardiaca",
+    "alt": "Figura de una persona con señalados los síntomas de la insuficiencia cardiaca: falta de aire, cansancio e hinchazón.",
+    "origen": "commons",
+    "autor": "National Heart, Lung, and Blood Institute (NIH)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Heartfailure.jpg",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d3-ondas",
+    "archivo": "img/commons/img-d3-ondas.png",
+    "titulo": "Un latido en el electrocardiograma",
+    "alt": "Trazo de un latido normal en el electrocardiograma con las ondas P, Q, R, S y T señaladas.",
+    "origen": "commons",
+    "autor": "Anthony Atkielski",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:SinusRhythmLabels.svg",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d4-adn",
+    "archivo": "img/commons/img-d4-adn.webp",
+    "titulo": "La doble hélice del ADN",
+    "alt": "Animación de una molécula de ADN girando, con sus dos hebras enrolladas en espiral.",
+    "origen": "commons",
+    "autor": "brian0918",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:DNA_animation.gif",
+    "consultado": "2026-11-02"
+  },
+  {
     "id": "img-d4-celula",
     "archivo": "img/commons/img-d4-celula.jpg",
     "titulo": "Célula de cáncer de mama al microscopio electrónico",
@@ -114,6 +241,52 @@
     "licencia": "Dominio público",
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Breast_cancer_cell_%281%29.jpg",
     "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d4-defensas",
+    "archivo": "img/commons/img-d4-defensas.png",
+    "titulo": "Glóbulos blancos atacando una célula de cáncer",
+    "alt": "Imagen de microscopio en colores: varios glóbulos blancos (linfocitos T) rodean a una célula de cáncer más grande.",
+    "origen": "commons",
+    "autor": "National Institutes of Health",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Killer_T_cells_surround_a_cancer_cell.png",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d4-division",
+    "archivo": "img/commons/img-d4-division.png",
+    "titulo": "Una célula se divide en dos",
+    "alt": "Secuencia de dibujos de una célula que copia sus cromosomas, los reparte y se parte en dos células hijas.",
+    "origen": "commons",
+    "autor": "Mysid",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Major_events_in_mitosis.svg",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d4-freno",
+    "archivo": "img/commons/img-d4-freno.png",
+    "titulo": "Cómo saben las células cuándo dejar de dividirse",
+    "alt": "Dibujo de una capa de células que se dividen para cerrar un hueco y se detienen cuando se tocan entre sí.",
+    "origen": "commons",
+    "autor": "Cancer Research UK",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Diagram_showing_how_cells_know_when_to_stop_dividing_CRUK_128.svg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d4-maligno",
+    "archivo": "img/commons/img-d4-maligno.png",
+    "titulo": "Un tumor maligno",
+    "alt": "Dibujo de un grupo de células cancerosas que crecen rápido, rompen la capa que las separa e invaden el tejido vecino; algunas se sueltan hacia un vaso.",
+    "origen": "commons",
+    "autor": "Cancer Research UK",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Diagram_showing_a_malignant_tumour_CRUK_069.svg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
     "id": "img-d4-metastasis",
@@ -128,6 +301,52 @@
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
+    "id": "img-d4-nofumar",
+    "archivo": "img/commons/img-d4-nofumar.png",
+    "titulo": "Prohibido fumar",
+    "alt": "Símbolo de un cigarrillo tachado dentro de un círculo rojo.",
+    "origen": "commons",
+    "autor": "Twitter (Twemoji)",
+    "licencia": "CC BY 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Twemoji12_1f6ad.svg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "img-d4-vasos",
+    "archivo": "img/commons/img-d4-vasos.png",
+    "titulo": "El tumor se fabrica sus vasos",
+    "alt": "Dibujo de un tumor al que llegan vasos sanguíneos nuevos que le llevan oxígeno y alimento.",
+    "origen": "commons",
+    "autor": "Cancer Research UK",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Diagram_showing_why_cancer_cells_need_their_own_blood_supply.svg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d5-eco-foto",
+    "archivo": "img/commons/img-d5-eco-foto.jpg",
+    "titulo": "Una ecografía del corazón",
+    "alt": "Foto de una persona acostada mientras una técnica le hace una ecografía del corazón con una sonda sobre el pecho.",
+    "origen": "commons",
+    "autor": "U.S. Air Force",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Echocardiogram_in_US_Navy.jpg",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "img-d5-radioterapia",
+    "archivo": "img/commons/img-d5-radioterapia.jpg",
+    "titulo": "Máquina de radioterapia",
+    "alt": "Foto de una paciente acostada en la camilla de una máquina de radioterapia mientras una técnica la prepara.",
+    "origen": "commons",
+    "autor": "Rhoda Baer (NCI)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Tomotherapy_nci-vol-4478-300.jpg",
+    "consultado": "2026-11-02"
+  },
+  {
     "id": "img-d6-coagulo",
     "archivo": "img/commons/img-d6-coagulo.jpg",
     "titulo": "Coágulo al microscopio electrónico",
@@ -137,6 +356,18 @@
     "licencia": "Dominio público",
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blood_clot_in_scanning_electron_microscopy.jpg",
     "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d6-curcuma",
+    "archivo": "img/commons/img-d6-curcuma.jpg",
+    "titulo": "Raíz de cúrcuma",
+    "alt": "Trozos de raíz de cúrcuma, uno de ellos cortado mostrando el interior anaranjado, junto a cúrcuma en polvo.",
+    "origen": "commons",
+    "autor": "Simon A. Eugster",
+    "licencia": "CC BY-SA 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_roots.jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
     "id": "img-d6-digitalis",
@@ -151,6 +382,54 @@
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
   },
   {
+    "id": "img-d6-embolia",
+    "archivo": "img/commons/img-d6-embolia.jpg",
+    "titulo": "Embolia pulmonar",
+    "alt": "Imagen 3D de los pulmones con un coágulo atascado en una arteria pulmonar.",
+    "origen": "commons",
+    "autor": "Scientific Animations",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:3D_Medical_Animation_still_shot_Pulmonary_Embolism.jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d6-ginkgo",
+    "archivo": "img/commons/img-d6-ginkgo.jpg",
+    "titulo": "Hojas de ginkgo",
+    "alt": "Hojas amarillas de ginkgo, con su forma de abanico, ordenadas en círculo.",
+    "origen": "commons",
+    "autor": "Franz van Duns",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_leaves_in_radial_arrangement_-_2019-10-25_focus_stack.jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d6-hiperico",
+    "archivo": "img/commons/img-d6-hiperico.jpg",
+    "titulo": "Hierba de San Juan (hipérico)",
+    "alt": "Planta de hipérico con muchas flores amarillas de cinco pétalos.",
+    "origen": "commons",
+    "autor": "JackyM59",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Millepertuis_perforé_(Hypericum_perforatum).jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "img-d6-regaliz",
+    "archivo": "img/commons/img-d6-regaliz.jpg",
+    "titulo": "Raíz de regaliz",
+    "alt": "Montón de trozos secos de raíz de regaliz.",
+    "origen": "commons",
+    "autor": "Erin Silversmith",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Glycyrrhiza_glabra_(Pile_of_Spanish_wood_chips).jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
     "id": "img-d6-tejo",
     "archivo": "img/commons/img-d6-tejo.jpg",
     "titulo": "Corteza del tejo del Pacífico (Taxus brevifolia)",
@@ -160,6 +439,30 @@
     "licencia": "Dominio público",
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Yew_bark_Taxol_PD.jpg",
     "consultado": "2026-11-01"
+  },
+  {
+    "id": "img-d6-tvp",
+    "archivo": "img/commons/img-d6-tvp.png",
+    "titulo": "Coágulo en una vena de la pierna",
+    "alt": "Pierna con una vena profunda ampliada en la que se ve un coágulo que tapa el paso de la sangre.",
+    "origen": "commons",
+    "autor": "Blausen Medical Communications, Inc.",
+    "licencia": "CC BY 3.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blausen_0290_DeepVeinThrombosis.png",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "id": "img-d6-unagato",
+    "archivo": "img/commons/img-d6-unagato.jpg",
+    "titulo": "Uña de gato (Uncaria tomentosa)",
+    "alt": "Tallo de la liana uña de gato con sus espinas curvas en forma de garra.",
+    "origen": "commons",
+    "autor": "Kristi Denby / Archivo Centro Takiwasi",
+    "licencia": "CC BY-SA 4.0",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Corteza_y_espina_curva_de_uña_de_gato_(Uncaria_tomentosa).jpg",
+    "consultado": "2026-11-02",
+    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
     "id": "img-d6-vinca",
@@ -172,6 +475,17 @@
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus24_08_2012_%282%29.JPG",
     "consultado": "2026-11-01",
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "img-d7-fast",
+    "archivo": "img/commons/img-d7-fast.png",
+    "titulo": "La regla FAST para reconocer un ictus",
+    "alt": "Cuatro dibujos: cara caída, brazo débil, dificultad para hablar y un reloj que indica que es hora de llamar a emergencias.",
+    "origen": "commons",
+    "autor": "FDA (Estados Unidos)",
+    "licencia": "Dominio público",
+    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Identify_the_symptoms_of_a_stroke_using_the_FAST_method.svg",
+    "consultado": "2026-11-02"
   },
   {
     "id": "img-nlm-d1-infografia",
@@ -268,6 +582,24 @@
     "archivo": "img/ia/d7-conversacion.jpg",
     "titulo": "Un educador en salud conversa con una persona",
     "alt": "Ilustración de dos adultos conversando en una mesa con plantas y un cuaderno; uno escucha con atención.",
+    "origen": "ia",
+    "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
+    "licencia": "Ilustración generada con IA, uso educativo"
+  },
+  {
+    "id": "img-ia-d2-colesterol",
+    "archivo": "img/ia/d2-colesterol.jpg",
+    "titulo": "Analogía: los camiones del colesterol",
+    "alt": "Ilustración en acuarela de una arteria por dentro: camiones amarillos (LDL) descargan grasa amarilla en la pared y camiones verdes (HDL) recogen grasa y la llevan al hígado.",
+    "origen": "ia",
+    "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
+    "licencia": "Ilustración generada con IA, uso educativo"
+  },
+  {
+    "id": "img-ia-d3-habitos",
+    "archivo": "img/ia/d3-habitos.jpg",
+    "titulo": "Hábitos que cuidan el corazón",
+    "alt": "Ilustración en acuarela de un corazón sonriente rodeado de cuatro hábitos: un plato de frutas y verduras, una persona en bicicleta, un cigarrillo tachado y alguien durmiendo.",
     "origen": "ia",
     "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
     "licencia": "Ilustración generada con IA, uso educativo"

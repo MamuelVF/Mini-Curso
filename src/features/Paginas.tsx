@@ -162,7 +162,7 @@ export function Acerca() {
       </section>
       <section className="tarjeta p-4 mt-4">
         <h2 className="text-lg font-semibold">Privacidad</h2>
-        <p className="mt-1">La aplicación no pide ni guarda datos personales ni de salud. El progreso queda solo en su dispositivo.</p>
+        <p className="mt-1">La aplicación no pide ni guarda datos personales ni de salud. El progreso queda solo en tu dispositivo.</p>
       </section>
       <p className="text-sm text-suave mt-4"><a href="#/fuentes">Ver todas las fuentes</a> · <a href="#/galeria">Créditos de imágenes</a></p>
     </Pagina>

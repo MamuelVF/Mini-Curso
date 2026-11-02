@@ -53,6 +53,12 @@ Descarté dos candidatas: un ecocardiograma sin autor declarado en Commons y un 
 ### img-ia-d7-conversacion → `public/img/ia/d7-conversacion.jpg`
 > Ilustración plana y cálida tipo libro de texto moderno. Dos adultos latinoamericanos de mediana edad conversan sentados a una mesa con una planta en maceta y un cuaderno. Uno escucha con atención y gesto amable; el otro explica. Ambiente de consulta tranquila, no hospitalaria. Paleta verde salvia, tierra y crema. Formato horizontal 4:3. Sin texto, sin letras, sin batas médicas ni estetoscopios.
 
+### img-ia-d2-colesterol → `public/img/ia/d2-colesterol.jpg` (rediseño, estilo acuarela)
+> Genera una imagen: ilustración educativa, estilo acuarela digital suave y amigable para jóvenes, fondo claro. Interior de una arteria vista en corte, como un túnel rojizo con glóbulos rojos. Pequeños camiones amarillos (colesterol LDL) descargan bolitas de grasa amarilla que se pegan en la pared de la arteria formando un bulto. Pequeños camiones verdes (colesterol HDL) recogen bolitas de grasa y se alejan hacia un hígado dibujado al fondo. SIN texto, sin letras ni etiquetas. Formato horizontal 16:9.
+
+### img-ia-d3-habitos → `public/img/ia/d3-habitos.jpg` (rediseño, estilo acuarela)
+> Genera otra imagen con el mismo estilo acuarela suave y amigable, fondo claro: un corazón sonriente en el centro rodeado de 4 escenas pequeñas de hábitos saludables: un plato con frutas y verduras, una persona joven caminando o en bicicleta, un cigarrillo tachado, y alguien durmiendo tranquilo en su cama con una luna. SIN texto, sin letras ni etiquetas. Formato horizontal 16:9.
+
 ## 3. Infografías de NotebookLM
 
 Guarda cada infografía como `public/img/notebooklm/dia-N-infografia.jpg` (N de 1 a 7). Aparecen al final de cada día, en "Lo esencial del día", con la etiqueta "NotebookLM". Revisa que no incluyan dosis ni afirmaciones que no estén en las fuentes antes de guardarlas.

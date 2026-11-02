@@ -1,20 +1,19 @@
 {
   "id": 5,
   "bloque": "B",
-  "titulo": "Cardio-oncología",
+  "titulo": "Cáncer y corazón",
   "subtitulo": "Cuando el tratamiento del cáncer también toca al corazón",
-  "minutos": 22,
+  "minutos": 18,
   "objetivos": [
-    "Explicar qué es la cardio-oncología y por qué existe.",
-    "Relacionar algunos tratamientos del cáncer con su posible efecto en el corazón.",
-    "Describir cómo se vigila el corazón antes, durante y después del tratamiento.",
-    "Explicar por qué los supervivientes necesitan seguimiento cardiovascular a largo plazo.",
-    "Reconocer que las decisiones de tratamiento corresponden al equipo médico."
+    "Entender qué es la cardio-oncología y por qué existe.",
+    "Saber que algunos tratamientos del cáncer pueden afectar al corazón.",
+    "Conocer cómo se vigila el corazón antes, durante y después.",
+    "Reconocer que las decisiones de tratamiento son del equipo médico."
   ],
   "lecciones": [
     {
       "id": "d5-l1",
-      "titulo": "Qué es la cardio-oncología",
+      "titulo": "Dos especialidades juntas",
       "minutos": 4,
       "tarjetas": [
         {
@@ -28,9 +27,9 @@
           "pregunta": {
             "id": "d5-l1-p0",
             "tipo": "verdadero-falso",
-            "enunciado": "Los efectos de un tratamiento contra el cáncer en el corazón siempre aparecen durante el tratamiento.",
+            "enunciado": "Si un tratamiento contra el cáncer afecta al corazón, siempre se nota durante el tratamiento.",
             "respuesta": false,
-            "explicacion": "Falso. Algunos problemas cardiacos aparecen meses o incluso años después de terminar.",
+            "explicacion": "Falso. Algunos problemas del corazón aparecen meses o incluso años después de terminar.",
             "fuentes": [
               "F26",
               "F86"
@@ -40,37 +39,30 @@
         {
           "id": "d5-l1-t2",
           "tipo": "concepto",
-          "titulo": "Dos especialidades que se encuentran",
-          "texto": "La cardio-oncología une a cardiólogos y oncólogos para cuidar el corazón de las personas con cáncer. Existe porque la enfermedad cardiovascular es una causa importante de enfermedad y muerte en los supervivientes de cáncer.",
+          "titulo": "Cardiólogos y oncólogos en equipo",
+          "texto": "La cardio-oncología junta a los médicos del corazón (cardiólogos) y a los del cáncer (oncólogos). Su meta es tratar el cáncer cuidando el corazón, porque los problemas del corazón son una causa importante de enfermedad en quienes sobreviven al cáncer.",
           "fuentes": [
             "F12",
             "F11"
-          ]
+          ],
+          "imagen": "img-ia-d7-conversacion"
         },
         {
           "id": "d5-l1-t3",
           "tipo": "concepto",
-          "titulo": "Tres razones",
-          "texto": "1) El cáncer y la enfermedad cardiaca comparten factores de riesgo (recuerde el tabaco del día 4). 2) Algunos tratamientos pueden dañar directamente el corazón o los vasos. 3) Durante el tratamiento pueden aparecer o empeorar factores como la presión alta o la glucosa.",
+          "titulo": "¿Por qué se cruzan?",
+          "texto": "Por tres razones: el cáncer y el corazón comparten enemigos, como el tabaco; algunos tratamientos pueden dañar el corazón o los vasos; y durante el tratamiento pueden subir la presión o el azúcar. Al daño del corazón causado por un tratamiento se le llama cardiotoxicidad.",
           "fuentes": [
-            "F12"
-          ]
+            "F12",
+            "F11"
+          ],
+          "diagrama": "cardiotoxicidad"
         },
         {
           "id": "d5-l1-t4",
-          "tipo": "concepto",
-          "titulo": "La palabra clave: cardiotoxicidad",
-          "texto": "Se llama cardiotoxicidad al daño del corazón o los vasos causado por un tratamiento contra el cáncer. La guía europea de referencia es la ESC 2022 de cardio-oncología.",
-          "fuentes": [
-            "F11",
-            "F12"
-          ]
-        },
-        {
-          "id": "d5-l1-t5",
           "tipo": "alerta",
-          "titulo": "Lo que no haremos",
-          "texto": "Este día explica conceptos. No da dosis ni indica cambiar tratamientos: esa decisión siempre la toma el equipo de oncología y cardiología con el paciente.",
+          "titulo": "Lo que este día no hace",
+          "texto": "Aquí explicamos ideas. No damos dosis ni decimos que se cambie un tratamiento: eso lo decide siempre el equipo médico junto con el paciente.",
           "fuentes": [
             "F11",
             "F12"
@@ -80,103 +72,82 @@
     },
     {
       "id": "d5-l2",
-      "titulo": "Quimioterapia y corazón",
-      "minutos": 5,
+      "titulo": "Quimioterapia y terapias dirigidas",
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d5-l2-t1",
           "tipo": "concepto",
-          "titulo": "Las antraciclinas",
-          "texto": "La doxorrubicina pertenece a una familia de medicamentos llamada antraciclinas, que frenan el crecimiento de las células cancerosas. Es un tratamiento importante en varios cánceres.",
+          "titulo": "Medicinas muy útiles, con un costo",
+          "texto": "Algunas quimioterapias muy usadas, como la doxorrubicina (de la familia de las antraciclinas), pueden debilitar el músculo del corazón. Puede pasar durante el tratamiento o meses y años después. Toca cada tratamiento en el dibujo para ver qué puede pasar.",
           "fuentes": [
-            "F86"
-          ]
+            "F86",
+            "F26"
+          ],
+          "diagrama": "cardiotoxicidad"
         },
         {
           "id": "d5-l2-t2",
-          "tipo": "alerta",
-          "titulo": "Su efecto en el corazón",
-          "texto": "La doxorrubicina puede causar problemas cardiacos graves en cualquier momento del tratamiento, o meses e incluso años después de terminarlo.",
+          "tipo": "concepto",
+          "titulo": "Lo que se mide: cuánto bombea",
+          "texto": "Si el corazón se debilita, sale menos sangre en cada latido y baja la fracción de eyección que vimos el día 3. Por eso se hace una ecografía del corazón antes y durante estos tratamientos.",
           "fuentes": [
-            "F86"
-          ]
+            "F86",
+            "F58"
+          ],
+          "imagen": "img-d3-eco"
         },
         {
           "id": "d5-l2-t3",
           "tipo": "concepto",
-          "titulo": "Otros medicamentos a vigilar",
-          "texto": "Según el NCI, los medicamentos que tienden a causar problemas cardiacos incluyen trastuzumab, doxorrubicina, daunorrubicina, epirrubicina y ciclofosfamida.",
+          "titulo": "El trastuzumab",
+          "texto": "El trastuzumab es una terapia dirigida para ciertos cánceres de mama y de estómago. También puede causar problemas serios en el corazón, así que el médico pide pruebas del corazón antes y durante el tratamiento.",
           "fuentes": [
+            "F87",
             "F26"
-          ]
+          ],
+          "imagen": "img-d5-eco-foto"
         },
         {
           "id": "d5-l2-t4",
-          "tipo": "dato",
-          "titulo": "Un síntoma que no se espera",
-          "texto": "Con el fluorouracilo (un antimetabolito), el dolor en el pecho está entre los síntomas que obligan a llamar al médico de inmediato.",
+          "tipo": "alerta",
+          "titulo": "Dolor en el pecho",
+          "texto": "Con algunas quimioterapias, como el fluorouracilo, el dolor en el pecho es una señal para avisar al médico de inmediato.",
           "fuentes": [
             "F88"
-          ]
-        },
-        {
-          "id": "d5-l2-t5",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Conecte con el día 3",
-          "texto": "Si una antraciclina debilita el músculo cardiaco, el ventrículo expulsa menos sangre en cada latido y la fracción de eyección baja. Por eso se mide con un ecocardiograma antes y durante el tratamiento.",
-          "fuentes": [
-            "F86",
-            "F58"
           ]
         }
       ]
     },
     {
       "id": "d5-l3",
-      "titulo": "Terapias dirigidas e inmunoterapia",
-      "minutos": 4,
+      "titulo": "Inmunoterapia",
+      "minutos": 3,
       "tarjetas": [
         {
           "id": "d5-l3-t1",
           "tipo": "concepto",
-          "titulo": "Trastuzumab",
-          "texto": "El trastuzumab es un anticuerpo monoclonal que se usa en ciertos cánceres de mama y de estómago. Detiene el crecimiento de las células cancerosas.",
+          "titulo": "Quitarle el freno a las defensas",
+          "texto": "Nuestras defensas tienen \"frenos\" para no atacar a las células sanas. Algunas inmunoterapias quitan ese freno para que los glóbulos blancos ataquen al cáncer, como en la foto.",
           "fuentes": [
-            "F87"
-          ]
+            "F85",
+            "F24"
+          ],
+          "imagen": "img-d4-defensas"
         },
         {
           "id": "d5-l3-t2",
           "tipo": "alerta",
-          "titulo": "Corazón antes y durante",
-          "texto": "El trastuzumab puede causar problemas cardiacos graves. Por eso el médico pide pruebas del corazón antes y durante el tratamiento.",
+          "titulo": "A veces atacan de más",
+          "texto": "Sin freno, las defensas a veces inflaman órganos sanos. Un efecto raro pero importante es la miocarditis: la inflamación del músculo del corazón.",
           "fuentes": [
-            "F87",
-            "F26"
+            "F85"
           ]
         },
         {
           "id": "d5-l3-t3",
-          "tipo": "concepto",
-          "titulo": "Inmunoterapia: quitar el freno",
-          "texto": "Los puntos de control son frenos normales del sistema inmunitario que evitan que ataque a las células sanas. Los inhibidores de puntos de control quitan ese freno para que las defensas ataquen al cáncer.",
-          "fuentes": [
-            "F85"
-          ]
-        },
-        {
-          "id": "d5-l3-t4",
-          "tipo": "alerta",
-          "titulo": "Miocarditis: rara pero importante",
-          "texto": "Al quitar el freno, a veces las defensas inflaman órganos sanos. Entre los efectos raros está la miocarditis, una inflamación del músculo del corazón.",
-          "fuentes": [
-            "F85"
-          ]
-        },
-        {
-          "id": "d5-l3-t5",
           "tipo": "pregunta-previa",
-          "titulo": "Compruebe lo aprendido",
+          "titulo": "Comprueba lo aprendido",
           "texto": "",
           "fuentes": [
             "F85"
@@ -187,19 +158,19 @@
             "enunciado": "¿Por qué la inmunoterapia puede inflamar el corazón?",
             "opciones": [
               {
-                "texto": "Porque al quitar el freno inmunitario, las defensas pueden atacar tejidos sanos",
+                "texto": "Porque las defensas, sin freno, pueden atacar tejidos sanos",
                 "correcta": true,
-                "explicacion": "Así se explican los efectos inflamatorios, como la miocarditis."
-              },
-              {
-                "texto": "Porque destruye directamente las células del corazón como un veneno",
-                "correcta": false,
-                "explicacion": "El mecanismo es inmunitario: las defensas, sin freno, inflaman tejidos sanos."
+                "explicacion": "Así se explica la miocarditis."
               },
               {
                 "texto": "Porque sube el colesterol",
                 "correcta": false,
-                "explicacion": "No es el mecanismo descrito por el NCI."
+                "explicacion": "No es ese el motivo."
+              },
+              {
+                "texto": "Porque el corazón tiene cáncer",
+                "correcta": false,
+                "explicacion": "No: es un efecto de las defensas sobre un órgano sano."
               }
             ],
             "fuentes": [
@@ -211,109 +182,75 @@
     },
     {
       "id": "d5-l4",
-      "titulo": "Radioterapia y efectos tardíos",
-      "minutos": 4,
+      "titulo": "Radioterapia: efectos que llegan tarde",
+      "minutos": 3,
       "tarjetas": [
         {
           "id": "d5-l4-t1",
           "tipo": "concepto",
-          "titulo": "Radioterapia en el tórax",
-          "texto": "La radioterapia dirigida al tórax puede causar problemas cardiacos que no aparecen hasta años después del tratamiento.",
+          "titulo": "Rayos en el pecho",
+          "texto": "La radioterapia usa rayos para destruir el cáncer. Cuando se da en el pecho, puede dañar el corazón, pero el problema aparece años después: el corazón se debilita o se estrechan sus arterias.",
           "fuentes": [
             "F26"
-          ]
+          ],
+          "imagen": "img-d5-radioterapia"
         },
         {
           "id": "d5-l4-t2",
-          "tipo": "concepto",
-          "titulo": "Dos problemas tardíos",
-          "texto": "El NCI describe dos: insuficiencia cardiaca congestiva (debilidad del músculo, con falta de aliento e hinchazón) y enfermedad arterial coronaria (arterias del corazón estrechas, con dolor de tórax). Esta última es más común tras dosis altas de radioterapia en el tórax.",
-          "fuentes": [
-            "F26"
-          ]
-        },
-        {
-          "id": "d5-l4-t3",
           "tipo": "alerta",
-          "titulo": "Suma de riesgos",
-          "texto": "Antes de recibir doxorrubicina, el paciente debe informar si tuvo radioterapia en el pecho o enfermedad cardiaca. Los riesgos se suman.",
+          "titulo": "Los riesgos se suman",
+          "texto": "Si alguien recibió radioterapia en el pecho o ya tenía un problema del corazón, el riesgo con algunas quimioterapias es mayor. Por eso hay que contárselo siempre al médico.",
           "fuentes": [
             "F86"
           ]
         },
         {
-          "id": "d5-l4-t4",
+          "id": "d5-l4-t3",
           "tipo": "concepto",
           "titulo": "Cuidar el corazón después",
-          "texto": "Para quien tiene problemas cardiacos tras el cáncer, el NCI recomienda comer sano con poca sal, mantener un peso saludable, hacer el ejercicio que indique el médico y no fumar.",
+          "texto": "Después del cáncer conviene comer sano con poca sal, mantener un peso saludable, hacer el ejercicio que indique el médico y no fumar. Y tener controles del corazón durante años.",
           "fuentes": [
-            "F26"
-          ]
-        },
-        {
-          "id": "d5-l4-t5",
-          "tipo": "dato",
-          "titulo": "Un seguimiento para toda la vida",
-          "texto": "Al terminar el tratamiento se debe volver a evaluar el riesgo cardiovascular y tener un plan de vigilancia del corazón.",
-          "fuentes": [
+            "F26",
             "F12"
-          ]
+          ],
+          "imagen": "img-ia-d3-habitos"
         }
       ]
     },
     {
       "id": "d5-l5",
       "titulo": "Cómo se vigila el corazón",
-      "minutos": 5,
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d5-l5-t1",
           "tipo": "concepto",
-          "titulo": "Antes de empezar: conocer el punto de partida",
-          "texto": "Antes de un tratamiento sistémico se evalúa el riesgo cardiovascular: enfermedades previas, factores de riesgo (presión, colesterol, glucosa) y tratamientos anteriores que afecten al corazón.",
+          "titulo": "Antes, durante y después",
+          "texto": "Antes del tratamiento se revisa cómo está el corazón y sus factores de riesgo. Durante, se hacen controles. Al terminar, se vuelve a evaluar y se arma un plan de seguimiento. Es la base de las recomendaciones internacionales de 2026.",
           "fuentes": [
             "F12"
-          ]
+          ],
+          "imagen": "img-d5-eco-foto"
         },
         {
           "id": "d5-l5-t2",
           "tipo": "concepto",
           "titulo": "Las pruebas",
-          "texto": "El ecocardiograma mide la función del ventrículo izquierdo y es la prueba de referencia. El ECG revisa el ritmo. En personas de alto riesgo se pueden medir en sangre la troponina y el péptido natriurético (BNP), marcadores de daño o sobrecarga del corazón.",
+          "texto": "La ecografía del corazón mide cuánto bombea. El electrocardiograma revisa el ritmo. En personas de alto riesgo también se miden en la sangre unas sustancias (troponina y BNP) que suben cuando el corazón sufre.",
           "fuentes": [
             "F12",
             "F58"
           ],
-          "diagrama": "cardiotoxicidad"
+          "diagrama": "ecg"
         },
         {
           "id": "d5-l5-t3",
-          "tipo": "concepto",
-          "titulo": "Las 5 recomendaciones de IC-OS/MASCC 2026",
-          "texto": "1) Evaluar el riesgo antes del tratamiento. 2) Facilitar la atención cardiaca durante él. 3) Tomar medidas para reducir el riesgo. 4) Vigilar y derivar si hay síntomas nuevos o factores sin control. 5) Reevaluar al terminar y planear el seguimiento.",
-          "fuentes": [
-            "F12"
-          ]
-        },
-        {
-          "id": "d5-l5-t4",
           "tipo": "alerta",
-          "titulo": "Su papel como educador",
-          "texto": "Usted puede ayudar a que una persona en tratamiento recuerde sus controles y avise de síntomas como falta de aire, dolor de pecho, palpitaciones o hinchazón. Ajustar el tratamiento corresponde al equipo médico.",
+          "titulo": "Tu papel como educador",
+          "texto": "Puedes ayudar a que una persona en tratamiento no falte a sus controles y avise si tiene falta de aire, dolor en el pecho, palpitaciones o hinchazón. Cambiar el tratamiento le corresponde al equipo médico.",
           "fuentes": [
             "F12",
             "F26"
-          ]
-        },
-        {
-          "id": "d5-l5-t5",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Un ejemplo para unir todo",
-          "texto": "Una mujer recibirá doxorrubicina y luego trastuzumab. Antes: evaluación de riesgo, ECG y ecocardiograma. Durante: controles de la fracción de eyección. Después: plan de seguimiento cardiovascular a largo plazo.",
-          "fuentes": [
-            "F86",
-            "F87",
-            "F12"
           ]
         }
       ]
@@ -326,9 +263,9 @@
       "enunciado": "¿Qué es la cardiotoxicidad?",
       "opciones": [
         {
-          "texto": "El daño del corazón o los vasos causado por un tratamiento contra el cáncer",
+          "texto": "El daño al corazón causado por un tratamiento contra el cáncer",
           "correcta": true,
-          "explicacion": "Esa es la idea central de la cardio-oncología."
+          "explicacion": "Es la idea central de la cardio-oncología."
         },
         {
           "texto": "Un tipo de cáncer del corazón",
@@ -336,9 +273,9 @@
           "explicacion": "No es un cáncer; es un efecto del tratamiento."
         },
         {
-          "texto": "Una planta tóxica para el corazón",
+          "texto": "Una planta tóxica",
           "correcta": false,
-          "explicacion": "El término se refiere a los efectos de los tratamientos contra el cáncer."
+          "explicacion": "La palabra se refiere a efectos de los tratamientos."
         }
       ],
       "fuentes": [
@@ -349,9 +286,9 @@
     {
       "id": "d5-q2",
       "tipo": "verdadero-falso",
-      "enunciado": "La doxorrubicina puede causar problemas cardiacos incluso años después de terminar el tratamiento.",
+      "enunciado": "La doxorrubicina puede causar problemas del corazón incluso años después.",
       "respuesta": true,
-      "explicacion": "Verdadero. Por eso se habla de efectos tardíos y de seguimiento a largo plazo.",
+      "explicacion": "Verdadero. Por eso se habla de efectos tardíos y de controles a largo plazo.",
       "fuentes": [
         "F86",
         "F26"
@@ -360,22 +297,22 @@
     {
       "id": "d5-q3",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Qué prueba se considera la referencia para medir la función del ventrículo izquierdo?",
+      "enunciado": "¿Qué prueba mide cuánto bombea el corazón?",
       "opciones": [
         {
-          "texto": "El ecocardiograma",
+          "texto": "La ecografía del corazón",
           "correcta": true,
-          "explicacion": "Mide la función del ventrículo y la fracción de eyección."
+          "explicacion": "Permite medir la fracción de eyección."
         },
         {
-          "texto": "El análisis de colesterol",
+          "texto": "Un análisis de colesterol",
           "correcta": false,
-          "explicacion": "Sirve para el riesgo cardiovascular, no para medir la función del ventrículo."
+          "explicacion": "Sirve para el riesgo, no para ver cuánto bombea."
         },
         {
-          "texto": "La radiografía de mano",
+          "texto": "Una radiografía de la mano",
           "correcta": false,
-          "explicacion": "No evalúa el corazón."
+          "explicacion": "No mira el corazón."
         }
       ],
       "fuentes": [
@@ -386,22 +323,22 @@
     {
       "id": "d5-q4",
       "tipo": "opcion-multiple",
-      "enunciado": "Un efecto raro pero importante de los inhibidores de puntos de control es…",
+      "enunciado": "Un efecto raro pero importante de la inmunoterapia es…",
       "opciones": [
         {
-          "texto": "La miocarditis (inflamación del músculo del corazón)",
+          "texto": "La miocarditis",
           "correcta": true,
-          "explicacion": "Ocurre porque las defensas, sin freno, pueden inflamar tejidos sanos."
+          "explicacion": "Las defensas sin freno pueden inflamar el corazón."
         },
         {
-          "texto": "La caída del cabello inmediata",
+          "texto": "Que crezca el pelo",
           "correcta": false,
-          "explicacion": "No es el efecto cardiaco descrito."
+          "explicacion": "No es un efecto del corazón."
         },
         {
-          "texto": "La fibrilación auricular siempre",
+          "texto": "La presión baja siempre",
           "correcta": false,
-          "explicacion": "No: el NCI menciona la miocarditis como posible efecto raro."
+          "explicacion": "No es lo que describe la fuente."
         }
       ],
       "fuentes": [
@@ -411,13 +348,12 @@
     {
       "id": "d5-q5",
       "tipo": "ordenar",
-      "enunciado": "Ordene la vigilancia del corazón en un tratamiento contra el cáncer.",
+      "enunciado": "Ordena cómo se cuida el corazón en un tratamiento contra el cáncer.",
       "pasos": [
-        "Evaluar el riesgo antes de empezar",
-        "Vigilar durante el tratamiento",
-        "Derivar si aparecen síntomas nuevos",
-        "Reevaluar al terminar",
-        "Seguimiento a largo plazo"
+        "Revisar el corazón antes de empezar",
+        "Controles durante el tratamiento",
+        "Volver a evaluar al terminar",
+        "Seguimiento durante años"
       ],
       "explicacion": "Antes, durante y después: el corazón se cuida en todo el camino.",
       "fuentes": [
@@ -435,16 +371,17 @@
     "titulo": "Lo esencial del día 5",
     "puntos": [
       "La cardio-oncología cuida el corazón de las personas con cáncer.",
-      "Antraciclinas (doxorrubicina), trastuzumab y ciclofosfamida tienden a causar problemas cardiacos.",
-      "La inmunoterapia puede causar, rara vez, miocarditis.",
-      "La radioterapia en el tórax puede dañar el corazón años después.",
-      "Vigilancia: riesgo antes, ecocardiograma y ECG durante, plan de seguimiento después."
+      "Algunas quimioterapias y terapias dirigidas pueden debilitar el corazón, a veces años después.",
+      "La inmunoterapia puede, rara vez, inflamar el corazón (miocarditis).",
+      "La radioterapia en el pecho puede dañar el corazón con los años.",
+      "El corazón se vigila antes, durante y después, con ecografía y electrocardiograma."
     ],
     "imagen": "img-nlm-d5-infografia"
   },
   "fuentes": [
     "F11",
     "F12",
+    "F24",
     "F26",
     "F58",
     "F85",

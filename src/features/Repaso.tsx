@@ -68,7 +68,7 @@ export function Repaso() {
             <span className="etiqueta self-start">Día {actual.dia}</span>
             <span className="block text-xl font-serif font-semibold text-verde-900 mt-3">{actual.frente}</span>
             {volteada ? <span className="block mt-4 text-lg border-t border-linea pt-4">{actual.reverso}</span>
-              : <span className="block mt-6 text-sm text-suave">Piense la respuesta y toque para verla</span>}
+              : <span className="block mt-6 text-sm text-suave">Piensa la respuesta y toca para verla</span>}
           </button>
           {volteada && (
             <>
@@ -87,7 +87,7 @@ export function Repaso() {
       ) : (
         <div className="tarjeta p-6 text-center">
           <p className="text-xl font-serif font-semibold text-verde-700">¡Repaso de hoy terminado!</p>
-          <p className="text-suave mt-2">El algoritmo FSRS le mostrará cada tarjeta justo antes de que tienda a olvidarla.</p>
+          <p className="text-suave mt-2">La app te mostrará cada tarjeta justo antes de que tiendas a olvidarla.</p>
         </div>
       )}
       {preguntasMezcla.length > 0 && (

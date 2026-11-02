@@ -23,7 +23,7 @@ export function Practica({ diaId }: { diaId: number }) {
     return (
       <Pagina titulo={`Práctica · Día ${d.id}`} volver={`/dia/${d.id}`}>
         <div className="tarjeta p-6 text-center">
-          <p className="text-suave">Su resultado de referencia</p>
+          <p className="text-suave">Tu resultado de referencia</p>
           <p className="text-5xl font-serif font-semibold text-verde-700 my-3">{aciertos} de {total}</p>
           <p>{mensajePuntaje(aciertos, total)}</p>
           <p className="text-sm text-suave mt-3">Este puntaje no decide nada: puedes seguir con el curso cuando quieras.</p>

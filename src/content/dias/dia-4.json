@@ -1,20 +1,20 @@
 {
   "id": 4,
   "bloque": "B",
-  "titulo": "Biología del cáncer",
+  "titulo": "Qué es el cáncer",
   "subtitulo": "Células que crecen sin freno y viajan por la sangre",
-  "minutos": 22,
+  "minutos": 18,
   "objetivos": [
-    "Explicar el cáncer como un crecimiento celular sin control originado por cambios genéticos.",
-    "Nombrar al menos 6 rasgos que distinguen a una célula cancerosa.",
-    "Explicar por qué un tumor necesita formar vasos sanguíneos propios.",
-    "Ordenar los pasos de la metástasis.",
-    "Relacionar la circulación con la diseminación del cáncer."
+    "Explicar con palabras sencillas qué es el cáncer.",
+    "Distinguir un tumor benigno de uno maligno.",
+    "Entender que el cáncer empieza por cambios en los genes.",
+    "Conocer lo que hace diferente a una célula cancerosa.",
+    "Seguir el viaje de la metástasis por la sangre."
   ],
   "lecciones": [
     {
       "id": "d4-l1",
-      "titulo": "Qué es el cáncer",
+      "titulo": "Células que no siguen las reglas",
       "minutos": 4,
       "tarjetas": [
         {
@@ -30,7 +30,7 @@
             "tipo": "verdadero-falso",
             "enunciado": "Todos los tumores son cáncer.",
             "respuesta": false,
-            "explicacion": "Falso. Hay tumores benignos, que no invaden los tejidos vecinos ni se diseminan. Solo los malignos son cáncer.",
+            "explicacion": "Falso. Hay tumores benignos, que no invaden ni viajan a otras partes. Solo los malignos son cáncer.",
             "fuentes": [
               "F20"
             ]
@@ -39,8 +39,8 @@
         {
           "id": "d4-l1-t2",
           "tipo": "concepto",
-          "titulo": "Una definición sencilla",
-          "texto": "El cáncer es una enfermedad en la que algunas células del cuerpo se multiplican sin control y se diseminan a otras partes del cuerpo. Puede empezar en casi cualquier lugar del organismo.",
+          "titulo": "Una célula que se multiplica sin control",
+          "texto": "Tu cuerpo está hecho de billones de células que se dividen solo cuando hace falta. En el cáncer, algunas células se multiplican sin parar y pueden irse a otras partes del cuerpo. En la foto, una célula de cáncer vista con un microscopio muy potente.",
           "fuentes": [
             "F20",
             "F50"
@@ -51,79 +51,64 @@
           "id": "d4-l1-t3",
           "tipo": "concepto",
           "titulo": "Benigno o maligno",
-          "texto": "Un tumor es un bulto de tejido. El maligno (canceroso) invade los tejidos vecinos y puede viajar lejos. El benigno no se disemina y, si se extirpa, no suele volver; aun así, algunos pueden causar problemas por su tamaño o ubicación.",
+          "texto": "Un tumor es un bulto de células. El benigno crece en su sitio y no se extiende. El maligno (el cáncer) invade lo que tiene alrededor y algunas de sus células se sueltan y viajan, como en el dibujo.",
           "fuentes": [
             "F20"
-          ]
+          ],
+          "imagen": "img-d4-maligno"
         },
         {
           "id": "d4-l1-t4",
           "tipo": "analogia",
-          "titulo": "Una imagen del huerto",
-          "texto": "Imagine un huerto donde cada planta crece cuando corresponde y deja de crecer al tocar a su vecina. En el cáncer, unas pocas células ignoran esas reglas. Límite de la analogía: en el cuerpo nadie \"poda\" desde fuera; los frenos están dentro de cada célula, en sus genes.",
+          "titulo": "Como un huerto",
+          "texto": "En un huerto cada planta crece hasta tocar a su vecina y se detiene. En el cáncer, unas pocas células ignoran esa regla. La diferencia es que en el cuerpo nadie poda desde fuera: los frenos están dentro de cada célula, en sus genes.",
           "fuentes": [
             "F20"
           ],
           "imagen": "img-ia-d4-huerto"
-        },
-        {
-          "id": "d4-l1-t5",
-          "tipo": "dato",
-          "titulo": "Más de 100 tipos",
-          "texto": "Hay más de 100 tipos de cáncer. Se nombran según el órgano donde empiezan (pulmón, mama) o el tipo de célula: carcinoma (el más común, de los epitelios), sarcoma (hueso y tejidos blandos), leucemia (médula ósea), linfoma (linfocitos).",
-          "fuentes": [
-            "F20"
-          ]
         }
       ]
     },
     {
       "id": "d4-l2",
-      "titulo": "Una enfermedad de los genes",
+      "titulo": "Todo empieza en los genes",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d4-l2-t1",
           "tipo": "concepto",
           "titulo": "Cambios en el ADN",
-          "texto": "El cáncer es una enfermedad genética: lo causan cambios en los genes que controlan cómo las células crecen y se dividen.",
+          "texto": "El ADN es el manual de instrucciones de cada célula. El cáncer empieza cuando cambian las instrucciones que le dicen a la célula cuándo dividirse y cuándo parar.",
           "fuentes": [
             "F20"
-          ]
+          ],
+          "imagen": "img-d4-adn"
         },
         {
           "id": "d4-l2-t2",
           "tipo": "concepto",
-          "titulo": "De dónde vienen esos cambios",
-          "texto": "Tres orígenes: errores al copiar el ADN cuando la célula se divide, daños por sustancias del ambiente (como el humo del tabaco o los rayos ultravioleta) y cambios heredados de los padres.",
+          "titulo": "Acelerador y freno",
+          "texto": "Algunos genes son como el acelerador: dicen \"divídete\". Otros son el freno: dicen \"para\". Si el acelerador se queda pegado o el freno se rompe, la célula se divide una y otra vez. El dibujo muestra cómo las células normales saben cuándo parar.",
           "fuentes": [
-            "F20",
-            "F50"
-          ]
+            "F20"
+          ],
+          "imagen": "img-d4-freno"
         },
         {
           "id": "d4-l2-t3",
           "tipo": "concepto",
-          "titulo": "Acelerador y freno",
-          "texto": "Los protooncogenes son como el acelerador: si se alteran se vuelven oncogenes y empujan a la célula a dividirse. Los genes supresores de tumores son el freno: si se inactivan, la célula pierde control. Los genes reparadores del ADN corrigen errores; si fallan, se acumulan más cambios.",
-          "fuentes": [
-            "F20"
-          ]
-        },
-        {
-          "id": "d4-l2-t4",
-          "tipo": "dato",
-          "titulo": "Por qué aumenta con la edad",
-          "texto": "Los cambios se acumulan lentamente con los años y la capacidad del cuerpo para reparar el ADN disminuye con la edad. Por eso el riesgo de cáncer crece al envejecer.",
+          "titulo": "¿De dónde vienen esos cambios?",
+          "texto": "De errores al copiar el ADN cuando la célula se divide, de daños por cosas del ambiente (como el humo del tabaco o el sol) o se heredan de los padres. Como se acumulan con los años, el cáncer es más común en personas mayores.",
           "fuentes": [
             "F20",
             "F50"
-          ]
+          ],
+          "imagen": "img-d4-division"
         },
         {
-          "id": "d4-l2-t5",
+          "id": "d4-l2-t4",
           "tipo": "pregunta-previa",
-          "titulo": "Compruebe lo aprendido",
+          "titulo": "Comprueba lo aprendido",
           "texto": "",
           "fuentes": [
             "F20"
@@ -131,22 +116,22 @@
           "pregunta": {
             "id": "d4-l2-p1",
             "tipo": "opcion-multiple",
-            "enunciado": "Si los genes supresores de tumores son el \"freno\", ¿qué pasa cuando se inactivan?",
+            "enunciado": "Si un gen \"freno\" se rompe, ¿qué puede pasar?",
             "opciones": [
               {
-                "texto": "La célula puede multiplicarse sin control",
+                "texto": "La célula se divide sin control",
                 "correcta": true,
-                "explicacion": "Sin freno, la división celular deja de detenerse cuando debería."
+                "explicacion": "Sin freno, la célula no se detiene cuando debería."
               },
               {
-                "texto": "La célula muere de inmediato",
+                "texto": "La célula muere enseguida",
                 "correcta": false,
-                "explicacion": "Al contrario: pierde uno de sus controles y puede seguir dividiéndose."
+                "explicacion": "Al contrario: pierde un control y puede seguir dividiéndose."
               },
               {
-                "texto": "La célula se vuelve más sensible al tratamiento",
+                "texto": "No pasa nada",
                 "correcta": false,
-                "explicacion": "No es lo que hacen esos genes; su papel es frenar la división celular."
+                "explicacion": "Ese gen es justo el que frena la división."
               }
             ],
             "fuentes": [
@@ -158,73 +143,48 @@
     },
     {
       "id": "d4-l3",
-      "titulo": "Lo que hace distinta a una célula cancerosa",
-      "minutos": 5,
+      "titulo": "Los trucos de la célula cancerosa",
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d4-l3-t1",
           "tipo": "concepto",
-          "titulo": "Las \"características del cáncer\"",
-          "texto": "Los científicos resumen la enorme variedad del cáncer en un grupo de capacidades comunes, llamadas en inglés \"hallmarks of cancer\". Es una herramienta para ordenar ideas, no una lista cerrada: se revisa a medida que se aprende más.",
+          "titulo": "No se detiene y no se muere",
+          "texto": "Una célula de cáncer se divide sin que nadie se lo pida y no obedece la orden de parar. Tampoco hace caso a la señal de \"autodestruirse\" que tienen las células viejas o dañadas.",
           "fuentes": [
+            "F20",
             "F14"
-          ]
+          ],
+          "imagen": "img-d4-division"
         },
         {
           "id": "d4-l3-t2",
           "tipo": "concepto",
-          "titulo": "1 y 2: crecer y no detenerse",
-          "texto": "Las células cancerosas se multiplican sin recibir la señal de hacerlo, y no obedecen las señales que les ordenan parar o autodestruirse (apoptosis, la muerte celular programada).",
+          "titulo": "Se fabrica sus propios vasos",
+          "texto": "Para crecer, el tumor necesita oxígeno y alimento. Por eso hace crecer vasos sanguíneos hacia él, como si se conectara a la tubería. Algunos tratamientos intentan cortar esos vasos.",
           "fuentes": [
             "F20",
             "F14"
-          ]
+          ],
+          "imagen": "img-d4-vasos"
         },
         {
           "id": "d4-l3-t3",
           "tipo": "concepto",
-          "titulo": "3 y 4: invadir y atraer vasos",
-          "texto": "Invaden los tejidos vecinos y se diseminan, en lugar de detenerse al tocar otras células. Además, hacen crecer vasos sanguíneos hacia el tumor, que le llevan oxígeno y nutrientes.",
+          "titulo": "Se esconde de las defensas",
+          "texto": "Nuestras defensas (glóbulos blancos) pueden atacar células de cáncer, como en la foto. Pero muchas células cancerosas aprenden a esconderse de ellas. El día 5 veremos un tratamiento que las ayuda a encontrarlas.",
           "fuentes": [
             "F20",
             "F14"
-          ]
-        },
-        {
-          "id": "d4-l3-t4",
-          "tipo": "concepto",
-          "titulo": "5 y 6: esconderse del sistema inmunitario",
-          "texto": "Se ocultan de las defensas del cuerpo y, a veces, logran que las propias células inmunitarias protejan al tumor en vez de atacarlo.",
-          "fuentes": [
-            "F20",
-            "F14"
-          ]
-        },
-        {
-          "id": "d4-l3-t5",
-          "tipo": "concepto",
-          "titulo": "7 y 8: cromosomas y energía",
-          "texto": "Acumulan muchos cambios en sus cromosomas (partes repetidas o perdidas). Y usan los nutrientes y obtienen energía de forma diferente a la mayoría de las células normales, lo que les ayuda a multiplicarse más rápido.",
-          "fuentes": [
-            "F20",
-            "F14"
-          ]
-        },
-        {
-          "id": "d4-l3-t6",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "De la biología al tratamiento",
-          "texto": "Como el tumor depende de estos comportamientos, sirven de blanco para tratamientos. Ejemplo: algunas terapias impiden que crezcan vasos hacia el tumor, para que no reciba los nutrientes que necesita.",
-          "fuentes": [
-            "F20"
-          ]
+          ],
+          "imagen": "img-d4-defensas"
         }
       ]
     },
     {
       "id": "d4-l4",
       "titulo": "Metástasis: el viaje por la sangre",
-      "minutos": 5,
+      "minutos": 3,
       "tarjetas": [
         {
           "id": "d4-l4-t1",
@@ -239,7 +199,7 @@
             "tipo": "verdadero-falso",
             "enunciado": "Un cáncer de mama que llega al pulmón se convierte en cáncer de pulmón.",
             "respuesta": false,
-            "explicacion": "Falso. Sigue siendo cáncer de mama metastásico: sus células son de mama, aunque estén en el pulmón.",
+            "explicacion": "Falso. Sigue siendo cáncer de mama: sus células son de mama, aunque estén en el pulmón.",
             "fuentes": [
               "F21",
               "F20"
@@ -249,48 +209,29 @@
         {
           "id": "d4-l4-t2",
           "tipo": "concepto",
-          "titulo": "Qué es la metástasis",
-          "texto": "Es el proceso por el que las células cancerosas se separan del tumor original y forman tumores nuevos en otras partes del cuerpo. La metástasis causa la mayoría de las muertes por cáncer.",
+          "titulo": "Células que viajan",
+          "texto": "La metástasis es cuando células del tumor se sueltan, entran en un vaso sanguíneo, viajan por la sangre y forman un tumor nuevo en otro órgano. Recuerda el día 1: la sangre llega a todo el cuerpo. Los destinos más comunes son el hueso, el hígado y el pulmón.",
           "fuentes": [
-            "F20",
+            "F21",
+            "F20"
+          ],
+          "imagen": "img-d4-metastasis"
+        },
+        {
+          "id": "d4-l4-t3",
+          "tipo": "dato",
+          "titulo": "Un viaje difícil",
+          "texto": "La mayoría de las células que se sueltan mueren por el camino. Pero las que sobreviven son las más peligrosas: la metástasis causa la mayoría de las muertes por cáncer.",
+          "fuentes": [
             "F21",
             "F50"
           ]
         },
         {
-          "id": "d4-l4-t3",
-          "tipo": "concepto",
-          "titulo": "Los pasos del viaje",
-          "texto": "1) Invaden el tejido vecino. 2) Atraviesan la pared de un vaso sanguíneo o linfático. 3) Viajan por la sangre o la linfa. 4) Se detienen en un vaso pequeño lejano y salen al tejido. 5) Crecen hasta formar un tumor diminuto. 6) Hacen crecer vasos nuevos para seguir creciendo.",
-          "fuentes": [
-            "F21"
-          ],
-          "imagen": "img-d4-metastasis"
-        },
-        {
           "id": "d4-l4-t4",
-          "tipo": "dato",
-          "titulo": "Un viaje difícil",
-          "texto": "La mayoría de las células que se desprenden mueren en algún punto del camino. Algunas, si encuentran condiciones favorables, forman tumores nuevos; otras pueden quedar inactivas durante años.",
-          "fuentes": [
-            "F21"
-          ]
-        },
-        {
-          "id": "d4-l4-t5",
-          "tipo": "concepto",
-          "titulo": "Destinos frecuentes",
-          "texto": "El cáncer puede llegar a casi cualquier órgano, pero los sitios más comunes son el hueso, el hígado y el pulmón. Recuerde el día 1: la sangre recorre todo el cuerpo, y por eso puede llevar células lejos del tumor original.",
-          "fuentes": [
-            "F21",
-            "F62"
-          ]
-        },
-        {
-          "id": "d4-l4-t6",
           "tipo": "alerta",
           "titulo": "Puente al día 6",
-          "texto": "El cáncer también cambia la sangre: las personas con cáncer tienen más riesgo de formar coágulos en las venas. Lo veremos con calma el día 6.",
+          "texto": "El cáncer también cambia la sangre: las personas con cáncer tienen más riesgo de formar coágulos en las venas. Lo veremos el día 6.",
           "fuentes": [
             "F15",
             "F13"
@@ -300,50 +241,34 @@
     },
     {
       "id": "d4-l5",
-      "titulo": "El cáncer en cifras",
-      "minutos": 4,
+      "titulo": "Se puede prevenir mucho",
+      "minutos": 3,
       "tarjetas": [
         {
           "id": "d4-l5-t1",
           "tipo": "dato",
-          "titulo": "Una carga mundial",
-          "texto": "Según la OMS, en 2024 se atribuyeron al cáncer casi 10 millones de muertes, casi 1 de cada 6 en el mundo.",
+          "titulo": "Una enfermedad muy común",
+          "texto": "Según la OMS, en 2024 el cáncer causó casi 10 millones de muertes: casi 1 de cada 6 en el mundo. Los más frecuentes son el de pulmón, mama, colon y próstata.",
           "fuentes": [
             "F50"
-          ]
+          ],
+          "imagen": "img-nlm-d4-infografia"
         },
         {
           "id": "d4-l5-t2",
-          "tipo": "dato",
-          "titulo": "Los más frecuentes",
-          "texto": "Por nuevos casos en 2024: pulmón (2,6 millones), mama (2,4 millones), colorrectal (2,0 millones) y próstata (1,5 millones).",
+          "tipo": "concepto",
+          "titulo": "Cerca de 4 de cada 10 se pueden evitar",
+          "texto": "La OMS calcula que cerca del 38% de los casos se pueden evitar: no fumar, no tomar alcohol, mantener un peso sano, comer frutas y verduras, moverse, vacunarse contra el VPH y la hepatitis B, y protegerse del sol.",
           "fuentes": [
             "F50"
-          ]
+          ],
+          "imagen": "img-d4-nofumar"
         },
         {
           "id": "d4-l5-t3",
-          "tipo": "concepto",
-          "titulo": "Tres tipos de agentes externos",
-          "texto": "La OMS agrupa los carcinógenos en físicos (radiación ultravioleta e ionizante), químicos (humo de tabaco, asbesto, aflatoxinas, arsénico) y biológicos (algunos virus, bacterias y parásitos).",
-          "fuentes": [
-            "F50"
-          ]
-        },
-        {
-          "id": "d4-l5-t4",
-          "tipo": "concepto",
-          "titulo": "Mucho se puede prevenir",
-          "texto": "La OMS estima que hoy se puede evitar cerca del 38% de los casos reduciendo factores de riesgo: no fumar, mantener un peso saludable, comer frutas y verduras, moverse, evitar el alcohol, vacunarse contra VPH y hepatitis B, y protegerse del sol.",
-          "fuentes": [
-            "F50"
-          ]
-        },
-        {
-          "id": "d4-l5-t5",
           "tipo": "alerta",
-          "titulo": "Factores compartidos con el corazón",
-          "texto": "Tabaco, alcohol, mala alimentación, inactividad y contaminación del aire son factores de riesgo tanto del cáncer como de la enfermedad cardiovascular. Cuidar uno ayuda a cuidar el otro.",
+          "titulo": "Lo que cuida al corazón cuida contra el cáncer",
+          "texto": "El tabaco, el alcohol, la mala alimentación, el sedentarismo y la contaminación dañan tanto al corazón como favorecen el cáncer. Cuidar uno ayuda a cuidar el otro.",
           "fuentes": [
             "F50",
             "F48"
@@ -356,22 +281,22 @@
     {
       "id": "d4-q1",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Qué distingue a un tumor maligno de uno benigno?",
+      "enunciado": "¿Qué diferencia a un tumor maligno de uno benigno?",
       "opciones": [
         {
-          "texto": "El maligno invade los tejidos vecinos y puede diseminarse",
+          "texto": "El maligno invade lo que tiene alrededor y puede viajar",
           "correcta": true,
-          "explicacion": "Esa capacidad de invadir y viajar es lo que lo hace canceroso."
+          "explicacion": "Eso es lo que lo convierte en cáncer."
         },
         {
           "texto": "El maligno siempre es más grande",
           "correcta": false,
-          "explicacion": "El tamaño no define si es maligno; algunos benignos son grandes."
+          "explicacion": "El tamaño no decide si es maligno."
         },
         {
-          "texto": "El benigno siempre vuelve tras extirparlo",
+          "texto": "El benigno siempre vuelve a salir",
           "correcta": false,
-          "explicacion": "Es al revés: los benignos no suelen volver; los malignos a veces sí."
+          "explicacion": "Al revés: el benigno no suele volver tras quitarlo."
         }
       ],
       "fuentes": [
@@ -381,15 +306,14 @@
     {
       "id": "d4-q2",
       "tipo": "ordenar",
-      "enunciado": "Ordene los pasos de la metástasis.",
+      "enunciado": "Ordena el viaje de la metástasis.",
       "pasos": [
-        "Las células invaden el tejido vecino",
-        "Atraviesan la pared de un vaso",
-        "Viajan por la sangre o la linfa",
-        "Salen del vaso en un órgano lejano",
-        "Crecen y forman vasos nuevos"
+        "Células del tumor se sueltan",
+        "Entran en un vaso sanguíneo",
+        "Viajan por la sangre",
+        "Forman un tumor nuevo en otro órgano"
       ],
-      "explicacion": "Invadir, entrar en el vaso, viajar, salir y crecer con vasos propios.",
+      "explicacion": "Soltarse, entrar en la sangre, viajar y crecer en otro lugar.",
       "fuentes": [
         "F21"
       ]
@@ -399,7 +323,7 @@
       "tipo": "verdadero-falso",
       "enunciado": "Un tumor necesita vasos sanguíneos propios para seguir creciendo.",
       "respuesta": true,
-      "explicacion": "Verdadero. Los vasos le llevan oxígeno y nutrientes y retiran desechos; por eso algunas terapias buscan bloquearlos.",
+      "explicacion": "Verdadero. Esos vasos le llevan oxígeno y alimento; por eso algunos tratamientos intentan cortarlos.",
       "fuentes": [
         "F20",
         "F21"
@@ -408,20 +332,20 @@
     {
       "id": "d4-q4",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Cuál de estos NO es un origen de los cambios genéticos que causan cáncer?",
+      "enunciado": "¿Cuál de estos NO causa los cambios en los genes que llevan al cáncer?",
       "opciones": [
         {
-          "texto": "Haber tenido mucho estrés en un examen",
+          "texto": "Ponerse nervioso en un examen",
           "correcta": true,
-          "explicacion": "Las fuentes citan errores al copiar el ADN, daños ambientales y herencia."
+          "explicacion": "Las fuentes hablan de errores al copiar el ADN, daños del ambiente y herencia."
         },
         {
-          "texto": "Errores al copiar el ADN cuando la célula se divide",
+          "texto": "Errores al copiar el ADN",
           "correcta": false,
-          "explicacion": "Sí es uno de los orígenes."
+          "explicacion": "Sí es una de las causas."
         },
         {
-          "texto": "Sustancias del humo del tabaco",
+          "texto": "El humo del tabaco",
           "correcta": false,
           "explicacion": "Sí: el tabaco daña el ADN."
         }
@@ -433,26 +357,26 @@
     {
       "id": "d4-q5",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Cuáles son los sitios más comunes de metástasis?",
+      "enunciado": "Según la OMS, ¿qué parte de los cánceres se podría evitar?",
       "opciones": [
         {
-          "texto": "Hueso, hígado y pulmón",
+          "texto": "Cerca del 38%",
           "correcta": true,
-          "explicacion": "Son los destinos más frecuentes según el NCI."
+          "explicacion": "Casi 4 de cada 10, reduciendo los factores de riesgo."
         },
         {
-          "texto": "Piel, uñas y cabello",
+          "texto": "Ninguno",
           "correcta": false,
-          "explicacion": "No son los sitios más frecuentes."
+          "explicacion": "Muchos se pueden evitar, por ejemplo no fumando."
         },
         {
-          "texto": "Solo los ganglios linfáticos",
+          "texto": "Todos",
           "correcta": false,
-          "explicacion": "Los ganglios son frecuentes, pero el cáncer puede llegar a órganos lejanos como hueso, hígado y pulmón."
+          "explicacion": "No todos: algunos cambios se heredan o aparecen por azar."
         }
       ],
       "fuentes": [
-        "F21"
+        "F50"
       ]
     }
   ],
@@ -465,11 +389,11 @@
   "resumen": {
     "titulo": "Lo esencial del día 4",
     "puntos": [
-      "El cáncer es crecimiento celular sin control causado por cambios en los genes.",
-      "Oncogenes (acelerador) y genes supresores (freno) controlan la división celular.",
-      "Las células cancerosas crecen sin señal, no se detienen, invaden, atraen vasos y se esconden del sistema inmunitario.",
-      "Metástasis: invadir, entrar al vaso, viajar, salir y crecer. Hueso, hígado y pulmón son destinos frecuentes.",
-      "Cerca del 38% de los casos se pueden prevenir; tabaco, alcohol e inactividad dañan también al corazón."
+      "El cáncer es un grupo de células que se multiplican sin control y pueden viajar.",
+      "Empieza por cambios en los genes: un acelerador pegado o un freno roto.",
+      "Las células cancerosas no paran, no mueren, se fabrican vasos y se esconden de las defensas.",
+      "Metástasis: se sueltan, viajan por la sangre y crecen en otro órgano.",
+      "Cerca del 38% de los cánceres se puede evitar, con hábitos que también cuidan el corazón."
     ],
     "imagen": "img-nlm-d4-infografia"
   },
@@ -480,7 +404,6 @@
     "F20",
     "F21",
     "F48",
-    "F50",
-    "F62"
+    "F50"
   ]
 }

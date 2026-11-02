@@ -1,20 +1,20 @@
 {
   "id": 6,
   "bloque": "B",
-  "titulo": "Coagulación, plantas e interacciones",
-  "subtitulo": "Coágulos, fármacos que nacieron de plantas y mezclas que conviene evitar",
-  "minutos": 25,
+  "titulo": "Coágulos, plantas y mezclas peligrosas",
+  "subtitulo": "Cómo coagula la sangre, medicinas que vienen de plantas y plantas que no se deben mezclar",
+  "minutos": 20,
   "objetivos": [
-    "Explicar la hemostasia en 3 pasos.",
-    "Explicar por qué el cáncer aumenta el riesgo de coágulos y reconocer los signos de TVP y embolia pulmonar.",
-    "Relatar el origen vegetal de la digoxina, el paclitaxel y la vincristina.",
-    "Clasificar plantas según su nivel de evidencia.",
-    "Identificar interacciones planta-fármaco de alto riesgo."
+    "Entender en 3 pasos cómo se cierra una herida.",
+    "Reconocer las señales de un coágulo en la pierna y en el pulmón.",
+    "Conocer medicinas que nacieron de plantas.",
+    "Entender que ninguna planta ha demostrado prevenir el cáncer ni hacerlo desaparecer.",
+    "Reconocer plantas que no conviene mezclar con ciertos medicamentos."
   ],
   "lecciones": [
     {
       "id": "d6-l1",
-      "titulo": "Cómo coagula la sangre",
+      "titulo": "Cómo se cierra una herida",
       "minutos": 4,
       "tarjetas": [
         {
@@ -30,7 +30,7 @@
             "tipo": "verdadero-falso",
             "enunciado": "Un coágulo siempre es malo.",
             "respuesta": false,
-            "explicacion": "Falso. Coagular es lo que detiene una hemorragia cuando nos cortamos. El problema es el coágulo que se forma donde no debe.",
+            "explicacion": "Falso. Coagular es lo que para la sangre cuando te cortas. El problema es un coágulo donde no debe estar.",
             "fuentes": [
               "F68"
             ]
@@ -39,8 +39,8 @@
         {
           "id": "d6-l1-t2",
           "tipo": "concepto",
-          "titulo": "Tres pasos para cerrar una herida",
-          "texto": "La hemostasia es como el cuerpo sella un vaso roto. 1) Espasmo vascular: el músculo de la pared se contrae y reduce el flujo. 2) Tapón de plaquetas: las plaquetas se pegan a la zona dañada. 3) Coagulación: se forma una malla de fibrina que atrapa células y refuerza el tapón.",
+          "titulo": "Tres pasos",
+          "texto": "Cuando se rompe un vaso: 1) el vaso se aprieta, 2) las plaquetas se pegan y forman un tapón, 3) unos hilos de fibrina tejen una red que deja el tapón firme. Avanza el dibujo paso a paso.",
           "fuentes": [
             "F68"
           ],
@@ -49,8 +49,8 @@
         {
           "id": "d6-l1-t3",
           "tipo": "concepto",
-          "titulo": "Los factores de coagulación",
-          "texto": "La coagulación depende de 12 factores conocidos, entre ellos el calcio. El hígado necesita vitamina K para fabricar muchos de ellos. Al final, el fibrinógeno se convierte en fibrina.",
+          "titulo": "Así se ve un coágulo de verdad",
+          "texto": "En esta foto de microscopio se ven glóbulos rojos atrapados en la red de hilos de fibrina. Para fabricar las piezas de la coagulación, el hígado necesita vitamina K.",
           "fuentes": [
             "F68"
           ],
@@ -60,117 +60,83 @@
           "id": "d6-l1-t4",
           "tipo": "analogia",
           "titulo": "Como la resina de un árbol",
-          "texto": "Cuando se hiere la corteza, muchos árboles sellan la herida con resina o látex. La sangre hace algo parecido con plaquetas y fibrina. Límite: la química y el control son distintos; la analogía solo ilustra la idea de sellar.",
+          "texto": "Cuando se hiere la corteza, muchos árboles cierran la herida con resina. La sangre hace algo parecido con plaquetas y fibrina. Cuando la herida sana, el coágulo se deshace solo.",
           "fuentes": [
             "F68"
           ],
           "imagen": "img-ia-d6-resina"
-        },
-        {
-          "id": "d6-l1-t5",
-          "tipo": "concepto",
-          "titulo": "Y después, deshacer",
-          "texto": "Cuando la herida sana, el coágulo se degrada poco a poco (fibrinólisis). Además, la sangre tiene anticoagulantes naturales que limitan el coágulo a la zona de la herida.",
-          "fuentes": [
-            "F68"
-          ]
         }
       ]
     },
     {
       "id": "d6-l2",
-      "titulo": "Cáncer y trombosis",
+      "titulo": "Coágulos donde no deben estar",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d6-l2-t1",
           "tipo": "concepto",
-          "titulo": "Trombo y émbolo",
-          "texto": "Un trombo es un coágulo que se forma dentro de un vaso sin herida. Si un trozo se suelta y viaja por la sangre es un émbolo; cuando se atasca, causa una embolia: en el pulmón, una embolia pulmonar.",
+          "titulo": "Un coágulo en la pierna",
+          "texto": "A veces se forma un coágulo dentro de una vena, sin herida: se llama trombosis. Pasa más en las venas de las piernas. El cáncer, sus tratamientos, algunas cirugías y estar mucho tiempo quieto aumentan el riesgo.",
           "fuentes": [
-            "F68"
-          ]
+            "F68",
+            "F39",
+            "F15"
+          ],
+          "imagen": "img-d6-tvp"
         },
         {
           "id": "d6-l2-t2",
-          "tipo": "concepto",
-          "titulo": "Por qué el cáncer suma riesgo",
-          "texto": "El cáncer y los tratamientos contra el cáncer aumentan el riesgo de coágulos. También lo aumentan algunas cirugías y permanecer mucho tiempo en la misma posición, como en una hospitalización.",
-          "fuentes": [
-            "F39",
-            "F15"
-          ]
-        },
-        {
-          "id": "d6-l2-t3",
           "tipo": "alerta",
-          "titulo": "Signos de trombosis venosa profunda (TVP)",
-          "texto": "En una pierna o un brazo: dolor o hinchazón, calor por encima de la vena y enrojecimiento de la piel. Ante estos signos hay que consultar pronto.",
+          "titulo": "Señales en la pierna",
+          "texto": "Dolor o hinchazón en una pierna (o un brazo), calor sobre la vena y piel enrojecida. Hay que consultar pronto.",
           "fuentes": [
             "F40"
           ]
         },
         {
-          "id": "d6-l2-t4",
-          "tipo": "alerta",
-          "titulo": "Signos de embolia pulmonar: urgencia",
-          "texto": "Falta de aire, respiración rápida, dolor de pecho que empeora al respirar hondo o toser, latidos rápidos, tos con sangre, mareo o desmayo. Necesita atención médica de inmediato.",
+          "id": "d6-l2-t3",
+          "tipo": "concepto",
+          "titulo": "Si el coágulo viaja al pulmón",
+          "texto": "Si un trozo del coágulo se suelta, viaja por la sangre y puede atascarse en el pulmón: es una embolia pulmonar, como en la imagen.",
           "fuentes": [
+            "F68",
             "F41"
-          ]
+          ],
+          "imagen": "img-d6-embolia"
         },
         {
-          "id": "d6-l2-t5",
-          "tipo": "dato",
-          "titulo": "Lo que dicen las guías",
-          "texto": "Hay guías específicas para prevenir y tratar los coágulos en personas con cáncer, como la de ASCO 2023. Las decisiones sobre anticoagulantes las toma el equipo médico.",
+          "id": "d6-l2-t4",
+          "tipo": "alerta",
+          "titulo": "Señales de embolia: urgencia",
+          "texto": "Falta de aire de repente, respiración rápida, dolor de pecho que empeora al respirar hondo, latidos rápidos, tos con sangre o desmayo. Hay que buscar atención médica de inmediato.",
           "fuentes": [
-            "F13"
+            "F41"
           ]
         }
       ]
     },
     {
       "id": "d6-l3",
-      "titulo": "Fármacos que nacieron de plantas",
-      "minutos": 5,
+      "titulo": "Medicinas que nacieron de plantas",
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d6-l3-t1",
-          "tipo": "dato",
-          "titulo": "La naturaleza como farmacia",
-          "texto": "Según una revisión de 2018, alrededor del 60% de los fármacos contra el cáncer usados hoy provienen de fuentes naturales. Muchos fueron descubiertos en plantas y luego purificados, estudiados y aprobados.",
-          "fuentes": [
-            "F83",
-            "F82"
-          ]
-        },
-        {
-          "id": "d6-l3-t2",
           "tipo": "concepto",
           "titulo": "Digoxina: de la dedalera al corazón",
-          "texto": "Nivel: fármaco aprobado derivado de planta. La digoxina es un glucósido cardiaco derivado de la dedalera (Digitalis). Aumenta la fuerza de contracción y frena la conducción en el nodo AV. Se usa en insuficiencia cardiaca y fibrilación auricular.",
+          "texto": "De esta planta, la dedalera, viene la digoxina, una medicina que ayuda al corazón a latir con más fuerza y más parejo. Pero la diferencia entre la cantidad útil y la tóxica es pequeña: por eso tomar la planta en infusión es peligroso.",
           "fuentes": [
             "F89",
-            "F90",
             "F44"
           ],
           "imagen": "img-d6-digitalis"
         },
         {
-          "id": "d6-l3-t3",
-          "tipo": "alerta",
-          "titulo": "La lección de la digoxina",
-          "texto": "La digoxina tiene un margen terapéutico estrecho: la diferencia entre la cantidad útil y la tóxica es pequeña. Por eso una infusión de dedalera es peligrosa: no se puede saber cuánto glucósido contiene.",
-          "fuentes": [
-            "F89"
-          ]
-        },
-        {
-          "id": "d6-l3-t4",
+          "id": "d6-l3-t2",
           "tipo": "concepto",
           "titulo": "Paclitaxel: la corteza del tejo",
-          "texto": "Nivel: fármaco aprobado derivado de planta. En 1962 se recolectó corteza del tejo del Pacífico (Taxus brevifolia). De ella se aisló el paclitaxel, que detiene la división celular. La FDA lo aprobó en 1992 para el cáncer de ovario; hoy se produce de forma semisintética.",
+          "texto": "De la corteza del tejo del Pacífico se sacó el paclitaxel, que frena la división de las células del cáncer. Se aprobó en 1992. Como el árbol crece muy lento, hoy se fabrica en parte en el laboratorio.",
           "fuentes": [
             "F28",
             "F45"
@@ -178,10 +144,10 @@
           "imagen": "img-d6-tejo"
         },
         {
-          "id": "d6-l3-t5",
+          "id": "d6-l3-t3",
           "tipo": "concepto",
-          "titulo": "Vincristina y vinblastina: la vinca de Madagascar",
-          "texto": "Nivel: fármaco aprobado derivado de planta. Son alcaloides aislados de Catharanthus roseus. Alteran los microtúbulos que la célula necesita para dividirse. Se usan sobre todo en cánceres de la sangre y del sistema linfático.",
+          "titulo": "Vincristina: la vinca de Madagascar",
+          "texto": "De esta flor salieron la vincristina y la vinblastina, que impiden que la célula del cáncer se divida. Se usan sobre todo en cánceres de la sangre.",
           "fuentes": [
             "F90",
             "F83",
@@ -190,116 +156,117 @@
           "imagen": "img-d6-vinca"
         },
         {
-          "id": "d6-l3-t6",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Por qué se necesitó la semisíntesis",
-          "texto": "El tejo crece muy despacio y hacía falta mucha corteza para obtener paclitaxel suficiente. Por eso se desarrolló una forma semisintética: proteger la especie y asegurar dosis puras y constantes.",
+          "id": "d6-l3-t4",
+          "tipo": "dato",
+          "titulo": "La clave: purificar y probar",
+          "texto": "Muchas medicinas contra el cáncer vienen de la naturaleza. Pero no se usa la planta: se saca la sustancia pura, se mide la cantidad exacta y se prueba en estudios con personas.",
           "fuentes": [
-            "F28"
+            "F83",
+            "F82"
           ]
         }
       ]
     },
     {
       "id": "d6-l4",
-      "titulo": "Niveles de evidencia",
+      "titulo": "Natural no significa seguro",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d6-l4-t1",
-          "tipo": "concepto",
-          "titulo": "Cuatro niveles",
-          "texto": "En este curso usamos cuatro niveles. 1) Fármaco aprobado derivado de planta (digoxina, paclitaxel). 2) Evidencia clínica limitada: algunos estudios en personas, sin conclusión firme. 3) Evidencia preliminar: sobre todo en laboratorio o animales. 4) Uso tradicional sin evidencia clínica sólida.",
+          "tipo": "alerta",
+          "titulo": "Lo más importante",
+          "texto": "Ninguna planta ni terapia complementaria ha demostrado prevenir el cáncer ni hacerlo desaparecer. Algunas ayudan con síntomas, pero nunca deben reemplazar ni retrasar el tratamiento médico.",
           "fuentes": [
-            "F70",
             "F72"
           ]
         },
         {
           "id": "d6-l4-t2",
-          "tipo": "alerta",
-          "titulo": "Lo más importante",
-          "texto": "Ninguna terapia complementaria ha demostrado prevenir el cáncer ni hacerlo desaparecer. Algunas, como el yoga o la acupuntura, pueden ayudar con síntomas. Nunca deben reemplazar ni retrasar el tratamiento médico.",
+          "tipo": "concepto",
+          "titulo": "No todo lo natural funciona ni es inocuo",
+          "texto": "La naturaleza nos dio la aspirina y la morfina, pero no todo producto natural sirve ni es seguro. Por eso en el curso decimos qué tan probada está cada planta.",
           "fuentes": [
-            "F72"
-          ]
+            "F80",
+            "F70"
+          ],
+          "imagen": "img-ia-d6-natural"
         },
         {
           "id": "d6-l4-t3",
           "tipo": "ejemplo-resuelto",
-          "titulo": "Cúrcuma",
-          "texto": "Nivel: evidencia clínica limitada. Podría aliviar la mucositis oral (llagas en la boca) por el tratamiento del cáncer; para otros usos no hay evidencia suficiente. Se ha reportado daño hepático con productos de curcumina de mayor absorción.",
+          "titulo": "Cúrcuma: algo de prueba, poca",
+          "texto": "Hay algo de evidencia de que podría aliviar las llagas en la boca que causa el tratamiento del cáncer; para lo demás no hay pruebas suficientes. Y se ha visto daño en el hígado con algunos productos concentrados.",
           "fuentes": [
             "F76"
-          ]
+          ],
+          "imagen": "img-d6-curcuma"
         },
         {
           "id": "d6-l4-t4",
           "tipo": "ejemplo-resuelto",
-          "titulo": "Uña de gato",
-          "texto": "Nivel: sin evidencia concluyente en personas para ningún uso, incluido el cáncer. Además, puede interactuar con anticoagulantes, antihipertensivos e inmunosupresores.",
+          "titulo": "Uña de gato: sin pruebas",
+          "texto": "No hay pruebas claras en personas de que sirva para nada, tampoco para el cáncer. Además puede mezclarse mal con medicinas para la coagulación, la presión y las defensas.",
           "fuentes": [
             "F71"
-          ]
-        },
-        {
-          "id": "d6-l4-t5",
-          "tipo": "concepto",
-          "titulo": "Natural no significa seguro",
-          "texto": "La naturaleza nos dio la aspirina y la morfina, pero no todo producto natural funciona ni es inocuo. Grandes estudios no hallaron beneficio de la equinácea contra el resfriado ni del ginkgo contra la demencia, y la kava se ha asociado con daño hepático grave.",
-          "fuentes": [
-            "F80"
           ],
-          "imagen": "img-ia-d6-natural"
+          "imagen": "img-d6-unagato"
         }
       ]
     },
     {
       "id": "d6-l5",
-      "titulo": "Interacciones: sangrado y anticoagulantes",
+      "titulo": "Mezclas peligrosas",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d6-l5-t1",
           "tipo": "concepto",
-          "titulo": "Qué hace un anticoagulante",
-          "texto": "Un anticoagulante dificulta la coagulación para prevenir coágulos peligrosos. La warfarina es un ejemplo clásico; su riesgo principal es el sangrado.",
+          "titulo": "Ginkgo y ajo: más sangrado",
+          "texto": "Los anticoagulantes, como la warfarina, hacen que la sangre coagule menos para evitar coágulos. El ginkgo y los suplementos de ajo pueden sumar su efecto y aumentar el riesgo de sangrado.",
           "fuentes": [
             "F47",
-            "F68"
-          ]
+            "F74",
+            "F75"
+          ],
+          "imagen": "img-d6-ginkgo"
         },
         {
           "id": "d6-l5-t2",
-          "tipo": "alerta",
-          "titulo": "Plantas que interactúan con la warfarina",
-          "texto": "MedlinePlus menciona: ajo, Ginkgo biloba, ginseng, equinácea, hidrastis y hierba de San Juan (hipérico), además de la coenzima Q10. Algunas pueden aumentar el riesgo de sangrado.",
+          "tipo": "concepto",
+          "titulo": "Hierba de San Juan: le quita fuerza a las medicinas",
+          "texto": "El hipérico acelera la limpieza que hace el hígado, así que muchas medicinas se eliminan antes y pierden efecto. Entre ellas, algunas contra el cáncer, la warfarina, la digoxina y las pastillas anticonceptivas.",
           "fuentes": [
-            "F47"
-          ]
+            "F71",
+            "F73"
+          ],
+          "imagen": "img-d6-hiperico"
         },
         {
           "id": "d6-l5-t3",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Ginkgo",
-          "texto": "El ginkgo puede aumentar el riesgo de sangrado en personas que toman anticoagulantes como la warfarina.",
+          "tipo": "concepto",
+          "titulo": "Regaliz y corazón",
+          "texto": "El regaliz en grandes cantidades o durante mucho tiempo puede causar latidos irregulares. Aun en poca cantidad es riesgoso para personas con presión alta o problemas del corazón o del riñón.",
           "fuentes": [
-            "F74"
-          ]
+            "F91"
+          ],
+          "imagen": "img-d6-regaliz"
         },
         {
           "id": "d6-l5-t4",
           "tipo": "ejemplo-resuelto",
-          "titulo": "Ajo en suplemento",
-          "texto": "Los suplementos de ajo pueden aumentar el riesgo de sangrado. Es especialmente importante avisar al médico antes de una cirugía o si se toma un anticoagulante o aspirina.",
+          "titulo": "Tu papel como experto en plantas",
+          "texto": "Tu experiencia vale mucho: pregunta qué plantas o suplementos toma la persona y anímala a contárselo a su médico. Esa conversación puede evitar una mezcla peligrosa.",
           "fuentes": [
-            "F75"
-          ]
+            "F72",
+            "F71"
+          ],
+          "imagen": "img-ia-d7-conversacion"
         },
         {
           "id": "d6-l5-t5",
           "tipo": "pregunta-previa",
-          "titulo": "Compruebe lo aprendido",
+          "titulo": "Comprueba lo aprendido",
           "texto": "",
           "fuentes": [
             "F47",
@@ -308,7 +275,7 @@
           "pregunta": {
             "id": "d6-l5-p1",
             "tipo": "opcion-multiple",
-            "enunciado": "Una persona toma warfarina y quiere empezar ginkgo. ¿Cuál es el riesgo principal?",
+            "enunciado": "Una persona toma warfarina y quiere empezar a tomar ginkgo. ¿Cuál es el riesgo?",
             "opciones": [
               {
                 "texto": "Más riesgo de sangrado",
@@ -316,14 +283,14 @@
                 "explicacion": "El ginkgo puede sumar su efecto al del anticoagulante."
               },
               {
-                "texto": "Que se le suba el colesterol",
+                "texto": "Que suba el colesterol",
                 "correcta": false,
-                "explicacion": "No es el riesgo descrito para esta combinación."
+                "explicacion": "No es el riesgo de esta mezcla."
               },
               {
-                "texto": "Ninguno, porque el ginkgo es natural",
+                "texto": "Ninguno, porque es natural",
                 "correcta": false,
-                "explicacion": "Natural no significa seguro: esta combinación puede aumentar el sangrado."
+                "explicacion": "Natural no significa seguro."
               }
             ],
             "fuentes": [
@@ -333,73 +300,19 @@
           }
         }
       ]
-    },
-    {
-      "id": "d6-l6",
-      "titulo": "Interacciones: quimioterapia, corazón y presión",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d6-l6-t1",
-          "tipo": "concepto",
-          "titulo": "El caso del hipérico",
-          "texto": "La hierba de San Juan (hipérico) activa con fuerza las enzimas del hígado (citocromo P450) y una bomba del intestino (glicoproteína P) que eliminan fármacos. Resultado: muchos medicamentos pierden efecto.",
-          "fuentes": [
-            "F71",
-            "F73"
-          ]
-        },
-        {
-          "id": "d6-l6-t2",
-          "tipo": "alerta",
-          "titulo": "Qué medicamentos debilita",
-          "texto": "Entre otros: algunos fármacos contra el cáncer (irinotecán, imatinib, docetaxel), la warfarina, la digoxina, la ciclosporina, las píldoras anticonceptivas y algunas estatinas.",
-          "fuentes": [
-            "F73"
-          ]
-        },
-        {
-          "id": "d6-l6-t3",
-          "tipo": "alerta",
-          "titulo": "Regaliz y corazón",
-          "texto": "El regaliz contiene glicirricina, que puede causar latidos irregulares e incluso paro cardiaco, sobre todo en grandes cantidades o con uso prolongado. Aun en poca cantidad es riesgoso en personas con hipertensión o enfermedad cardiaca o renal.",
-          "fuentes": [
-            "F91"
-          ]
-        },
-        {
-          "id": "d6-l6-t4",
-          "tipo": "concepto",
-          "titulo": "Algunas hierbas restan eficacia",
-          "texto": "El NCCIH advierte que algunas hierbas pueden hacer que los fármacos de quimioterapia sean menos eficaces. Por eso, toda planta o suplemento debe comentarse con el equipo de oncología.",
-          "fuentes": [
-            "F72"
-          ]
-        },
-        {
-          "id": "d6-l6-t5",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Su papel como experto en plantas",
-          "texto": "Su experiencia es valiosa: puede preguntar qué plantas o suplementos toma la persona y animarla a contárselo a su médico. Esa conversación puede evitar una interacción peligrosa.",
-          "fuentes": [
-            "F72",
-            "F71"
-          ]
-        }
-      ]
     }
   ],
   "practica": [
     {
       "id": "d6-q1",
       "tipo": "ordenar",
-      "enunciado": "Ordene los pasos de la hemostasia.",
+      "enunciado": "Ordena los pasos para cerrar una herida.",
       "pasos": [
-        "Espasmo del vaso",
-        "Tapón de plaquetas",
-        "Coagulación con fibrina"
+        "El vaso se aprieta",
+        "Las plaquetas forman un tapón",
+        "La fibrina teje una red"
       ],
-      "explicacion": "Primero se contrae el vaso, luego llegan las plaquetas y al final la fibrina refuerza el tapón.",
+      "explicacion": "Primero se aprieta el vaso, luego llegan las plaquetas y al final la fibrina deja firme el tapón.",
       "fuentes": [
         "F68"
       ]
@@ -407,22 +320,22 @@
     {
       "id": "d6-q2",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Cuál de estos es un signo de embolia pulmonar que exige atención inmediata?",
+      "enunciado": "¿Cuál es una señal de embolia pulmonar que necesita atención inmediata?",
       "opciones": [
         {
           "texto": "Falta de aire repentina con dolor de pecho al respirar",
           "correcta": true,
-          "explicacion": "Son signos típicos: hay que buscar atención médica de inmediato."
+          "explicacion": "Hay que buscar ayuda médica de inmediato."
         },
         {
           "texto": "Picazón en la piel",
           "correcta": false,
-          "explicacion": "No es un signo típico de embolia pulmonar."
+          "explicacion": "No es una señal típica."
         },
         {
           "texto": "Hambre",
           "correcta": false,
-          "explicacion": "No es un signo de embolia pulmonar."
+          "explicacion": "No tiene relación."
         }
       ],
       "fuentes": [
@@ -432,22 +345,22 @@
     {
       "id": "d6-q3",
       "tipo": "opcion-multiple",
-      "enunciado": "¿De qué planta se obtuvo originalmente el paclitaxel?",
+      "enunciado": "¿De qué planta salió el paclitaxel?",
       "opciones": [
         {
-          "texto": "Del tejo del Pacífico (Taxus brevifolia)",
+          "texto": "Del tejo del Pacífico",
           "correcta": true,
-          "explicacion": "Se aisló de su corteza; hoy se produce de forma semisintética."
+          "explicacion": "Se sacó de su corteza."
         },
         {
-          "texto": "De la dedalera (Digitalis)",
+          "texto": "De la dedalera",
           "correcta": false,
-          "explicacion": "De la dedalera deriva la digoxina."
+          "explicacion": "De la dedalera viene la digoxina."
         },
         {
           "texto": "De la vinca de Madagascar",
           "correcta": false,
-          "explicacion": "De ella vienen la vincristina y la vinblastina."
+          "explicacion": "De la vinca vienen la vincristina y la vinblastina."
         }
       ],
       "fuentes": [
@@ -457,9 +370,9 @@
     {
       "id": "d6-q4",
       "tipo": "verdadero-falso",
-      "enunciado": "Si una planta dio origen a un fármaco aprobado, tomar la planta en infusión es igual de seguro y eficaz.",
+      "enunciado": "Si de una planta salió una medicina, tomar la planta en infusión es igual de seguro.",
       "respuesta": false,
-      "explicacion": "Falso. La planta no tiene una cantidad fija del compuesto; con la dedalera, por ejemplo, el margen entre dosis útil y tóxica es estrecho.",
+      "explicacion": "Falso. La planta no trae una cantidad fija de la sustancia; con la dedalera, la diferencia entre útil y tóxico es pequeña.",
       "fuentes": [
         "F89",
         "F80"
@@ -468,22 +381,22 @@
     {
       "id": "d6-q5",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Por qué la hierba de San Juan es peligrosa con algunos tratamientos contra el cáncer?",
+      "enunciado": "¿Por qué la hierba de San Juan es peligrosa con algunos tratamientos del cáncer?",
       "opciones": [
         {
-          "texto": "Acelera la eliminación de los fármacos y les resta efecto",
+          "texto": "Hace que el cuerpo elimine antes la medicina y le quita efecto",
           "correcta": true,
-          "explicacion": "Activa enzimas del hígado y bombas del intestino que eliminan medicamentos."
+          "explicacion": "Acelera la limpieza que hace el hígado."
         },
         {
-          "texto": "Porque vuelve innecesario el tratamiento oncológico",
+          "texto": "Porque reemplaza a la quimioterapia",
           "correcta": false,
-          "explicacion": "Falso: ninguna planta sustituye el tratamiento oncológico."
+          "explicacion": "Falso: ninguna planta reemplaza el tratamiento."
         },
         {
-          "texto": "Porque aumenta la dosis del fármaco en la sangre",
+          "texto": "Porque aumenta la medicina en la sangre",
           "correcta": false,
-          "explicacion": "Es al revés: la reduce."
+          "explicacion": "Es al revés: la disminuye."
         }
       ],
       "fuentes": [
@@ -502,16 +415,15 @@
   "resumen": {
     "titulo": "Lo esencial del día 6",
     "puntos": [
-      "Hemostasia: espasmo, tapón de plaquetas y fibrina.",
-      "El cáncer y sus tratamientos aumentan el riesgo de coágulos; la embolia pulmonar es una urgencia.",
-      "Digoxina (dedalera), paclitaxel (tejo) y vincristina (vinca) son fármacos aprobados de origen vegetal.",
-      "Ninguna planta ha demostrado prevenir ni hacer desaparecer el cáncer.",
-      "Ginkgo y ajo suman riesgo de sangrado; el hipérico debilita muchos fármacos; el regaliz puede alterar el ritmo."
+      "Una herida se cierra en 3 pasos: el vaso se aprieta, las plaquetas tapan y la fibrina teje una red.",
+      "El cáncer aumenta el riesgo de coágulos; si uno llega al pulmón es una urgencia.",
+      "Digoxina (dedalera), paclitaxel (tejo) y vincristina (vinca) son medicinas que nacieron de plantas.",
+      "Ninguna planta ha demostrado prevenir el cáncer ni hacerlo desaparecer.",
+      "Ginkgo y ajo suman sangrado; el hipérico le quita fuerza a muchas medicinas; el regaliz puede alterar el ritmo del corazón."
     ],
     "imagen": "img-nlm-d6-infografia"
   },
   "fuentes": [
-    "F13",
     "F15",
     "F28",
     "F39",
