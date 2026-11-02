@@ -638,5 +638,23 @@
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Cut_Aloe_Vera_Leaf.jpg",
     "consultado": "2026-11-02",
     "urlLicencia": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "id": "img-nlm-d2-infografia",
+    "archivo": "img/notebooklm/dia-2-infografia.jpg",
+    "titulo": "Infografía del día 2",
+    "alt": "Infografía con los puntos clave del día 2, generada con NotebookLM a partir del texto del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir del texto verificado del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d3-infografia",
+    "archivo": "img/notebooklm/dia-3-infografia.jpg",
+    "titulo": "Infografía del día 3",
+    "alt": "Infografía con los puntos clave del día 3, generada con NotebookLM a partir del texto del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir del texto verificado del día",
+    "licencia": "Uso educativo en este curso"
   }
 ]

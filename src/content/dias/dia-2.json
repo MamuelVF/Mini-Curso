@@ -353,7 +353,7 @@
   "audio": {
     "archivo": "audio/dia-2.mp3",
     "titulo": "Resumen del día 2",
-    "estado": "pendiente",
+    "estado": "listo",
     "origen": "NotebookLM"
   },
   "resumen": {
@@ -364,7 +364,8 @@
       "Del sauce salió la aspirina, que hoy también ayuda a prevenir coágulos.",
       "La levadura roja de arroz contiene monacolina K, igual a la lovastatina, y su cantidad cambia mucho entre productos.",
       "Para cada planta pregunta: nombre científico, parte usada, preparación y qué se vio en personas."
-    ]
+    ],
+    "imagen": "img-nlm-d2-infografia"
   },
   "fuentes": [
     "F44",

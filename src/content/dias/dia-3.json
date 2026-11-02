@@ -418,7 +418,7 @@
   "audio": {
     "archivo": "audio/dia-3.mp3",
     "titulo": "Resumen del día 3",
-    "estado": "pendiente",
+    "estado": "listo",
     "origen": "NotebookLM"
   },
   "resumen": {
@@ -429,7 +429,8 @@
       "Té de hibisco, linaza y nopal bajaron la presión en estudios con personas; el ajo, un poco.",
       "La fibra de avena y psyllium baja el LDL; el aceite de oliva se asoció a menos muertes del corazón y por cáncer.",
       "La chaya aporta antioxidantes y se come hervida; si se suman plantas y pastillas, el médico debe saberlo."
-    ]
+    ],
+    "imagen": "img-nlm-d3-infografia"
   },
   "fuentes": [
     "F08",

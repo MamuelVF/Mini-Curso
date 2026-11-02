@@ -126,143 +126,6 @@
     ]
   },
   {
-    "id": "d2-f1",
-    "dia": 2,
-    "frente": "Sustancia activa",
-    "reverso": "La sustancia de la planta que produce el efecto.",
-    "fuentes": [
-      "F82"
-    ]
-  },
-  {
-    "id": "d2-f2",
-    "dia": 2,
-    "frente": "Digoxina",
-    "reverso": "Medicina para el corazón que salió de la dedalera.",
-    "fuentes": [
-      "F89",
-      "F44"
-    ]
-  },
-  {
-    "id": "d2-f3",
-    "dia": 2,
-    "frente": "William Withering (1785)",
-    "reverso": "Médico que publicó lo que observó con la dedalera en personas con el corazón débil.",
-    "fuentes": [
-      "F84"
-    ]
-  },
-  {
-    "id": "d2-f4",
-    "dia": 2,
-    "frente": "Salicina",
-    "reverso": "Sustancia activa de la corteza del sauce, aislada en 1829.",
-    "fuentes": [
-      "F94"
-    ]
-  },
-  {
-    "id": "d2-f5",
-    "dia": 2,
-    "frente": "Aspirina",
-    "reverso": "Ácido acetilsalicílico; nació del sauce y hoy también previene coágulos.",
-    "fuentes": [
-      "F94"
-    ]
-  },
-  {
-    "id": "d2-f6",
-    "dia": 2,
-    "frente": "Monacolina K",
-    "reverso": "Sustancia de la levadura roja de arroz con la misma estructura que la lovastatina.",
-    "fuentes": [
-      "F95"
-    ]
-  },
-  {
-    "id": "d2-f7",
-    "dia": 2,
-    "frente": "Las cuatro preguntas ante una planta",
-    "reverso": "Nombre científico, parte usada, preparación y qué se vio en personas.",
-    "fuentes": [
-      "F70"
-    ]
-  },
-  {
-    "id": "d3-f1",
-    "dia": 3,
-    "frente": "Presión arterial",
-    "reverso": "La fuerza con la que la sangre empuja las paredes de las arterias.",
-    "fuentes": [
-      "F65"
-    ]
-  },
-  {
-    "id": "d3-f2",
-    "dia": 3,
-    "frente": "Presión normal",
-    "reverso": "Por debajo de 120/80.",
-    "fuentes": [
-      "F51"
-    ]
-  },
-  {
-    "id": "d3-f3",
-    "dia": 3,
-    "frente": "Aterosclerosis",
-    "reverso": "Arterias estrechas y duras por placas de grasa.",
-    "fuentes": [
-      "F31"
-    ]
-  },
-  {
-    "id": "d3-f4",
-    "dia": 3,
-    "frente": "Té de hibisco",
-    "reverso": "En 6 semanas bajó la presión sistólica unos 7 puntos en adultos con presión algo alta.",
-    "fuentes": [
-      "F99"
-    ]
-  },
-  {
-    "id": "d3-f5",
-    "dia": 3,
-    "frente": "Linaza",
-    "reverso": "Tiene omega-3, lignanos y fibra; en un estudio bajó la presión unos 10 puntos.",
-    "fuentes": [
-      "F100"
-    ]
-  },
-  {
-    "id": "d3-f6",
-    "dia": 3,
-    "frente": "Nopal",
-    "reverso": "En una revisión bajó la presión y el colesterol total.",
-    "fuentes": [
-      "F101"
-    ]
-  },
-  {
-    "id": "d3-f7",
-    "dia": 3,
-    "frente": "Fibra soluble",
-    "reverso": "La de avena, cebada y psyllium ayuda a bajar el LDL.",
-    "fuentes": [
-      "F102"
-    ]
-  },
-  {
-    "id": "d3-f8",
-    "dia": 3,
-    "frente": "Chaya",
-    "reverso": "Hojas con antioxidantes que se comen hervidas unos 20 minutos.",
-    "fuentes": [
-      "F104",
-      "F105"
-    ]
-  },
-  {
     "id": "d4-f1",
     "dia": 4,
     "frente": "Insuficiencia cardiaca",
@@ -525,6 +388,143 @@
     "reverso": "Sus extractos están entre los más recetados a pacientes con cáncer en Europa.",
     "fuentes": [
       "F97"
+    ]
+  },
+  {
+    "id": "d2-f1",
+    "dia": 2,
+    "frente": "Sustancia activa",
+    "reverso": "La sustancia de la planta que produce el efecto.",
+    "fuentes": [
+      "F82"
+    ]
+  },
+  {
+    "id": "d2-f2",
+    "dia": 2,
+    "frente": "Digoxina",
+    "reverso": "Medicina para el corazón que salió de la dedalera.",
+    "fuentes": [
+      "F89",
+      "F44"
+    ]
+  },
+  {
+    "id": "d2-f3",
+    "dia": 2,
+    "frente": "William Withering (1785)",
+    "reverso": "Médico que publicó lo que observó con la dedalera en personas con el corazón débil.",
+    "fuentes": [
+      "F84"
+    ]
+  },
+  {
+    "id": "d2-f4",
+    "dia": 2,
+    "frente": "Salicina",
+    "reverso": "Sustancia activa de la corteza del sauce, aislada en 1829.",
+    "fuentes": [
+      "F94"
+    ]
+  },
+  {
+    "id": "d2-f5",
+    "dia": 2,
+    "frente": "Aspirina",
+    "reverso": "Ácido acetilsalicílico; nació del sauce y hoy también previene coágulos.",
+    "fuentes": [
+      "F94"
+    ]
+  },
+  {
+    "id": "d2-f6",
+    "dia": 2,
+    "frente": "Monacolina K",
+    "reverso": "Sustancia de la levadura roja de arroz con la misma estructura que la lovastatina.",
+    "fuentes": [
+      "F95"
+    ]
+  },
+  {
+    "id": "d2-f7",
+    "dia": 2,
+    "frente": "Las cuatro preguntas ante una planta",
+    "reverso": "Nombre científico, parte usada, preparación y qué se vio en personas.",
+    "fuentes": [
+      "F70"
+    ]
+  },
+  {
+    "id": "d3-f1",
+    "dia": 3,
+    "frente": "Presión arterial",
+    "reverso": "La fuerza con la que la sangre empuja las paredes de las arterias.",
+    "fuentes": [
+      "F65"
+    ]
+  },
+  {
+    "id": "d3-f2",
+    "dia": 3,
+    "frente": "Presión normal",
+    "reverso": "Por debajo de 120/80.",
+    "fuentes": [
+      "F51"
+    ]
+  },
+  {
+    "id": "d3-f3",
+    "dia": 3,
+    "frente": "Aterosclerosis",
+    "reverso": "Arterias estrechas y duras por placas de grasa.",
+    "fuentes": [
+      "F31"
+    ]
+  },
+  {
+    "id": "d3-f4",
+    "dia": 3,
+    "frente": "Té de hibisco",
+    "reverso": "En 6 semanas bajó la presión sistólica unos 7 puntos en adultos con presión algo alta.",
+    "fuentes": [
+      "F99"
+    ]
+  },
+  {
+    "id": "d3-f5",
+    "dia": 3,
+    "frente": "Linaza",
+    "reverso": "Tiene omega-3, lignanos y fibra; en un estudio bajó la presión unos 10 puntos.",
+    "fuentes": [
+      "F100"
+    ]
+  },
+  {
+    "id": "d3-f6",
+    "dia": 3,
+    "frente": "Nopal",
+    "reverso": "En una revisión bajó la presión y el colesterol total.",
+    "fuentes": [
+      "F101"
+    ]
+  },
+  {
+    "id": "d3-f7",
+    "dia": 3,
+    "frente": "Fibra soluble",
+    "reverso": "La de avena, cebada y psyllium ayuda a bajar el LDL.",
+    "fuentes": [
+      "F102"
+    ]
+  },
+  {
+    "id": "d3-f8",
+    "dia": 3,
+    "frente": "Chaya",
+    "reverso": "Hojas con antioxidantes que se comen hervidas unos 20 minutos.",
+    "fuentes": [
+      "F104",
+      "F105"
     ]
   }
 ]

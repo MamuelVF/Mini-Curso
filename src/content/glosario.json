@@ -97,103 +97,6 @@
     ]
   },
   {
-    "termino": "Sustancia activa",
-    "definicion": "Componente de una planta que produce su efecto; también se llama principio activo.",
-    "dia": 2,
-    "fuentes": [
-      "F82"
-    ]
-  },
-  {
-    "termino": "Dedalera",
-    "definicion": "Planta (Digitalis purpurea) de la que salió la digoxina.",
-    "dia": 2,
-    "fuentes": [
-      "F89"
-    ]
-  },
-  {
-    "termino": "Salicina",
-    "definicion": "Sustancia de la corteza del sauce que dio origen a la aspirina.",
-    "dia": 2,
-    "fuentes": [
-      "F94"
-    ]
-  },
-  {
-    "termino": "Estatina",
-    "definicion": "Medicina que frena la fabricación de colesterol en el cuerpo.",
-    "dia": 2,
-    "fuentes": [
-      "F95"
-    ]
-  },
-  {
-    "termino": "Levadura roja de arroz",
-    "definicion": "Arroz fermentado con el hongo Monascus purpureus; puede contener monacolina K.",
-    "dia": 2,
-    "fuentes": [
-      "F95"
-    ]
-  },
-  {
-    "termino": "Hipertensión",
-    "definicion": "Presión arterial alta de forma mantenida.",
-    "dia": 3,
-    "fuentes": [
-      "F49"
-    ]
-  },
-  {
-    "termino": "Placa",
-    "definicion": "Bulto de grasa, células y calcio dentro de la pared de una arteria.",
-    "dia": 3,
-    "fuentes": [
-      "F52"
-    ]
-  },
-  {
-    "termino": "Colesterol LDL",
-    "definicion": "El \"malo\": deja grasa en las arterias.",
-    "dia": 3,
-    "fuentes": [
-      "F32"
-    ]
-  },
-  {
-    "termino": "Colesterol HDL",
-    "definicion": "El \"bueno\": lleva el colesterol al hígado.",
-    "dia": 3,
-    "fuentes": [
-      "F32"
-    ]
-  },
-  {
-    "termino": "Flor de Jamaica",
-    "definicion": "Cálices de Hibiscus sabdariffa con los que se prepara un té rojo.",
-    "dia": 3,
-    "fuentes": [
-      "F99"
-    ]
-  },
-  {
-    "termino": "Psyllium",
-    "definicion": "Cáscara de semilla de Plantago, rica en fibra soluble.",
-    "dia": 3,
-    "fuentes": [
-      "F102"
-    ]
-  },
-  {
-    "termino": "Chaya",
-    "definicion": "Cnidoscolus aconitifolius, arbusto de hojas comestibles que se cocinan.",
-    "dia": 3,
-    "fuentes": [
-      "F104",
-      "F105"
-    ]
-  },
-  {
     "termino": "Insuficiencia cardiaca",
     "definicion": "Cuando el corazón no logra bombear la sangre que el cuerpo necesita.",
     "dia": 4,
@@ -391,6 +294,103 @@
     "dia": 5,
     "fuentes": [
       "F98"
+    ]
+  },
+  {
+    "termino": "Sustancia activa",
+    "definicion": "Componente de una planta que produce su efecto; también se llama principio activo.",
+    "dia": 2,
+    "fuentes": [
+      "F82"
+    ]
+  },
+  {
+    "termino": "Dedalera",
+    "definicion": "Planta (Digitalis purpurea) de la que salió la digoxina.",
+    "dia": 2,
+    "fuentes": [
+      "F89"
+    ]
+  },
+  {
+    "termino": "Salicina",
+    "definicion": "Sustancia de la corteza del sauce que dio origen a la aspirina.",
+    "dia": 2,
+    "fuentes": [
+      "F94"
+    ]
+  },
+  {
+    "termino": "Estatina",
+    "definicion": "Medicina que frena la fabricación de colesterol en el cuerpo.",
+    "dia": 2,
+    "fuentes": [
+      "F95"
+    ]
+  },
+  {
+    "termino": "Levadura roja de arroz",
+    "definicion": "Arroz fermentado con el hongo Monascus purpureus; puede contener monacolina K.",
+    "dia": 2,
+    "fuentes": [
+      "F95"
+    ]
+  },
+  {
+    "termino": "Hipertensión",
+    "definicion": "Presión arterial alta de forma mantenida.",
+    "dia": 3,
+    "fuentes": [
+      "F49"
+    ]
+  },
+  {
+    "termino": "Placa",
+    "definicion": "Bulto de grasa, células y calcio dentro de la pared de una arteria.",
+    "dia": 3,
+    "fuentes": [
+      "F52"
+    ]
+  },
+  {
+    "termino": "Colesterol LDL",
+    "definicion": "El \"malo\": deja grasa en las arterias.",
+    "dia": 3,
+    "fuentes": [
+      "F32"
+    ]
+  },
+  {
+    "termino": "Colesterol HDL",
+    "definicion": "El \"bueno\": lleva el colesterol al hígado.",
+    "dia": 3,
+    "fuentes": [
+      "F32"
+    ]
+  },
+  {
+    "termino": "Flor de Jamaica",
+    "definicion": "Cálices de Hibiscus sabdariffa con los que se prepara un té rojo.",
+    "dia": 3,
+    "fuentes": [
+      "F99"
+    ]
+  },
+  {
+    "termino": "Psyllium",
+    "definicion": "Cáscara de semilla de Plantago, rica en fibra soluble.",
+    "dia": 3,
+    "fuentes": [
+      "F102"
+    ]
+  },
+  {
+    "termino": "Chaya",
+    "definicion": "Cnidoscolus aconitifolius, arbusto de hojas comestibles que se cocinan.",
+    "dia": 3,
+    "fuentes": [
+      "F104",
+      "F105"
     ]
   }
 ]
