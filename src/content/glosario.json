@@ -250,62 +250,6 @@
     ]
   },
   {
-    "termino": "Cáncer",
-    "definicion": "Enfermedad en la que algunas células se dividen sin control y pueden invadir otros tejidos.",
-    "dia": 5,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Metástasis",
-    "definicion": "Diseminación del cáncer a otros órganos a través de la sangre o la linfa.",
-    "dia": 5,
-    "fuentes": [
-      "F21"
-    ]
-  },
-  {
-    "termino": "Podofilotoxina",
-    "definicion": "Sustancia del podofilo de la que se hizo el etopósido.",
-    "dia": 5,
-    "fuentes": [
-      "F108"
-    ]
-  },
-  {
-    "termino": "Camptotecina",
-    "definicion": "Sustancia de la camptoteca de la que salieron el topotecán y el irinotecán.",
-    "dia": 5,
-    "fuentes": [
-      "F107"
-    ]
-  },
-  {
-    "termino": "Zorrilla",
-    "definicion": "Nombre en Ecuador del anamú (Petiveria alliacea).",
-    "dia": 5,
-    "fuentes": [
-      "F109"
-    ]
-  },
-  {
-    "termino": "Glicoalcaloide",
-    "definicion": "Tipo de sustancia de plantas como la dulcamara; ejemplos: solasodina y solamargina.",
-    "dia": 5,
-    "fuentes": [
-      "F110"
-    ]
-  },
-  {
-    "termino": "Lectina",
-    "definicion": "Proteína del muérdago que en el laboratorio activa las defensas y daña células de cáncer.",
-    "dia": 5,
-    "fuentes": [
-      "F98"
-    ]
-  },
-  {
     "termino": "Cardiotoxicidad",
     "definicion": "Daño del corazón causado por un tratamiento.",
     "dia": 6,
@@ -391,6 +335,62 @@
     "dia": 7,
     "fuentes": [
       "F56"
+    ]
+  },
+  {
+    "termino": "Cáncer",
+    "definicion": "Enfermedad en la que algunas células se dividen sin control y pueden invadir otros tejidos.",
+    "dia": 5,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Metástasis",
+    "definicion": "Diseminación del cáncer a otros órganos a través de la sangre o la linfa.",
+    "dia": 5,
+    "fuentes": [
+      "F21"
+    ]
+  },
+  {
+    "termino": "Podofilotoxina",
+    "definicion": "Sustancia del podofilo de la que se hizo el etopósido.",
+    "dia": 5,
+    "fuentes": [
+      "F108"
+    ]
+  },
+  {
+    "termino": "Camptotecina",
+    "definicion": "Sustancia de la camptoteca de la que salieron el topotecán y el irinotecán.",
+    "dia": 5,
+    "fuentes": [
+      "F107"
+    ]
+  },
+  {
+    "termino": "Zorrilla",
+    "definicion": "Nombre en Ecuador del anamú (Petiveria alliacea).",
+    "dia": 5,
+    "fuentes": [
+      "F109"
+    ]
+  },
+  {
+    "termino": "Glicoalcaloide",
+    "definicion": "Tipo de sustancia de plantas como la dulcamara; ejemplos: solasodina y solamargina.",
+    "dia": 5,
+    "fuentes": [
+      "F110"
+    ]
+  },
+  {
+    "termino": "Lectina",
+    "definicion": "Proteína del muérdago que en el laboratorio activa las defensas y daña células de cáncer.",
+    "dia": 5,
+    "fuentes": [
+      "F98"
     ]
   }
 ]

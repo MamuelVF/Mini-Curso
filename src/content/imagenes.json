@@ -93,18 +93,6 @@
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "id": "img-d2-arteria",
-    "archivo": "img/commons/img-d2-arteria.png",
-    "titulo": "Arteria normal frente a arteria con placa",
-    "alt": "Comparación de una arteria normal y otra parcialmente bloqueada por una placa de ateroma que reduce el paso de la sangre.",
-    "origen": "commons",
-    "autor": "BruceBlaus (Blausen Medical)",
-    "licencia": "CC BY 3.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blausen_0052_Artery_NormalvPartially-BlockedVessel.png",
-    "consultado": "2026-11-01",
-    "urlLicencia": "https://creativecommons.org/licenses/by/3.0"
-  },
-  {
     "id": "img-d2-ateroma",
     "archivo": "img/commons/img-d2-ateroma.png",
     "titulo": "Arteria normal y arteria con placa",
@@ -125,18 +113,6 @@
     "licencia": "Dominio público",
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Main_complications_of_persistent_high_blood_pressure.svg",
     "consultado": "2026-11-02"
-  },
-  {
-    "id": "img-d2-ictus",
-    "archivo": "img/commons/img-d2-ictus.png",
-    "titulo": "Ictus: una arteria del cerebro tapada",
-    "alt": "Cabeza con el cerebro y una arteria tapada por un coágulo; la zona del cerebro sin sangre aparece oscura.",
-    "origen": "commons",
-    "autor": "Blausen Medical Communications, Inc.",
-    "licencia": "CC BY 3.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blausen_0836_Stroke.png",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by/3.0"
   },
   {
     "id": "img-d2-infarto",
@@ -210,28 +186,6 @@
     "consultado": "2026-11-02"
   },
   {
-    "id": "img-d3-ondas",
-    "archivo": "img/commons/img-d3-ondas.png",
-    "titulo": "Un latido en el electrocardiograma",
-    "alt": "Trazo de un latido normal en el electrocardiograma con las ondas P, Q, R, S y T señaladas.",
-    "origen": "commons",
-    "autor": "Anthony Atkielski",
-    "licencia": "Dominio público",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:SinusRhythmLabels.svg",
-    "consultado": "2026-11-02"
-  },
-  {
-    "id": "img-d4-adn",
-    "archivo": "img/commons/img-d4-adn.webp",
-    "titulo": "La doble hélice del ADN",
-    "alt": "Animación de una molécula de ADN girando, con sus dos hebras enrolladas en espiral.",
-    "origen": "commons",
-    "autor": "brian0918",
-    "licencia": "Dominio público",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:DNA_animation.gif",
-    "consultado": "2026-11-02"
-  },
-  {
     "id": "img-d4-celula",
     "archivo": "img/commons/img-d4-celula.jpg",
     "titulo": "Célula de cáncer de mama al microscopio electrónico",
@@ -241,28 +195,6 @@
     "licencia": "Dominio público",
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Breast_cancer_cell_%281%29.jpg",
     "consultado": "2026-11-01"
-  },
-  {
-    "id": "img-d4-defensas",
-    "archivo": "img/commons/img-d4-defensas.png",
-    "titulo": "Glóbulos blancos atacando una célula de cáncer",
-    "alt": "Imagen de microscopio en colores: varios glóbulos blancos (linfocitos T) rodean a una célula de cáncer más grande.",
-    "origen": "commons",
-    "autor": "National Institutes of Health",
-    "licencia": "Dominio público",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Killer_T_cells_surround_a_cancer_cell.png",
-    "consultado": "2026-11-02"
-  },
-  {
-    "id": "img-d4-division",
-    "archivo": "img/commons/img-d4-division.png",
-    "titulo": "Una célula se divide en dos",
-    "alt": "Secuencia de dibujos de una célula que copia sus cromosomas, los reparte y se parte en dos células hijas.",
-    "origen": "commons",
-    "autor": "Mysid",
-    "licencia": "Dominio público",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Major_events_in_mitosis.svg",
-    "consultado": "2026-11-02"
   },
   {
     "id": "img-d4-freno",
@@ -285,42 +217,6 @@
     "autor": "Cancer Research UK",
     "licencia": "CC BY-SA 4.0",
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Diagram_showing_a_malignant_tumour_CRUK_069.svg",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  {
-    "id": "img-d4-metastasis",
-    "archivo": "img/commons/img-d4-metastasis.png",
-    "titulo": "Células cancerosas que pasan a la sangre",
-    "alt": "Esquema de células de un tumor que atraviesan la pared de un vaso sanguíneo y viajan por la sangre.",
-    "origen": "commons",
-    "autor": "Cancer Research UK",
-    "licencia": "CC BY-SA 4.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Diagram_showing_cancer_cells_spreading_into_the_blood_stream_CRUK_448.svg",
-    "consultado": "2026-11-01",
-    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  {
-    "id": "img-d4-nofumar",
-    "archivo": "img/commons/img-d4-nofumar.png",
-    "titulo": "Prohibido fumar",
-    "alt": "Símbolo de un cigarrillo tachado dentro de un círculo rojo.",
-    "origen": "commons",
-    "autor": "Twitter (Twemoji)",
-    "licencia": "CC BY 4.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Twemoji12_1f6ad.svg",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by/4.0"
-  },
-  {
-    "id": "img-d4-vasos",
-    "archivo": "img/commons/img-d4-vasos.png",
-    "titulo": "El tumor se fabrica sus vasos",
-    "alt": "Dibujo de un tumor al que llegan vasos sanguíneos nuevos que le llevan oxígeno y alimento.",
-    "origen": "commons",
-    "autor": "Cancer Research UK",
-    "licencia": "CC BY-SA 4.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Diagram_showing_why_cancer_cells_need_their_own_blood_supply.svg",
     "consultado": "2026-11-02",
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
@@ -382,18 +278,6 @@
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
   },
   {
-    "id": "img-d6-embolia",
-    "archivo": "img/commons/img-d6-embolia.jpg",
-    "titulo": "Embolia pulmonar",
-    "alt": "Imagen 3D de los pulmones con un coágulo atascado en una arteria pulmonar.",
-    "origen": "commons",
-    "autor": "Scientific Animations",
-    "licencia": "CC BY-SA 4.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:3D_Medical_Animation_still_shot_Pulmonary_Embolism.jpg",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  {
     "id": "img-d6-ginkgo",
     "archivo": "img/commons/img-d6-ginkgo.jpg",
     "titulo": "Hojas de ginkgo",
@@ -414,18 +298,6 @@
     "autor": "JackyM59",
     "licencia": "CC BY-SA 4.0",
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Millepertuis_perforé_(Hypericum_perforatum).jpg",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  {
-    "id": "img-d6-regaliz",
-    "archivo": "img/commons/img-d6-regaliz.jpg",
-    "titulo": "Raíz de regaliz",
-    "alt": "Montón de trozos secos de raíz de regaliz.",
-    "origen": "commons",
-    "autor": "Erin Silversmith",
-    "licencia": "CC BY-SA 4.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Glycyrrhiza_glabra_(Pile_of_Spanish_wood_chips).jpg",
     "consultado": "2026-11-02",
     "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
@@ -451,18 +323,6 @@
     "urlOrigen": "https://commons.wikimedia.org/wiki/File:Blausen_0290_DeepVeinThrombosis.png",
     "consultado": "2026-11-02",
     "urlLicencia": "https://creativecommons.org/licenses/by/3.0"
-  },
-  {
-    "id": "img-d6-unagato",
-    "archivo": "img/commons/img-d6-unagato.jpg",
-    "titulo": "Uña de gato (Uncaria tomentosa)",
-    "alt": "Tallo de la liana uña de gato con sus espinas curvas en forma de garra.",
-    "origen": "commons",
-    "autor": "Kristi Denby / Archivo Centro Takiwasi",
-    "licencia": "CC BY-SA 4.0",
-    "urlOrigen": "https://commons.wikimedia.org/wiki/File:Corteza_y_espina_curva_de_uña_de_gato_(Uncaria_tomentosa).jpg",
-    "consultado": "2026-11-02",
-    "urlLicencia": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
     "id": "img-d6-vinca",
@@ -497,73 +357,10 @@
     "licencia": "Uso educativo en este curso"
   },
   {
-    "id": "img-nlm-d2-infografia",
-    "archivo": "img/notebooklm/dia-2-infografia.jpg",
-    "titulo": "Infografía del día 2",
-    "alt": "Infografía con los puntos clave del día 2, generada con NotebookLM a partir de las fuentes del curso.",
-    "origen": "notebooklm",
-    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
-    "licencia": "Uso educativo en este curso"
-  },
-  {
-    "id": "img-nlm-d3-infografia",
-    "archivo": "img/notebooklm/dia-3-infografia.jpg",
-    "titulo": "Infografía del día 3",
-    "alt": "Infografía con los puntos clave del día 3, generada con NotebookLM a partir de las fuentes del curso.",
-    "origen": "notebooklm",
-    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
-    "licencia": "Uso educativo en este curso"
-  },
-  {
-    "id": "img-nlm-d4-infografia",
-    "archivo": "img/notebooklm/dia-4-infografia.jpg",
-    "titulo": "Infografía del día 4",
-    "alt": "Infografía con los puntos clave del día 4, generada con NotebookLM a partir de las fuentes del curso.",
-    "origen": "notebooklm",
-    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
-    "licencia": "Uso educativo en este curso"
-  },
-  {
-    "id": "img-nlm-d5-infografia",
-    "archivo": "img/notebooklm/dia-5-infografia.jpg",
-    "titulo": "Infografía del día 5",
-    "alt": "Infografía con los puntos clave del día 5, generada con NotebookLM a partir de las fuentes del curso.",
-    "origen": "notebooklm",
-    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
-    "licencia": "Uso educativo en este curso"
-  },
-  {
-    "id": "img-nlm-d6-infografia",
-    "archivo": "img/notebooklm/dia-6-infografia.jpg",
-    "titulo": "Infografía del día 6",
-    "alt": "Infografía con los puntos clave del día 6, generada con NotebookLM a partir de las fuentes del curso.",
-    "origen": "notebooklm",
-    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
-    "licencia": "Uso educativo en este curso"
-  },
-  {
-    "id": "img-nlm-d7-infografia",
-    "archivo": "img/notebooklm/dia-7-infografia.jpg",
-    "titulo": "Infografía del día 7",
-    "alt": "Infografía con los puntos clave del día 7, generada con NotebookLM a partir de las fuentes del curso.",
-    "origen": "notebooklm",
-    "autor": "Generada con NotebookLM a partir de las fuentes citadas del día",
-    "licencia": "Uso educativo en este curso"
-  },
-  {
     "id": "img-ia-d4-huerto",
     "archivo": "img/ia/d4-huerto.jpg",
     "titulo": "Analogía: un huerto ordenado y una planta que crece sin control",
     "alt": "Ilustración de un huerto con hileras de plantas ordenadas y una sola planta que crece desmedida invadiendo a sus vecinas.",
-    "origen": "ia",
-    "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
-    "licencia": "Ilustración generada con IA, uso educativo"
-  },
-  {
-    "id": "img-ia-d6-resina",
-    "archivo": "img/ia/d6-resina.jpg",
-    "titulo": "Analogía: un árbol que sella su herida con resina",
-    "alt": "Ilustración de un tronco con un corte en la corteza cubierto por gotas de resina ámbar.",
     "origen": "ia",
     "autor": "Generada con IA (Google Gemini) a partir de un prompt del curso",
     "licencia": "Ilustración generada con IA, uso educativo"

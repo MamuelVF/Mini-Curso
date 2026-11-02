@@ -327,80 +327,6 @@
     ]
   },
   {
-    "id": "d5-f1",
-    "dia": 5,
-    "frente": "Metástasis",
-    "reverso": "Células de cáncer que viajan por la sangre y forman tumores en otros órganos.",
-    "fuentes": [
-      "F21"
-    ]
-  },
-  {
-    "id": "d5-f2",
-    "dia": 5,
-    "frente": "Vincristina y vinblastina",
-    "reverso": "Medicinas contra el cáncer de la vinca de Madagascar.",
-    "fuentes": [
-      "F106",
-      "F83"
-    ]
-  },
-  {
-    "id": "d5-f3",
-    "dia": 5,
-    "frente": "Paclitaxel",
-    "reverso": "Medicina contra el cáncer de la corteza del tejo del Pacífico.",
-    "fuentes": [
-      "F28"
-    ]
-  },
-  {
-    "id": "d5-f4",
-    "dia": 5,
-    "frente": "Etopósido",
-    "reverso": "Medicina hecha a partir de la podofilotoxina del podofilo.",
-    "fuentes": [
-      "F108"
-    ]
-  },
-  {
-    "id": "d5-f5",
-    "dia": 5,
-    "frente": "Topotecán e irinotecán",
-    "reverso": "Medicinas derivadas de la camptotecina de la camptoteca.",
-    "fuentes": [
-      "F107",
-      "F106"
-    ]
-  },
-  {
-    "id": "d5-f6",
-    "dia": 5,
-    "frente": "Zorrilla (anamú)",
-    "reverso": "Petiveria alliacea; su extracto frenó células de cáncer en el laboratorio.",
-    "fuentes": [
-      "F109"
-    ]
-  },
-  {
-    "id": "d5-f7",
-    "dia": 5,
-    "frente": "Dulcamara",
-    "reverso": "Solanum dulcamara; tiene solasodina y solamargina; sus bayas son venenosas.",
-    "fuentes": [
-      "F110"
-    ]
-  },
-  {
-    "id": "d5-f8",
-    "dia": 5,
-    "frente": "Muérdago",
-    "reverso": "Sus extractos están entre los más recetados a pacientes con cáncer en Europa.",
-    "fuentes": [
-      "F97"
-    ]
-  },
-  {
     "id": "d6-f1",
     "dia": 6,
     "frente": "Cardiotoxicidad",
@@ -525,6 +451,80 @@
     "reverso": "ECU 911.",
     "fuentes": [
       "F56"
+    ]
+  },
+  {
+    "id": "d5-f1",
+    "dia": 5,
+    "frente": "Metástasis",
+    "reverso": "Células de cáncer que viajan por la sangre y forman tumores en otros órganos.",
+    "fuentes": [
+      "F21"
+    ]
+  },
+  {
+    "id": "d5-f2",
+    "dia": 5,
+    "frente": "Vincristina y vinblastina",
+    "reverso": "Medicinas contra el cáncer de la vinca de Madagascar.",
+    "fuentes": [
+      "F106",
+      "F83"
+    ]
+  },
+  {
+    "id": "d5-f3",
+    "dia": 5,
+    "frente": "Paclitaxel",
+    "reverso": "Medicina contra el cáncer de la corteza del tejo del Pacífico.",
+    "fuentes": [
+      "F28"
+    ]
+  },
+  {
+    "id": "d5-f4",
+    "dia": 5,
+    "frente": "Etopósido",
+    "reverso": "Medicina hecha a partir de la podofilotoxina del podofilo.",
+    "fuentes": [
+      "F108"
+    ]
+  },
+  {
+    "id": "d5-f5",
+    "dia": 5,
+    "frente": "Topotecán e irinotecán",
+    "reverso": "Medicinas derivadas de la camptotecina de la camptoteca.",
+    "fuentes": [
+      "F107",
+      "F106"
+    ]
+  },
+  {
+    "id": "d5-f6",
+    "dia": 5,
+    "frente": "Zorrilla (anamú)",
+    "reverso": "Petiveria alliacea; su extracto frenó células de cáncer en el laboratorio.",
+    "fuentes": [
+      "F109"
+    ]
+  },
+  {
+    "id": "d5-f7",
+    "dia": 5,
+    "frente": "Dulcamara",
+    "reverso": "Solanum dulcamara; tiene solasodina y solamargina; sus bayas son venenosas.",
+    "fuentes": [
+      "F110"
+    ]
+  },
+  {
+    "id": "d5-f8",
+    "dia": 5,
+    "frente": "Muérdago",
+    "reverso": "Sus extractos están entre los más recetados a pacientes con cáncer en Europa.",
+    "fuentes": [
+      "F97"
     ]
   }
 ]

@@ -44,9 +44,6 @@ Descarté dos candidatas: un ecocardiograma sin autor declarado en Commons y un 
 ### img-ia-d4-huerto → `public/img/ia/d4-huerto.jpg`
 > Ilustración plana y cálida tipo libro de texto moderno. Un huerto visto de lado con hileras ordenadas de plantas iguales, separadas por espacios regulares. En el centro, una sola planta crece de forma desmedida y desordenada, con tallos que invaden a sus vecinas. Paleta verde salvia, tierra y crema. Formato horizontal 4:3. Sin texto, sin letras, sin personas. Fondo limpio.
 
-### img-ia-d6-resina → `public/img/ia/d6-resina.jpg`
-> Ilustración plana y cálida tipo libro de texto moderno. Primer plano del tronco de un árbol con un corte reciente en la corteza, cubierto por gotas de resina color ámbar que sellan la herida. Luz suave. Paleta verde salvia, tierra, ámbar y crema. Formato horizontal 4:3. Sin texto, sin letras, sin personas. Fondo limpio.
-
 ### img-ia-d6-natural → `public/img/ia/d6-natural.jpg`
 > Ilustración plana y cálida tipo libro de texto moderno. Sobre una mesa de madera, varios frascos de vidrio con hierbas secas y hojas, una lupa y un cuaderno abierto con dibujos de hojas. A un lado, un pequeño triángulo de precaución sin texto. Ambiente sereno y profesional. Paleta verde salvia, tierra y crema. Formato horizontal 4:3. Sin texto, sin letras, sin etiquetas legibles, sin pastillas ni jeringas.
 
