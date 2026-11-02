@@ -44,3 +44,12 @@ export const imagen = z.object({
   origen: z.enum(['commons', 'ia', 'notebooklm', 'propia']), autor: z.string(), licencia: z.string(),
   urlLicencia: z.string().url().optional(), urlOrigen: z.string().url().optional(), consultado: z.string().optional(),
 }).refine((i) => i.origen !== 'commons' || /^(Public domain|Dominio público|CC0|CC BY(-SA)? \d\.\d)/i.test(i.licencia), 'Licencia de Commons no permitida')
+
+const dato = z.object({ texto: z.string().min(5), fuentes })
+export const guiaDosis = z.object({
+  introduccion: z.string().min(10),
+  plantas: z.array(z.object({
+    id: z.string(), dia: z.number().int().min(1).max(7), nombre: z.string(), cientifico: z.string(), parte: z.string(),
+    imagen: z.string(), referencia: z.string().min(5), puntos: z.array(dato).min(1), ojo: dato.optional(), fuentes,
+  })).min(1),
+})

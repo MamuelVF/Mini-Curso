@@ -1,0 +1,285 @@
+{
+  "introduccion": "Cantidades de referencia de las plantas principales del curso, tomadas de monografías oficiales (Agencia Europea de Medicamentos, Comisión E alemana, Health Canada), de estudios en personas y del uso tradicional documentado. Cada dato lleva su fuente.",
+  "plantas": [
+    {
+      "id": "linaza",
+      "dia": 3,
+      "nombre": "Linaza",
+      "cientifico": "Linum usitatissimum",
+      "parte": "Semilla madura, molida",
+      "imagen": "img-p-linaza",
+      "referencia": "30 g al día de linaza molida, mezclada en las comidas, con abundante agua.",
+      "puntos": [
+        {
+          "texto": "Para la presión: 30 g al día de linaza molida en alimentos durante 6 meses bajó la presión unos 10 puntos la alta y 7 la baja.",
+          "fuentes": [
+            "F100"
+          ]
+        },
+        {
+          "texto": "Monografía europea: 10 a 15 g por toma, 2 o 3 veces al día, cada toma con al menos 150 ml de agua u otro líquido.",
+          "fuentes": [
+            "F118"
+          ]
+        },
+        {
+          "texto": "Tomarla de media a una hora antes o después de otras medicinas, porque puede retrasar su absorción. No justo antes de dormir.",
+          "fuentes": [
+            "F118"
+          ]
+        }
+      ],
+      "ojo": {
+        "texto": "Sin suficiente líquido puede trabar la garganta o el intestino. Nunca semillas crudas o inmaduras.",
+        "fuentes": [
+          "F118",
+          "F113"
+        ]
+      },
+      "fuentes": [
+        "F100",
+        "F113",
+        "F118"
+      ]
+    },
+    {
+      "id": "nopal",
+      "dia": 3,
+      "nombre": "Nopal",
+      "cientifico": "Opuntia ficus-indica",
+      "parte": "Penca (cladodio), cocida",
+      "imagen": "img-p-nopal",
+      "referencia": "Unos 300 g de nopal cocido, junto con una comida.",
+      "puntos": [
+        {
+          "texto": "Personas con diabetes tipo 2 comieron 300 g de nopal al vapor con el desayuno: bajaron el azúcar y la insulina después de comer.",
+          "fuentes": [
+            "F119"
+          ]
+        },
+        {
+          "texto": "Se come como verdura, cocido, dentro de la comida.",
+          "fuentes": [
+            "F119"
+          ]
+        }
+      ],
+      "fuentes": [
+        "F119"
+      ]
+    },
+    {
+      "id": "curcuma",
+      "dia": 5,
+      "nombre": "Cúrcuma",
+      "cientifico": "Curcuma longa",
+      "parte": "Rizoma (raíz), en polvo",
+      "imagen": "img-d6-curcuma",
+      "referencia": "1,5 a 3 g de cúrcuma en polvo al día, en 2 o 3 tomas, con pimienta negra.",
+      "puntos": [
+        {
+          "texto": "Monografía europea (uso tradicional): 0,5 a 1 g de polvo, o en infusión con 150 ml de agua hirviendo, 2 o 3 veces al día.",
+          "fuentes": [
+            "F116"
+          ]
+        },
+        {
+          "texto": "Curcumina pura en personas con lesiones que podían volverse cáncer: de 0,5 a 8 g al día durante 3 meses, sin efectos tóxicos. Más de 8 g era demasiado volumen para tragar.",
+          "fuentes": [
+            "F117"
+          ]
+        },
+        {
+          "texto": "La piperina de la pimienta negra ayuda a absorber la curcumina.",
+          "fuentes": [
+            "F76"
+          ]
+        }
+      ],
+      "ojo": {
+        "texto": "Algunos productos hechos para absorberse mucho se han relacionado con daño al hígado.",
+        "fuentes": [
+          "F76"
+        ]
+      },
+      "fuentes": [
+        "F76",
+        "F116",
+        "F117"
+      ]
+    },
+    {
+      "id": "noni",
+      "dia": 5,
+      "nombre": "Noni",
+      "cientifico": "Morinda citrifolia",
+      "parte": "Fruto (jugo o cápsulas)",
+      "imagen": "img-p-noni",
+      "referencia": "90 a 120 ml de jugo, 1 o 2 veces al día.",
+      "puntos": [
+        {
+          "texto": "La mayoría de los estudios usaron 90 a 120 ml de jugo, una o dos veces al día, durante 1 a 3 meses.",
+          "fuentes": [
+            "F123"
+          ]
+        },
+        {
+          "texto": "Un estudio de seguridad en adultos sanos llegó a 750 ml de jugo al día durante 28 días.",
+          "fuentes": [
+            "F123"
+          ]
+        },
+        {
+          "texto": "En cáncer avanzado se probaron cápsulas de fruto de 2 a 14 g al día; con 6 a 8 g hubo una tendencia a menos cansancio y mejor control del dolor.",
+          "fuentes": [
+            "F123"
+          ]
+        }
+      ],
+      "ojo": {
+        "texto": "Tiene potasio: cuidado si hay problemas de riñón o se toman medicinas que suben el potasio. Hay casos raros de daño al hígado.",
+        "fuentes": [
+          "F123",
+          "F111"
+        ]
+      },
+      "fuentes": [
+        "F111",
+        "F123"
+      ]
+    },
+    {
+      "id": "zorrilla",
+      "dia": 5,
+      "nombre": "Zorrilla (anamú)",
+      "cientifico": "Petiveria alliacea",
+      "parte": "Hojas (infusión, polvo o extracto)",
+      "imagen": "img-p-anamu",
+      "referencia": "¼ a ½ taza de infusión de hojas, 2 o 3 veces al día.",
+      "puntos": [
+        {
+          "texto": "Uso tradicional: infusión de ¼ a ½ taza, 2 o 3 veces al día, o 1 a 3 g de planta en polvo al día en cápsulas.",
+          "fuentes": [
+            "F125"
+          ]
+        },
+        {
+          "texto": "Estudio clínico PA001 (Colombia): extracto de hojas Esperanza en cápsulas de 500 mg, dos veces al día (1000 mg diarios) durante 4 semanas; si se tolera, sube a 2000 mg diarios.",
+          "fuentes": [
+            "F124"
+          ]
+        }
+      ],
+      "ojo": {
+        "texto": "Puede bajar el azúcar y tiene efecto abortivo. Con problemas del corazón o sus medicinas, consultarlo con el médico.",
+        "fuentes": [
+          "F125"
+        ]
+      },
+      "fuentes": [
+        "F124",
+        "F125"
+      ]
+    },
+    {
+      "id": "dulcamara",
+      "dia": 5,
+      "nombre": "Dulcamara",
+      "cientifico": "Solanum dulcamara",
+      "parte": "Tallo seco (nunca las bayas)",
+      "imagen": "img-p-dulcamara",
+      "referencia": "1 a 3 g de tallo seco al día en infusión, o pomada en la piel 3 a 5 veces al día.",
+      "puntos": [
+        {
+          "texto": "Comisión E alemana: 1 a 3 g de tallo seco al día, en infusión. Para uso externo, 1 a 2 g en 250 ml de agua, en compresas o lavados.",
+          "fuentes": [
+            "F126"
+          ]
+        },
+        {
+          "texto": "La Agencia Europea solo aprobó su uso en la piel (pomadas con 9 a 10 % de extracto, 3 a 5 veces al día) por sus glicoalcaloides.",
+          "fuentes": [
+            "F126"
+          ]
+        }
+      ],
+      "ojo": {
+        "texto": "Las bayas son venenosas, sobre todo verdes. No en embarazo, lactancia ni menores de 18 años.",
+        "fuentes": [
+          "F126",
+          "F110"
+        ]
+      },
+      "fuentes": [
+        "F110",
+        "F126"
+      ]
+    },
+    {
+      "id": "calendula",
+      "dia": 6,
+      "nombre": "Caléndula",
+      "cientifico": "Calendula officinalis",
+      "parte": "Flor (crema, pomada o infusión)",
+      "imagen": "img-p-calendula",
+      "referencia": "Crema o pomada con 2 a 10 % de caléndula, capa fina 2 a 4 veces al día.",
+      "puntos": [
+        {
+          "texto": "Monografía europea: crema o pomada con 2 a 10 % de caléndula, en capa fina, 2 a 4 veces al día.",
+          "fuentes": [
+            "F122"
+          ]
+        },
+        {
+          "texto": "En la radioterapia de mama se aplicó al menos 2 veces al día, desde el primer día de rayos hasta el último.",
+          "fuentes": [
+            "F114"
+          ]
+        },
+        {
+          "texto": "Compresas o gárgaras: infusión de 1 a 2 g de flores en 150 ml de agua, 2 a 4 veces al día. Las compresas se dejan 30 a 60 minutos.",
+          "fuentes": [
+            "F122"
+          ]
+        }
+      ],
+      "fuentes": [
+        "F114",
+        "F122"
+      ]
+    },
+    {
+      "id": "sabila",
+      "dia": 6,
+      "nombre": "Sábila",
+      "cientifico": "Aloe vera",
+      "parte": "Gel de la hoja (piel); látex (laxante)",
+      "imagen": "img-p-sabila",
+      "referencia": "Gel fresco en la piel, las veces que haga falta.",
+      "puntos": [
+        {
+          "texto": "Gel en la piel: gel fresco de la hoja, puro o diluido (10 a 100 %), en la zona afectada las veces que haga falta, para quemaduras leves y heridas pequeñas.",
+          "fuentes": [
+            "F120"
+          ]
+        },
+        {
+          "texto": "Látex como laxante: una vez al día, en la noche, con 10 a 30 mg de hidroxiantracenos, y no más de una semana. No en menores de 12 años.",
+          "fuentes": [
+            "F121"
+          ]
+        }
+      ],
+      "ojo": {
+        "texto": "Con digoxina, consultar antes de tomar el látex: la pérdida de potasio aumenta su efecto.",
+        "fuentes": [
+          "F121"
+        ]
+      },
+      "fuentes": [
+        "F120",
+        "F121"
+      ]
+    }
+  ]
+}

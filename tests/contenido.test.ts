@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { readFileSync, readdirSync } from 'node:fs'
-import { dia, flashcard, fuente, imagen, termino } from '../src/lib/esquema'
+import { dia, flashcard, fuente, guiaDosis, imagen, termino } from '../src/lib/esquema'
 
 const leer = (p: string) => JSON.parse(readFileSync(new URL(`../src/content/${p}`, import.meta.url), 'utf8'))
 const dias = readdirSync(new URL('../src/content/dias/', import.meta.url)).map((f) => leer(`dias/${f}`))
@@ -27,9 +27,10 @@ describe('contenido', () => {
     leer('glosario.json').forEach((t: unknown) => termino.parse(t))
     fuentes.forEach((f) => fuente.parse(f))
     leer('imagenes.json').forEach((i: unknown) => imagen.parse(i))
+    guiaDosis.parse(leer('dosis.json'))
   })
   it('todas las citas existen en fuentes.json', () => {
-    const todo = [...dias, leer('flashcards.json'), leer('glosario.json'), leer('derivar.json'), leer('caso.json')]
+    const todo = [...dias, leer('flashcards.json'), leer('glosario.json'), leer('derivar.json'), leer('caso.json'), leer('dosis.json')]
     const faltan = citas(todo).filter((c) => !ids.has(c))
     expect(faltan).toEqual([])
   })
@@ -37,11 +38,18 @@ describe('contenido', () => {
     const todos = [...dias.flatMap((d) => [...d.lecciones.flatMap((l: any) => [l.id, ...l.tarjetas.map((t: any) => t.id)]), ...d.practica.map((p: any) => p.id)]), ...leer('flashcards.json').map((f: any) => f.id)]
     expect(new Set(todos).size).toBe(todos.length)
   })
-  it('seguridad: sin dosis ni promesas de cura', () => {
-    const prohibido = [/\b\d+(\.\d+)?\s?(mg|mcg|µg|g\/d[ií]a|ml\/kg)\b/i, /\bcura(n|r)?\s+el\s+c[aá]ncer\b/i, /\bdosis\s+(recomendada|de\s+\d)/i]
-    const contenido = textos([...dias, leer('flashcards.json'), leer('glosario.json'), leer('caso.json'), leer('derivar.json')])
+  it('seguridad: sin promesas de cura', () => {
+    const prohibido = /\bcura(n|r)?\s+el\s+c[aá]ncer\b/i
+    const contenido = textos([...dias, leer('flashcards.json'), leer('glosario.json'), leer('caso.json'), leer('derivar.json'), leer('dosis.json')])
     const permitido = (t: string) => /ninguna planta cura|no cura|no digas|no insin/i.test(t)
-    for (const t of contenido) for (const r of prohibido) if (!permitido(t)) expect(t, `Texto no permitido: ${t}`).not.toMatch(r)
+    for (const t of contenido) if (!permitido(t)) expect(t, `Texto no permitido: ${t}`).not.toMatch(prohibido)
+  })
+  it('las dosis solo están en las lecciones "¿Cuánto se usa?" y en la Guía de dosis, siempre con fuente', () => {
+    const cantidad = /\b\d+([.,]\d+)?\s?(mg|mcg|µg|g|ml)\b/i
+    for (const d of dias) for (const l of d.lecciones) for (const t of l.tarjetas) {
+      if (cantidad.test(t.texto)) expect(l.titulo, `${t.id} tiene una dosis fuera de una lección de dosis`).toBe('¿Cuánto se usa?')
+    }
+    for (const p of leer('dosis.json').plantas) for (const x of p.puntos) expect(x.fuentes.length, p.id).toBeGreaterThan(0)
   })
   it('el caso es un recorrido válido que termina', () => {
     const caso = leer('caso.json') as { inicio: string; nodos: { id: string; final?: boolean; opciones?: { siguiente: string; segura: boolean }[] }[] }

@@ -6,7 +6,7 @@ import { Leccion } from './features/Leccion'
 import { Practica } from './features/Practica'
 import { Repaso } from './features/Repaso'
 import { Glosario } from './features/Glosario'
-import { Acerca, CasoVista, CuandoDerivar, Diagramas, FuentesPagina, Galeria, Mas, Progreso } from './features/Paginas'
+import { Acerca, CasoVista, CuandoDerivar, Diagramas, FuentesPagina, Galeria, GuiaDosis, Mas, Progreso } from './features/Paginas'
 
 export default function App() {
   const ruta = useRuta()
@@ -21,6 +21,7 @@ export default function App() {
   if (coincide('/glosario', ruta)) return <Glosario />
   if (coincide('/mas', ruta)) return <Mas />
   if (coincide('/derivar', ruta)) return <CuandoDerivar />
+  if (coincide('/dosis', ruta)) return <GuiaDosis />
   if (coincide('/caso', ruta)) return <CasoVista />
   if (coincide('/galeria', ruta)) return <Galeria />
   if (coincide('/progreso', ruta)) return <Progreso />

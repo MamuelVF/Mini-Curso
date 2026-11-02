@@ -254,6 +254,55 @@
           }
         }
       ]
+    },
+    {
+      "id": "d5-l5",
+      "titulo": "¿Cuánto se usa?",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d5-l5-t1",
+          "tipo": "dato",
+          "titulo": "Cúrcuma: 1,5 a 3 g al día",
+          "texto": "La monografía europea indica 0,5 a 1 g de cúrcuma en polvo, o en infusión con 150 ml de agua hirviendo, 2 o 3 veces al día. En un estudio con personas con lesiones que podían volverse cáncer, la curcumina se tomó 3 meses, de 0,5 a 8 g al día, sin efectos tóxicos.",
+          "fuentes": [
+            "F116",
+            "F117"
+          ],
+          "imagen": "img-d6-curcuma"
+        },
+        {
+          "id": "d5-l5-t2",
+          "tipo": "dato",
+          "titulo": "Noni: 90 a 120 ml de jugo",
+          "texto": "Los estudios con jugo de noni usaron casi siempre 90 a 120 ml, una o dos veces al día, durante 1 a 3 meses. En personas con cáncer avanzado se probaron cápsulas de fruto de 2 a 14 g al día; con 6 a 8 g hubo una tendencia a menos cansancio. Tiene potasio: cuidado con los riñones.",
+          "fuentes": [
+            "F123"
+          ],
+          "imagen": "img-p-noni"
+        },
+        {
+          "id": "d5-l5-t3",
+          "tipo": "dato",
+          "titulo": "Zorrilla (anamú)",
+          "texto": "Uso tradicional: infusión de hojas, de ¼ a ½ taza 2 o 3 veces al día, o 1 a 3 g de planta en polvo al día. En Colombia, el estudio clínico PA001 da el extracto de hojas Esperanza en cápsulas de 500 mg dos veces al día, y sube a 2000 mg diarios si se tolera. Ojo: puede bajar el azúcar y es abortiva.",
+          "fuentes": [
+            "F125",
+            "F124"
+          ],
+          "imagen": "img-p-anamu"
+        },
+        {
+          "id": "d5-l5-t4",
+          "tipo": "dato",
+          "titulo": "Dulcamara: 1 a 3 g de tallo",
+          "texto": "La Comisión E alemana indica 1 a 3 g de tallo seco al día, en infusión, y para uso externo 1 a 2 g en 250 ml de agua para compresas. La Agencia Europea solo aprobó su uso en la piel, en pomadas 3 a 5 veces al día, por sus glicoalcaloides. Las bayas son venenosas.",
+          "fuentes": [
+            "F126"
+          ],
+          "imagen": "img-p-dulcamara"
+        }
+      ]
     }
   ],
   "practica": [
@@ -402,6 +451,12 @@
     "F108",
     "F109",
     "F110",
-    "F111"
+    "F111",
+    "F116",
+    "F117",
+    "F123",
+    "F124",
+    "F125",
+    "F126"
   ]
 }

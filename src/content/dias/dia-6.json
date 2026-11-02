@@ -320,6 +320,45 @@
           }
         }
       ]
+    },
+    {
+      "id": "d6-l6",
+      "titulo": "¿Cuánto se usa?",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d6-l6-t1",
+          "tipo": "concepto",
+          "titulo": "Plantas para la piel",
+          "texto": "En la piel, la dosis se mide en concentración (qué porcentaje de planta tiene la crema) y en cuántas veces al día se aplica. Todas las cantidades del curso están en Más > Guía de dosis.",
+          "fuentes": [
+            "F122",
+            "F120"
+          ]
+        },
+        {
+          "id": "d6-l6-t2",
+          "tipo": "dato",
+          "titulo": "Caléndula: 2 a 4 veces al día",
+          "texto": "Crema o pomada con 2 a 10 % de caléndula, en capa fina, 2 a 4 veces al día (monografía europea). En el estudio de radioterapia de mama se aplicó al menos 2 veces al día, desde el primer día de rayos hasta el último. Para compresas: infusión de 1 a 2 g de flores en 150 ml de agua.",
+          "fuentes": [
+            "F122",
+            "F114"
+          ],
+          "imagen": "img-p-calendula"
+        },
+        {
+          "id": "d6-l6-t3",
+          "tipo": "dato",
+          "titulo": "Sábila: gel y látex",
+          "texto": "El gel fresco de la hoja, puro o diluido, se pone en la zona afectada las veces que haga falta, para quemaduras leves y heridas pequeñas. El látex solo se usa como laxante: una vez al día, en la noche, con 10 a 30 mg de sus sustancias laxantes, y no más de una semana. Con digoxina, consultarlo antes.",
+          "fuentes": [
+            "F120",
+            "F121"
+          ],
+          "imagen": "img-p-sabila"
+        }
+      ]
     }
   ],
   "practica": [
@@ -466,6 +505,9 @@
     "F111",
     "F112",
     "F114",
-    "F115"
+    "F115",
+    "F120",
+    "F121",
+    "F122"
   ]
 }

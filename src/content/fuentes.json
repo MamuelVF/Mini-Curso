@@ -162,10 +162,76 @@
     "consultado": "2026-11-02"
   },
   {
+    "id": "F116",
+    "titulo": "EMA (Agencia Europea de Medicamentos). European Union herbal monograph on Curcuma longa L., rhizoma, revisión 1 (EMA/HMPC/329755/2017), adoptada 25 sep 2018",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-curcuma-longa-l-rhizoma-revision-1_en.pdf",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F117",
+    "titulo": "Cheng AL, Hsu CH, Lin JK, et al. Phase I clinical trial of curcumin, a chemopreventive agent, in patients with high-risk or pre-malignant lesions. Anticancer Res. 2001;21(4B):2895-900. PMID 11712783",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11712783/",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F118",
+    "titulo": "EMA. Community herbal monograph on Linum usitatissimum L., semen (linaza) (EMA/HMPC/377675/2014), 10 mar 2015",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-linum-usitatissimum-l-semen_en.pdf",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F119",
+    "titulo": "López-Romero P, Pichardo-Ontiveros E, Avila-Nava A, et al. The effect of nopal (Opuntia ficus indica) on postprandial blood glucose, incretins, and antioxidant activity in Mexican patients with type 2 diabetes after consumption of two different composition breakfasts. J Acad Nutr Diet. 2014;114(11):1811-8",
+    "url": "https://doi.org/10.1016/j.jand.2014.06.352",
+    "consultado": "2026-11-02"
+  },
+  {
     "id": "F12",
     "titulo": "Dent S, et al. Prevention and management of cardiovascular disease in adults with cancer: IC-OS / MASCC clinical practice statement. Cardio-Oncology (acceso abierto). PMID 42216106",
     "url": "https://doi.org/10.1186/s40959-026-00481-3",
     "consultado": "2026-11-01"
+  },
+  {
+    "id": "F120",
+    "titulo": "Health Canada. Natural Health Product monograph: Aloe (Aloe vera), uso tópico, 29 ago 2025",
+    "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/dbImages/680",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F121",
+    "titulo": "EMA. European Union herbal monograph on Aloe barbadensis Mill. and Aloe (various species), folii succus siccatus (látex) (EMA/HMPC/625788/2015), 22 nov 2016",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-aloe-barbadensis-mill-and-aloe-various-species-mainly-aloe-ferox-mill-and-its-hybrids-folii-succus-siccatus_en.pdf",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F122",
+    "titulo": "EMA. European Union herbal monograph on Calendula officinalis L., flos, revisión 1 (EMA/HMPC/437450/2017), adoptada 27 mar 2018",
+    "url": "https://ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-calendula-officinalis-l-flos-revision-1_en.pdf",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F123",
+    "titulo": "CAM-Cancer (Pilkington K). Noni (Morinda citrifolia): resumen de estudios clínicos y seguridad, actualizado mayo 2022",
+    "url": "https://cam-cancer.org/noni-morinda-citrifolia",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F124",
+    "titulo": "Ballesteros-Ramírez R, Pinilla P, Sánchez J, et al. Exploring the safety and efficacy of phytomedicine Petiveria alliacea extract (Esperanza) in patients with metastatic gastrointestinal tumors and acute leukemias: study protocol for a phase Ib/randomized double blind phase II trial (PA001). BMC Complement Med Ther. 2023;23:284",
+    "url": "https://doi.org/10.1186/s12906-023-04109-2",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F125",
+    "titulo": "Taylor L. Anamu (Petiveria alliacea). Tropical Plant Database, Raintree (© 2025; investigación revisada hasta jul 2025)",
+    "url": "https://www.rain-tree.com/anamu.htm",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F126",
+    "titulo": "EMA. Assessment report on Solanum dulcamara L., stipites (EMA/HMPC/734363/2011), 15 ene 2013 (recoge la dosis de la Comisión E alemana)",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-solanum-dulcamara-l-stipites_en.pdf",
+    "consultado": "2026-11-02"
   },
   {
     "id": "F13",

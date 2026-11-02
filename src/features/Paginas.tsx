@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import derivar from '../content/derivar.json'
+import dosis from '../content/dosis.json'
 import { caso, dias, fuentes, imagenes } from '../content'
 import { Pagina } from '../components/Layout'
 import { Fuentes } from '../components/Fuentes'
@@ -12,6 +13,7 @@ import type { IdDiagrama } from '../lib/tipos'
 
 export function Mas() {
   const enlaces = [
+    ['#/dosis', 'Guía de dosis', 'Cuánto se usa de cada planta principal'],
     ['#/derivar', 'Cuándo derivar', 'Señales de alarma'],
     ['#/diagramas', 'Diagramas interactivos', 'Ciclo cardiaco, circulación, presión…'],
     ['#/caso', 'Caso integrador', 'Decisiones paso a paso (día 7)'],
@@ -29,6 +31,51 @@ export function Mas() {
       </ul>
     </Pagina>
   )
+}
+
+export function GuiaDosis() {
+  const [abierta, setAbierta] = useState<string | null>(null)
+  return (
+    <Pagina titulo="Guía de dosis" volver="/mas">
+      <p className="text-suave">{dosis.introduccion}</p>
+      <ul className="mt-4 space-y-3">
+        {dosis.plantas.map((p) => {
+          const ver = abierta === p.id
+          return (
+            <li key={p.id} className="tarjeta overflow-hidden">
+              <button className="w-full text-left p-4 flex gap-3 items-center min-h-11" onClick={() => setAbierta(ver ? null : p.id)} aria-expanded={ver}>
+                <MiniFoto id={p.imagen} />
+                <span className="flex-1 min-w-0">
+                  <span className="font-semibold block">{p.nombre} <i className="font-normal text-suave">{p.cientifico}</i></span>
+                  <span className="text-sm block mt-0.5">{p.referencia}</span>
+                  <span className="text-xs text-suave block mt-0.5">{p.parte} · día {p.dia}</span>
+                </span>
+                <span aria-hidden className={`text-suave transition-transform ${ver ? 'rotate-90' : ''}`}>›</span>
+              </button>
+              {ver && (
+                <div className="px-4 pb-4">
+                  <ImagenCreditada id={p.imagen} className="mb-3" />
+                  <h3 className="font-semibold">Lo que dicen las fuentes</h3>
+                  <ul className="list-disc pl-5 mt-1 space-y-1">{p.puntos.map((x) => <li key={x.texto}>{x.texto} <span className="font-mono text-xs text-suave">{x.fuentes.join(', ')}</span></li>)}</ul>
+                  {'ojo' in p && p.ojo && (
+                    <p className="mt-3 p-3 rounded-xl bg-alerta-50 text-sm"><b className="text-alerta">Ojo:</b> {p.ojo.texto} <span className="font-mono text-xs text-suave">{p.ojo.fuentes.join(', ')}</span></p>
+                  )}
+                  <Fuentes ids={p.fuentes} />
+                </div>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    </Pagina>
+  )
+}
+
+/** Foto pequeña de la planta para la lista (sin crédito: el crédito se ve al abrir la ficha). */
+function MiniFoto({ id }: { id: string }) {
+  const img = imagenes.find((i) => i.id === id)
+  if (!img) return null
+  return <img src={`${import.meta.env.BASE_URL}${img.archivo}`} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden' }} className="w-14 h-14 rounded-xl object-cover shrink-0 bg-verde-50" />
 }
 
 export function CuandoDerivar() {
@@ -145,7 +192,7 @@ export function Acerca() {
     <Pagina titulo="Acerca del curso" volver="/mas">
       <section className="tarjeta p-4 bg-alerta-50 border-alerta/30">
         <h2 className="text-lg font-semibold text-alerta">Descargo</h2>
-        <p className="mt-1">Este curso es educativo, no clínico. No sustituye la atención médica, no orienta tratamientos y no incluye dosis.</p>
+        <p className="mt-1">Este curso es educativo. Las dosis de la Guía de dosis son cantidades de referencia tomadas de monografías oficiales, estudios en personas y uso tradicional, cada una con su fuente.</p>
       </section>
       <section className="tarjeta p-4 mt-4">
         <h2 className="text-lg font-semibold">Para quién es</h2>

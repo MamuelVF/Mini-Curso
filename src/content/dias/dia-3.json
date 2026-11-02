@@ -301,6 +301,44 @@
           }
         }
       ]
+    },
+    {
+      "id": "d3-l6",
+      "titulo": "¿Cuánto se usa?",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d3-l6-t1",
+          "tipo": "concepto",
+          "titulo": "Cómo leer una dosis",
+          "texto": "Una dosis tiene cuatro partes: qué parte de la planta, cuánta cantidad, cuántas veces al día y por cuánto tiempo. Aquí van las cantidades de los estudios en personas y de las monografías oficiales de plantas medicinales. Todas juntas están en Más > Guía de dosis.",
+          "fuentes": [
+            "F118",
+            "F100"
+          ]
+        },
+        {
+          "id": "d3-l6-t2",
+          "tipo": "dato",
+          "titulo": "Linaza: 30 g al día, molida",
+          "texto": "En el estudio de la presión se comieron 30 g de linaza molida al día, mezclada en alimentos, durante 6 meses. La monografía europea pide tomar cada porción con al menos 150 ml de agua u otro líquido, y separarla de media a una hora de otras medicinas, porque puede retrasar su absorción.",
+          "fuentes": [
+            "F100",
+            "F118"
+          ],
+          "imagen": "img-p-linaza"
+        },
+        {
+          "id": "d3-l6-t3",
+          "tipo": "dato",
+          "titulo": "Nopal: unos 300 g cocido",
+          "texto": "En un estudio con personas con diabetes tipo 2, comer 300 g de nopal al vapor junto con el desayuno bajó el azúcar y la insulina después de comer. Se usa como verdura, cocido, dentro de la comida.",
+          "fuentes": [
+            "F119"
+          ],
+          "imagen": "img-p-nopal"
+        }
+      ]
     }
   ],
   "practica": [
@@ -452,6 +490,8 @@
     "F103",
     "F104",
     "F105",
-    "F111"
+    "F111",
+    "F118",
+    "F119"
   ]
 }
