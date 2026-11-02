@@ -374,7 +374,7 @@
   "audio": {
     "archivo": "audio/dia-4.mp3",
     "titulo": "Resumen del día 4",
-    "estado": "pendiente",
+    "estado": "listo",
     "origen": "NotebookLM"
   },
   "resumen": {
@@ -385,7 +385,8 @@
       "El espino blanco es la planta más estudiada en insuficiencia cardiaca; la digoxina de la dedalera sigue en uso.",
       "El extracto de castaño de Indias mejora los síntomas de las venas de las piernas; la semilla cruda es tóxica.",
       "El ginkgo puede sumar sangrado con la warfarina."
-    ]
+    ],
+    "imagen": "img-nlm-d4-infografia"
   },
   "fuentes": [
     "F34",

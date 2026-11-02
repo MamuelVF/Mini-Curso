@@ -372,7 +372,7 @@
   "audio": {
     "archivo": "audio/dia-5.mp3",
     "titulo": "Resumen del día 5",
-    "estado": "pendiente",
+    "estado": "listo",
     "origen": "NotebookLM"
   },
   "resumen": {
@@ -383,7 +383,8 @@
       "La zorrilla frenó células de cáncer en el laboratorio; la dulcamara y el noni también tienen resultados de laboratorio.",
       "La cúrcuma puede aliviar llagas en la boca por el tratamiento; el muérdago es de lo más recetado en Europa.",
       "El camino de una planta va del laboratorio a los animales y a las personas."
-    ]
+    ],
+    "imagen": "img-nlm-d5-infografia"
   },
   "fuentes": [
     "F20",

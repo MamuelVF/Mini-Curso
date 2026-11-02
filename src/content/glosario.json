@@ -97,206 +97,6 @@
     ]
   },
   {
-    "termino": "Insuficiencia cardiaca",
-    "definicion": "Cuando el corazón no logra bombear la sangre que el cuerpo necesita.",
-    "dia": 4,
-    "fuentes": [
-      "F53"
-    ]
-  },
-  {
-    "termino": "Fracción de eyección",
-    "definicion": "Parte de la sangre del ventrículo izquierdo que sale en cada latido.",
-    "dia": 4,
-    "fuentes": [
-      "F58"
-    ]
-  },
-  {
-    "termino": "Electrocardiograma",
-    "definicion": "Prueba que dibuja la señal eléctrica del corazón.",
-    "dia": 4,
-    "fuentes": [
-      "F36"
-    ]
-  },
-  {
-    "termino": "Fibrilación auricular",
-    "definicion": "Arritmia en la que las aurículas tiemblan en vez de apretar.",
-    "dia": 4,
-    "fuentes": [
-      "F59"
-    ]
-  },
-  {
-    "termino": "Espino blanco",
-    "definicion": "Arbusto del género Crataegus usado tradicionalmente para el corazón.",
-    "dia": 4,
-    "fuentes": [
-      "F78"
-    ]
-  },
-  {
-    "termino": "Insuficiencia venosa crónica",
-    "definicion": "Las venas de las piernas no suben bien la sangre y las piernas se hinchan y pesan.",
-    "dia": 4,
-    "fuentes": [
-      "F96"
-    ]
-  },
-  {
-    "termino": "Castaño de Indias",
-    "definicion": "Aesculus hippocastanum; su extracto de semilla se estudió para las venas.",
-    "dia": 4,
-    "fuentes": [
-      "F96"
-    ]
-  },
-  {
-    "termino": "Cardiotoxicidad",
-    "definicion": "Daño del corazón causado por un tratamiento.",
-    "dia": 6,
-    "fuentes": [
-      "F11"
-    ]
-  },
-  {
-    "termino": "Antraciclina",
-    "definicion": "Familia de quimioterapias, como la doxorrubicina, que puede debilitar el corazón.",
-    "dia": 6,
-    "fuentes": [
-      "F86"
-    ]
-  },
-  {
-    "termino": "Caléndula",
-    "definicion": "Calendula officinalis; su crema se estudió para proteger la piel en la radioterapia.",
-    "dia": 6,
-    "fuentes": [
-      "F114"
-    ]
-  },
-  {
-    "termino": "Sábila",
-    "definicion": "Aloe vera; tiene un gel interior y un látex en la cáscara.",
-    "dia": 6,
-    "fuentes": [
-      "F112"
-    ]
-  },
-  {
-    "termino": "Interacción",
-    "definicion": "Cuando una planta o un medicamento cambia el efecto de otro.",
-    "dia": 6,
-    "fuentes": [
-      "F71"
-    ]
-  },
-  {
-    "termino": "Trombosis venosa profunda",
-    "definicion": "Coágulo dentro de una vena profunda, casi siempre de la pierna.",
-    "dia": 6,
-    "fuentes": [
-      "F40"
-    ]
-  },
-  {
-    "termino": "Embolia pulmonar",
-    "definicion": "Coágulo que viaja y se atasca en el pulmón; es una urgencia.",
-    "dia": 6,
-    "fuentes": [
-      "F41"
-    ]
-  },
-  {
-    "termino": "Nombre científico",
-    "definicion": "Nombre en latín de dos palabras, único para cada especie, como Petiveria alliacea.",
-    "dia": 7,
-    "fuentes": [
-      "F70"
-    ]
-  },
-  {
-    "termino": "Citrinina",
-    "definicion": "Contaminante tóxico para el riñón encontrado en algunos productos de levadura roja.",
-    "dia": 7,
-    "fuentes": [
-      "F95"
-    ]
-  },
-  {
-    "termino": "FAST",
-    "definicion": "Regla para reconocer un ictus: cara, brazo, habla y tiempo.",
-    "dia": 7,
-    "fuentes": [
-      "F43"
-    ]
-  },
-  {
-    "termino": "ECU 911",
-    "definicion": "Número de emergencias de Ecuador.",
-    "dia": 7,
-    "fuentes": [
-      "F56"
-    ]
-  },
-  {
-    "termino": "Cáncer",
-    "definicion": "Enfermedad en la que algunas células se dividen sin control y pueden invadir otros tejidos.",
-    "dia": 5,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Metástasis",
-    "definicion": "Diseminación del cáncer a otros órganos a través de la sangre o la linfa.",
-    "dia": 5,
-    "fuentes": [
-      "F21"
-    ]
-  },
-  {
-    "termino": "Podofilotoxina",
-    "definicion": "Sustancia del podofilo de la que se hizo el etopósido.",
-    "dia": 5,
-    "fuentes": [
-      "F108"
-    ]
-  },
-  {
-    "termino": "Camptotecina",
-    "definicion": "Sustancia de la camptoteca de la que salieron el topotecán y el irinotecán.",
-    "dia": 5,
-    "fuentes": [
-      "F107"
-    ]
-  },
-  {
-    "termino": "Zorrilla",
-    "definicion": "Nombre en Ecuador del anamú (Petiveria alliacea).",
-    "dia": 5,
-    "fuentes": [
-      "F109"
-    ]
-  },
-  {
-    "termino": "Glicoalcaloide",
-    "definicion": "Tipo de sustancia de plantas como la dulcamara; ejemplos: solasodina y solamargina.",
-    "dia": 5,
-    "fuentes": [
-      "F110"
-    ]
-  },
-  {
-    "termino": "Lectina",
-    "definicion": "Proteína del muérdago que en el laboratorio activa las defensas y daña células de cáncer.",
-    "dia": 5,
-    "fuentes": [
-      "F98"
-    ]
-  },
-  {
     "termino": "Sustancia activa",
     "definicion": "Componente de una planta que produce su efecto; también se llama principio activo.",
     "dia": 2,
@@ -391,6 +191,206 @@
     "fuentes": [
       "F104",
       "F105"
+    ]
+  },
+  {
+    "termino": "Insuficiencia cardiaca",
+    "definicion": "Cuando el corazón no logra bombear la sangre que el cuerpo necesita.",
+    "dia": 4,
+    "fuentes": [
+      "F53"
+    ]
+  },
+  {
+    "termino": "Fracción de eyección",
+    "definicion": "Parte de la sangre del ventrículo izquierdo que sale en cada latido.",
+    "dia": 4,
+    "fuentes": [
+      "F58"
+    ]
+  },
+  {
+    "termino": "Electrocardiograma",
+    "definicion": "Prueba que dibuja la señal eléctrica del corazón.",
+    "dia": 4,
+    "fuentes": [
+      "F36"
+    ]
+  },
+  {
+    "termino": "Fibrilación auricular",
+    "definicion": "Arritmia en la que las aurículas tiemblan en vez de apretar.",
+    "dia": 4,
+    "fuentes": [
+      "F59"
+    ]
+  },
+  {
+    "termino": "Espino blanco",
+    "definicion": "Arbusto del género Crataegus usado tradicionalmente para el corazón.",
+    "dia": 4,
+    "fuentes": [
+      "F78"
+    ]
+  },
+  {
+    "termino": "Insuficiencia venosa crónica",
+    "definicion": "Las venas de las piernas no suben bien la sangre y las piernas se hinchan y pesan.",
+    "dia": 4,
+    "fuentes": [
+      "F96"
+    ]
+  },
+  {
+    "termino": "Castaño de Indias",
+    "definicion": "Aesculus hippocastanum; su extracto de semilla se estudió para las venas.",
+    "dia": 4,
+    "fuentes": [
+      "F96"
+    ]
+  },
+  {
+    "termino": "Cáncer",
+    "definicion": "Enfermedad en la que algunas células se dividen sin control y pueden invadir otros tejidos.",
+    "dia": 5,
+    "fuentes": [
+      "F20"
+    ]
+  },
+  {
+    "termino": "Metástasis",
+    "definicion": "Diseminación del cáncer a otros órganos a través de la sangre o la linfa.",
+    "dia": 5,
+    "fuentes": [
+      "F21"
+    ]
+  },
+  {
+    "termino": "Podofilotoxina",
+    "definicion": "Sustancia del podofilo de la que se hizo el etopósido.",
+    "dia": 5,
+    "fuentes": [
+      "F108"
+    ]
+  },
+  {
+    "termino": "Camptotecina",
+    "definicion": "Sustancia de la camptoteca de la que salieron el topotecán y el irinotecán.",
+    "dia": 5,
+    "fuentes": [
+      "F107"
+    ]
+  },
+  {
+    "termino": "Zorrilla",
+    "definicion": "Nombre en Ecuador del anamú (Petiveria alliacea).",
+    "dia": 5,
+    "fuentes": [
+      "F109"
+    ]
+  },
+  {
+    "termino": "Glicoalcaloide",
+    "definicion": "Tipo de sustancia de plantas como la dulcamara; ejemplos: solasodina y solamargina.",
+    "dia": 5,
+    "fuentes": [
+      "F110"
+    ]
+  },
+  {
+    "termino": "Lectina",
+    "definicion": "Proteína del muérdago que en el laboratorio activa las defensas y daña células de cáncer.",
+    "dia": 5,
+    "fuentes": [
+      "F98"
+    ]
+  },
+  {
+    "termino": "Cardiotoxicidad",
+    "definicion": "Daño del corazón causado por un tratamiento.",
+    "dia": 6,
+    "fuentes": [
+      "F11"
+    ]
+  },
+  {
+    "termino": "Antraciclina",
+    "definicion": "Familia de quimioterapias, como la doxorrubicina, que puede debilitar el corazón.",
+    "dia": 6,
+    "fuentes": [
+      "F86"
+    ]
+  },
+  {
+    "termino": "Caléndula",
+    "definicion": "Calendula officinalis; su crema se estudió para proteger la piel en la radioterapia.",
+    "dia": 6,
+    "fuentes": [
+      "F114"
+    ]
+  },
+  {
+    "termino": "Sábila",
+    "definicion": "Aloe vera; tiene un gel interior y un látex en la cáscara.",
+    "dia": 6,
+    "fuentes": [
+      "F112"
+    ]
+  },
+  {
+    "termino": "Interacción",
+    "definicion": "Cuando una planta o un medicamento cambia el efecto de otro.",
+    "dia": 6,
+    "fuentes": [
+      "F71"
+    ]
+  },
+  {
+    "termino": "Trombosis venosa profunda",
+    "definicion": "Coágulo dentro de una vena profunda, casi siempre de la pierna.",
+    "dia": 6,
+    "fuentes": [
+      "F40"
+    ]
+  },
+  {
+    "termino": "Embolia pulmonar",
+    "definicion": "Coágulo que viaja y se atasca en el pulmón; es una urgencia.",
+    "dia": 6,
+    "fuentes": [
+      "F41"
+    ]
+  },
+  {
+    "termino": "Nombre científico",
+    "definicion": "Nombre en latín de dos palabras, único para cada especie, como Petiveria alliacea.",
+    "dia": 7,
+    "fuentes": [
+      "F70"
+    ]
+  },
+  {
+    "termino": "Citrinina",
+    "definicion": "Contaminante tóxico para el riñón encontrado en algunos productos de levadura roja.",
+    "dia": 7,
+    "fuentes": [
+      "F95"
+    ]
+  },
+  {
+    "termino": "FAST",
+    "definicion": "Regla para reconocer un ictus: cara, brazo, habla y tiempo.",
+    "dia": 7,
+    "fuentes": [
+      "F43"
+    ]
+  },
+  {
+    "termino": "ECU 911",
+    "definicion": "Número de emergencias de Ecuador.",
+    "dia": 7,
+    "fuentes": [
+      "F56"
     ]
   }
 ]

@@ -656,5 +656,41 @@
     "origen": "notebooklm",
     "autor": "Generada con NotebookLM a partir del texto verificado del día",
     "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d4-infografia",
+    "archivo": "img/notebooklm/dia-4-infografia.jpg",
+    "titulo": "Infografía del día 4",
+    "alt": "Infografía con los puntos clave del día 4, generada con NotebookLM a partir del texto del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir del texto verificado del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d5-infografia",
+    "archivo": "img/notebooklm/dia-5-infografia.jpg",
+    "titulo": "Infografía del día 5",
+    "alt": "Infografía con los puntos clave del día 5, generada con NotebookLM a partir del texto del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir del texto verificado del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d6-infografia",
+    "archivo": "img/notebooklm/dia-6-infografia.jpg",
+    "titulo": "Infografía del día 6",
+    "alt": "Infografía con los puntos clave del día 6, generada con NotebookLM a partir del texto del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir del texto verificado del día",
+    "licencia": "Uso educativo en este curso"
+  },
+  {
+    "id": "img-nlm-d7-infografia",
+    "archivo": "img/notebooklm/dia-7-infografia.jpg",
+    "titulo": "Infografía del día 7",
+    "alt": "Infografía con los puntos clave del día 7, generada con NotebookLM a partir del texto del curso.",
+    "origen": "notebooklm",
+    "autor": "Generada con NotebookLM a partir del texto verificado del día",
+    "licencia": "Uso educativo en este curso"
   }
 ]

@@ -126,271 +126,6 @@
     ]
   },
   {
-    "id": "d4-f1",
-    "dia": 4,
-    "frente": "Insuficiencia cardiaca",
-    "reverso": "El corazón no logra bombear toda la sangre que el cuerpo necesita.",
-    "fuentes": [
-      "F53"
-    ]
-  },
-  {
-    "id": "d4-f2",
-    "dia": 4,
-    "frente": "Fracción de eyección normal",
-    "reverso": "Entre 55% y 70%.",
-    "fuentes": [
-      "F58"
-    ]
-  },
-  {
-    "id": "d4-f3",
-    "dia": 4,
-    "frente": "Onda P, QRS y T",
-    "reverso": "Chispa en aurículas, chispa en ventrículos y recarga.",
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "id": "d4-f4",
-    "dia": 4,
-    "frente": "Fibrilación auricular",
-    "reverso": "Las aurículas tiemblan y los latidos llegan a destiempo.",
-    "fuentes": [
-      "F59"
-    ]
-  },
-  {
-    "id": "d4-f5",
-    "dia": 4,
-    "frente": "Espino blanco",
-    "reverso": "Crataegus; la planta más estudiada en insuficiencia cardiaca.",
-    "fuentes": [
-      "F78"
-    ]
-  },
-  {
-    "id": "d4-f6",
-    "dia": 4,
-    "frente": "Castaño de Indias",
-    "reverso": "Su extracto de semilla mejora los síntomas de la insuficiencia venosa crónica.",
-    "fuentes": [
-      "F96"
-    ]
-  },
-  {
-    "id": "d4-f7",
-    "dia": 4,
-    "frente": "Ginkgo y warfarina",
-    "reverso": "Juntos pueden aumentar el sangrado.",
-    "fuentes": [
-      "F74",
-      "F71"
-    ]
-  },
-  {
-    "id": "d6-f1",
-    "dia": 6,
-    "frente": "Cardiotoxicidad",
-    "reverso": "Daño del corazón causado por un tratamiento.",
-    "fuentes": [
-      "F11"
-    ]
-  },
-  {
-    "id": "d6-f2",
-    "dia": 6,
-    "frente": "Caléndula en radioterapia",
-    "reverso": "Redujo la irritación fuerte de la piel del 63% al 41% en un estudio.",
-    "fuentes": [
-      "F114"
-    ]
-  },
-  {
-    "id": "d6-f3",
-    "dia": 6,
-    "frente": "Gel de sábila",
-    "reverso": "Puede acelerar la curación de quemaduras y aliviar su dolor.",
-    "fuentes": [
-      "F112"
-    ]
-  },
-  {
-    "id": "d6-f4",
-    "dia": 6,
-    "frente": "Látex de sábila tomado",
-    "reverso": "Causa cólicos y diarrea; usado de más aumenta los efectos de la digoxina.",
-    "fuentes": [
-      "F112"
-    ]
-  },
-  {
-    "id": "d6-f5",
-    "dia": 6,
-    "frente": "Hipérico",
-    "reverso": "Le quita fuerza a medicinas como irinotecán, warfarina y digoxina.",
-    "fuentes": [
-      "F73"
-    ]
-  },
-  {
-    "id": "d6-f6",
-    "dia": 6,
-    "frente": "Ginkgo y ajo con warfarina",
-    "reverso": "Pueden aumentar el sangrado.",
-    "fuentes": [
-      "F74",
-      "F75"
-    ]
-  },
-  {
-    "id": "d6-f7",
-    "dia": 6,
-    "frente": "Té verde y medicinas",
-    "reverso": "Puede bajar el nadolol y la atorvastatina en la sangre.",
-    "fuentes": [
-      "F77"
-    ]
-  },
-  {
-    "id": "d6-f8",
-    "dia": 6,
-    "frente": "Señales de coágulo en la pierna",
-    "reverso": "Hinchazón, calor y dolor en una pierna.",
-    "fuentes": [
-      "F40"
-    ]
-  },
-  {
-    "id": "d7-f1",
-    "dia": 7,
-    "frente": "Zorrilla",
-    "reverso": "Nombre en Ecuador del anamú, Petiveria alliacea.",
-    "fuentes": [
-      "F109"
-    ]
-  },
-  {
-    "id": "d7-f2",
-    "dia": 7,
-    "frente": "Parte correcta del castaño de Indias",
-    "reverso": "El extracto de semilla preparado; la semilla cruda es tóxica.",
-    "fuentes": [
-      "F96"
-    ]
-  },
-  {
-    "id": "d7-f3",
-    "dia": 7,
-    "frente": "Chaya",
-    "reverso": "Hervir hojas y tallos verdes unos 20 minutos.",
-    "fuentes": [
-      "F105"
-    ]
-  },
-  {
-    "id": "d7-f4",
-    "dia": 7,
-    "frente": "Linaza",
-    "reverso": "Madura y molida; no cruda ni inmadura.",
-    "fuentes": [
-      "F113"
-    ]
-  },
-  {
-    "id": "d7-f5",
-    "dia": 7,
-    "frente": "FAST",
-    "reverso": "Cara, brazo, habla y tiempo de llamar a emergencias.",
-    "fuentes": [
-      "F43"
-    ]
-  },
-  {
-    "id": "d7-f6",
-    "dia": 7,
-    "frente": "Número de emergencias en Ecuador",
-    "reverso": "ECU 911.",
-    "fuentes": [
-      "F56"
-    ]
-  },
-  {
-    "id": "d5-f1",
-    "dia": 5,
-    "frente": "Metástasis",
-    "reverso": "Células de cáncer que viajan por la sangre y forman tumores en otros órganos.",
-    "fuentes": [
-      "F21"
-    ]
-  },
-  {
-    "id": "d5-f2",
-    "dia": 5,
-    "frente": "Vincristina y vinblastina",
-    "reverso": "Medicinas contra el cáncer de la vinca de Madagascar.",
-    "fuentes": [
-      "F106",
-      "F83"
-    ]
-  },
-  {
-    "id": "d5-f3",
-    "dia": 5,
-    "frente": "Paclitaxel",
-    "reverso": "Medicina contra el cáncer de la corteza del tejo del Pacífico.",
-    "fuentes": [
-      "F28"
-    ]
-  },
-  {
-    "id": "d5-f4",
-    "dia": 5,
-    "frente": "Etopósido",
-    "reverso": "Medicina hecha a partir de la podofilotoxina del podofilo.",
-    "fuentes": [
-      "F108"
-    ]
-  },
-  {
-    "id": "d5-f5",
-    "dia": 5,
-    "frente": "Topotecán e irinotecán",
-    "reverso": "Medicinas derivadas de la camptotecina de la camptoteca.",
-    "fuentes": [
-      "F107",
-      "F106"
-    ]
-  },
-  {
-    "id": "d5-f6",
-    "dia": 5,
-    "frente": "Zorrilla (anamú)",
-    "reverso": "Petiveria alliacea; su extracto frenó células de cáncer en el laboratorio.",
-    "fuentes": [
-      "F109"
-    ]
-  },
-  {
-    "id": "d5-f7",
-    "dia": 5,
-    "frente": "Dulcamara",
-    "reverso": "Solanum dulcamara; tiene solasodina y solamargina; sus bayas son venenosas.",
-    "fuentes": [
-      "F110"
-    ]
-  },
-  {
-    "id": "d5-f8",
-    "dia": 5,
-    "frente": "Muérdago",
-    "reverso": "Sus extractos están entre los más recetados a pacientes con cáncer en Europa.",
-    "fuentes": [
-      "F97"
-    ]
-  },
-  {
     "id": "d2-f1",
     "dia": 2,
     "frente": "Sustancia activa",
@@ -525,6 +260,271 @@
     "fuentes": [
       "F104",
       "F105"
+    ]
+  },
+  {
+    "id": "d4-f1",
+    "dia": 4,
+    "frente": "Insuficiencia cardiaca",
+    "reverso": "El corazón no logra bombear toda la sangre que el cuerpo necesita.",
+    "fuentes": [
+      "F53"
+    ]
+  },
+  {
+    "id": "d4-f2",
+    "dia": 4,
+    "frente": "Fracción de eyección normal",
+    "reverso": "Entre 55% y 70%.",
+    "fuentes": [
+      "F58"
+    ]
+  },
+  {
+    "id": "d4-f3",
+    "dia": 4,
+    "frente": "Onda P, QRS y T",
+    "reverso": "Chispa en aurículas, chispa en ventrículos y recarga.",
+    "fuentes": [
+      "F61"
+    ]
+  },
+  {
+    "id": "d4-f4",
+    "dia": 4,
+    "frente": "Fibrilación auricular",
+    "reverso": "Las aurículas tiemblan y los latidos llegan a destiempo.",
+    "fuentes": [
+      "F59"
+    ]
+  },
+  {
+    "id": "d4-f5",
+    "dia": 4,
+    "frente": "Espino blanco",
+    "reverso": "Crataegus; la planta más estudiada en insuficiencia cardiaca.",
+    "fuentes": [
+      "F78"
+    ]
+  },
+  {
+    "id": "d4-f6",
+    "dia": 4,
+    "frente": "Castaño de Indias",
+    "reverso": "Su extracto de semilla mejora los síntomas de la insuficiencia venosa crónica.",
+    "fuentes": [
+      "F96"
+    ]
+  },
+  {
+    "id": "d4-f7",
+    "dia": 4,
+    "frente": "Ginkgo y warfarina",
+    "reverso": "Juntos pueden aumentar el sangrado.",
+    "fuentes": [
+      "F74",
+      "F71"
+    ]
+  },
+  {
+    "id": "d5-f1",
+    "dia": 5,
+    "frente": "Metástasis",
+    "reverso": "Células de cáncer que viajan por la sangre y forman tumores en otros órganos.",
+    "fuentes": [
+      "F21"
+    ]
+  },
+  {
+    "id": "d5-f2",
+    "dia": 5,
+    "frente": "Vincristina y vinblastina",
+    "reverso": "Medicinas contra el cáncer de la vinca de Madagascar.",
+    "fuentes": [
+      "F106",
+      "F83"
+    ]
+  },
+  {
+    "id": "d5-f3",
+    "dia": 5,
+    "frente": "Paclitaxel",
+    "reverso": "Medicina contra el cáncer de la corteza del tejo del Pacífico.",
+    "fuentes": [
+      "F28"
+    ]
+  },
+  {
+    "id": "d5-f4",
+    "dia": 5,
+    "frente": "Etopósido",
+    "reverso": "Medicina hecha a partir de la podofilotoxina del podofilo.",
+    "fuentes": [
+      "F108"
+    ]
+  },
+  {
+    "id": "d5-f5",
+    "dia": 5,
+    "frente": "Topotecán e irinotecán",
+    "reverso": "Medicinas derivadas de la camptotecina de la camptoteca.",
+    "fuentes": [
+      "F107",
+      "F106"
+    ]
+  },
+  {
+    "id": "d5-f6",
+    "dia": 5,
+    "frente": "Zorrilla (anamú)",
+    "reverso": "Petiveria alliacea; su extracto frenó células de cáncer en el laboratorio.",
+    "fuentes": [
+      "F109"
+    ]
+  },
+  {
+    "id": "d5-f7",
+    "dia": 5,
+    "frente": "Dulcamara",
+    "reverso": "Solanum dulcamara; tiene solasodina y solamargina; sus bayas son venenosas.",
+    "fuentes": [
+      "F110"
+    ]
+  },
+  {
+    "id": "d5-f8",
+    "dia": 5,
+    "frente": "Muérdago",
+    "reverso": "Sus extractos están entre los más recetados a pacientes con cáncer en Europa.",
+    "fuentes": [
+      "F97"
+    ]
+  },
+  {
+    "id": "d6-f1",
+    "dia": 6,
+    "frente": "Cardiotoxicidad",
+    "reverso": "Daño del corazón causado por un tratamiento.",
+    "fuentes": [
+      "F11"
+    ]
+  },
+  {
+    "id": "d6-f2",
+    "dia": 6,
+    "frente": "Caléndula en radioterapia",
+    "reverso": "Redujo la irritación fuerte de la piel del 63% al 41% en un estudio.",
+    "fuentes": [
+      "F114"
+    ]
+  },
+  {
+    "id": "d6-f3",
+    "dia": 6,
+    "frente": "Gel de sábila",
+    "reverso": "Puede acelerar la curación de quemaduras y aliviar su dolor.",
+    "fuentes": [
+      "F112"
+    ]
+  },
+  {
+    "id": "d6-f4",
+    "dia": 6,
+    "frente": "Látex de sábila tomado",
+    "reverso": "Causa cólicos y diarrea; usado de más aumenta los efectos de la digoxina.",
+    "fuentes": [
+      "F112"
+    ]
+  },
+  {
+    "id": "d6-f5",
+    "dia": 6,
+    "frente": "Hipérico",
+    "reverso": "Le quita fuerza a medicinas como irinotecán, warfarina y digoxina.",
+    "fuentes": [
+      "F73"
+    ]
+  },
+  {
+    "id": "d6-f6",
+    "dia": 6,
+    "frente": "Ginkgo y ajo con warfarina",
+    "reverso": "Pueden aumentar el sangrado.",
+    "fuentes": [
+      "F74",
+      "F75"
+    ]
+  },
+  {
+    "id": "d6-f7",
+    "dia": 6,
+    "frente": "Té verde y medicinas",
+    "reverso": "Puede bajar el nadolol y la atorvastatina en la sangre.",
+    "fuentes": [
+      "F77"
+    ]
+  },
+  {
+    "id": "d6-f8",
+    "dia": 6,
+    "frente": "Señales de coágulo en la pierna",
+    "reverso": "Hinchazón, calor y dolor en una pierna.",
+    "fuentes": [
+      "F40"
+    ]
+  },
+  {
+    "id": "d7-f1",
+    "dia": 7,
+    "frente": "Zorrilla",
+    "reverso": "Nombre en Ecuador del anamú, Petiveria alliacea.",
+    "fuentes": [
+      "F109"
+    ]
+  },
+  {
+    "id": "d7-f2",
+    "dia": 7,
+    "frente": "Parte correcta del castaño de Indias",
+    "reverso": "El extracto de semilla preparado; la semilla cruda es tóxica.",
+    "fuentes": [
+      "F96"
+    ]
+  },
+  {
+    "id": "d7-f3",
+    "dia": 7,
+    "frente": "Chaya",
+    "reverso": "Hervir hojas y tallos verdes unos 20 minutos.",
+    "fuentes": [
+      "F105"
+    ]
+  },
+  {
+    "id": "d7-f4",
+    "dia": 7,
+    "frente": "Linaza",
+    "reverso": "Madura y molida; no cruda ni inmadura.",
+    "fuentes": [
+      "F113"
+    ]
+  },
+  {
+    "id": "d7-f5",
+    "dia": 7,
+    "frente": "FAST",
+    "reverso": "Cara, brazo, habla y tiempo de llamar a emergencias.",
+    "fuentes": [
+      "F43"
+    ]
+  },
+  {
+    "id": "d7-f6",
+    "dia": 7,
+    "frente": "Número de emergencias en Ecuador",
+    "reverso": "ECU 911.",
+    "fuentes": [
+      "F56"
     ]
   }
 ]
