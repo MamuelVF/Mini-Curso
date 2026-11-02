@@ -1,20 +1,19 @@
 {
   "id": 3,
   "bloque": "A",
-  "titulo": "Cuando el corazón se cansa o pierde el ritmo",
-  "subtitulo": "Insuficiencia cardiaca, electrocardiograma, arritmias y cómo cuidarlo",
-  "minutos": 18,
+  "titulo": "Presión, colesterol y plantas",
+  "subtitulo": "Cómo se tapan las arterias y qué plantas se han estudiado para cuidarlas",
+  "minutos": 22,
   "objetivos": [
-    "Entender qué es la insuficiencia cardiaca y cómo se nota.",
-    "Saber qué mide la fracción de eyección.",
-    "Reconocer las partes de un electrocardiograma sencillo.",
-    "Entender qué es la fibrilación auricular y por qué puede causar un ictus.",
-    "Conocer los 8 hábitos que cuidan el corazón."
+    "Entender qué es la presión arterial y por qué sube.",
+    "Ver cómo el colesterol forma placa en las arterias.",
+    "Conocer lo que se ha visto con hibisco, linaza, nopal y ajo en la presión.",
+    "Conocer lo que se ha visto con avena, olivo, chaya y ajo en el colesterol."
   ],
   "lecciones": [
     {
       "id": "d3-l1",
-      "titulo": "Cuando la bomba se cansa",
+      "titulo": "La presión arterial",
       "minutos": 4,
       "tarjetas": [
         {
@@ -23,203 +22,223 @@
           "titulo": "Antes de empezar",
           "texto": "",
           "fuentes": [
-            "F53"
+            "F49"
           ],
           "pregunta": {
             "id": "d3-l1-p0",
             "tipo": "verdadero-falso",
-            "enunciado": "\"Insuficiencia cardiaca\" quiere decir que el corazón dejó de latir.",
+            "enunciado": "La presión alta casi siempre da síntomas, así que uno se da cuenta.",
             "respuesta": false,
-            "explicacion": "Falso. Quiere decir que el corazón sigue latiendo, pero no bombea tan bien como el cuerpo necesita.",
+            "explicacion": "Falso. Casi nunca da síntomas: la única forma de saberlo es medirla.",
             "fuentes": [
-              "F53"
+              "F49"
             ]
           }
         },
         {
           "id": "d3-l1-t2",
           "tipo": "concepto",
-          "titulo": "Una bomba que no da abasto",
-          "texto": "En la insuficiencia cardiaca el músculo del corazón no logra bombear toda la sangre que el cuerpo necesita. Por eso los órganos reciben menos oxígeno. En el dibujo ves los síntomas más comunes.",
+          "titulo": "La fuerza de la sangre",
+          "texto": "La presión arterial es la fuerza con la que la sangre empuja las paredes de las arterias. Se mide con un aparato que aprieta el brazo. El primer número es cuando el corazón aprieta; el segundo, cuando se relaja. Lo normal es estar por debajo de 120/80.",
           "fuentes": [
-            "F53",
-            "F34"
+            "F65",
+            "F49",
+            "F51"
           ],
-          "imagen": "img-d3-insuficiencia"
+          "imagen": "img-d2-tension"
         },
         {
           "id": "d3-l1-t3",
           "tipo": "concepto",
-          "titulo": "Cansancio, falta de aire e hinchazón",
-          "texto": "Lo típico es cansarse y quedarse sin aire con poco esfuerzo, como al subir escaleras. Como el cuerpo retiene líquido, también se pueden hinchar los pies y los tobillos.",
+          "titulo": "Bombeo y tubos",
+          "texto": "La presión depende de cuánta sangre empuja el corazón y de qué tan anchas están las arterias. Si la arteria se estrecha, aunque sea un poco, la presión sube muchísimo. Mueve los controles y compruébalo.",
           "fuentes": [
-            "F53",
-            "F34"
+            "F65"
           ],
-          "imagen": "img-d3-edema"
+          "diagrama": "presion"
         },
         {
           "id": "d3-l1-t4",
-          "tipo": "dato",
-          "titulo": "Se puede vivir bien",
-          "texto": "Normalmente no tiene cura, pero muchas personas viven bien con tratamiento médico y buenos hábitos.",
+          "tipo": "concepto",
+          "titulo": "Qué puede dañar",
+          "texto": "Si no se controla, con los años la presión alta daña el corazón (infarto, insuficiencia), el cerebro (ictus) y los riñones. La OMS calcula que unos 1400 millones de adultos la tienen y casi la mitad no lo sabe.",
           "fuentes": [
-            "F53"
-          ]
+            "F49"
+          ],
+          "imagen": "img-d2-complicaciones"
         }
       ]
     },
     {
       "id": "d3-l2",
-      "titulo": "La fracción de eyección",
-      "minutos": 3,
+      "titulo": "Colesterol y placa",
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d3-l2-t1",
           "tipo": "concepto",
-          "titulo": "¿Cuánta sangre sale en cada latido?",
-          "texto": "La fracción de eyección dice qué parte de la sangre del ventrículo izquierdo sale en cada latido. Si es 60%, significa que de cada 10 \"vasos\" de sangre que había dentro, salen 6. Se mide con una ecografía del corazón, como la de la animación.",
+          "titulo": "Colesterol bueno y malo",
+          "texto": "El colesterol viaja por la sangre en unos \"camiones\". El LDL, llamado malo, deja grasa en las paredes de las arterias. El HDL, llamado bueno, la recoge y la lleva al hígado para eliminarla.",
           "fuentes": [
-            "F58"
+            "F32"
           ],
-          "imagen": "img-d3-eco"
+          "imagen": "img-ia-d2-colesterol"
         },
         {
           "id": "d3-l2-t2",
           "tipo": "concepto",
-          "titulo": "Qué es normal",
-          "texto": "Lo normal está entre 55% y 70%. Por debajo de 40% suele indicar que el corazón bombea con poca fuerza. Ojo: también se puede tener insuficiencia cardiaca con un número normal, si el corazón está tan rígido que se llena poco.",
+          "titulo": "Se forma la placa",
+          "texto": "Cuando se daña la capa interna de la arteria (por tabaco, azúcar alto, colesterol alto o presión alta), se mete grasa y se inflama. Con el tiempo se forma un bulto, la placa, y la arteria queda más estrecha y dura: es la aterosclerosis.",
           "fuentes": [
-            "F58"
+            "F65",
+            "F52",
+            "F31"
           ],
-          "diagrama": "ciclo-cardiaco"
+          "imagen": "img-d2-ateroma"
         },
         {
           "id": "d3-l2-t3",
-          "tipo": "dato",
-          "titulo": "Lo usaremos el día 5",
-          "texto": "Esta ecografía es una de las formas de vigilar el corazón durante algunos tratamientos contra el cáncer.",
-          "fuentes": [
-            "F58",
-            "F11"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "d3-l3",
-      "titulo": "El electrocardiograma",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d3-l3-t1",
           "tipo": "concepto",
-          "titulo": "Un dibujo de la electricidad del corazón",
-          "texto": "El electrocardiograma (ECG) dibuja la señal eléctrica del corazón con unos parches pegados en la piel. No duele y no manda electricidad al cuerpo: solo \"escucha\". Mira cómo cada parte del dibujo coincide con una parte del corazón.",
+          "titulo": "Infarto e ictus",
+          "texto": "Si una placa se rompe, se forma un coágulo que puede tapar la arteria de golpe. En el corazón es un infarto; en el cerebro, un ictus.",
           "fuentes": [
-            "F36",
-            "F61"
+            "F65",
+            "F42",
+            "F43"
           ],
-          "diagrama": "ecg"
+          "imagen": "img-d2-infarto"
         },
         {
-          "id": "d3-l3-t2",
-          "tipo": "concepto",
-          "titulo": "P, QRS y T",
-          "texto": "La onda P es la chispa en las aurículas. El pico QRS es la chispa en los ventrículos, justo antes de que aprieten. La onda T es cuando los ventrículos se recargan. En reposo, lo normal son entre 60 y 100 latidos por minuto, parejos.",
-          "fuentes": [
-            "F61",
-            "F62",
-            "F36"
-          ],
-          "imagen": "img-d3-ondas"
-        },
-        {
-          "id": "d3-l3-t3",
+          "id": "d3-l2-t4",
           "tipo": "pregunta-previa",
           "titulo": "Comprueba lo aprendido",
           "texto": "",
           "fuentes": [
-            "F61"
+            "F65"
           ],
           "pregunta": {
-            "id": "d3-l3-p1",
-            "tipo": "opcion-multiple",
-            "enunciado": "¿Qué parte del ECG corresponde a la chispa en los ventrículos?",
-            "opciones": [
-              {
-                "texto": "El pico QRS",
-                "correcta": true,
-                "explicacion": "Exacto: justo después, los ventrículos aprietan."
-              },
-              {
-                "texto": "La onda P",
-                "correcta": false,
-                "explicacion": "La onda P es la chispa en las aurículas."
-              },
-              {
-                "texto": "La onda T",
-                "correcta": false,
-                "explicacion": "La onda T es cuando los ventrículos se recargan."
-              }
+            "id": "d3-l2-p1",
+            "tipo": "ordenar",
+            "enunciado": "Ordena cómo se forma una placa.",
+            "pasos": [
+              "Se daña la capa interna de la arteria",
+              "Entra grasa y se inflama",
+              "Se forma la placa y la arteria se estrecha"
             ],
+            "explicacion": "Primero el daño, luego la grasa y la inflamación, y al final la placa.",
             "fuentes": [
-              "F61",
-              "F62"
+              "F65",
+              "F52"
             ]
           }
         }
       ]
     },
     {
+      "id": "d3-l3",
+      "titulo": "Plantas y presión",
+      "minutos": 5,
+      "tarjetas": [
+        {
+          "id": "d3-l3-t1",
+          "tipo": "concepto",
+          "titulo": "Hibisco: un té rojo que baja la presión",
+          "texto": "En un estudio, 65 adultos con presión algo alta tomaron té de flor de Jamaica (Hibiscus sabdariffa) o una bebida parecida sin hibisco durante 6 semanas. Con el hibisco, la presión alta (sistólica) bajó unos 7 puntos; con la otra bebida, apenas 1. Bajó más en quienes empezaron con la presión más alta.",
+          "fuentes": [
+            "F99"
+          ],
+          "imagen": "img-p-hibisco"
+        },
+        {
+          "id": "d3-l3-t2",
+          "tipo": "concepto",
+          "titulo": "Linaza: semillas para las arterias",
+          "texto": "La linaza tiene omega-3, lignanos y fibra. En un estudio con 110 personas con problemas en las arterias de las piernas, comer cada día alimentos con linaza molida durante 6 meses bajó la presión unos 10 puntos la alta y 7 la baja, comparado con comida sin linaza.",
+          "fuentes": [
+            "F100"
+          ],
+          "imagen": "img-p-linaza"
+        },
+        {
+          "id": "d3-l3-t3",
+          "tipo": "concepto",
+          "titulo": "Nopal: del mercado al corazón",
+          "texto": "Una revisión de estudios con nopal o tuna (Opuntia ficus-indica) encontró que bajó la presión y el colesterol total, además del porcentaje de grasa del cuerpo. Los autores piden más estudios porque aún son pocos.",
+          "fuentes": [
+            "F101"
+          ],
+          "imagen": "img-p-nopal"
+        },
+        {
+          "id": "d3-l3-t4",
+          "tipo": "concepto",
+          "titulo": "Ajo: un poquito menos de presión",
+          "texto": "Los suplementos de ajo podrían bajar un poco la presión en personas con presión alta, según los estudios disponibles. Donde más se ha estudiado el ajo es en el colesterol, que veremos ahora.",
+          "fuentes": [
+            "F75"
+          ],
+          "imagen": "img-p-ajo"
+        }
+      ]
+    },
+    {
       "id": "d3-l4",
-      "titulo": "Arritmias y fibrilación auricular",
-      "minutos": 4,
+      "titulo": "Plantas y colesterol",
+      "minutos": 5,
       "tarjetas": [
         {
           "id": "d3-l4-t1",
           "tipo": "concepto",
-          "titulo": "Un ritmo desordenado",
-          "texto": "Una arritmia es cuando el corazón late demasiado rápido, demasiado lento o sin ritmo parejo. La más común es la fibrilación auricular: las aurículas tiemblan en vez de apretar. Elige \"Fibrilación auricular\" en el dibujo para verla.",
+          "titulo": "Avena y psyllium: fibra que atrapa grasa",
+          "texto": "La fibra soluble de la avena, la cebada y la cáscara de semilla de psyllium (Plantago) ayuda a bajar el colesterol total y el LDL dentro de una dieta baja en grasas saturadas. Está tan comprobado que la FDA permite decirlo en las etiquetas.",
           "fuentes": [
-            "F35",
-            "F54",
-            "F59"
+            "F102"
           ],
-          "diagrama": "ecg"
+          "imagen": "img-p-avena"
         },
         {
           "id": "d3-l4-t2",
           "tipo": "concepto",
-          "titulo": "Así se ve en un ECG real",
-          "texto": "En el trazo de arriba, los latidos llegan a destiempo y no hay onda P clara. Algunas personas sienten el corazón \"aleteando\", mareo o falta de aire; otras no notan nada.",
+          "titulo": "Ajo y colesterol",
+          "texto": "Los suplementos de ajo pueden bajar un poco el colesterol total y el LDL en personas con el colesterol alto. Es el uso del ajo con más estudios.",
           "fuentes": [
-            "F59"
+            "F75"
           ],
-          "imagen": "img-d3-fa"
+          "imagen": "img-p-ajo"
         },
         {
           "id": "d3-l4-t3",
-          "tipo": "alerta",
-          "titulo": "El peligro: los coágulos",
-          "texto": "Como la sangre se queda quieta en las aurículas, puede formar coágulos. Si uno viaja al cerebro, causa un ictus: el riesgo es unas cinco veces mayor. Por eso muchas de estas personas toman anticoagulantes, y algunas plantas pueden aumentar el sangrado con ellos (día 6).",
+          "tipo": "concepto",
+          "titulo": "Aceite de oliva",
+          "texto": "Un estudio siguió a más de 90 000 personas durante 28 años. Quienes comían más de media cucharada de aceite de oliva al día tuvieron un 19% menos de muertes por enfermedad del corazón y un 17% menos por cáncer que quienes casi no lo comían.",
           "fuentes": [
-            "F59",
-            "F71"
-          ]
+            "F103"
+          ],
+          "imagen": "img-p-olivo"
+        },
+        {
+          "id": "d3-l4-t4",
+          "tipo": "concepto",
+          "titulo": "Chaya: la espinaca de árbol",
+          "texto": "Las hojas de chaya (Cnidoscolus aconitifolius) tienen flavonoides antioxidantes, como el kaempferol y la quercetina. Se comen cocidas: hay que hervirlas unos 20 minutos para eliminar unas sustancias que en crudo pueden liberar cianuro.",
+          "fuentes": [
+            "F104",
+            "F105"
+          ],
+          "imagen": "img-p-chaya"
         }
       ]
     },
     {
       "id": "d3-l5",
-      "titulo": "Los 8 hábitos que cuidan el corazón",
-      "minutos": 3,
+      "titulo": "Plantas, hábitos y pastillas",
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d3-l5-t1",
           "tipo": "concepto",
-          "titulo": "Cuatro cosas que haces",
-          "texto": "La asociación americana del corazón (AHA) resume la salud del corazón en 8 puntos. Cuatro son hábitos: comer mejor, moverte más (150 minutos a la semana de actividad moderada en adultos), no fumar ni vapear, y dormir bien (7 a 9 horas).",
+          "titulo": "Los 8 hábitos del corazón",
+          "texto": "La asociación americana del corazón resume la salud del corazón en 8 puntos: comer mejor, moverse, no fumar, dormir bien, y mantener en rango el peso, el colesterol, el azúcar y la presión. Las plantas de hoy suman dentro de esa forma de vivir.",
           "fuentes": [
             "F08",
             "F55"
@@ -229,22 +248,57 @@
         {
           "id": "d3-l5-t2",
           "tipo": "concepto",
-          "titulo": "Cuatro números que se controlan",
-          "texto": "Los otros cuatro son números que conviene tener en rango: peso, colesterol, azúcar en sangre y presión arterial. Los hábitos ayudan a mantenerlos bien.",
+          "titulo": "Cuando se juntan plantas y pastillas",
+          "texto": "Si una persona ya toma medicinas para la presión y empieza una planta que también la baja, el efecto se suma. Por ejemplo, el noni puede sumarse a medicinas que bajan la presión o suben el potasio. Por eso el médico debe saber qué plantas toma.",
           "fuentes": [
-            "F55"
+            "F111",
+            "F70"
           ],
-          "imagen": "img-d2-tension"
+          "imagen": "img-p-noni"
         },
         {
           "id": "d3-l5-t3",
-          "tipo": "analogia",
-          "titulo": "Como cuidar un huerto",
-          "texto": "Un huerto no crece por regarlo una sola vez, sino por muchos cuidados pequeños cada día. Con el corazón pasa igual: los 8 puntos funcionan juntos. La OMS recuerda que la mayoría de las enfermedades del corazón se pueden prevenir.",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Ajo y sangrado",
+          "texto": "Los suplementos de ajo pueden aumentar el sangrado. Quien toma medicinas para la coagulación o va a operarse debe contárselo a su médico.",
           "fuentes": [
-            "F55",
-            "F48"
-          ]
+            "F75"
+          ],
+          "imagen": "img-p-ajo"
+        },
+        {
+          "id": "d3-l5-t4",
+          "tipo": "pregunta-previa",
+          "titulo": "Comprueba lo aprendido",
+          "texto": "",
+          "fuentes": [
+            "F99"
+          ],
+          "pregunta": {
+            "id": "d3-l5-p1",
+            "tipo": "opcion-multiple",
+            "enunciado": "En el estudio del té de hibisco, ¿qué pasó con la presión alta (sistólica) a las 6 semanas?",
+            "opciones": [
+              {
+                "texto": "Bajó unos 7 puntos, más que con la bebida sin hibisco",
+                "correcta": true,
+                "explicacion": "Con la bebida sin hibisco bajó apenas 1 punto."
+              },
+              {
+                "texto": "Subió",
+                "correcta": false,
+                "explicacion": "Bajó."
+              },
+              {
+                "texto": "No cambió",
+                "correcta": false,
+                "explicacion": "Bajó, sobre todo en quienes la tenían más alta."
+              }
+            ],
+            "fuentes": [
+              "F99"
+            ]
+          }
         }
       ]
     }
@@ -253,160 +307,150 @@
     {
       "id": "d3-q1",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Qué síntomas son típicos de la insuficiencia cardiaca?",
+      "enunciado": "¿Qué número de la presión corresponde a cuando el corazón aprieta?",
       "opciones": [
         {
-          "texto": "Cansancio y falta de aire",
+          "texto": "El primero (sistólica)",
           "correcta": true,
-          "explicacion": "Llega menos sangre con oxígeno a los órganos."
+          "explicacion": "El segundo es cuando el corazón se relaja."
         },
         {
-          "texto": "Fiebre y dolor de garganta",
+          "texto": "El segundo (diastólica)",
           "correcta": false,
-          "explicacion": "Esos son síntomas de una infección."
+          "explicacion": "Ese es cuando el corazón se relaja."
         },
         {
-          "texto": "Picor en la piel",
+          "texto": "Ninguno",
           "correcta": false,
-          "explicacion": "No es un síntoma típico."
+          "explicacion": "El primero es el del apretón."
         }
       ],
       "fuentes": [
-        "F53"
+        "F65"
       ]
     },
     {
       "id": "d3-q2",
       "tipo": "opcion-multiple",
-      "enunciado": "Una fracción de eyección de 60% significa que…",
+      "enunciado": "¿Qué hace el colesterol HDL?",
       "opciones": [
         {
-          "texto": "En cada latido sale el 60% de la sangre del ventrículo izquierdo",
+          "texto": "Recoge grasa de las arterias y la lleva al hígado",
           "correcta": true,
-          "explicacion": "Y 60% está dentro de lo normal (55-70%)."
+          "explicacion": "Por eso lo llaman bueno."
         },
         {
-          "texto": "El corazón late 60 veces por minuto",
+          "texto": "Deja grasa en las arterias",
           "correcta": false,
-          "explicacion": "Eso sería la frecuencia cardiaca."
+          "explicacion": "Eso lo hace el LDL."
         },
         {
-          "texto": "El corazón está al 60% de su fuerza máxima",
+          "texto": "Sube la presión",
           "correcta": false,
-          "explicacion": "No mide fuerza máxima, sino qué parte de la sangre sale en cada latido."
+          "explicacion": "No es su función."
         }
       ],
       "fuentes": [
-        "F58"
+        "F32"
       ]
     },
     {
       "id": "d3-q3",
       "tipo": "opcion-multiple",
-      "enunciado": "En el ECG, ¿qué representa la onda P?",
+      "enunciado": "¿Qué planta bajó la presión unos 10 puntos en 6 meses en un estudio?",
       "opciones": [
         {
-          "texto": "La chispa en las aurículas",
+          "texto": "La linaza molida",
           "correcta": true,
-          "explicacion": "Es lo primero que aparece en cada latido."
+          "explicacion": "En personas con problemas en las arterias de las piernas."
         },
         {
-          "texto": "La chispa en los ventrículos",
+          "texto": "La chaya cruda",
           "correcta": false,
-          "explicacion": "Eso es el pico QRS."
+          "explicacion": "La chaya se come cocida y no fue ese estudio."
         },
         {
-          "texto": "El ruido de las válvulas",
+          "texto": "El ginkgo",
           "correcta": false,
-          "explicacion": "El ECG mide electricidad, no sonido."
+          "explicacion": "No fue ese estudio."
         }
       ],
       "fuentes": [
-        "F61"
+        "F100"
       ]
     },
     {
       "id": "d3-q4",
-      "tipo": "opcion-multiple",
-      "enunciado": "¿Por qué la fibrilación auricular aumenta el riesgo de ictus?",
-      "opciones": [
-        {
-          "texto": "La sangre se queda quieta en las aurículas y puede formar coágulos",
-          "correcta": true,
-          "explicacion": "Un coágulo puede viajar al cerebro."
-        },
-        {
-          "texto": "Porque el corazón deja de latir",
-          "correcta": false,
-          "explicacion": "El corazón sigue latiendo, pero sin ritmo."
-        },
-        {
-          "texto": "Porque baja el azúcar en sangre",
-          "correcta": false,
-          "explicacion": "No tiene que ver con el azúcar."
-        }
-      ],
+      "tipo": "verdadero-falso",
+      "enunciado": "La fibra soluble de la avena y el psyllium ayuda a bajar el colesterol LDL.",
+      "respuesta": true,
+      "explicacion": "Verdadero. La FDA permite decirlo en las etiquetas de estos alimentos.",
       "fuentes": [
-        "F59"
+        "F102"
       ]
     },
     {
       "id": "d3-q5",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Cuál de estos NO es uno de los 8 puntos de la AHA?",
+      "enunciado": "¿Cómo se deben comer las hojas de chaya?",
       "opciones": [
         {
-          "texto": "Tomar suplementos de vitaminas",
+          "texto": "Hervidas unos 20 minutos",
           "correcta": true,
-          "explicacion": "No forma parte de la lista."
+          "explicacion": "Así se eliminan las sustancias que en crudo pueden liberar cianuro."
         },
         {
-          "texto": "Dormir bien",
+          "texto": "Crudas en ensalada",
           "correcta": false,
-          "explicacion": "Sí está: de 7 a 9 horas."
+          "explicacion": "En crudo pueden liberar cianuro."
         },
         {
-          "texto": "Controlar la presión arterial",
+          "texto": "Secas al sol",
           "correcta": false,
-          "explicacion": "Sí está entre los 4 números a controlar."
+          "explicacion": "Lo que se recomienda es hervirlas."
         }
       ],
       "fuentes": [
-        "F55"
+        "F105"
       ]
     }
   ],
   "audio": {
     "archivo": "audio/dia-3.mp3",
     "titulo": "Resumen del día 3",
-    "estado": "listo",
+    "estado": "pendiente",
     "origen": "NotebookLM"
   },
   "resumen": {
     "titulo": "Lo esencial del día 3",
     "puntos": [
-      "Insuficiencia cardiaca: el corazón no bombea lo que el cuerpo necesita; da cansancio, falta de aire e hinchazón.",
-      "La fracción de eyección dice qué parte de la sangre sale en cada latido; lo normal es 55-70%.",
-      "ECG: P (aurículas), QRS (ventrículos) y T (recarga).",
-      "En la fibrilación auricular las aurículas tiemblan y se pueden formar coágulos que causan ictus.",
-      "8 puntos de la AHA: comer bien, moverse, no fumar, dormir, y controlar peso, colesterol, azúcar y presión."
-    ],
-    "imagen": "img-nlm-d3-infografia"
+      "La presión alta no duele, pero daña corazón, cerebro y riñones: hay que medirla.",
+      "El LDL deja grasa en las arterias y forma placa; el HDL la retira.",
+      "Té de hibisco, linaza y nopal bajaron la presión en estudios con personas; el ajo, un poco.",
+      "La fibra de avena y psyllium baja el LDL; el aceite de oliva se asoció a menos muertes del corazón y por cáncer.",
+      "La chaya aporta antioxidantes y se come hervida; si se suman plantas y pastillas, el médico debe saberlo."
+    ]
   },
   "fuentes": [
     "F08",
-    "F11",
-    "F34",
-    "F35",
-    "F36",
-    "F48",
-    "F53",
-    "F54",
+    "F31",
+    "F32",
+    "F42",
+    "F43",
+    "F49",
+    "F51",
+    "F52",
     "F55",
-    "F58",
-    "F59",
-    "F61",
-    "F62",
-    "F71"
+    "F65",
+    "F70",
+    "F75",
+    "F99",
+    "F100",
+    "F101",
+    "F102",
+    "F103",
+    "F104",
+    "F105",
+    "F111"
   ]
 }

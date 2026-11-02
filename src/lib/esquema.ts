@@ -1,7 +1,7 @@
 // Esquema de validación del contenido. Si un JSON no cumple, las pruebas fallan.
 import { z } from 'zod'
 
-const fuentes = z.array(z.string().regex(/^F\d{2}$/)).min(1, 'Todo elemento necesita al menos una fuente')
+const fuentes = z.array(z.string().regex(/^F\d{2,3}$/)).min(1, 'Todo elemento necesita al menos una fuente')
 const opcion = z.object({ texto: z.string().min(1), correcta: z.boolean(), explicacion: z.string().min(5) })
 
 export const pregunta = z.discriminatedUnion('tipo', [
@@ -18,7 +18,7 @@ const tarjeta = z.object({
   texto: z.string().max(420, 'Carga cognitiva: máximo ~60-70 palabras por tarjeta'),
   fuentes,
   imagen: z.string().optional(),
-  diagrama: z.enum(['ciclo-cardiaco', 'circulacion', 'presion', 'cardiotoxicidad', 'ecg', 'coagulacion', 'valvula']).optional(),
+  diagrama: z.enum(['ciclo-cardiaco', 'circulacion', 'presion', 'cardiotoxicidad', 'ecg', 'coagulacion', 'valvula', 'planta-medicina']).optional(),
   pregunta: pregunta.optional(),
 }).refine((t) => t.tipo !== 'pregunta-previa' || t.pregunta, 'Una tarjeta de pregunta necesita su pregunta')
 
@@ -38,7 +38,7 @@ export const dia = z.object({
 
 export const flashcard = z.object({ id: z.string(), dia: z.number(), frente: z.string().min(2), reverso: z.string().min(1).max(200), fuentes })
 export const termino = z.object({ termino: z.string(), definicion: z.string().min(5), dia: z.number(), fuentes })
-export const fuente = z.object({ id: z.string().regex(/^F\d{2}$/), titulo: z.string(), url: z.string().url(), consultado: z.string() })
+export const fuente = z.object({ id: z.string().regex(/^F\d{2,3}$/), titulo: z.string(), url: z.string().url(), consultado: z.string() })
 export const imagen = z.object({
   id: z.string(), archivo: z.string(), titulo: z.string(), alt: z.string().min(5),
   origen: z.enum(['commons', 'ia', 'notebooklm', 'propia']), autor: z.string(), licencia: z.string(),

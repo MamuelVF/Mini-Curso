@@ -15,7 +15,7 @@ export function DiaVista({ diaId }: { diaId: number }) {
   const pr = e.practica[d.id]
   return (
     <Pagina titulo={`Día ${d.id}`} volver="/">
-      <p className="etiqueta">{d.bloque === 'A' ? 'Cardiología general' : d.bloque === 'B' ? 'Cáncer y corazón' : 'Cierre'}</p>
+      <p className="etiqueta">{d.bloque === 'A' ? 'Plantas y corazón' : d.bloque === 'B' ? 'Plantas y cáncer' : 'Cierre'}</p>
       <h2 className="text-2xl font-semibold mt-2">{d.titulo}</h2>
       <p className="text-suave">{d.subtitulo} · unos {d.minutos} minutos</p>
 

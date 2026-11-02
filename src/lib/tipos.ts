@@ -10,7 +10,7 @@ export type Pregunta =
 
 export type TipoTarjeta = 'concepto' | 'pregunta-previa' | 'ejemplo-resuelto' | 'analogia' | 'alerta' | 'dato'
 
-export type IdDiagrama = 'ciclo-cardiaco' | 'circulacion' | 'presion' | 'cardiotoxicidad' | 'ecg' | 'coagulacion' | 'valvula'
+export type IdDiagrama = 'ciclo-cardiaco' | 'circulacion' | 'presion' | 'cardiotoxicidad' | 'ecg' | 'coagulacion' | 'valvula' | 'planta-medicina'
 
 export interface Tarjeta {
   id: string

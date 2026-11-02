@@ -24,8 +24,8 @@ export function Inicio() {
     <Pagina>
       <header className="pt-2">
         <p className="text-sm text-suave flex items-center gap-1"><IcoCorazon className="w-4 h-4" /> Microcurso de 7 días</p>
-        <h1 className="text-3xl font-semibold mt-1">Corazón y Cáncer</h1>
-        <p className="text-suave">Lo esencial de la cardiología y su relación con el cáncer, explicado de forma sencilla y visual.</p>
+        <h1 className="text-3xl font-semibold mt-1">Plantas, corazón y cáncer</h1>
+        <p className="text-suave">Las plantas medicinales en el cuidado del corazón y frente al cáncer, explicadas de forma sencilla y visual.</p>
       </header>
 
       <section className="grid grid-cols-2 gap-3 mt-5" aria-label="Tu avance">

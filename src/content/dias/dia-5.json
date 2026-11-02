@@ -1,19 +1,19 @@
 {
   "id": 5,
   "bloque": "B",
-  "titulo": "Cáncer y corazón",
-  "subtitulo": "Cuando el tratamiento del cáncer también toca al corazón",
-  "minutos": 18,
+  "titulo": "Plantas y cáncer",
+  "subtitulo": "Qué es el cáncer, medicinas que salieron de plantas y lo que se investiga con las plantas del maestro",
+  "minutos": 24,
   "objetivos": [
-    "Entender qué es la cardio-oncología y por qué existe.",
-    "Saber que algunos tratamientos del cáncer pueden afectar al corazón.",
-    "Conocer cómo se vigila el corazón antes, durante y después.",
-    "Reconocer que las decisiones de tratamiento son del equipo médico."
+    "Entender qué es el cáncer y por qué las células crecen sin control.",
+    "Conocer cuatro medicinas contra el cáncer que salieron de plantas.",
+    "Saber qué se ha investigado con zorrilla, dulcamara, cúrcuma, noni y muérdago.",
+    "Entender el camino de una planta desde el laboratorio hasta las personas."
   ],
   "lecciones": [
     {
       "id": "d5-l1",
-      "titulo": "Dos especialidades juntas",
+      "titulo": "Células que no siguen las reglas",
       "minutos": 4,
       "tarjetas": [
         {
@@ -22,236 +22,236 @@
           "titulo": "Antes de empezar",
           "texto": "",
           "fuentes": [
-            "F26"
+            "F106"
           ],
           "pregunta": {
             "id": "d5-l1-p0",
             "tipo": "verdadero-falso",
-            "enunciado": "Si un tratamiento contra el cáncer afecta al corazón, siempre se nota durante el tratamiento.",
-            "respuesta": false,
-            "explicacion": "Falso. Algunos problemas del corazón aparecen meses o incluso años después de terminar.",
+            "enunciado": "Algunas de las medicinas más usadas contra el cáncer salieron de plantas.",
+            "respuesta": true,
+            "explicacion": "Verdadero. La vincristina, el paclitaxel, el etopósido y el irinotecán tienen su origen en plantas.",
             "fuentes": [
-              "F26",
-              "F86"
+              "F106"
             ]
           }
         },
         {
           "id": "d5-l1-t2",
           "tipo": "concepto",
-          "titulo": "Cardiólogos y oncólogos en equipo",
-          "texto": "La cardio-oncología junta a los médicos del corazón (cardiólogos) y a los del cáncer (oncólogos). Su meta es tratar el cáncer cuidando el corazón, porque los problemas del corazón son una causa importante de enfermedad en quienes sobreviven al cáncer.",
+          "titulo": "Una célula que se multiplica sin control",
+          "texto": "Tu cuerpo tiene billones de células que se dividen solo cuando hace falta. En el cáncer, algunas se multiplican sin parar, invaden lo que tienen alrededor y pueden viajar por la sangre a otros órganos (metástasis).",
           "fuentes": [
-            "F12",
-            "F11"
+            "F20",
+            "F21"
           ],
-          "imagen": "img-ia-d7-conversacion"
+          "imagen": "img-d4-maligno"
         },
         {
           "id": "d5-l1-t3",
           "tipo": "concepto",
-          "titulo": "¿Por qué se cruzan?",
-          "texto": "Por tres razones: el cáncer y el corazón comparten enemigos, como el tabaco; algunos tratamientos pueden dañar el corazón o los vasos; y durante el tratamiento pueden subir la presión o el azúcar. Al daño del corazón causado por un tratamiento se le llama cardiotoxicidad.",
+          "titulo": "Acelerador y freno",
+          "texto": "Dentro de cada célula, unos genes dicen \"divídete\" y otros dicen \"para\". Si el acelerador se queda pegado o el freno se rompe, la célula se divide una y otra vez.",
           "fuentes": [
-            "F12",
-            "F11"
+            "F20"
           ],
-          "diagrama": "cardiotoxicidad"
+          "imagen": "img-d4-freno"
         },
         {
           "id": "d5-l1-t4",
-          "tipo": "alerta",
-          "titulo": "Lo que este día no hace",
-          "texto": "Aquí explicamos ideas. No damos dosis ni decimos que se cambie un tratamiento: eso lo decide siempre el equipo médico junto con el paciente.",
+          "tipo": "analogia",
+          "titulo": "Como una planta que invade el huerto",
+          "texto": "En un huerto cada planta crece hasta tocar a su vecina y se detiene. En el cáncer, unas pocas células ignoran esa regla. Muchas medicinas de plantas actúan justo ahí: frenan la división de la célula.",
           "fuentes": [
-            "F11",
-            "F12"
-          ]
+            "F20",
+            "F106"
+          ],
+          "imagen": "img-ia-d4-huerto"
         }
       ]
     },
     {
       "id": "d5-l2",
-      "titulo": "Quimioterapia y terapias dirigidas",
-      "minutos": 4,
+      "titulo": "Cuatro plantas, cuatro medicinas",
+      "minutos": 6,
       "tarjetas": [
         {
           "id": "d5-l2-t1",
           "tipo": "concepto",
-          "titulo": "Medicinas muy útiles, con un costo",
-          "texto": "Algunas quimioterapias muy usadas, como la doxorrubicina (de la familia de las antraciclinas), pueden debilitar el músculo del corazón. Puede pasar durante el tratamiento o meses y años después. Toca cada tratamiento en el dibujo para ver qué puede pasar.",
+          "titulo": "Mira dónde actúan",
+          "texto": "Elige la vinca, el tejo, el podofilo o la camptoteca en el dibujo y sigue el viaje de su sustancia hasta la célula de cáncer que se está dividiendo.",
           "fuentes": [
-            "F86",
-            "F26"
+            "F106"
           ],
-          "diagrama": "cardiotoxicidad"
+          "diagrama": "planta-medicina"
         },
         {
           "id": "d5-l2-t2",
           "tipo": "concepto",
-          "titulo": "Lo que se mide: cuánto bombea",
-          "texto": "Si el corazón se debilita, sale menos sangre en cada latido y baja la fracción de eyección que vimos el día 3. Por eso se hace una ecografía del corazón antes y durante estos tratamientos.",
+          "titulo": "Vinca de Madagascar",
+          "texto": "De esta flor rosada (Catharanthus roseus) salieron la vinblastina y la vincristina, que impiden que la célula del cáncer se divida. Se usan sobre todo en cánceres de la sangre.",
           "fuentes": [
-            "F86",
-            "F58"
+            "F106",
+            "F83",
+            "F46"
           ],
-          "imagen": "img-d3-eco"
+          "imagen": "img-d6-vinca"
         },
         {
           "id": "d5-l2-t3",
           "tipo": "concepto",
-          "titulo": "El trastuzumab",
-          "texto": "El trastuzumab es una terapia dirigida para ciertos cánceres de mama y de estómago. También puede causar problemas serios en el corazón, así que el médico pide pruebas del corazón antes y durante el tratamiento.",
+          "titulo": "Tejo del Pacífico",
+          "texto": "En 1962 se recogió corteza de este árbol para un programa que buscaba sustancias contra el cáncer en plantas. De ella se aisló el paclitaxel, que detiene la división celular. Se aprobó para cáncer de ovario en 1992 y de mama en 1994.",
           "fuentes": [
-            "F87",
-            "F26"
+            "F28",
+            "F45"
           ],
-          "imagen": "img-d5-eco-foto"
+          "imagen": "img-d6-tejo"
         },
         {
           "id": "d5-l2-t4",
-          "tipo": "alerta",
-          "titulo": "Dolor en el pecho",
-          "texto": "Con algunas quimioterapias, como el fluorouracilo, el dolor en el pecho es una señal para avisar al médico de inmediato.",
+          "tipo": "concepto",
+          "titulo": "Podofilo",
+          "texto": "Del podofilo (Podophyllum peltatum) sale la podofilotoxina. De ella se hizo el etopósido, que rompe el ADN de la célula de cáncer para que no pueda dividirse. Se usa en cáncer de pulmón de células pequeñas y de testículo.",
           "fuentes": [
-            "F88"
-          ]
+            "F108",
+            "F106"
+          ],
+          "imagen": "img-p-podofilo"
+        },
+        {
+          "id": "d5-l2-t5",
+          "tipo": "concepto",
+          "titulo": "Camptoteca",
+          "texto": "De la corteza de este árbol (Camptotheca acuminata) se aisló la camptotecina. De ella se crearon el topotecán, aprobado en 1996 para cáncer de ovario y de pulmón de células pequeñas, y el irinotecán.",
+          "fuentes": [
+            "F107",
+            "F106"
+          ],
+          "imagen": "img-p-camptoteca"
         }
       ]
     },
     {
       "id": "d5-l3",
-      "titulo": "Inmunoterapia",
-      "minutos": 3,
+      "titulo": "Las plantas del maestro en el laboratorio",
+      "minutos": 6,
       "tarjetas": [
         {
           "id": "d5-l3-t1",
           "tipo": "concepto",
-          "titulo": "Quitarle el freno a las defensas",
-          "texto": "Nuestras defensas tienen \"frenos\" para no atacar a las células sanas. Algunas inmunoterapias quitan ese freno para que los glóbulos blancos ataquen al cáncer, como en la foto.",
+          "titulo": "Zorrilla (anamú)",
+          "texto": "La zorrilla (Petiveria alliacea) se usa tradicionalmente contra tumores. Investigadores de la Universidad Javeriana de Colombia probaron un extracto en células de melanoma y leucemia: desarmó su esqueleto interno, detuvo su división y las llevó a morir. Los autores la ven como una buena candidata a medicina contra el cáncer.",
           "fuentes": [
-            "F85",
-            "F24"
+            "F109"
           ],
-          "imagen": "img-d4-defensas"
+          "imagen": "img-p-anamu"
         },
         {
           "id": "d5-l3-t2",
-          "tipo": "alerta",
-          "titulo": "A veces atacan de más",
-          "texto": "Sin freno, las defensas a veces inflaman órganos sanos. Un efecto raro pero importante es la miocarditis: la inflamación del músculo del corazón.",
+          "tipo": "concepto",
+          "titulo": "Dulcamara",
+          "texto": "La dulcamara (Solanum dulcamara) se usa contra tumores y verrugas desde la época de Galeno. Tiene glicoalcaloides como la solasodina y la solamargina, y una de sus sustancias, la beta-solamarina, se estudió como inhibidora de tumores. Sus bayas son venenosas; la parte que se usa tradicionalmente es el tallo.",
           "fuentes": [
-            "F85"
-          ]
+            "F110"
+          ],
+          "imagen": "img-p-dulcamara"
         },
         {
           "id": "d5-l3-t3",
-          "tipo": "pregunta-previa",
-          "titulo": "Comprueba lo aprendido",
-          "texto": "",
+          "tipo": "concepto",
+          "titulo": "Cúrcuma",
+          "texto": "La cúrcuma tiene curcumina. En pacientes con cáncer, los primeros estudios sugieren que puede aliviar las llagas en la boca que causa el tratamiento. La curcumina se absorbe poco; la pimienta negra (piperina) ayuda a absorberla.",
           "fuentes": [
-            "F85"
+            "F76"
           ],
-          "pregunta": {
-            "id": "d5-l3-p1",
-            "tipo": "opcion-multiple",
-            "enunciado": "¿Por qué la inmunoterapia puede inflamar el corazón?",
-            "opciones": [
-              {
-                "texto": "Porque las defensas, sin freno, pueden atacar tejidos sanos",
-                "correcta": true,
-                "explicacion": "Así se explica la miocarditis."
-              },
-              {
-                "texto": "Porque sube el colesterol",
-                "correcta": false,
-                "explicacion": "No es ese el motivo."
-              },
-              {
-                "texto": "Porque el corazón tiene cáncer",
-                "correcta": false,
-                "explicacion": "No: es un efecto de las defensas sobre un órgano sano."
-              }
-            ],
-            "fuentes": [
-              "F85"
-            ]
-          }
+          "imagen": "img-d6-curcuma"
+        },
+        {
+          "id": "d5-l3-t4",
+          "tipo": "concepto",
+          "titulo": "Noni",
+          "texto": "En el laboratorio, el noni (Morinda citrifolia) mostró efectos antioxidantes, sobre las defensas y contra tumores, que merecen más estudio. Los estudios en personas todavía son muy pocos. Tiene bastante potasio.",
+          "fuentes": [
+            "F111"
+          ],
+          "imagen": "img-p-noni"
+        },
+        {
+          "id": "d5-l3-t5",
+          "tipo": "concepto",
+          "titulo": "Muérdago: el más recetado en Europa",
+          "texto": "En Europa, los extractos de muérdago están entre las medicinas más recetadas a pacientes con cáncer. En el laboratorio sus lectinas y viscotoxinas matan células de cáncer y activan las defensas. Algunos estudios en personas encontraron mejor calidad de vida o supervivencia, y otros no encontraron diferencias.",
+          "fuentes": [
+            "F97",
+            "F98"
+          ],
+          "imagen": "img-p-muerdago"
         }
       ]
     },
     {
       "id": "d5-l4",
-      "titulo": "Radioterapia: efectos que llegan tarde",
-      "minutos": 3,
+      "titulo": "Del laboratorio a las personas",
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d5-l4-t1",
           "tipo": "concepto",
-          "titulo": "Rayos en el pecho",
-          "texto": "La radioterapia usa rayos para destruir el cáncer. Cuando se da en el pecho, puede dañar el corazón, pero el problema aparece años después: el corazón se debilita o se estrechan sus arterias.",
+          "titulo": "Tres etapas",
+          "texto": "Una planta prometedora recorre un camino: primero se prueba en células (laboratorio), luego en animales y al final en personas, con estudios que comparan grupos. El paclitaxel tardó 30 años en hacer ese viaje, de 1962 a 1992.",
           "fuentes": [
-            "F26"
+            "F28",
+            "F106"
           ],
-          "imagen": "img-d5-radioterapia"
+          "imagen": "img-d6-tejo"
         },
         {
           "id": "d5-l4-t2",
-          "tipo": "alerta",
-          "titulo": "Los riesgos se suman",
-          "texto": "Si alguien recibió radioterapia en el pecho o ya tenía un problema del corazón, el riesgo con algunas quimioterapias es mayor. Por eso hay que contárselo siempre al médico.",
+          "tipo": "concepto",
+          "titulo": "En qué etapa está cada planta",
+          "texto": "Vinca, tejo, podofilo y camptoteca ya llegaron a medicinas. El muérdago tiene estudios en personas. La zorrilla, la dulcamara y el noni tienen resultados de laboratorio y esperan estudios en personas.",
           "fuentes": [
-            "F86"
-          ]
+            "F106",
+            "F97",
+            "F109",
+            "F110",
+            "F111"
+          ],
+          "imagen": "img-p-muerdago"
         },
         {
           "id": "d5-l4-t3",
-          "tipo": "concepto",
-          "titulo": "Cuidar el corazón después",
-          "texto": "Después del cáncer conviene comer sano con poca sal, mantener un peso saludable, hacer el ejercicio que indique el médico y no fumar. Y tener controles del corazón durante años.",
+          "tipo": "dato",
+          "titulo": "Té verde: una pregunta abierta",
+          "texto": "Muchos estudios han buscado si el té verde cambia el riesgo de cáncer, y sus resultados no coinciden entre sí. Es un buen ejemplo de por qué hacen falta muchos estudios.",
           "fuentes": [
-            "F26",
-            "F12"
-          ],
-          "imagen": "img-ia-d3-habitos"
-        }
-      ]
-    },
-    {
-      "id": "d5-l5",
-      "titulo": "Cómo se vigila el corazón",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d5-l5-t1",
-          "tipo": "concepto",
-          "titulo": "Antes, durante y después",
-          "texto": "Antes del tratamiento se revisa cómo está el corazón y sus factores de riesgo. Durante, se hacen controles. Al terminar, se vuelve a evaluar y se arma un plan de seguimiento. Es la base de las recomendaciones internacionales de 2026.",
-          "fuentes": [
-            "F12"
-          ],
-          "imagen": "img-d5-eco-foto"
-        },
-        {
-          "id": "d5-l5-t2",
-          "tipo": "concepto",
-          "titulo": "Las pruebas",
-          "texto": "La ecografía del corazón mide cuánto bombea. El electrocardiograma revisa el ritmo. En personas de alto riesgo también se miden en la sangre unas sustancias (troponina y BNP) que suben cuando el corazón sufre.",
-          "fuentes": [
-            "F12",
-            "F58"
-          ],
-          "diagrama": "ecg"
-        },
-        {
-          "id": "d5-l5-t3",
-          "tipo": "alerta",
-          "titulo": "Tu papel como educador",
-          "texto": "Puedes ayudar a que una persona en tratamiento no falte a sus controles y avise si tiene falta de aire, dolor en el pecho, palpitaciones o hinchazón. Cambiar el tratamiento le corresponde al equipo médico.",
-          "fuentes": [
-            "F12",
-            "F26"
+            "F77"
           ]
+        },
+        {
+          "id": "d5-l4-t4",
+          "tipo": "pregunta-previa",
+          "titulo": "Comprueba lo aprendido",
+          "texto": "",
+          "fuentes": [
+            "F28"
+          ],
+          "pregunta": {
+            "id": "d5-l4-p1",
+            "tipo": "ordenar",
+            "enunciado": "Ordena el camino de una planta hacia una medicina.",
+            "pasos": [
+              "Pruebas en células",
+              "Pruebas en animales",
+              "Estudios en personas",
+              "Medicina aprobada"
+            ],
+            "explicacion": "Así recorrió el paclitaxel su camino entre 1962 y 1992.",
+            "fuentes": [
+              "F28",
+              "F106"
+            ]
+          }
         }
       ]
     }
@@ -260,133 +260,147 @@
     {
       "id": "d5-q1",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Qué es la cardiotoxicidad?",
+      "enunciado": "¿De qué planta salió la vincristina?",
       "opciones": [
         {
-          "texto": "El daño al corazón causado por un tratamiento contra el cáncer",
+          "texto": "De la vinca de Madagascar",
           "correcta": true,
-          "explicacion": "Es la idea central de la cardio-oncología."
+          "explicacion": "Junto con la vinblastina."
         },
         {
-          "texto": "Un tipo de cáncer del corazón",
+          "texto": "Del tejo del Pacífico",
           "correcta": false,
-          "explicacion": "No es un cáncer; es un efecto del tratamiento."
+          "explicacion": "Del tejo salió el paclitaxel."
         },
         {
-          "texto": "Una planta tóxica",
+          "texto": "De la camptoteca",
           "correcta": false,
-          "explicacion": "La palabra se refiere a efectos de los tratamientos."
+          "explicacion": "De la camptoteca salió la camptotecina."
         }
       ],
       "fuentes": [
-        "F11",
-        "F12"
+        "F106",
+        "F83"
       ]
     },
     {
       "id": "d5-q2",
-      "tipo": "verdadero-falso",
-      "enunciado": "La doxorrubicina puede causar problemas del corazón incluso años después.",
-      "respuesta": true,
-      "explicacion": "Verdadero. Por eso se habla de efectos tardíos y de controles a largo plazo.",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué medicina se hizo a partir de la podofilotoxina?",
+      "opciones": [
+        {
+          "texto": "El etopósido",
+          "correcta": true,
+          "explicacion": "Se usa en cáncer de pulmón de células pequeñas y de testículo."
+        },
+        {
+          "texto": "La digoxina",
+          "correcta": false,
+          "explicacion": "La digoxina viene de la dedalera."
+        },
+        {
+          "texto": "El paclitaxel",
+          "correcta": false,
+          "explicacion": "El paclitaxel viene del tejo."
+        }
+      ],
       "fuentes": [
-        "F86",
-        "F26"
+        "F108"
       ]
     },
     {
       "id": "d5-q3",
-      "tipo": "opcion-multiple",
-      "enunciado": "¿Qué prueba mide cuánto bombea el corazón?",
-      "opciones": [
-        {
-          "texto": "La ecografía del corazón",
-          "correcta": true,
-          "explicacion": "Permite medir la fracción de eyección."
-        },
-        {
-          "texto": "Un análisis de colesterol",
-          "correcta": false,
-          "explicacion": "Sirve para el riesgo, no para ver cuánto bombea."
-        },
-        {
-          "texto": "Una radiografía de la mano",
-          "correcta": false,
-          "explicacion": "No mira el corazón."
-        }
-      ],
+      "tipo": "verdadero-falso",
+      "enunciado": "Un extracto de zorrilla detuvo la división de células de melanoma y leucemia en el laboratorio.",
+      "respuesta": true,
+      "explicacion": "Verdadero. Fue un estudio de la Universidad Javeriana de Colombia.",
       "fuentes": [
-        "F12",
-        "F58"
+        "F109"
       ]
     },
     {
       "id": "d5-q4",
       "tipo": "opcion-multiple",
-      "enunciado": "Un efecto raro pero importante de la inmunoterapia es…",
+      "enunciado": "¿Qué ayuda a absorber la curcumina de la cúrcuma?",
       "opciones": [
         {
-          "texto": "La miocarditis",
+          "texto": "La piperina de la pimienta negra",
           "correcta": true,
-          "explicacion": "Las defensas sin freno pueden inflamar el corazón."
+          "explicacion": "Es una forma de mejorar su absorción."
         },
         {
-          "texto": "Que crezca el pelo",
+          "texto": "El agua fría",
           "correcta": false,
-          "explicacion": "No es un efecto del corazón."
+          "explicacion": "No es lo que se ha estudiado."
         },
         {
-          "texto": "La presión baja siempre",
+          "texto": "La sal",
           "correcta": false,
-          "explicacion": "No es lo que describe la fuente."
+          "explicacion": "No es lo que se ha estudiado."
         }
       ],
       "fuentes": [
-        "F85"
+        "F76"
       ]
     },
     {
       "id": "d5-q5",
-      "tipo": "ordenar",
-      "enunciado": "Ordena cómo se cuida el corazón en un tratamiento contra el cáncer.",
-      "pasos": [
-        "Revisar el corazón antes de empezar",
-        "Controles durante el tratamiento",
-        "Volver a evaluar al terminar",
-        "Seguimiento durante años"
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Dónde están los extractos de muérdago entre las medicinas más recetadas a pacientes con cáncer?",
+      "opciones": [
+        {
+          "texto": "En Europa",
+          "correcta": true,
+          "explicacion": "Así lo describe el Instituto Nacional del Cáncer de EE. UU."
+        },
+        {
+          "texto": "En Australia",
+          "correcta": false,
+          "explicacion": "La fuente habla de Europa."
+        },
+        {
+          "texto": "En ningún lugar",
+          "correcta": false,
+          "explicacion": "En Europa están entre las más recetadas."
+        }
       ],
-      "explicacion": "Antes, durante y después: el corazón se cuida en todo el camino.",
       "fuentes": [
-        "F12"
+        "F97"
       ]
     }
   ],
   "audio": {
     "archivo": "audio/dia-5.mp3",
     "titulo": "Resumen del día 5",
-    "estado": "listo",
+    "estado": "pendiente",
     "origen": "NotebookLM"
   },
   "resumen": {
     "titulo": "Lo esencial del día 5",
     "puntos": [
-      "La cardio-oncología cuida el corazón de las personas con cáncer.",
-      "Algunas quimioterapias y terapias dirigidas pueden debilitar el corazón, a veces años después.",
-      "La inmunoterapia puede, rara vez, inflamar el corazón (miocarditis).",
-      "La radioterapia en el pecho puede dañar el corazón con los años.",
-      "El corazón se vigila antes, durante y después, con ecografía y electrocardiograma."
-    ],
-    "imagen": "img-nlm-d5-infografia"
+      "En el cáncer, algunas células se dividen sin control; muchas medicinas de plantas frenan esa división.",
+      "Vinca (vincristina), tejo (paclitaxel), podofilo (etopósido) y camptoteca (topotecán, irinotecán) dieron medicinas contra el cáncer.",
+      "La zorrilla frenó células de cáncer en el laboratorio; la dulcamara y el noni también tienen resultados de laboratorio.",
+      "La cúrcuma puede aliviar llagas en la boca por el tratamiento; el muérdago es de lo más recetado en Europa.",
+      "El camino de una planta va del laboratorio a los animales y a las personas."
+    ]
   },
   "fuentes": [
-    "F11",
-    "F12",
-    "F24",
-    "F26",
-    "F58",
-    "F85",
-    "F86",
-    "F87",
-    "F88"
+    "F20",
+    "F21",
+    "F28",
+    "F45",
+    "F46",
+    "F76",
+    "F77",
+    "F83",
+    "F97",
+    "F98",
+    "F106",
+    "F107",
+    "F108",
+    "F109",
+    "F110",
+    "F111"
   ]
 }

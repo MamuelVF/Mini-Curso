@@ -1,19 +1,19 @@
 {
   "id": 7,
   "bloque": "C",
-  "titulo": "Señales de alarma y caso final",
-  "subtitulo": "Saber cuándo es una urgencia y unir todo lo aprendido",
-  "minutos": 16,
+  "titulo": "Plantas con criterio y caso final",
+  "subtitulo": "Identificar y preparar bien cada planta, reconocer una urgencia y unir todo en un caso",
+  "minutos": 20,
   "objetivos": [
-    "Reconocer las señales de un infarto.",
-    "Usar la regla FAST para reconocer un ictus.",
-    "Reconocer las señales de un coágulo y de un sangrado.",
-    "Resolver un caso con decisiones seguras."
+    "Identificar una planta por su nombre científico y la parte que se usa.",
+    "Preparar bien las plantas que lo necesitan.",
+    "Reconocer las señales de un infarto y de un ictus.",
+    "Resolver un caso con plantas, corazón y cáncer."
   ],
   "lecciones": [
     {
       "id": "d7-l1",
-      "titulo": "Señales de un infarto",
+      "titulo": "Identificar bien la planta",
       "minutos": 4,
       "tarjetas": [
         {
@@ -22,21 +22,135 @@
           "titulo": "Antes de empezar",
           "texto": "",
           "fuentes": [
-            "F56"
+            "F109"
           ],
           "pregunta": {
             "id": "d7-l1-p0",
             "tipo": "verdadero-falso",
-            "enunciado": "Un infarto siempre empieza con un dolor de pecho fuerte y repentino, como en las películas.",
-            "respuesta": false,
-            "explicacion": "Falso. Muchas veces empieza despacio, con una molestia leve en el pecho que va y viene.",
+            "enunciado": "Una misma planta puede tener nombres comunes distintos según el país.",
+            "respuesta": true,
+            "explicacion": "Verdadero. La zorrilla de Ecuador es el anamú de otros países: su nombre científico, Petiveria alliacea, es el mismo en todas partes.",
             "fuentes": [
-              "F56"
+              "F109"
             ]
           }
         },
         {
           "id": "d7-l1-t2",
+          "tipo": "concepto",
+          "titulo": "El nombre científico manda",
+          "texto": "Zorrilla, anamú: mismos nombres para Petiveria alliacea. Los estudios se buscan por el nombre científico, porque es único. Así encontraste en este curso lo que se sabe de cada planta.",
+          "fuentes": [
+            "F109",
+            "F70"
+          ],
+          "imagen": "img-p-anamu"
+        },
+        {
+          "id": "d7-l1-t3",
+          "tipo": "concepto",
+          "titulo": "La parte correcta",
+          "texto": "En una misma planta, una parte puede ayudar y otra hacer daño. Del castaño de Indias se usa el extracto de semilla preparado, no la semilla cruda. De la sábila, el gel para la piel y no el látex. De la dulcamara, el tallo y nunca las bayas, que son venenosas.",
+          "fuentes": [
+            "F96",
+            "F112",
+            "F110"
+          ],
+          "imagen": "img-p-dulcamara"
+        },
+        {
+          "id": "d7-l1-t4",
+          "tipo": "dato",
+          "titulo": "Productos que no son lo que dicen",
+          "texto": "Algunos productos vendidos como raíz de tejocote tenían adelfa amarilla, que es tóxica. Y algunos de levadura roja traían citrinina, un contaminante que daña el riñón. Conocer la planta y su origen protege a quien la usa.",
+          "fuentes": [
+            "F78",
+            "F95"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d7-l2",
+      "titulo": "Preparar bien cada planta",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d7-l2-t1",
+          "tipo": "concepto",
+          "titulo": "Chaya: siempre cocida",
+          "texto": "Las hojas, los peciolos y los tallos verdes de la chaya necesitan unos 20 minutos de hervor para eliminar las sustancias que en crudo liberan cianuro.",
+          "fuentes": [
+            "F105"
+          ],
+          "imagen": "img-p-chaya"
+        },
+        {
+          "id": "d7-l2-t2",
+          "tipo": "concepto",
+          "titulo": "Linaza: madura y molida",
+          "texto": "No se deben comer semillas de linaza crudas o inmaduras, porque pueden tener sustancias tóxicas. En el estudio de la presión se usó linaza molida mezclada en alimentos.",
+          "fuentes": [
+            "F113",
+            "F100"
+          ],
+          "imagen": "img-p-linaza"
+        },
+        {
+          "id": "d7-l2-t3",
+          "tipo": "concepto",
+          "titulo": "Cúrcuma: con pimienta",
+          "texto": "La curcumina se absorbe poco. La piperina de la pimienta negra ayuda a absorberla. Algunos productos hechos para absorberse mucho se han relacionado con daño al hígado.",
+          "fuentes": [
+            "F76"
+          ],
+          "imagen": "img-d6-curcuma"
+        },
+        {
+          "id": "d7-l2-t4",
+          "tipo": "pregunta-previa",
+          "titulo": "Comprueba lo aprendido",
+          "texto": "",
+          "fuentes": [
+            "F105"
+          ],
+          "pregunta": {
+            "id": "d7-l2-p1",
+            "tipo": "opcion-multiple",
+            "enunciado": "¿Qué parte de la planta y qué preparación son correctas?",
+            "opciones": [
+              {
+                "texto": "Hojas de chaya hervidas unos 20 minutos",
+                "correcta": true,
+                "explicacion": "Así se eliminan las sustancias que liberan cianuro."
+              },
+              {
+                "texto": "Bayas de dulcamara en infusión",
+                "correcta": false,
+                "explicacion": "Las bayas de dulcamara son venenosas."
+              },
+              {
+                "texto": "Semillas crudas de castaño de Indias",
+                "correcta": false,
+                "explicacion": "La semilla cruda es tóxica; se usa el extracto preparado."
+              }
+            ],
+            "fuentes": [
+              "F105",
+              "F110",
+              "F96"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7-l3",
+      "titulo": "Señales de un infarto",
+      "minutos": 4,
+      "tarjetas": [
+        {
+          "id": "d7-l3-t1",
           "tipo": "alerta",
           "titulo": "La molestia en el pecho",
           "texto": "Presión, opresión, sensación de pecho lleno o dolor en el centro del pecho, que dura más de unos minutos o que se va y vuelve.",
@@ -47,7 +161,7 @@
           "imagen": "img-d2-infarto"
         },
         {
-          "id": "d7-l1-t3",
+          "id": "d7-l3-t2",
           "tipo": "alerta",
           "titulo": "Otras señales",
           "texto": "Dolor en uno o los dos brazos, la espalda, el cuello, la mandíbula o el estómago. Falta de aire, sudor frío, náuseas o mareo. En las mujeres son más comunes la falta de aire, las náuseas y el dolor de espalda o mandíbula.",
@@ -58,10 +172,10 @@
           ]
         },
         {
-          "id": "d7-l1-t4",
+          "id": "d7-l3-t3",
           "tipo": "alerta",
           "titulo": "Qué hacer",
-          "texto": "Llamar a emergencias de inmediato (en Ecuador, ECU 911). No esperar a ver si se pasa ni intentar tratarlo con plantas.",
+          "texto": "Llamar a emergencias de inmediato (en Ecuador, ECU 911). En un infarto cada minuto cuenta.",
           "fuentes": [
             "F56"
           ]
@@ -69,22 +183,22 @@
       ]
     },
     {
-      "id": "d7-l2",
+      "id": "d7-l4",
       "titulo": "Ictus: la regla FAST",
-      "minutos": 3,
+      "minutos": 4,
       "tarjetas": [
         {
-          "id": "d7-l2-t1",
+          "id": "d7-l4-t1",
           "tipo": "concepto",
           "titulo": "Cada minuto cuenta",
-          "texto": "En un ictus, una parte del cerebro se queda sin sangre. Reconocerlo rápido permite llegar antes al tratamiento. Para recordarlo se usa la palabra inglesa FAST (\"rápido\"), como en el dibujo.",
+          "texto": "En un ictus, una parte del cerebro se queda sin sangre. Para reconocerlo rápido se usa la palabra inglesa FAST (\"rápido\"), como en el dibujo.",
           "fuentes": [
             "F43"
           ],
           "imagen": "img-d7-fast"
         },
         {
-          "id": "d7-l2-t2",
+          "id": "d7-l4-t2",
           "tipo": "alerta",
           "titulo": "F-A-S-T",
           "texto": "F: cara caída de un lado. A: un brazo débil. S: habla rara o difícil de entender. T: es tiempo de llamar a emergencias. Otras señales de golpe: no ver bien, perder el equilibrio o un dolor de cabeza muy fuerte.",
@@ -93,10 +207,10 @@
           ]
         },
         {
-          "id": "d7-l2-t3",
+          "id": "d7-l4-t3",
           "tipo": "ejemplo-resuelto",
-          "titulo": "Une con el día 3",
-          "texto": "La fibrilación auricular forma coágulos que pueden viajar al cerebro. Si una persona con fibrilación auricular de repente no puede hablar bien, hay que llamar a emergencias, no esperar.",
+          "titulo": "Une con el día 4",
+          "texto": "La fibrilación auricular forma coágulos que pueden viajar al cerebro. Si una persona con fibrilación auricular de repente no puede hablar bien, hay que llamar a emergencias enseguida.",
           "fuentes": [
             "F59",
             "F43"
@@ -106,85 +220,37 @@
       ]
     },
     {
-      "id": "d7-l3",
-      "titulo": "Coágulos y sangrados",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d7-l3-t1",
-          "tipo": "alerta",
-          "titulo": "Una pierna hinchada de un solo lado",
-          "texto": "Hinchazón o dolor en una sola pierna, con calor y piel roja, puede ser un coágulo. En una persona con cáncer el riesgo es mayor: consultar pronto.",
-          "fuentes": [
-            "F40",
-            "F39"
-          ],
-          "imagen": "img-d6-tvp"
-        },
-        {
-          "id": "d7-l3-t2",
-          "tipo": "alerta",
-          "titulo": "Falta de aire de repente",
-          "texto": "Falta de aire súbita, dolor de pecho al respirar hondo, latidos rápidos o tos con sangre pueden ser una embolia pulmonar: es una urgencia.",
-          "fuentes": [
-            "F41"
-          ],
-          "imagen": "img-d6-embolia"
-        },
-        {
-          "id": "d7-l3-t3",
-          "tipo": "alerta",
-          "titulo": "Sangrado con anticoagulantes",
-          "texto": "En quien toma warfarina: sangrado que no para, sangrado de nariz o encías, orina rosada o marrón, heces negras o rojas, vómito con sangre o moretones fáciles. Hay que llamar al médico de inmediato. Y si empezó hace poco ginkgo o ajo, el médico debe saberlo.",
-          "fuentes": [
-            "F47",
-            "F74",
-            "F75"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "d7-l4",
-      "titulo": "Tu papel antes del caso",
+      "id": "d7-l5",
+      "titulo": "Antes del caso",
       "minutos": 3,
       "tarjetas": [
         {
-          "id": "d7-l4-t1",
+          "id": "d7-l5-t1",
           "tipo": "concepto",
-          "titulo": "Educar, no recetar",
-          "texto": "Tu papel es informar con fuentes, escuchar, preguntar qué plantas y suplementos usa la persona y animarla a contárselo al médico. No es diagnosticar ni cambiar tratamientos.",
+          "titulo": "Tu fortaleza: conocer las plantas",
+          "texto": "Sabes qué se ha estudiado de cada planta, qué parte se usa, cómo se prepara y con qué medicinas se mezcla mal. Con eso puedes sumar plantas que ayudan y avisar a tiempo cuando algo estorba.",
           "fuentes": [
-            "F72",
-            "F12"
+            "F70",
+            "F71"
           ],
           "imagen": "img-ia-d7-conversacion"
         },
         {
-          "id": "d7-l4-t2",
+          "id": "d7-l5-t2",
           "tipo": "concepto",
           "titulo": "Tres preguntas útiles",
-          "texto": "1) ¿Qué medicamentos tomas? 2) ¿Qué plantas, infusiones o suplementos usas o piensas usar? 3) ¿Tu médico lo sabe?",
+          "texto": "1) ¿Qué medicinas tomas? 2) ¿Qué plantas, infusiones o suplementos usas o piensas usar? 3) ¿Tu médico lo sabe?",
           "fuentes": [
             "F72",
-            "F47"
+            "F71"
           ],
           "imagen": "img-ia-d7-conversacion"
         },
         {
-          "id": "d7-l4-t3",
-          "tipo": "alerta",
-          "titulo": "Lo que nunca",
-          "texto": "Nunca sugerir que una planta reemplaza o retrasa el tratamiento del cáncer. Ninguna terapia complementaria ha demostrado prevenir el cáncer ni hacerlo desaparecer.",
-          "fuentes": [
-            "F72"
-          ]
-        },
-        {
-          "id": "d7-l4-t4",
+          "id": "d7-l5-t3",
           "tipo": "dato",
           "titulo": "Ahora, el caso",
-          "texto": "En el caso final tomarás decisiones en 8 pasos y verás una explicación en cada respuesta. El puntaje es solo una referencia: puedes repetirlo las veces que quieras.",
+          "texto": "En el caso final tomarás 8 decisiones y verás una explicación en cada respuesta. El puntaje es solo una referencia: puedes repetirlo las veces que quieras.",
           "fuentes": [
             "F72"
           ]
@@ -196,111 +262,139 @@
     {
       "id": "d7-q1",
       "tipo": "opcion-multiple",
-      "enunciado": "Una persona tiene opresión en el pecho desde hace 15 minutos, con sudor frío. ¿Qué haces?",
+      "enunciado": "¿Por qué conviene buscar una planta por su nombre científico?",
       "opciones": [
         {
-          "texto": "Llamar a emergencias de inmediato",
+          "texto": "Porque es único, aunque los nombres comunes cambien de país a país",
           "correcta": true,
-          "explicacion": "Son señales de posible infarto: cada minuto cuenta."
+          "explicacion": "Zorrilla y anamú son la misma Petiveria alliacea."
         },
         {
-          "texto": "Recomendar una infusión y esperar",
+          "texto": "Porque es más corto",
           "correcta": false,
-          "explicacion": "Ante señales de infarto no se espera ni se trata con plantas."
+          "explicacion": "La razón es que es único."
         },
         {
-          "texto": "Decirle que se acueste y llame mañana al médico",
+          "texto": "Porque solo así se puede comprar",
           "correcta": false,
-          "explicacion": "Es una urgencia: hay que llamar ahora."
+          "explicacion": "La razón es que es único."
         }
       ],
       "fuentes": [
-        "F56",
-        "F42"
+        "F109",
+        "F70"
       ]
     },
     {
       "id": "d7-q2",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es una señal de infarto?",
+      "opciones": [
+        {
+          "texto": "Presión en el centro del pecho que dura más de unos minutos",
+          "correcta": true,
+          "explicacion": "Hay que llamar a emergencias."
+        },
+        {
+          "texto": "Picazón en las manos",
+          "correcta": false,
+          "explicacion": "No es una señal típica."
+        },
+        {
+          "texto": "Hambre",
+          "correcta": false,
+          "explicacion": "No tiene relación."
+        }
+      ],
+      "fuentes": [
+        "F56"
+      ]
+    },
+    {
+      "id": "d7-q3",
       "tipo": "ordenar",
-      "enunciado": "Ordena las letras de la regla FAST.",
+      "enunciado": "Ordena la regla FAST.",
       "pasos": [
         "Cara caída",
         "Brazo débil",
         "Habla rara",
-        "Tiempo de llamar a emergencias"
+        "Tiempo de llamar"
       ],
-      "explicacion": "F-A-S-T: cara, brazo, habla y tiempo.",
+      "explicacion": "F (face, cara), A (arm, brazo), S (speech, habla), T (time, tiempo).",
       "fuentes": [
         "F43"
       ]
     },
     {
-      "id": "d7-q3",
+      "id": "d7-q4",
       "tipo": "verdadero-falso",
-      "enunciado": "Una pierna hinchada y dolorosa de un solo lado en una persona con cáncer merece consulta pronto.",
-      "respuesta": true,
-      "explicacion": "Verdadero. Puede ser un coágulo, y el cáncer aumenta el riesgo.",
+      "enunciado": "Las bayas de dulcamara se pueden usar en infusión.",
+      "respuesta": false,
+      "explicacion": "Falso. Las bayas son venenosas.",
       "fuentes": [
-        "F40",
-        "F39"
+        "F110"
       ]
     },
     {
-      "id": "d7-q4",
+      "id": "d7-q5",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Cuál es una señal de sangrado en quien toma warfarina?",
+      "enunciado": "¿Qué contaminante se encontró en algunos productos de levadura roja?",
       "opciones": [
         {
-          "texto": "Heces negras o rojas",
+          "texto": "Citrinina, que daña el riñón",
           "correcta": true,
-          "explicacion": "Hay que llamar al médico de inmediato."
+          "explicacion": "Algunos productos rotulados \"sin citrinina\" también la tenían."
         },
         {
-          "texto": "Sueño después de comer",
+          "texto": "Azúcar",
           "correcta": false,
-          "explicacion": "No es una señal de sangrado."
+          "explicacion": "No es el contaminante descrito."
         },
         {
-          "texto": "Uñas que crecen rápido",
+          "texto": "Vitamina C",
           "correcta": false,
-          "explicacion": "No es una señal de sangrado."
+          "explicacion": "No es un contaminante."
         }
       ],
       "fuentes": [
-        "F47"
+        "F95"
       ]
     }
   ],
   "audio": {
     "archivo": "audio/dia-7.mp3",
     "titulo": "Resumen del día 7",
-    "estado": "listo",
+    "estado": "pendiente",
     "origen": "NotebookLM"
   },
   "resumen": {
     "titulo": "Lo esencial del día 7",
     "puntos": [
-      "Infarto: molestia en el pecho que dura o vuelve, con falta de aire, sudor o náuseas: emergencias.",
-      "Ictus: FAST (cara, brazo, habla, tiempo).",
-      "Pierna hinchada de un lado o falta de aire de repente: posible coágulo.",
-      "Con anticoagulantes, vigilar sangrados y avisar de plantas y suplementos.",
-      "Tu papel: informar, preguntar y derivar; nunca reemplazar el tratamiento."
-    ],
-    "imagen": "img-nlm-d7-infografia"
+      "Busca cada planta por su nombre científico: zorrilla y anamú son Petiveria alliacea.",
+      "Usa la parte correcta: extracto de semilla de castaño, gel de sábila, tallo de dulcamara (nunca sus bayas).",
+      "Prepara bien: chaya hervida, linaza madura y molida, cúrcuma con pimienta.",
+      "Presión en el pecho que no se va o la regla FAST: llamar a ECU 911.",
+      "Tu conocimiento de plantas, junto con el equipo médico, suma salud."
+    ]
   },
   "fuentes": [
-    "F12",
-    "F39",
-    "F40",
-    "F41",
     "F42",
     "F43",
-    "F47",
     "F56",
     "F57",
     "F59",
+    "F70",
+    "F71",
     "F72",
-    "F74",
-    "F75"
+    "F76",
+    "F78",
+    "F95",
+    "F96",
+    "F100",
+    "F105",
+    "F109",
+    "F110",
+    "F112",
+    "F113"
   ]
 }

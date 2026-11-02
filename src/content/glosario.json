@@ -97,280 +97,252 @@
     ]
   },
   {
-    "termino": "Presión arterial",
-    "definicion": "Fuerza con la que la sangre empuja las paredes de las arterias. Se mide en mmHg.",
+    "termino": "Sustancia activa",
+    "definicion": "Componente de una planta que produce su efecto; también se llama principio activo.",
     "dia": 2,
     "fuentes": [
-      "F65"
+      "F82"
     ]
   },
   {
-    "termino": "Presión sistólica",
-    "definicion": "El primer número de la presión: cuando el corazón aprieta.",
+    "termino": "Dedalera",
+    "definicion": "Planta (Digitalis purpurea) de la que salió la digoxina.",
     "dia": 2,
     "fuentes": [
-      "F65"
+      "F89"
     ]
   },
   {
-    "termino": "Presión diastólica",
-    "definicion": "El segundo número de la presión: cuando el corazón descansa.",
+    "termino": "Salicina",
+    "definicion": "Sustancia de la corteza del sauce que dio origen a la aspirina.",
     "dia": 2,
     "fuentes": [
-      "F65"
+      "F94"
+    ]
+  },
+  {
+    "termino": "Estatina",
+    "definicion": "Medicina que frena la fabricación de colesterol en el cuerpo.",
+    "dia": 2,
+    "fuentes": [
+      "F95"
+    ]
+  },
+  {
+    "termino": "Levadura roja de arroz",
+    "definicion": "Arroz fermentado con el hongo Monascus purpureus; puede contener monacolina K.",
+    "dia": 2,
+    "fuentes": [
+      "F95"
     ]
   },
   {
     "termino": "Hipertensión",
-    "definicion": "Presión arterial alta de forma continua. La OMS la define desde 140/90; la AHA, desde 130/80.",
-    "dia": 2,
+    "definicion": "Presión arterial alta de forma mantenida.",
+    "dia": 3,
     "fuentes": [
-      "F49",
-      "F51"
-    ]
-  },
-  {
-    "termino": "Aterosclerosis",
-    "definicion": "Estrechamiento y endurecimiento de las arterias por placas de grasa.",
-    "dia": 2,
-    "fuentes": [
-      "F65",
-      "F31"
+      "F49"
     ]
   },
   {
     "termino": "Placa",
     "definicion": "Bulto de grasa, células y calcio dentro de la pared de una arteria.",
-    "dia": 2,
+    "dia": 3,
     "fuentes": [
-      "F65"
+      "F52"
     ]
   },
   {
-    "termino": "Colesterol",
-    "definicion": "Sustancia parecida a la cera que el cuerpo necesita, pero que en exceso ayuda a formar placas.",
-    "dia": 2,
+    "termino": "Colesterol LDL",
+    "definicion": "El \"malo\": deja grasa en las arterias.",
+    "dia": 3,
     "fuentes": [
       "F32"
     ]
   },
   {
-    "termino": "Infarto",
-    "definicion": "Muerte de una parte del músculo del corazón porque su arteria se tapó.",
-    "dia": 2,
+    "termino": "Colesterol HDL",
+    "definicion": "El \"bueno\": lleva el colesterol al hígado.",
+    "dia": 3,
     "fuentes": [
-      "F42"
+      "F32"
     ]
   },
   {
-    "termino": "Ictus",
-    "definicion": "Accidente cerebrovascular: una arteria del cerebro se tapa o se rompe.",
-    "dia": 2,
+    "termino": "Flor de Jamaica",
+    "definicion": "Cálices de Hibiscus sabdariffa con los que se prepara un té rojo.",
+    "dia": 3,
     "fuentes": [
-      "F43"
+      "F99"
+    ]
+  },
+  {
+    "termino": "Psyllium",
+    "definicion": "Cáscara de semilla de Plantago, rica en fibra soluble.",
+    "dia": 3,
+    "fuentes": [
+      "F102"
+    ]
+  },
+  {
+    "termino": "Chaya",
+    "definicion": "Cnidoscolus aconitifolius, arbusto de hojas comestibles que se cocinan.",
+    "dia": 3,
+    "fuentes": [
+      "F104",
+      "F105"
     ]
   },
   {
     "termino": "Insuficiencia cardiaca",
-    "definicion": "Cuando el corazón no bombea la sangre que el cuerpo necesita.",
-    "dia": 3,
+    "definicion": "Cuando el corazón no logra bombear la sangre que el cuerpo necesita.",
+    "dia": 4,
     "fuentes": [
-      "F53",
-      "F34"
+      "F53"
     ]
   },
   {
     "termino": "Fracción de eyección",
-    "definicion": "Porcentaje de la sangre del ventrículo izquierdo que sale en cada latido; lo normal es 55-70%.",
-    "dia": 3,
+    "definicion": "Parte de la sangre del ventrículo izquierdo que sale en cada latido.",
+    "dia": 4,
     "fuentes": [
       "F58"
     ]
   },
   {
-    "termino": "Ecocardiograma",
-    "definicion": "Ecografía del corazón: permite verlo moverse y medir cuánto bombea.",
-    "dia": 3,
+    "termino": "Electrocardiograma",
+    "definicion": "Prueba que dibuja la señal eléctrica del corazón.",
+    "dia": 4,
     "fuentes": [
-      "F58"
-    ]
-  },
-  {
-    "termino": "Onda P",
-    "definicion": "Parte del ECG que corresponde a la chispa en las aurículas.",
-    "dia": 3,
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "termino": "Complejo QRS",
-    "definicion": "Parte del ECG que corresponde a la chispa en los ventrículos.",
-    "dia": 3,
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "termino": "Arritmia",
-    "definicion": "Cuando el corazón late demasiado rápido, demasiado lento o sin ritmo parejo.",
-    "dia": 3,
-    "fuentes": [
-      "F35"
+      "F36"
     ]
   },
   {
     "termino": "Fibrilación auricular",
-    "definicion": "Arritmia en la que las aurículas tiemblan; favorece los coágulos.",
-    "dia": 3,
+    "definicion": "Arritmia en la que las aurículas tiemblan en vez de apretar.",
+    "dia": 4,
     "fuentes": [
       "F59"
     ]
   },
   {
-    "termino": "Anticoagulante",
-    "definicion": "Medicamento que hace que la sangre coagule menos, para evitar coágulos.",
-    "dia": 3,
-    "fuentes": [
-      "F59",
-      "F47"
-    ]
-  },
-  {
-    "termino": "Life's Essential 8",
-    "definicion": "Los 8 puntos de salud del corazón de la asociación americana del corazón.",
-    "dia": 3,
-    "fuentes": [
-      "F08"
-    ]
-  },
-  {
-    "termino": "Célula",
-    "definicion": "La unidad más pequeña de un ser vivo; el cuerpo tiene billones.",
+    "termino": "Espino blanco",
+    "definicion": "Arbusto del género Crataegus usado tradicionalmente para el corazón.",
     "dia": 4,
+    "fuentes": [
+      "F78"
+    ]
+  },
+  {
+    "termino": "Insuficiencia venosa crónica",
+    "definicion": "Las venas de las piernas no suben bien la sangre y las piernas se hinchan y pesan.",
+    "dia": 4,
+    "fuentes": [
+      "F96"
+    ]
+  },
+  {
+    "termino": "Castaño de Indias",
+    "definicion": "Aesculus hippocastanum; su extracto de semilla se estudió para las venas.",
+    "dia": 4,
+    "fuentes": [
+      "F96"
+    ]
+  },
+  {
+    "termino": "Cáncer",
+    "definicion": "Enfermedad en la que algunas células se dividen sin control y pueden invadir otros tejidos.",
+    "dia": 5,
     "fuentes": [
       "F20"
-    ]
-  },
-  {
-    "termino": "ADN",
-    "definicion": "Molécula con las instrucciones de cada célula.",
-    "dia": 4,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Tumor",
-    "definicion": "Bulto formado por células que se multiplican de más; puede ser benigno o maligno.",
-    "dia": 4,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Maligno",
-    "definicion": "Que invade y puede viajar a otras partes; sinónimo de canceroso.",
-    "dia": 4,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Benigno",
-    "definicion": "Tumor que no invade ni viaja.",
-    "dia": 4,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Oncogén",
-    "definicion": "Gen \"acelerador\" alterado que empuja a la célula a dividirse sin parar.",
-    "dia": 4,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Gen supresor de tumores",
-    "definicion": "Gen \"freno\" que detiene la división celular.",
-    "dia": 4,
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "termino": "Angiogénesis",
-    "definicion": "Formación de vasos sanguíneos nuevos; los tumores la provocan para alimentarse.",
-    "dia": 4,
-    "fuentes": [
-      "F20",
-      "F14"
     ]
   },
   {
     "termino": "Metástasis",
-    "definicion": "Viaje del cáncer a otros órganos, donde forma tumores nuevos.",
-    "dia": 4,
+    "definicion": "Diseminación del cáncer a otros órganos a través de la sangre o la linfa.",
+    "dia": 5,
     "fuentes": [
       "F21"
     ]
   },
   {
-    "termino": "Carcinógeno",
-    "definicion": "Algo que puede causar cáncer, como el humo del tabaco o los rayos del sol.",
-    "dia": 4,
+    "termino": "Podofilotoxina",
+    "definicion": "Sustancia del podofilo de la que se hizo el etopósido.",
+    "dia": 5,
     "fuentes": [
-      "F50"
+      "F108"
     ]
   },
   {
-    "termino": "FAST",
-    "definicion": "Regla para reconocer un ictus: cara, brazo, habla y tiempo.",
-    "dia": 7,
+    "termino": "Camptotecina",
+    "definicion": "Sustancia de la camptoteca de la que salieron el topotecán y el irinotecán.",
+    "dia": 5,
     "fuentes": [
-      "F43"
+      "F107"
     ]
   },
   {
-    "termino": "Derivar",
-    "definicion": "Enviar a la persona a la atención médica adecuada.",
-    "dia": 7,
+    "termino": "Zorrilla",
+    "definicion": "Nombre en Ecuador del anamú (Petiveria alliacea).",
+    "dia": 5,
     "fuentes": [
-      "F12"
+      "F109"
     ]
   },
   {
-    "termino": "ECU 911",
-    "definicion": "Número de emergencias de Ecuador.",
-    "dia": 7,
+    "termino": "Glicoalcaloide",
+    "definicion": "Tipo de sustancia de plantas como la dulcamara; ejemplos: solasodina y solamargina.",
+    "dia": 5,
     "fuentes": [
-      "F56"
+      "F110"
     ]
   },
   {
-    "termino": "Hemostasia",
-    "definicion": "Cómo el cuerpo detiene un sangrado: el vaso se aprieta, las plaquetas tapan y la fibrina refuerza.",
+    "termino": "Lectina",
+    "definicion": "Proteína del muérdago que en el laboratorio activa las defensas y daña células de cáncer.",
+    "dia": 5,
+    "fuentes": [
+      "F98"
+    ]
+  },
+  {
+    "termino": "Cardiotoxicidad",
+    "definicion": "Daño del corazón causado por un tratamiento.",
     "dia": 6,
     "fuentes": [
-      "F68"
+      "F11"
     ]
   },
   {
-    "termino": "Plaqueta",
-    "definicion": "Trocito de célula de la sangre que forma el primer tapón en una herida.",
+    "termino": "Antraciclina",
+    "definicion": "Familia de quimioterapias, como la doxorrubicina, que puede debilitar el corazón.",
     "dia": 6,
     "fuentes": [
-      "F68"
+      "F86"
     ]
   },
   {
-    "termino": "Fibrina",
-    "definicion": "Proteína en forma de hilos que forma la red del coágulo.",
+    "termino": "Caléndula",
+    "definicion": "Calendula officinalis; su crema se estudió para proteger la piel en la radioterapia.",
     "dia": 6,
     "fuentes": [
-      "F68"
+      "F114"
+    ]
+  },
+  {
+    "termino": "Sábila",
+    "definicion": "Aloe vera; tiene un gel interior y un látex en la cáscara.",
+    "dia": 6,
+    "fuentes": [
+      "F112"
+    ]
+  },
+  {
+    "termino": "Interacción",
+    "definicion": "Cuando una planta o un medicamento cambia el efecto de otro.",
+    "dia": 6,
+    "fuentes": [
+      "F71"
     ]
   },
   {
@@ -390,104 +362,35 @@
     ]
   },
   {
-    "termino": "Digoxina",
-    "definicion": "Medicina para el corazón que viene de la dedalera.",
-    "dia": 6,
+    "termino": "Nombre científico",
+    "definicion": "Nombre en latín de dos palabras, único para cada especie, como Petiveria alliacea.",
+    "dia": 7,
     "fuentes": [
-      "F89",
-      "F44"
+      "F70"
     ]
   },
   {
-    "termino": "Paclitaxel",
-    "definicion": "Medicina contra el cáncer que viene del tejo del Pacífico.",
-    "dia": 6,
+    "termino": "Citrinina",
+    "definicion": "Contaminante tóxico para el riñón encontrado en algunos productos de levadura roja.",
+    "dia": 7,
     "fuentes": [
-      "F28",
-      "F45"
+      "F95"
     ]
   },
   {
-    "termino": "Interacción",
-    "definicion": "Cuando una planta o un medicamento cambia el efecto de otro.",
-    "dia": 6,
+    "termino": "FAST",
+    "definicion": "Regla para reconocer un ictus: cara, brazo, habla y tiempo.",
+    "dia": 7,
     "fuentes": [
-      "F71"
+      "F43"
     ]
   },
   {
-    "termino": "Warfarina",
-    "definicion": "Medicina anticoagulante; su principal riesgo es el sangrado.",
-    "dia": 6,
+    "termino": "ECU 911",
+    "definicion": "Número de emergencias de Ecuador.",
+    "dia": 7,
     "fuentes": [
-      "F47"
-    ]
-  },
-  {
-    "termino": "Cardio-oncología",
-    "definicion": "Área que une a los médicos del corazón y del cáncer para proteger el corazón.",
-    "dia": 5,
-    "fuentes": [
-      "F11",
-      "F12"
-    ]
-  },
-  {
-    "termino": "Cardiotoxicidad",
-    "definicion": "Daño al corazón causado por un tratamiento contra el cáncer.",
-    "dia": 5,
-    "fuentes": [
-      "F11"
-    ]
-  },
-  {
-    "termino": "Quimioterapia",
-    "definicion": "Medicinas que destruyen o frenan las células del cáncer.",
-    "dia": 5,
-    "fuentes": [
-      "F22"
-    ]
-  },
-  {
-    "termino": "Antraciclinas",
-    "definicion": "Familia de quimioterapias, como la doxorrubicina, que puede dañar el corazón.",
-    "dia": 5,
-    "fuentes": [
-      "F86",
-      "F26"
-    ]
-  },
-  {
-    "termino": "Inmunoterapia",
-    "definicion": "Tratamiento que ayuda a las defensas a combatir el cáncer.",
-    "dia": 5,
-    "fuentes": [
-      "F24",
-      "F85"
-    ]
-  },
-  {
-    "termino": "Radioterapia",
-    "definicion": "Tratamiento que usa rayos para destruir el cáncer.",
-    "dia": 5,
-    "fuentes": [
-      "F25"
-    ]
-  },
-  {
-    "termino": "Miocarditis",
-    "definicion": "Inflamación del músculo del corazón.",
-    "dia": 5,
-    "fuentes": [
-      "F85"
-    ]
-  },
-  {
-    "termino": "Efecto tardío",
-    "definicion": "Problema causado por el tratamiento que aparece meses o años después.",
-    "dia": 5,
-    "fuentes": [
-      "F26"
+      "F56"
     ]
   }
 ]

@@ -1,20 +1,19 @@
 {
   "id": 4,
-  "bloque": "B",
-  "titulo": "Qué es el cáncer",
-  "subtitulo": "Células que crecen sin freno y viajan por la sangre",
-  "minutos": 18,
+  "bloque": "A",
+  "titulo": "Corazón cansado, ritmo y circulación",
+  "subtitulo": "Insuficiencia cardiaca, arritmias, venas de las piernas y las plantas que se han estudiado",
+  "minutos": 20,
   "objetivos": [
-    "Explicar con palabras sencillas qué es el cáncer.",
-    "Distinguir un tumor benigno de uno maligno.",
-    "Entender que el cáncer empieza por cambios en los genes.",
-    "Conocer lo que hace diferente a una célula cancerosa.",
-    "Seguir el viaje de la metástasis por la sangre."
+    "Entender qué es la insuficiencia cardiaca y cómo se nota.",
+    "Leer un electrocardiograma sencillo y reconocer la fibrilación auricular.",
+    "Conocer lo que se sabe del espino blanco y la digoxina en el corazón.",
+    "Conocer el castaño de Indias para las venas y el ginkgo."
   ],
   "lecciones": [
     {
       "id": "d4-l1",
-      "titulo": "Células que no siguen las reglas",
+      "titulo": "Cuando la bomba se cansa",
       "minutos": 4,
       "tarjetas": [
         {
@@ -23,256 +22,239 @@
           "titulo": "Antes de empezar",
           "texto": "",
           "fuentes": [
-            "F20"
+            "F53"
           ],
           "pregunta": {
             "id": "d4-l1-p0",
             "tipo": "verdadero-falso",
-            "enunciado": "Todos los tumores son cáncer.",
+            "enunciado": "\"Insuficiencia cardiaca\" quiere decir que el corazón dejó de latir.",
             "respuesta": false,
-            "explicacion": "Falso. Hay tumores benignos, que no invaden ni viajan a otras partes. Solo los malignos son cáncer.",
+            "explicacion": "Falso. Quiere decir que el corazón late, pero no logra bombear toda la sangre que el cuerpo necesita.",
             "fuentes": [
-              "F20"
+              "F53"
             ]
           }
         },
         {
           "id": "d4-l1-t2",
           "tipo": "concepto",
-          "titulo": "Una célula que se multiplica sin control",
-          "texto": "Tu cuerpo está hecho de billones de células que se dividen solo cuando hace falta. En el cáncer, algunas células se multiplican sin parar y pueden irse a otras partes del cuerpo. En la foto, una célula de cáncer vista con un microscopio muy potente.",
+          "titulo": "Una bomba que no da abasto",
+          "texto": "En la insuficiencia cardiaca el músculo del corazón no logra bombear toda la sangre que el cuerpo necesita. Lo típico es cansarse y quedarse sin aire con poco esfuerzo. En el dibujo ves los síntomas más comunes.",
           "fuentes": [
-            "F20",
-            "F50"
+            "F53",
+            "F34"
           ],
-          "imagen": "img-d4-celula"
+          "imagen": "img-d3-insuficiencia"
         },
         {
           "id": "d4-l1-t3",
           "tipo": "concepto",
-          "titulo": "Benigno o maligno",
-          "texto": "Un tumor es un bulto de células. El benigno crece en su sitio y no se extiende. El maligno (el cáncer) invade lo que tiene alrededor y algunas de sus células se sueltan y viajan, como en el dibujo.",
+          "titulo": "Pies hinchados",
+          "texto": "Como el cuerpo retiene líquido, se pueden hinchar los pies y los tobillos. Justamente para esa hinchazón se usaba la dedalera en los remedios caseros que estudió Withering.",
           "fuentes": [
-            "F20"
+            "F53",
+            "F84"
           ],
-          "imagen": "img-d4-maligno"
+          "imagen": "img-d3-edema"
         },
         {
           "id": "d4-l1-t4",
-          "tipo": "analogia",
-          "titulo": "Como un huerto",
-          "texto": "En un huerto cada planta crece hasta tocar a su vecina y se detiene. En el cáncer, unas pocas células ignoran esa regla. La diferencia es que en el cuerpo nadie poda desde fuera: los frenos están dentro de cada célula, en sus genes.",
+          "tipo": "concepto",
+          "titulo": "Cuánta sangre sale en cada latido",
+          "texto": "Con una ecografía del corazón se mide la fracción de eyección: qué parte de la sangre sale en cada latido. Lo normal está entre 55% y 70%. Por debajo de 40% suele indicar que el corazón bombea con poca fuerza.",
           "fuentes": [
-            "F20"
+            "F58"
           ],
-          "imagen": "img-ia-d4-huerto"
+          "imagen": "img-d3-eco"
         }
       ]
     },
     {
       "id": "d4-l2",
-      "titulo": "Todo empieza en los genes",
+      "titulo": "El ritmo del corazón",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d4-l2-t1",
           "tipo": "concepto",
-          "titulo": "Cambios en el ADN",
-          "texto": "El ADN es el manual de instrucciones de cada célula. El cáncer empieza cuando cambian las instrucciones que le dicen a la célula cuándo dividirse y cuándo parar.",
+          "titulo": "Un dibujo de la electricidad",
+          "texto": "El electrocardiograma dibuja la señal eléctrica del corazón con parches en la piel. La onda P es la chispa en las aurículas, el pico QRS es la chispa en los ventrículos y la onda T es cuando se recargan. Mira cómo cada parte coincide con el corazón.",
           "fuentes": [
-            "F20"
+            "F36",
+            "F61"
           ],
-          "imagen": "img-d4-adn"
+          "diagrama": "ecg"
         },
         {
           "id": "d4-l2-t2",
           "tipo": "concepto",
-          "titulo": "Acelerador y freno",
-          "texto": "Algunos genes son como el acelerador: dicen \"divídete\". Otros son el freno: dicen \"para\". Si el acelerador se queda pegado o el freno se rompe, la célula se divide una y otra vez. El dibujo muestra cómo las células normales saben cuándo parar.",
+          "titulo": "Fibrilación auricular",
+          "texto": "Es la arritmia más común: las aurículas tiemblan en vez de apretar y los latidos llegan a destiempo. Elige \"Fibrilación auricular\" en el dibujo. Algunas personas sienten el corazón \"aleteando\"; otras no notan nada.",
           "fuentes": [
-            "F20"
+            "F35",
+            "F54",
+            "F59"
           ],
-          "imagen": "img-d4-freno"
+          "diagrama": "ecg"
         },
         {
           "id": "d4-l2-t3",
           "tipo": "concepto",
-          "titulo": "¿De dónde vienen esos cambios?",
-          "texto": "De errores al copiar el ADN cuando la célula se divide, de daños por cosas del ambiente (como el humo del tabaco o el sol) o se heredan de los padres. Como se acumulan con los años, el cáncer es más común en personas mayores.",
+          "titulo": "Así se ve en un trazo real",
+          "texto": "En el trazo, los latidos llegan a destiempo y no hay onda P clara. Como la sangre se queda quieta en las aurículas, puede formar coágulos; por eso muchas de estas personas toman anticoagulantes.",
           "fuentes": [
-            "F20",
-            "F50"
+            "F59"
           ],
-          "imagen": "img-d4-division"
-        },
-        {
-          "id": "d4-l2-t4",
-          "tipo": "pregunta-previa",
-          "titulo": "Comprueba lo aprendido",
-          "texto": "",
-          "fuentes": [
-            "F20"
-          ],
-          "pregunta": {
-            "id": "d4-l2-p1",
-            "tipo": "opcion-multiple",
-            "enunciado": "Si un gen \"freno\" se rompe, ¿qué puede pasar?",
-            "opciones": [
-              {
-                "texto": "La célula se divide sin control",
-                "correcta": true,
-                "explicacion": "Sin freno, la célula no se detiene cuando debería."
-              },
-              {
-                "texto": "La célula muere enseguida",
-                "correcta": false,
-                "explicacion": "Al contrario: pierde un control y puede seguir dividiéndose."
-              },
-              {
-                "texto": "No pasa nada",
-                "correcta": false,
-                "explicacion": "Ese gen es justo el que frena la división."
-              }
-            ],
-            "fuentes": [
-              "F20"
-            ]
-          }
+          "imagen": "img-d3-fa"
         }
       ]
     },
     {
       "id": "d4-l3",
-      "titulo": "Los trucos de la célula cancerosa",
+      "titulo": "Plantas para el corazón cansado",
       "minutos": 4,
       "tarjetas": [
         {
           "id": "d4-l3-t1",
           "tipo": "concepto",
-          "titulo": "No se detiene y no se muere",
-          "texto": "Una célula de cáncer se divide sin que nadie se lo pida y no obedece la orden de parar. Tampoco hace caso a la señal de \"autodestruirse\" que tienen las células viejas o dañadas.",
+          "titulo": "Espino blanco",
+          "texto": "El espino blanco (Crataegus) es un arbusto de la familia de las rosas. Tradicionalmente se usó para el corazón y la circulación. Es la planta más estudiada en insuficiencia cardiaca, aunque los resultados de los estudios no coinciden entre sí.",
           "fuentes": [
-            "F20",
-            "F14"
+            "F78"
           ],
-          "imagen": "img-d4-division"
+          "imagen": "img-p-espino"
         },
         {
           "id": "d4-l3-t2",
-          "tipo": "concepto",
-          "titulo": "Se fabrica sus propios vasos",
-          "texto": "Para crecer, el tumor necesita oxígeno y alimento. Por eso hace crecer vasos sanguíneos hacia él, como si se conectara a la tubería. Algunos tratamientos intentan cortar esos vasos.",
+          "tipo": "dato",
+          "titulo": "Ojo con el \"tejocote\"",
+          "texto": "La FDA encontró productos vendidos como raíz de tejocote (un espino mexicano) que en realidad tenían adelfa amarilla, una planta tóxica para el corazón. Identificar bien la planta es parte del trabajo del experto.",
           "fuentes": [
-            "F20",
-            "F14"
-          ],
-          "imagen": "img-d4-vasos"
+            "F78"
+          ]
         },
         {
           "id": "d4-l3-t3",
           "tipo": "concepto",
-          "titulo": "Se esconde de las defensas",
-          "texto": "Nuestras defensas (glóbulos blancos) pueden atacar células de cáncer, como en la foto. Pero muchas células cancerosas aprenden a esconderse de ellas. El día 5 veremos un tratamiento que las ayuda a encontrarlas.",
+          "titulo": "La dedalera, otra vez",
+          "texto": "La digoxina, que salió de la dedalera (día 2), sigue usándose en algunas personas con insuficiencia cardiaca o fibrilación auricular, porque ayuda al corazón a latir con más fuerza y más parejo.",
           "fuentes": [
-            "F20",
-            "F14"
+            "F44",
+            "F89"
           ],
-          "imagen": "img-d4-defensas"
+          "diagrama": "planta-medicina"
         }
       ]
     },
     {
       "id": "d4-l4",
-      "titulo": "Metástasis: el viaje por la sangre",
-      "minutos": 3,
+      "titulo": "Venas y circulación",
+      "minutos": 4,
       "tarjetas": [
         {
           "id": "d4-l4-t1",
-          "tipo": "pregunta-previa",
-          "titulo": "Antes de empezar",
-          "texto": "",
+          "tipo": "concepto",
+          "titulo": "Venas que no suben bien la sangre",
+          "texto": "Las venas de las piernas tienen válvulas que ayudan a subir la sangre al corazón (día 1). Si fallan, la sangre se acumula y las piernas se hinchan, pesan y duelen: es la insuficiencia venosa crónica.",
           "fuentes": [
-            "F21"
+            "F64",
+            "F96"
           ],
-          "pregunta": {
-            "id": "d4-l4-p0",
-            "tipo": "verdadero-falso",
-            "enunciado": "Un cáncer de mama que llega al pulmón se convierte en cáncer de pulmón.",
-            "respuesta": false,
-            "explicacion": "Falso. Sigue siendo cáncer de mama: sus células son de mama, aunque estén en el pulmón.",
-            "fuentes": [
-              "F21",
-              "F20"
-            ]
-          }
+          "diagrama": "valvula"
         },
         {
           "id": "d4-l4-t2",
           "tipo": "concepto",
-          "titulo": "Células que viajan",
-          "texto": "La metástasis es cuando células del tumor se sueltan, entran en un vaso sanguíneo, viajan por la sangre y forman un tumor nuevo en otro órgano. Recuerda el día 1: la sangre llega a todo el cuerpo. Los destinos más comunes son el hueso, el hígado y el pulmón.",
+          "titulo": "Castaño de Indias",
+          "texto": "Una revisión de 17 estudios sugirió que el extracto de semilla de castaño de Indias (Aesculus hippocastanum) mejora los síntomas de la insuficiencia venosa crónica. Un estudio encontró que funcionaba más o menos como las medias de compresión.",
           "fuentes": [
-            "F21",
-            "F20"
+            "F96"
           ],
-          "imagen": "img-d4-metastasis"
+          "imagen": "img-p-castano"
         },
         {
           "id": "d4-l4-t3",
           "tipo": "dato",
-          "titulo": "Un viaje difícil",
-          "texto": "La mayoría de las células que se sueltan mueren por el camino. Pero las que sobreviven son las más peligrosas: la metástasis causa la mayoría de las muertes por cáncer.",
+          "titulo": "Extracto sí, semilla cruda no",
+          "texto": "La semilla cruda, la corteza, las flores y las hojas tienen una sustancia tóxica. Los extractos estandarizados se preparan quitándola, y así se usaron en los estudios.",
           "fuentes": [
-            "F21",
-            "F50"
+            "F96"
           ]
         },
         {
           "id": "d4-l4-t4",
-          "tipo": "alerta",
-          "titulo": "Puente al día 6",
-          "texto": "El cáncer también cambia la sangre: las personas con cáncer tienen más riesgo de formar coágulos en las venas. Lo veremos el día 6.",
+          "tipo": "concepto",
+          "titulo": "Ginkgo",
+          "texto": "El ginkgo es uno de los árboles más antiguos del planeta. Los estudios no encontraron que ayude a prevenir enfermedades del corazón ni a bajar la presión. Y puede aumentar el sangrado en quien toma warfarina.",
           "fuentes": [
-            "F15",
-            "F13"
-          ]
+            "F74",
+            "F71"
+          ],
+          "imagen": "img-d6-ginkgo"
         }
       ]
     },
     {
       "id": "d4-l5",
-      "titulo": "Se puede prevenir mucho",
+      "titulo": "Repaso con casos",
       "minutos": 3,
       "tarjetas": [
         {
           "id": "d4-l5-t1",
-          "tipo": "dato",
-          "titulo": "Una enfermedad muy común",
-          "texto": "Según la OMS, en 2024 el cáncer causó casi 10 millones de muertes: casi 1 de cada 6 en el mundo. Los más frecuentes son el de pulmón, mama, colon y próstata.",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Don Luis y sus piernas",
+          "texto": "Don Luis tiene las piernas hinchadas y pesadas al final del día por várices. El castaño de Indias en extracto es la planta con más estudios para esos síntomas. Si una sola pierna se hincha de golpe, con calor y dolor, es otra cosa: puede ser un coágulo y hay que consultar pronto.",
           "fuentes": [
-            "F50"
+            "F96",
+            "F40"
           ],
-          "imagen": "img-nlm-d4-infografia"
+          "imagen": "img-p-castano"
         },
         {
           "id": "d4-l5-t2",
-          "tipo": "concepto",
-          "titulo": "Cerca de 4 de cada 10 se pueden evitar",
-          "texto": "La OMS calcula que cerca del 38% de los casos se pueden evitar: no fumar, no tomar alcohol, mantener un peso sano, comer frutas y verduras, moverse, vacunarse contra el VPH y la hepatitis B, y protegerse del sol.",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Doña Carmen y su ritmo",
+          "texto": "Doña Carmen tiene fibrilación auricular y toma warfarina. Quiere tomar ginkgo para la memoria. El ginkgo puede sumar sangrado con la warfarina, así que su médico debe saberlo antes.",
           "fuentes": [
-            "F50"
+            "F59",
+            "F74",
+            "F71"
           ],
-          "imagen": "img-d4-nofumar"
+          "imagen": "img-d6-ginkgo"
         },
         {
           "id": "d4-l5-t3",
-          "tipo": "alerta",
-          "titulo": "Lo que cuida al corazón cuida contra el cáncer",
-          "texto": "El tabaco, el alcohol, la mala alimentación, el sedentarismo y la contaminación dañan tanto al corazón como favorecen el cáncer. Cuidar uno ayuda a cuidar el otro.",
+          "tipo": "pregunta-previa",
+          "titulo": "Comprueba lo aprendido",
+          "texto": "",
           "fuentes": [
-            "F50",
-            "F48"
-          ]
+            "F96"
+          ],
+          "pregunta": {
+            "id": "d4-l5-p1",
+            "tipo": "opcion-multiple",
+            "enunciado": "¿Para qué tiene más estudios el castaño de Indias?",
+            "opciones": [
+              {
+                "texto": "Para los síntomas de las venas de las piernas",
+                "correcta": true,
+                "explicacion": "Mejora la hinchazón y el peso de piernas en la insuficiencia venosa crónica."
+              },
+              {
+                "texto": "Para bajar el colesterol",
+                "correcta": false,
+                "explicacion": "No es su uso estudiado."
+              },
+              {
+                "texto": "Para el ritmo del corazón",
+                "correcta": false,
+                "explicacion": "No es su uso estudiado."
+              }
+            ],
+            "fuentes": [
+              "F96"
+            ]
+          }
         }
       ]
     }
@@ -281,129 +263,147 @@
     {
       "id": "d4-q1",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Qué diferencia a un tumor maligno de uno benigno?",
+      "enunciado": "¿Qué es la insuficiencia cardiaca?",
       "opciones": [
         {
-          "texto": "El maligno invade lo que tiene alrededor y puede viajar",
+          "texto": "El corazón no logra bombear toda la sangre que el cuerpo necesita",
           "correcta": true,
-          "explicacion": "Eso es lo que lo convierte en cáncer."
+          "explicacion": "Late, pero no da abasto."
         },
         {
-          "texto": "El maligno siempre es más grande",
+          "texto": "El corazón deja de latir",
           "correcta": false,
-          "explicacion": "El tamaño no decide si es maligno."
+          "explicacion": "Eso sería un paro cardiaco."
         },
         {
-          "texto": "El benigno siempre vuelve a salir",
+          "texto": "Una arteria tapada en el cerebro",
           "correcta": false,
-          "explicacion": "Al revés: el benigno no suele volver tras quitarlo."
+          "explicacion": "Eso es un ictus."
         }
       ],
       "fuentes": [
-        "F20"
+        "F53"
       ]
     },
     {
       "id": "d4-q2",
-      "tipo": "ordenar",
-      "enunciado": "Ordena el viaje de la metástasis.",
-      "pasos": [
-        "Células del tumor se sueltan",
-        "Entran en un vaso sanguíneo",
-        "Viajan por la sangre",
-        "Forman un tumor nuevo en otro órgano"
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué parte del electrocardiograma es la chispa en los ventrículos?",
+      "opciones": [
+        {
+          "texto": "El pico QRS",
+          "correcta": true,
+          "explicacion": "Justo antes de que los ventrículos aprieten."
+        },
+        {
+          "texto": "La onda P",
+          "correcta": false,
+          "explicacion": "La P es la chispa en las aurículas."
+        },
+        {
+          "texto": "La onda T",
+          "correcta": false,
+          "explicacion": "La T es la recarga."
+        }
       ],
-      "explicacion": "Soltarse, entrar en la sangre, viajar y crecer en otro lugar.",
       "fuentes": [
-        "F21"
+        "F61"
       ]
     },
     {
       "id": "d4-q3",
       "tipo": "verdadero-falso",
-      "enunciado": "Un tumor necesita vasos sanguíneos propios para seguir creciendo.",
+      "enunciado": "El espino blanco es la planta más estudiada en insuficiencia cardiaca.",
       "respuesta": true,
-      "explicacion": "Verdadero. Esos vasos le llevan oxígeno y alimento; por eso algunos tratamientos intentan cortarlos.",
+      "explicacion": "Verdadero, aunque los resultados de los estudios no coinciden entre sí.",
       "fuentes": [
-        "F20",
-        "F21"
+        "F78"
       ]
     },
     {
       "id": "d4-q4",
       "tipo": "opcion-multiple",
-      "enunciado": "¿Cuál de estos NO causa los cambios en los genes que llevan al cáncer?",
+      "enunciado": "¿Qué parte del castaño de Indias se usó en los estudios?",
       "opciones": [
         {
-          "texto": "Ponerse nervioso en un examen",
+          "texto": "El extracto estandarizado de la semilla",
           "correcta": true,
-          "explicacion": "Las fuentes hablan de errores al copiar el ADN, daños del ambiente y herencia."
+          "explicacion": "Se prepara quitando la sustancia tóxica."
         },
         {
-          "texto": "Errores al copiar el ADN",
+          "texto": "La semilla cruda",
           "correcta": false,
-          "explicacion": "Sí es una de las causas."
+          "explicacion": "La semilla cruda tiene una sustancia tóxica."
         },
         {
-          "texto": "El humo del tabaco",
+          "texto": "Las hojas en infusión",
           "correcta": false,
-          "explicacion": "Sí: el tabaco daña el ADN."
+          "explicacion": "Las hojas también tienen la sustancia tóxica."
         }
       ],
       "fuentes": [
-        "F20"
+        "F96"
       ]
     },
     {
       "id": "d4-q5",
       "tipo": "opcion-multiple",
-      "enunciado": "Según la OMS, ¿qué parte de los cánceres se podría evitar?",
+      "enunciado": "¿Por qué la fibrilación auricular puede causar un ictus?",
       "opciones": [
         {
-          "texto": "Cerca del 38%",
+          "texto": "Porque la sangre se queda quieta en las aurículas y forma coágulos",
           "correcta": true,
-          "explicacion": "Casi 4 de cada 10, reduciendo los factores de riesgo."
+          "explicacion": "Un coágulo puede viajar al cerebro."
         },
         {
-          "texto": "Ninguno",
+          "texto": "Porque sube el colesterol",
           "correcta": false,
-          "explicacion": "Muchos se pueden evitar, por ejemplo no fumando."
+          "explicacion": "No es el mecanismo."
         },
         {
-          "texto": "Todos",
+          "texto": "Porque las venas se dilatan",
           "correcta": false,
-          "explicacion": "No todos: algunos cambios se heredan o aparecen por azar."
+          "explicacion": "No es el mecanismo."
         }
       ],
       "fuentes": [
-        "F50"
+        "F59"
       ]
     }
   ],
   "audio": {
     "archivo": "audio/dia-4.mp3",
     "titulo": "Resumen del día 4",
-    "estado": "listo",
+    "estado": "pendiente",
     "origen": "NotebookLM"
   },
   "resumen": {
     "titulo": "Lo esencial del día 4",
     "puntos": [
-      "El cáncer es un grupo de células que se multiplican sin control y pueden viajar.",
-      "Empieza por cambios en los genes: un acelerador pegado o un freno roto.",
-      "Las células cancerosas no paran, no mueren, se fabrican vasos y se esconden de las defensas.",
-      "Metástasis: se sueltan, viajan por la sangre y crecen en otro órgano.",
-      "Cerca del 38% de los cánceres se puede evitar, con hábitos que también cuidan el corazón."
-    ],
-    "imagen": "img-nlm-d4-infografia"
+      "En la insuficiencia cardiaca el corazón no da abasto: cansancio, falta de aire y pies hinchados.",
+      "En la fibrilación auricular las aurículas tiemblan y se pueden formar coágulos.",
+      "El espino blanco es la planta más estudiada en insuficiencia cardiaca; la digoxina de la dedalera sigue en uso.",
+      "El extracto de castaño de Indias mejora los síntomas de las venas de las piernas; la semilla cruda es tóxica.",
+      "El ginkgo puede sumar sangrado con la warfarina."
+    ]
   },
   "fuentes": [
-    "F13",
-    "F14",
-    "F15",
-    "F20",
-    "F21",
-    "F48",
-    "F50"
+    "F34",
+    "F35",
+    "F36",
+    "F40",
+    "F44",
+    "F53",
+    "F54",
+    "F58",
+    "F59",
+    "F61",
+    "F64",
+    "F71",
+    "F74",
+    "F78",
+    "F84",
+    "F89",
+    "F96"
   ]
 }

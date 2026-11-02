@@ -1,21 +1,20 @@
 {
   "id": 6,
   "bloque": "B",
-  "titulo": "Coágulos, plantas y mezclas peligrosas",
-  "subtitulo": "Cómo coagula la sangre, medicinas que vienen de plantas y plantas que no se deben mezclar",
-  "minutos": 20,
+  "titulo": "El corazón durante el tratamiento del cáncer",
+  "subtitulo": "Cardiotoxicidad, plantas que acompañan el tratamiento y plantas que cambian el efecto de las medicinas",
+  "minutos": 24,
   "objetivos": [
-    "Entender en 3 pasos cómo se cierra una herida.",
-    "Reconocer las señales de un coágulo en la pierna y en el pulmón.",
-    "Conocer medicinas que nacieron de plantas.",
-    "Entender que ninguna planta ha demostrado prevenir el cáncer ni hacerlo desaparecer.",
-    "Reconocer plantas que no conviene mezclar con ciertos medicamentos."
+    "Entender cómo algunos tratamientos del cáncer pueden afectar al corazón.",
+    "Conocer la caléndula, la sábila y el jengibre como plantas que acompañan el tratamiento.",
+    "Reconocer qué plantas cambian el efecto de la quimioterapia y de las medicinas del corazón.",
+    "Entender por qué el cáncer aumenta el riesgo de coágulos."
   ],
   "lecciones": [
     {
       "id": "d6-l1",
-      "titulo": "Cómo se cierra una herida",
-      "minutos": 4,
+      "titulo": "Cuando el tratamiento toca al corazón",
+      "minutos": 5,
       "tarjetas": [
         {
           "id": "d6-l1-t1",
@@ -23,240 +22,252 @@
           "titulo": "Antes de empezar",
           "texto": "",
           "fuentes": [
-            "F68"
+            "F26"
           ],
           "pregunta": {
             "id": "d6-l1-p0",
             "tipo": "verdadero-falso",
-            "enunciado": "Un coágulo siempre es malo.",
+            "enunciado": "Si un tratamiento contra el cáncer afecta al corazón, siempre se nota durante el tratamiento.",
             "respuesta": false,
-            "explicacion": "Falso. Coagular es lo que para la sangre cuando te cortas. El problema es un coágulo donde no debe estar.",
+            "explicacion": "Falso. Algunos efectos aparecen meses o incluso años después de terminar.",
             "fuentes": [
-              "F68"
+              "F26",
+              "F86"
             ]
           }
         },
         {
           "id": "d6-l1-t2",
           "tipo": "concepto",
-          "titulo": "Tres pasos",
-          "texto": "Cuando se rompe un vaso: 1) el vaso se aprieta, 2) las plaquetas se pegan y forman un tapón, 3) unos hilos de fibrina tejen una red que deja el tapón firme. Avanza el dibujo paso a paso.",
+          "titulo": "Cardiotoxicidad",
+          "texto": "Al daño del corazón causado por un tratamiento se le llama cardiotoxicidad. Toca cada tratamiento en el dibujo para ver qué le puede pasar al corazón, cuándo y cómo se vigila.",
+          "fuentes": [
+            "F11",
+            "F12",
+            "F86",
+            "F87",
+            "F88"
+          ],
+          "diagrama": "cardiotoxicidad"
+        },
+        {
+          "id": "d6-l1-t3",
+          "tipo": "concepto",
+          "titulo": "Antraciclinas y trastuzumab",
+          "texto": "La doxorrubicina (una antraciclina) y el trastuzumab pueden debilitar el músculo del corazón. Por eso se hace una ecografía del corazón antes y durante el tratamiento, para medir cuánto bombea.",
+          "fuentes": [
+            "F86",
+            "F87",
+            "F58"
+          ],
+          "imagen": "img-d5-eco-foto"
+        },
+        {
+          "id": "d6-l1-t4",
+          "tipo": "concepto",
+          "titulo": "Radioterapia en el pecho",
+          "texto": "Los rayos en el pecho pueden dañar el corazón años después: el músculo se debilita o se estrechan sus arterias. Por eso conviene tener controles del corazón durante muchos años.",
+          "fuentes": [
+            "F26"
+          ],
+          "imagen": "img-d5-radioterapia"
+        }
+      ]
+    },
+    {
+      "id": "d6-l2",
+      "titulo": "Plantas que acompañan el tratamiento",
+      "minutos": 5,
+      "tarjetas": [
+        {
+          "id": "d6-l2-t1",
+          "tipo": "concepto",
+          "titulo": "Caléndula: piel protegida en la radioterapia",
+          "texto": "En un estudio con 254 pacientes operados de cáncer de mama que recibieron radioterapia, la crema de caléndula (Calendula officinalis) redujo la irritación fuerte de la piel del 63% al 41%, comparada con otra crema muy usada. También hubo menos dolor y menos interrupciones de la radioterapia.",
+          "fuentes": [
+            "F114"
+          ],
+          "imagen": "img-p-calendula"
+        },
+        {
+          "id": "d6-l2-t2",
+          "tipo": "concepto",
+          "titulo": "Sábila: el gel de la hoja",
+          "texto": "La hoja de sábila (Aloe vera) tiene dos partes: el gel transparente de adentro y el látex amarillo de la cáscara. El gel puesto en la piel puede acelerar la curación de quemaduras y aliviar su dolor.",
+          "fuentes": [
+            "F112"
+          ],
+          "imagen": "img-p-sabila"
+        },
+        {
+          "id": "d6-l2-t3",
+          "tipo": "dato",
+          "titulo": "El látex de la sábila, por dentro",
+          "texto": "Tomado, el látex causa cólicos y diarrea. Usarlo de más aumenta el riesgo de efectos de la digoxina, la medicina del corazón que viene de la dedalera.",
+          "fuentes": [
+            "F112"
+          ]
+        },
+        {
+          "id": "d6-l2-t4",
+          "tipo": "concepto",
+          "titulo": "Jengibre y náuseas",
+          "texto": "Para las náuseas de la quimioterapia, algunos estudios encontraron que el jengibre ayudó y otros no vieron efecto. Para las náuseas del embarazo sí hay más pruebas a su favor.",
+          "fuentes": [
+            "F72",
+            "F115"
+          ],
+          "imagen": "img-ia-d6-natural"
+        }
+      ]
+    },
+    {
+      "id": "d6-l3",
+      "titulo": "Plantas que cambian el efecto de las medicinas",
+      "minutos": 5,
+      "tarjetas": [
+        {
+          "id": "d6-l3-t1",
+          "tipo": "concepto",
+          "titulo": "Hierba de San Juan: le quita fuerza a la quimio",
+          "texto": "El hipérico puede hacer que muchas medicinas funcionen peor. Entre ellas están medicinas contra el cáncer como el irinotecán (de la camptoteca), el imatinib y el docetaxel, y del corazón como la warfarina y la digoxina.",
+          "fuentes": [
+            "F73",
+            "F71"
+          ],
+          "imagen": "img-d6-hiperico"
+        },
+        {
+          "id": "d6-l3-t2",
+          "tipo": "concepto",
+          "titulo": "Ginkgo y ajo: más sangrado",
+          "texto": "Los anticoagulantes, como la warfarina, hacen que la sangre coagule menos. El ginkgo y los suplementos de ajo pueden sumar su efecto y aumentar el sangrado.",
+          "fuentes": [
+            "F47",
+            "F74",
+            "F75",
+            "F71"
+          ],
+          "imagen": "img-d6-ginkgo"
+        },
+        {
+          "id": "d6-l3-t3",
+          "tipo": "concepto",
+          "titulo": "Té verde y medicinas del corazón",
+          "texto": "El té verde en grandes cantidades puede bajar en la sangre el nadolol (para la presión) y el extracto de té verde puede bajar la atorvastatina (para el colesterol).",
+          "fuentes": [
+            "F77",
+            "F71"
+          ],
+          "imagen": "img-p-te"
+        },
+        {
+          "id": "d6-l3-t4",
+          "tipo": "concepto",
+          "titulo": "Noni: potasio e hígado",
+          "texto": "El noni tiene bastante potasio. Puede no ser seguro junto con medicinas que suben el potasio, bajan la presión o cargan al hígado, y quien tiene problemas de riñón debe consultarlo.",
+          "fuentes": [
+            "F111"
+          ],
+          "imagen": "img-p-noni"
+        },
+        {
+          "id": "d6-l3-t5",
+          "tipo": "pregunta-previa",
+          "titulo": "Comprueba lo aprendido",
+          "texto": "",
+          "fuentes": [
+            "F73"
+          ],
+          "pregunta": {
+            "id": "d6-l3-p1",
+            "tipo": "opcion-multiple",
+            "enunciado": "Una persona recibe irinotecán y quiere tomar hierba de San Juan para el ánimo. ¿Qué puede pasar?",
+            "opciones": [
+              {
+                "texto": "Que el irinotecán funcione peor",
+                "correcta": true,
+                "explicacion": "El hipérico le quita fuerza a varias medicinas contra el cáncer."
+              },
+              {
+                "texto": "Que el irinotecán funcione mejor",
+                "correcta": false,
+                "explicacion": "Es al revés."
+              },
+              {
+                "texto": "Nada, no se relacionan",
+                "correcta": false,
+                "explicacion": "Sí se relacionan: el hipérico debilita el irinotecán."
+              }
+            ],
+            "fuentes": [
+              "F73"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d6-l4",
+      "titulo": "Cáncer y coágulos",
+      "minutos": 5,
+      "tarjetas": [
+        {
+          "id": "d6-l4-t1",
+          "tipo": "concepto",
+          "titulo": "Cómo se cierra una herida",
+          "texto": "Cuando se rompe un vaso: el vaso se aprieta, las plaquetas forman un tapón y unos hilos de fibrina tejen una red que lo deja firme. Avanza el dibujo paso a paso.",
           "fuentes": [
             "F68"
           ],
           "diagrama": "coagulacion"
         },
         {
-          "id": "d6-l1-t3",
+          "id": "d6-l4-t2",
           "tipo": "concepto",
-          "titulo": "Así se ve un coágulo de verdad",
-          "texto": "En esta foto de microscopio se ven glóbulos rojos atrapados en la red de hilos de fibrina. Para fabricar las piezas de la coagulación, el hígado necesita vitamina K.",
+          "titulo": "El cáncer y los coágulos",
+          "texto": "Las personas con cáncer tienen más riesgo de formar coágulos dentro de las venas, sobre todo en las piernas. El tratamiento, algunas cirugías y estar mucho tiempo quieto aumentan el riesgo.",
           "fuentes": [
-            "F68"
-          ],
-          "imagen": "img-d6-coagulo"
-        },
-        {
-          "id": "d6-l1-t4",
-          "tipo": "analogia",
-          "titulo": "Como la resina de un árbol",
-          "texto": "Cuando se hiere la corteza, muchos árboles cierran la herida con resina. La sangre hace algo parecido con plaquetas y fibrina. Cuando la herida sana, el coágulo se deshace solo.",
-          "fuentes": [
-            "F68"
-          ],
-          "imagen": "img-ia-d6-resina"
-        }
-      ]
-    },
-    {
-      "id": "d6-l2",
-      "titulo": "Coágulos donde no deben estar",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d6-l2-t1",
-          "tipo": "concepto",
-          "titulo": "Un coágulo en la pierna",
-          "texto": "A veces se forma un coágulo dentro de una vena, sin herida: se llama trombosis. Pasa más en las venas de las piernas. El cáncer, sus tratamientos, algunas cirugías y estar mucho tiempo quieto aumentan el riesgo.",
-          "fuentes": [
-            "F68",
-            "F39",
-            "F15"
+            "F15",
+            "F13",
+            "F39"
           ],
           "imagen": "img-d6-tvp"
         },
         {
-          "id": "d6-l2-t2",
-          "tipo": "alerta",
-          "titulo": "Señales en la pierna",
-          "texto": "Dolor o hinchazón en una pierna (o un brazo), calor sobre la vena y piel enrojecida. Hay que consultar pronto.",
-          "fuentes": [
-            "F40"
-          ]
-        },
-        {
-          "id": "d6-l2-t3",
-          "tipo": "concepto",
-          "titulo": "Si el coágulo viaja al pulmón",
-          "texto": "Si un trozo del coágulo se suelta, viaja por la sangre y puede atascarse en el pulmón: es una embolia pulmonar, como en la imagen.",
-          "fuentes": [
-            "F68",
-            "F41"
-          ],
-          "imagen": "img-d6-embolia"
-        },
-        {
-          "id": "d6-l2-t4",
-          "tipo": "alerta",
-          "titulo": "Señales de embolia: urgencia",
-          "texto": "Falta de aire de repente, respiración rápida, dolor de pecho que empeora al respirar hondo, latidos rápidos, tos con sangre o desmayo. Hay que buscar atención médica de inmediato.",
-          "fuentes": [
-            "F41"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "d6-l3",
-      "titulo": "Medicinas que nacieron de plantas",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d6-l3-t1",
-          "tipo": "concepto",
-          "titulo": "Digoxina: de la dedalera al corazón",
-          "texto": "De esta planta, la dedalera, viene la digoxina, una medicina que ayuda al corazón a latir con más fuerza y más parejo. Pero la diferencia entre la cantidad útil y la tóxica es pequeña: por eso tomar la planta en infusión es peligroso.",
-          "fuentes": [
-            "F89",
-            "F44"
-          ],
-          "imagen": "img-d6-digitalis"
-        },
-        {
-          "id": "d6-l3-t2",
-          "tipo": "concepto",
-          "titulo": "Paclitaxel: la corteza del tejo",
-          "texto": "De la corteza del tejo del Pacífico se sacó el paclitaxel, que frena la división de las células del cáncer. Se aprobó en 1992. Como el árbol crece muy lento, hoy se fabrica en parte en el laboratorio.",
-          "fuentes": [
-            "F28",
-            "F45"
-          ],
-          "imagen": "img-d6-tejo"
-        },
-        {
-          "id": "d6-l3-t3",
-          "tipo": "concepto",
-          "titulo": "Vincristina: la vinca de Madagascar",
-          "texto": "De esta flor salieron la vincristina y la vinblastina, que impiden que la célula del cáncer se divida. Se usan sobre todo en cánceres de la sangre.",
-          "fuentes": [
-            "F90",
-            "F83",
-            "F46"
-          ],
-          "imagen": "img-d6-vinca"
-        },
-        {
-          "id": "d6-l3-t4",
-          "tipo": "dato",
-          "titulo": "La clave: purificar y probar",
-          "texto": "Muchas medicinas contra el cáncer vienen de la naturaleza. Pero no se usa la planta: se saca la sustancia pura, se mide la cantidad exacta y se prueba en estudios con personas.",
-          "fuentes": [
-            "F83",
-            "F82"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "d6-l4",
-      "titulo": "Natural no significa seguro",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d6-l4-t1",
-          "tipo": "alerta",
-          "titulo": "Lo más importante",
-          "texto": "Ninguna planta ni terapia complementaria ha demostrado prevenir el cáncer ni hacerlo desaparecer. Algunas ayudan con síntomas, pero nunca deben reemplazar ni retrasar el tratamiento médico.",
-          "fuentes": [
-            "F72"
-          ]
-        },
-        {
-          "id": "d6-l4-t2",
-          "tipo": "concepto",
-          "titulo": "No todo lo natural funciona ni es inocuo",
-          "texto": "La naturaleza nos dio la aspirina y la morfina, pero no todo producto natural sirve ni es seguro. Por eso en el curso decimos qué tan probada está cada planta.",
-          "fuentes": [
-            "F80",
-            "F70"
-          ],
-          "imagen": "img-ia-d6-natural"
-        },
-        {
           "id": "d6-l4-t3",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Cúrcuma: algo de prueba, poca",
-          "texto": "Hay algo de evidencia de que podría aliviar las llagas en la boca que causa el tratamiento del cáncer; para lo demás no hay pruebas suficientes. Y se ha visto daño en el hígado con algunos productos concentrados.",
+          "tipo": "alerta",
+          "titulo": "Señales en la pierna y en el pulmón",
+          "texto": "Una pierna hinchada, caliente y dolorosa puede ser un coágulo: hay que consultar pronto. Si además aparece falta de aire de repente o dolor de pecho al respirar hondo, el coágulo pudo llegar al pulmón: es una urgencia.",
           "fuentes": [
-            "F76"
-          ],
-          "imagen": "img-d6-curcuma"
+            "F40",
+            "F41"
+          ]
         },
         {
           "id": "d6-l4-t4",
-          "tipo": "ejemplo-resuelto",
-          "titulo": "Uña de gato: sin pruebas",
-          "texto": "No hay pruebas claras en personas de que sirva para nada, tampoco para el cáncer. Además puede mezclarse mal con medicinas para la coagulación, la presión y las defensas.",
-          "fuentes": [
-            "F71"
-          ],
-          "imagen": "img-d6-unagato"
-        }
-      ]
-    },
-    {
-      "id": "d6-l5",
-      "titulo": "Mezclas peligrosas",
-      "minutos": 4,
-      "tarjetas": [
-        {
-          "id": "d6-l5-t1",
           "tipo": "concepto",
-          "titulo": "Ginkgo y ajo: más sangrado",
-          "texto": "Los anticoagulantes, como la warfarina, hacen que la sangre coagule menos para evitar coágulos. El ginkgo y los suplementos de ajo pueden sumar su efecto y aumentar el riesgo de sangrado.",
+          "titulo": "Por qué importan las plantas aquí",
+          "texto": "Muchas personas con coágulos toman anticoagulantes. Por eso las plantas que suman sangrado, como el ginkgo y el ajo en suplemento, son las que más conviene conocer.",
           "fuentes": [
             "F47",
             "F74",
             "F75"
           ],
-          "imagen": "img-d6-ginkgo"
-        },
+          "imagen": "img-p-ajo"
+        }
+      ]
+    },
+    {
+      "id": "d6-l5",
+      "titulo": "Tu papel como experto en plantas",
+      "minutos": 4,
+      "tarjetas": [
         {
-          "id": "d6-l5-t2",
-          "tipo": "concepto",
-          "titulo": "Hierba de San Juan: le quita fuerza a las medicinas",
-          "texto": "El hipérico acelera la limpieza que hace el hígado, así que muchas medicinas se eliminan antes y pierden efecto. Entre ellas, algunas contra el cáncer, la warfarina, la digoxina y las pastillas anticonceptivas.",
-          "fuentes": [
-            "F71",
-            "F73"
-          ],
-          "imagen": "img-d6-hiperico"
-        },
-        {
-          "id": "d6-l5-t3",
-          "tipo": "concepto",
-          "titulo": "Regaliz y corazón",
-          "texto": "El regaliz en grandes cantidades o durante mucho tiempo puede causar latidos irregulares. Aun en poca cantidad es riesgoso para personas con presión alta o problemas del corazón o del riñón.",
-          "fuentes": [
-            "F91"
-          ],
-          "imagen": "img-d6-regaliz"
-        },
-        {
-          "id": "d6-l5-t4",
+          "id": "d6-l5-t1",
           "tipo": "ejemplo-resuelto",
-          "titulo": "Tu papel como experto en plantas",
-          "texto": "Tu experiencia vale mucho: pregunta qué plantas o suplementos toma la persona y anímala a contárselo a su médico. Esa conversación puede evitar una mezcla peligrosa.",
+          "titulo": "Tres preguntas que valen oro",
+          "texto": "1) ¿Qué medicinas tomas? 2) ¿Qué plantas, infusiones o suplementos usas? 3) ¿Tu médico lo sabe? Con estas tres preguntas puedes detectar una mezcla que le quite fuerza a la quimio o sume sangrado.",
           "fuentes": [
             "F72",
             "F71"
@@ -264,38 +275,47 @@
           "imagen": "img-ia-d7-conversacion"
         },
         {
-          "id": "d6-l5-t5",
+          "id": "d6-l5-t2",
+          "tipo": "ejemplo-resuelto",
+          "titulo": "Un plan que suma",
+          "texto": "Una persona en radioterapia de mama puede beneficiarse de la caléndula en la piel, y la persona que recibe irinotecán debe dejar el hipérico. Conocer cada planta te permite sumar lo que ayuda y evitar lo que estorba.",
+          "fuentes": [
+            "F114",
+            "F73"
+          ],
+          "imagen": "img-p-calendula"
+        },
+        {
+          "id": "d6-l5-t3",
           "tipo": "pregunta-previa",
           "titulo": "Comprueba lo aprendido",
           "texto": "",
           "fuentes": [
-            "F47",
-            "F74"
+            "F114"
           ],
           "pregunta": {
             "id": "d6-l5-p1",
             "tipo": "opcion-multiple",
-            "enunciado": "Una persona toma warfarina y quiere empezar a tomar ginkgo. ¿Cuál es el riesgo?",
+            "enunciado": "¿Qué encontró el estudio de la caléndula en radioterapia de mama?",
             "opciones": [
               {
-                "texto": "Más riesgo de sangrado",
+                "texto": "Menos irritación fuerte de la piel y menos dolor",
                 "correcta": true,
-                "explicacion": "El ginkgo puede sumar su efecto al del anticoagulante."
+                "explicacion": "La irritación fuerte bajó del 63% al 41%."
               },
               {
-                "texto": "Que suba el colesterol",
+                "texto": "Que subió la presión",
                 "correcta": false,
-                "explicacion": "No es el riesgo de esta mezcla."
+                "explicacion": "No fue lo que se midió."
               },
               {
-                "texto": "Ninguno, porque es natural",
+                "texto": "Que no hubo ninguna diferencia",
                 "correcta": false,
-                "explicacion": "Natural no significa seguro."
+                "explicacion": "Sí hubo diferencia a favor de la caléndula."
               }
             ],
             "fuentes": [
-              "F47",
-              "F74"
+              "F114"
             ]
           }
         }
@@ -305,6 +325,93 @@
   "practica": [
     {
       "id": "d6-q1",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué es la cardiotoxicidad?",
+      "opciones": [
+        {
+          "texto": "El daño del corazón causado por un tratamiento",
+          "correcta": true,
+          "explicacion": "Puede aparecer durante o después del tratamiento."
+        },
+        {
+          "texto": "Un tipo de cáncer del corazón",
+          "correcta": false,
+          "explicacion": "No es un cáncer."
+        },
+        {
+          "texto": "Una planta tóxica",
+          "correcta": false,
+          "explicacion": "Es un efecto de algunos tratamientos."
+        }
+      ],
+      "fuentes": [
+        "F11"
+      ]
+    },
+    {
+      "id": "d6-q2",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué parte de la sábila se usa en la piel para las quemaduras?",
+      "opciones": [
+        {
+          "texto": "El gel transparente de adentro",
+          "correcta": true,
+          "explicacion": "El látex amarillo de la cáscara es otra cosa."
+        },
+        {
+          "texto": "El látex amarillo",
+          "correcta": false,
+          "explicacion": "El látex tomado causa cólicos y diarrea."
+        },
+        {
+          "texto": "La raíz",
+          "correcta": false,
+          "explicacion": "Se usa el gel de la hoja."
+        }
+      ],
+      "fuentes": [
+        "F112"
+      ]
+    },
+    {
+      "id": "d6-q3",
+      "tipo": "verdadero-falso",
+      "enunciado": "El hipérico puede hacer que la warfarina y la digoxina funcionen peor.",
+      "respuesta": true,
+      "explicacion": "Verdadero. También algunas medicinas contra el cáncer.",
+      "fuentes": [
+        "F73"
+      ]
+    },
+    {
+      "id": "d6-q4",
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué plantas pueden sumar sangrado con la warfarina?",
+      "opciones": [
+        {
+          "texto": "Ginkgo y ajo en suplemento",
+          "correcta": true,
+          "explicacion": "Por eso el médico debe saberlo."
+        },
+        {
+          "texto": "Avena y linaza en la comida",
+          "correcta": false,
+          "explicacion": "No son las que se describen con este riesgo."
+        },
+        {
+          "texto": "Caléndula en crema",
+          "correcta": false,
+          "explicacion": "No es la que se describe con este riesgo."
+        }
+      ],
+      "fuentes": [
+        "F74",
+        "F75",
+        "F47"
+      ]
+    },
+    {
+      "id": "d6-q5",
       "tipo": "ordenar",
       "enunciado": "Ordena los pasos para cerrar una herida.",
       "pasos": [
@@ -316,136 +423,48 @@
       "fuentes": [
         "F68"
       ]
-    },
-    {
-      "id": "d6-q2",
-      "tipo": "opcion-multiple",
-      "enunciado": "¿Cuál es una señal de embolia pulmonar que necesita atención inmediata?",
-      "opciones": [
-        {
-          "texto": "Falta de aire repentina con dolor de pecho al respirar",
-          "correcta": true,
-          "explicacion": "Hay que buscar ayuda médica de inmediato."
-        },
-        {
-          "texto": "Picazón en la piel",
-          "correcta": false,
-          "explicacion": "No es una señal típica."
-        },
-        {
-          "texto": "Hambre",
-          "correcta": false,
-          "explicacion": "No tiene relación."
-        }
-      ],
-      "fuentes": [
-        "F41"
-      ]
-    },
-    {
-      "id": "d6-q3",
-      "tipo": "opcion-multiple",
-      "enunciado": "¿De qué planta salió el paclitaxel?",
-      "opciones": [
-        {
-          "texto": "Del tejo del Pacífico",
-          "correcta": true,
-          "explicacion": "Se sacó de su corteza."
-        },
-        {
-          "texto": "De la dedalera",
-          "correcta": false,
-          "explicacion": "De la dedalera viene la digoxina."
-        },
-        {
-          "texto": "De la vinca de Madagascar",
-          "correcta": false,
-          "explicacion": "De la vinca vienen la vincristina y la vinblastina."
-        }
-      ],
-      "fuentes": [
-        "F28"
-      ]
-    },
-    {
-      "id": "d6-q4",
-      "tipo": "verdadero-falso",
-      "enunciado": "Si de una planta salió una medicina, tomar la planta en infusión es igual de seguro.",
-      "respuesta": false,
-      "explicacion": "Falso. La planta no trae una cantidad fija de la sustancia; con la dedalera, la diferencia entre útil y tóxico es pequeña.",
-      "fuentes": [
-        "F89",
-        "F80"
-      ]
-    },
-    {
-      "id": "d6-q5",
-      "tipo": "opcion-multiple",
-      "enunciado": "¿Por qué la hierba de San Juan es peligrosa con algunos tratamientos del cáncer?",
-      "opciones": [
-        {
-          "texto": "Hace que el cuerpo elimine antes la medicina y le quita efecto",
-          "correcta": true,
-          "explicacion": "Acelera la limpieza que hace el hígado."
-        },
-        {
-          "texto": "Porque reemplaza a la quimioterapia",
-          "correcta": false,
-          "explicacion": "Falso: ninguna planta reemplaza el tratamiento."
-        },
-        {
-          "texto": "Porque aumenta la medicina en la sangre",
-          "correcta": false,
-          "explicacion": "Es al revés: la disminuye."
-        }
-      ],
-      "fuentes": [
-        "F71",
-        "F73",
-        "F72"
-      ]
     }
   ],
   "audio": {
     "archivo": "audio/dia-6.mp3",
     "titulo": "Resumen del día 6",
-    "estado": "listo",
+    "estado": "pendiente",
     "origen": "NotebookLM"
   },
   "resumen": {
     "titulo": "Lo esencial del día 6",
     "puntos": [
-      "Una herida se cierra en 3 pasos: el vaso se aprieta, las plaquetas tapan y la fibrina teje una red.",
-      "El cáncer aumenta el riesgo de coágulos; si uno llega al pulmón es una urgencia.",
-      "Digoxina (dedalera), paclitaxel (tejo) y vincristina (vinca) son medicinas que nacieron de plantas.",
-      "Ninguna planta ha demostrado prevenir el cáncer ni hacerlo desaparecer.",
-      "Ginkgo y ajo suman sangrado; el hipérico le quita fuerza a muchas medicinas; el regaliz puede alterar el ritmo del corazón."
-    ],
-    "imagen": "img-nlm-d6-infografia"
+      "Algunos tratamientos del cáncer pueden afectar al corazón, a veces años después: por eso se vigila.",
+      "La crema de caléndula redujo la irritación de la piel en la radioterapia de mama.",
+      "El gel de sábila ayuda con quemaduras; el látex tomado causa diarrea y aumenta los efectos de la digoxina.",
+      "El hipérico le quita fuerza a medicinas contra el cáncer y del corazón; ginkgo y ajo suman sangrado.",
+      "El cáncer aumenta el riesgo de coágulos: una pierna hinchada o falta de aire repentina necesitan atención."
+    ]
   },
   "fuentes": [
+    "F11",
+    "F12",
+    "F13",
     "F15",
-    "F28",
+    "F26",
     "F39",
     "F40",
     "F41",
-    "F44",
-    "F45",
-    "F46",
     "F47",
+    "F58",
     "F68",
-    "F70",
     "F71",
     "F72",
     "F73",
     "F74",
     "F75",
-    "F76",
-    "F80",
-    "F82",
-    "F83",
-    "F89",
-    "F90",
-    "F91"
+    "F77",
+    "F86",
+    "F87",
+    "F88",
+    "F111",
+    "F112",
+    "F114",
+    "F115"
   ]
 }

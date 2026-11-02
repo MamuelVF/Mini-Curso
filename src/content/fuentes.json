@@ -60,10 +60,106 @@
     "consultado": "2026-11-01"
   },
   {
+    "id": "F100",
+    "titulo": "Rodriguez-Leyva D, et al. Potent antihypertensive action of dietary flaxseed in hypertensive patients. Hypertension. 2013;62(6):1081-9. PMID 24126178",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24126178/",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F101",
+    "titulo": "Onakpoya IJ, et al. The effect of cactus pear (Opuntia ficus-indica) on body weight and cardiovascular risk factors: systematic review and meta-analysis. Nutrition. 2015;31(5):640-6. PMID 25837206",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25837206/",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F102",
+    "titulo": "FDA. 21 CFR 101.81: Health claims: soluble fiber from certain foods (avena, cebada, psyllium) and risk of coronary heart disease (eCFR, versión vigente)",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-E/section-101.81",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F103",
+    "titulo": "American College of Cardiology. Higher Olive Oil Intake Associated with Lower Risk of CVD Mortality (nota de prensa del estudio de Guasch-Ferré et al. en JACC), 10 ene 2022",
+    "url": "https://www.acc.org/about-acc/press-releases/2022/01/10/18/46/higher-olive-oil-intake-associated-with-lower-risk-of-cvd-mortality",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F104",
+    "titulo": "Kuti JO, Konuru HB. Antioxidant capacity and phenolic content in leaf extracts of tree spinach (Cnidoscolus spp.). J Agric Food Chem. 2004;52(1):117-21. PMID 14709023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14709023/",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F105",
+    "titulo": "Reader S, Motis T. Do all parts of a chaya plant contain hydrocyanic acid? ECHO Development Notes 136, 2017",
+    "url": "https://www.echocommunity.org/resources/682cdea9-8235-4b51-9c90-a763b4e453a6",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F106",
+    "titulo": "Cragg GM, Newman DJ. Plants as a source of anti-cancer agents. J Ethnopharmacol. 2005;100(1-2):72-9. PMID 16009521",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16009521/",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F107",
+    "titulo": "NCI, Developmental Therapeutics Program. Success Story: Topotecan (camptotecina de Camptotheca acuminata)",
+    "url": "https://dtp.cancer.gov/timeline/noflash/success_stories/s14_topotecan.htm",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F108",
+    "titulo": "Damayanthi Y, Lown JW. Podophyllotoxins: current status and recent developments. Curr Med Chem. 1998;5(3):205-52. PMID 9562603",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9562603/",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F109",
+    "titulo": "Urueña C, Cifuentes C, Castañeda D, et al. Petiveria alliacea extracts uses multiple mechanisms to inhibit growth of human and mouse tumoral cells. BMC Complement Altern Med. 2008;8:60",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2613870/",
+    "consultado": "2026-11-02"
+  },
+  {
     "id": "F11",
     "titulo": "Lyon AR, et al. 2022 ESC Guidelines on cardio-oncology (con EHA, ESTRO e IC-OS). Eur Heart J. PMID 36017568. Sigue siendo la guía ESC vigente. No encontré una versión posterior",
     "url": "https://doi.org/10.1093/eurheartj/ehac244",
     "consultado": "2026-11-01"
+  },
+  {
+    "id": "F110",
+    "titulo": "Drugs.com (Review of Natural Products). Bittersweet Nightshade (Solanum dulcamara), monografía actualizada 6 ago 2026",
+    "url": "https://www.drugs.com/npp/bittersweet-nightshade.html",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F111",
+    "titulo": "NCCIH. Noni: Usefulness and Safety, actualizada feb 2025",
+    "url": "https://www.nccih.nih.gov/health/noni",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F112",
+    "titulo": "NCCIH. Aloe Vera: Usefulness and Safety (sábila), actualizada feb 2025",
+    "url": "https://www.nccih.nih.gov/health/aloe-vera",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F113",
+    "titulo": "NCCIH. Flaxseed and Flaxseed Oil: Usefulness and Safety (linaza), actualizada feb 2025",
+    "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F114",
+    "titulo": "Pommier P, Gomez F, Sunyach MP, et al. Phase III randomized trial of Calendula officinalis compared with trolamine for the prevention of acute dermatitis during irradiation for breast cancer. J Clin Oncol. 2004;22(8):1447-53. PMID 15084618",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15084618/",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F115",
+    "titulo": "NCCIH. Ginger: Usefulness and Safety (jengibre), actualizada feb 2025",
+    "url": "https://www.nccih.nih.gov/health/ginger",
+    "consultado": "2026-11-02"
   },
   {
     "id": "F12",
@@ -538,5 +634,41 @@
     "titulo": "OpenStax. Anatomy and Physiology 2e, 22.4 Gas Exchange",
     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange",
     "consultado": "2026-11-01"
+  },
+  {
+    "id": "F94",
+    "titulo": "NLM (Biblioteca Nacional de Medicina de EE. UU.). The Story of Aspirin, exposición en línea (publicada 15 jun 2023; modificada 8 abr 2026)",
+    "url": "https://nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F95",
+    "titulo": "NCCIH. Red Yeast Rice (levadura roja de arroz), ficha actualizada nov 2022",
+    "url": "https://www.nccih.nih.gov/health/red-yeast-rice",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F96",
+    "titulo": "NCCIH. Horse Chestnut: Usefulness and Safety (castaño de Indias), actualizada abr 2025",
+    "url": "https://www.nccih.nih.gov/health/horse-chestnut",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F97",
+    "titulo": "NCI. Mistletoe Extracts (PDQ), versión para pacientes, actualizada 21 jun 2023",
+    "url": "https://www.cancer.gov/about-cancer/treatment/cam/patient/mistletoe-pdq",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F98",
+    "titulo": "NCI. Mistletoe Extracts (PDQ), versión para profesionales (estudios de laboratorio: lectinas y viscotoxinas)",
+    "url": "https://www.cancer.gov/about-cancer/treatment/cam/hp/mistletoe-pdq",
+    "consultado": "2026-11-02"
+  },
+  {
+    "id": "F99",
+    "titulo": "McKay DL, Chen CYO, Saltzman E, Blumberg JB. Hibiscus sabdariffa L. tea (tisane) lowers blood pressure in prehypertensive and mildly hypertensive adults. J Nutr. 2010;140(2):298-303. PMID 20018807",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20018807/",
+    "consultado": "2026-11-02"
   }
 ]

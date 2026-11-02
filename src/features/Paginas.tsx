@@ -145,7 +145,7 @@ export function Acerca() {
     <Pagina titulo="Acerca del curso" volver="/mas">
       <section className="tarjeta p-4 bg-alerta-50 border-alerta/30">
         <h2 className="text-lg font-semibold text-alerta">Descargo</h2>
-        <p className="mt-1">Este curso es educativo, no clínico. No sustituye la atención médica, no orienta tratamientos y no incluye dosis. Ninguna planta cura el cáncer ni reemplaza el tratamiento oncológico.</p>
+        <p className="mt-1">Este curso es educativo, no clínico. No sustituye la atención médica, no orienta tratamientos y no incluye dosis.</p>
       </section>
       <section className="tarjeta p-4 mt-4">
         <h2 className="text-lg font-semibold">Para quién es</h2>

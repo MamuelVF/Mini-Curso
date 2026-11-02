@@ -16,9 +16,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/*.png', 'icons/*.svg'],
       manifest: {
-        name: 'Corazón y Cáncer: lo esencial en 7 días',
-        short_name: 'Corazón y Cáncer',
-        description: 'Microcurso de cardiología y cardio-oncología para profesionales de la biología.',
+        name: 'Plantas, corazón y cáncer: lo esencial en 7 días',
+        short_name: 'Plantas y corazón',
+        description: 'Microcurso de 7 días sobre plantas medicinales para el corazón y frente al cáncer.',
         lang: 'es',
         start_url: base,
         scope: base,

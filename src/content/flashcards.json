@@ -128,136 +128,152 @@
   {
     "id": "d2-f1",
     "dia": 2,
-    "frente": "¿Qué es la presión arterial?",
+    "frente": "Sustancia activa",
+    "reverso": "La sustancia de la planta que produce el efecto.",
+    "fuentes": [
+      "F82"
+    ]
+  },
+  {
+    "id": "d2-f2",
+    "dia": 2,
+    "frente": "Digoxina",
+    "reverso": "Medicina para el corazón que salió de la dedalera.",
+    "fuentes": [
+      "F89",
+      "F44"
+    ]
+  },
+  {
+    "id": "d2-f3",
+    "dia": 2,
+    "frente": "William Withering (1785)",
+    "reverso": "Médico que publicó lo que observó con la dedalera en personas con el corazón débil.",
+    "fuentes": [
+      "F84"
+    ]
+  },
+  {
+    "id": "d2-f4",
+    "dia": 2,
+    "frente": "Salicina",
+    "reverso": "Sustancia activa de la corteza del sauce, aislada en 1829.",
+    "fuentes": [
+      "F94"
+    ]
+  },
+  {
+    "id": "d2-f5",
+    "dia": 2,
+    "frente": "Aspirina",
+    "reverso": "Ácido acetilsalicílico; nació del sauce y hoy también previene coágulos.",
+    "fuentes": [
+      "F94"
+    ]
+  },
+  {
+    "id": "d2-f6",
+    "dia": 2,
+    "frente": "Monacolina K",
+    "reverso": "Sustancia de la levadura roja de arroz con la misma estructura que la lovastatina.",
+    "fuentes": [
+      "F95"
+    ]
+  },
+  {
+    "id": "d2-f7",
+    "dia": 2,
+    "frente": "Las cuatro preguntas ante una planta",
+    "reverso": "Nombre científico, parte usada, preparación y qué se vio en personas.",
+    "fuentes": [
+      "F70"
+    ]
+  },
+  {
+    "id": "d3-f1",
+    "dia": 3,
+    "frente": "Presión arterial",
     "reverso": "La fuerza con la que la sangre empuja las paredes de las arterias.",
     "fuentes": [
       "F65"
     ]
   },
   {
-    "id": "d2-f2",
-    "dia": 2,
-    "frente": "Primer número de la presión (sistólica)",
-    "reverso": "La presión cuando el corazón aprieta.",
-    "fuentes": [
-      "F65"
-    ]
-  },
-  {
-    "id": "d2-f3",
-    "dia": 2,
-    "frente": "Segundo número de la presión (diastólica)",
-    "reverso": "La presión cuando el corazón descansa entre latidos.",
-    "fuentes": [
-      "F65"
-    ]
-  },
-  {
-    "id": "d2-f4",
-    "dia": 2,
-    "frente": "¿Qué pasa con la presión si la arteria se estrecha?",
-    "reverso": "Sube mucho.",
-    "fuentes": [
-      "F65"
-    ]
-  },
-  {
-    "id": "d2-f5",
-    "dia": 2,
-    "frente": "¿Desde qué cifra habla la OMS de presión alta?",
-    "reverso": "Desde 140/90, medida en dos días distintos.",
-    "fuentes": [
-      "F49"
-    ]
-  },
-  {
-    "id": "d2-f6",
-    "dia": 2,
-    "frente": "¿Por qué la presión alta es \"silenciosa\"?",
-    "reverso": "Porque casi nunca da síntomas; hay que medirla.",
-    "fuentes": [
-      "F49",
-      "F66"
-    ]
-  },
-  {
-    "id": "d2-f7",
-    "dia": 2,
-    "frente": "¿Qué es la aterosclerosis?",
-    "reverso": "Arterias estrechadas y endurecidas por placas de grasa.",
-    "fuentes": [
-      "F65",
-      "F31"
-    ]
-  },
-  {
-    "id": "d2-f8",
-    "dia": 2,
-    "frente": "Colesterol LDL",
-    "reverso": "El \"malo\": deja colesterol en las arterias.",
-    "fuentes": [
-      "F32"
-    ]
-  },
-  {
-    "id": "d2-f9",
-    "dia": 2,
-    "frente": "Colesterol HDL",
-    "reverso": "El \"bueno\": lleva el colesterol al hígado para eliminarlo.",
-    "fuentes": [
-      "F32"
-    ]
-  },
-  {
-    "id": "d2-f10",
-    "dia": 2,
-    "frente": "¿Qué es un infarto?",
-    "reverso": "Cuando se tapa una arteria del corazón y parte del músculo se queda sin sangre.",
-    "fuentes": [
-      "F65",
-      "F42"
-    ]
-  },
-  {
-    "id": "d2-f11",
-    "dia": 2,
-    "frente": "¿Qué es un ictus?",
-    "reverso": "Cuando una arteria del cerebro se tapa o se rompe.",
-    "fuentes": [
-      "F43"
-    ]
-  },
-  {
-    "id": "d3-f1",
-    "dia": 3,
-    "frente": "Insuficiencia cardiaca",
-    "reverso": "El corazón no logra bombear la sangre que el cuerpo necesita.",
-    "fuentes": [
-      "F53"
-    ]
-  },
-  {
     "id": "d3-f2",
     "dia": 3,
-    "frente": "Síntomas típicos de insuficiencia cardiaca",
-    "reverso": "Cansancio, falta de aire e hinchazón de pies y tobillos.",
+    "frente": "Presión normal",
+    "reverso": "Por debajo de 120/80.",
     "fuentes": [
-      "F53",
-      "F34"
+      "F51"
     ]
   },
   {
     "id": "d3-f3",
     "dia": 3,
-    "frente": "Fracción de eyección",
-    "reverso": "Qué parte de la sangre del ventrículo izquierdo sale en cada latido.",
+    "frente": "Aterosclerosis",
+    "reverso": "Arterias estrechas y duras por placas de grasa.",
     "fuentes": [
-      "F58"
+      "F31"
     ]
   },
   {
     "id": "d3-f4",
     "dia": 3,
+    "frente": "Té de hibisco",
+    "reverso": "En 6 semanas bajó la presión sistólica unos 7 puntos en adultos con presión algo alta.",
+    "fuentes": [
+      "F99"
+    ]
+  },
+  {
+    "id": "d3-f5",
+    "dia": 3,
+    "frente": "Linaza",
+    "reverso": "Tiene omega-3, lignanos y fibra; en un estudio bajó la presión unos 10 puntos.",
+    "fuentes": [
+      "F100"
+    ]
+  },
+  {
+    "id": "d3-f6",
+    "dia": 3,
+    "frente": "Nopal",
+    "reverso": "En una revisión bajó la presión y el colesterol total.",
+    "fuentes": [
+      "F101"
+    ]
+  },
+  {
+    "id": "d3-f7",
+    "dia": 3,
+    "frente": "Fibra soluble",
+    "reverso": "La de avena, cebada y psyllium ayuda a bajar el LDL.",
+    "fuentes": [
+      "F102"
+    ]
+  },
+  {
+    "id": "d3-f8",
+    "dia": 3,
+    "frente": "Chaya",
+    "reverso": "Hojas con antioxidantes que se comen hervidas unos 20 minutos.",
+    "fuentes": [
+      "F104",
+      "F105"
+    ]
+  },
+  {
+    "id": "d4-f1",
+    "dia": 4,
+    "frente": "Insuficiencia cardiaca",
+    "reverso": "El corazón no logra bombear toda la sangre que el cuerpo necesita.",
+    "fuentes": [
+      "F53"
+    ]
+  },
+  {
+    "id": "d4-f2",
+    "dia": 4,
     "frente": "Fracción de eyección normal",
     "reverso": "Entre 55% y 70%.",
     "fuentes": [
@@ -265,422 +281,250 @@
     ]
   },
   {
-    "id": "d3-f5",
-    "dia": 3,
-    "frente": "¿Con qué prueba se mide la fracción de eyección?",
-    "reverso": "Con una ecografía del corazón (ecocardiograma).",
-    "fuentes": [
-      "F58"
-    ]
-  },
-  {
-    "id": "d3-f6",
-    "dia": 3,
-    "frente": "Onda P del ECG",
-    "reverso": "La chispa en las aurículas.",
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "id": "d3-f7",
-    "dia": 3,
-    "frente": "Pico QRS del ECG",
-    "reverso": "La chispa en los ventrículos.",
-    "fuentes": [
-      "F61"
-    ]
-  },
-  {
-    "id": "d3-f8",
-    "dia": 3,
-    "frente": "Onda T del ECG",
-    "reverso": "Los ventrículos se recargan.",
-    "fuentes": [
-      "F62"
-    ]
-  },
-  {
-    "id": "d3-f9",
-    "dia": 3,
-    "frente": "Fibrilación auricular",
-    "reverso": "Las aurículas tiemblan en vez de apretar y el ritmo se vuelve irregular.",
-    "fuentes": [
-      "F59"
-    ]
-  },
-  {
-    "id": "d3-f10",
-    "dia": 3,
-    "frente": "Principal peligro de la fibrilación auricular",
-    "reverso": "Coágulos que pueden causar un ictus.",
-    "fuentes": [
-      "F59"
-    ]
-  },
-  {
-    "id": "d3-f11",
-    "dia": 3,
-    "frente": "Los 4 hábitos de la AHA",
-    "reverso": "Comer mejor, moverse más, no fumar y dormir bien.",
-    "fuentes": [
-      "F55"
-    ]
-  },
-  {
-    "id": "d3-f12",
-    "dia": 3,
-    "frente": "Los 4 números a controlar según la AHA",
-    "reverso": "Peso, colesterol, azúcar en sangre y presión.",
-    "fuentes": [
-      "F55"
-    ]
-  },
-  {
-    "id": "d4-f1",
-    "dia": 4,
-    "frente": "Cáncer",
-    "reverso": "Células que se multiplican sin control y pueden ir a otras partes del cuerpo.",
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
-    "id": "d4-f2",
-    "dia": 4,
-    "frente": "Tumor benigno",
-    "reverso": "Bulto que crece en su sitio y no invade ni viaja.",
-    "fuentes": [
-      "F20"
-    ]
-  },
-  {
     "id": "d4-f3",
     "dia": 4,
-    "frente": "Tumor maligno",
-    "reverso": "Bulto que invade lo de alrededor y puede viajar: es cáncer.",
+    "frente": "Onda P, QRS y T",
+    "reverso": "Chispa en aurículas, chispa en ventrículos y recarga.",
     "fuentes": [
-      "F20"
+      "F61"
     ]
   },
   {
     "id": "d4-f4",
     "dia": 4,
-    "frente": "¿Dónde empieza el cáncer?",
-    "reverso": "En cambios del ADN, el manual de instrucciones de la célula.",
+    "frente": "Fibrilación auricular",
+    "reverso": "Las aurículas tiemblan y los latidos llegan a destiempo.",
     "fuentes": [
-      "F20"
+      "F59"
     ]
   },
   {
     "id": "d4-f5",
     "dia": 4,
-    "frente": "Genes \"acelerador\" y \"freno\"",
-    "reverso": "Unos dicen a la célula que se divida y otros que pare; si fallan, se divide sin control.",
+    "frente": "Espino blanco",
+    "reverso": "Crataegus; la planta más estudiada en insuficiencia cardiaca.",
     "fuentes": [
-      "F20"
+      "F78"
     ]
   },
   {
     "id": "d4-f6",
     "dia": 4,
-    "frente": "Tres orígenes de los cambios del ADN",
-    "reverso": "Errores al copiar, daños del ambiente y herencia.",
+    "frente": "Castaño de Indias",
+    "reverso": "Su extracto de semilla mejora los síntomas de la insuficiencia venosa crónica.",
     "fuentes": [
-      "F20"
+      "F96"
     ]
   },
   {
     "id": "d4-f7",
     "dia": 4,
-    "frente": "¿Por qué el tumor fabrica vasos sanguíneos?",
-    "reverso": "Para conseguir oxígeno y alimento.",
-    "fuentes": [
-      "F20",
-      "F14"
-    ]
-  },
-  {
-    "id": "d4-f8",
-    "dia": 4,
-    "frente": "Metástasis",
-    "reverso": "Células del tumor que viajan por la sangre y forman tumores en otros órganos.",
-    "fuentes": [
-      "F21"
-    ]
-  },
-  {
-    "id": "d4-f9",
-    "dia": 4,
-    "frente": "Destinos más comunes de la metástasis",
-    "reverso": "Hueso, hígado y pulmón.",
-    "fuentes": [
-      "F21"
-    ]
-  },
-  {
-    "id": "d4-f10",
-    "dia": 4,
-    "frente": "Parte de los cánceres evitables según la OMS",
-    "reverso": "Cerca del 38%.",
-    "fuentes": [
-      "F50"
-    ]
-  },
-  {
-    "id": "d7-f1",
-    "dia": 7,
-    "frente": "Molestia de pecho típica de infarto",
-    "reverso": "Presión u opresión en el centro del pecho que dura minutos o va y viene.",
-    "fuentes": [
-      "F56"
-    ]
-  },
-  {
-    "id": "d7-f2",
-    "dia": 7,
-    "frente": "Regla FAST",
-    "reverso": "Cara, brazo, habla: es tiempo de llamar a emergencias.",
-    "fuentes": [
-      "F43"
-    ]
-  },
-  {
-    "id": "d7-f3",
-    "dia": 7,
-    "frente": "Número de emergencias en Ecuador",
-    "reverso": "ECU 911.",
-    "fuentes": [
-      "F56"
-    ]
-  },
-  {
-    "id": "d7-f4",
-    "dia": 7,
-    "frente": "Señal de un coágulo en la pierna",
-    "reverso": "Pierna hinchada y dolorosa de un solo lado.",
-    "fuentes": [
-      "F40"
-    ]
-  },
-  {
-    "id": "d7-f5",
-    "dia": 7,
-    "frente": "Señales de sangrado con warfarina",
-    "reverso": "Sangrado que no para, heces negras, orina oscura, moretones fáciles.",
-    "fuentes": [
-      "F47"
-    ]
-  },
-  {
-    "id": "d7-f6",
-    "dia": 7,
-    "frente": "Tres preguntas del educador",
-    "reverso": "¿Qué medicamentos tomas? ¿Qué plantas o suplementos? ¿Tu médico lo sabe?",
-    "fuentes": [
-      "F72"
-    ]
-  },
-  {
-    "id": "d6-f1",
-    "dia": 6,
-    "frente": "Tres pasos para cerrar una herida",
-    "reverso": "El vaso se aprieta, las plaquetas tapan y la fibrina teje una red.",
-    "fuentes": [
-      "F68"
-    ]
-  },
-  {
-    "id": "d6-f2",
-    "dia": 6,
-    "frente": "¿Para qué necesita el hígado la vitamina K?",
-    "reverso": "Para fabricar las piezas de la coagulación.",
-    "fuentes": [
-      "F68"
-    ]
-  },
-  {
-    "id": "d6-f3",
-    "dia": 6,
-    "frente": "Trombosis",
-    "reverso": "Un coágulo que se forma dentro de una vena sin herida.",
-    "fuentes": [
-      "F68"
-    ]
-  },
-  {
-    "id": "d6-f4",
-    "dia": 6,
-    "frente": "Señales de un coágulo en la pierna",
-    "reverso": "Dolor o hinchazón, calor y piel enrojecida.",
-    "fuentes": [
-      "F40"
-    ]
-  },
-  {
-    "id": "d6-f5",
-    "dia": 6,
-    "frente": "Embolia pulmonar",
-    "reverso": "Un coágulo atascado en el pulmón: es una urgencia.",
-    "fuentes": [
-      "F41"
-    ]
-  },
-  {
-    "id": "d6-f6",
-    "dia": 6,
-    "frente": "Digoxina",
-    "reverso": "Medicina para el corazón que viene de la dedalera.",
-    "fuentes": [
-      "F89"
-    ]
-  },
-  {
-    "id": "d6-f7",
-    "dia": 6,
-    "frente": "Paclitaxel",
-    "reverso": "Medicina contra el cáncer sacada de la corteza del tejo del Pacífico.",
-    "fuentes": [
-      "F28"
-    ]
-  },
-  {
-    "id": "d6-f8",
-    "dia": 6,
-    "frente": "Vincristina",
-    "reverso": "Medicina contra el cáncer que viene de la vinca de Madagascar.",
-    "fuentes": [
-      "F90"
-    ]
-  },
-  {
-    "id": "d6-f9",
-    "dia": 6,
-    "frente": "¿Alguna planta ha demostrado prevenir el cáncer o hacerlo desaparecer?",
-    "reverso": "No.",
-    "fuentes": [
-      "F72"
-    ]
-  },
-  {
-    "id": "d6-f10",
-    "dia": 6,
-    "frente": "Dos plantas que aumentan el sangrado con warfarina",
-    "reverso": "Ginkgo y ajo en suplemento.",
+    "frente": "Ginkgo y warfarina",
+    "reverso": "Juntos pueden aumentar el sangrado.",
     "fuentes": [
       "F74",
-      "F75",
-      "F47"
-    ]
-  },
-  {
-    "id": "d6-f11",
-    "dia": 6,
-    "frente": "¿Qué hace la hierba de San Juan con muchas medicinas?",
-    "reverso": "Les quita efecto, porque el hígado las elimina antes.",
-    "fuentes": [
       "F71"
-    ]
-  },
-  {
-    "id": "d6-f12",
-    "dia": 6,
-    "frente": "Riesgo del regaliz para el corazón",
-    "reverso": "Puede causar latidos irregulares.",
-    "fuentes": [
-      "F91"
     ]
   },
   {
     "id": "d5-f1",
     "dia": 5,
-    "frente": "Cardio-oncología",
-    "reverso": "Médicos del corazón y del cáncer trabajando juntos.",
+    "frente": "Metástasis",
+    "reverso": "Células de cáncer que viajan por la sangre y forman tumores en otros órganos.",
     "fuentes": [
-      "F11",
-      "F12"
+      "F21"
     ]
   },
   {
     "id": "d5-f2",
     "dia": 5,
-    "frente": "Cardiotoxicidad",
-    "reverso": "Daño al corazón o a los vasos causado por un tratamiento contra el cáncer.",
+    "frente": "Vincristina y vinblastina",
+    "reverso": "Medicinas contra el cáncer de la vinca de Madagascar.",
     "fuentes": [
-      "F11"
+      "F106",
+      "F83"
     ]
   },
   {
     "id": "d5-f3",
     "dia": 5,
-    "frente": "Familia de la doxorrubicina",
-    "reverso": "Las antraciclinas.",
+    "frente": "Paclitaxel",
+    "reverso": "Medicina contra el cáncer de la corteza del tejo del Pacífico.",
     "fuentes": [
-      "F86"
+      "F28"
     ]
   },
   {
     "id": "d5-f4",
     "dia": 5,
-    "frente": "¿Cuándo puede dañar el corazón la doxorrubicina?",
-    "reverso": "Durante el tratamiento o meses y años después.",
+    "frente": "Etopósido",
+    "reverso": "Medicina hecha a partir de la podofilotoxina del podofilo.",
     "fuentes": [
-      "F86"
+      "F108"
     ]
   },
   {
     "id": "d5-f5",
     "dia": 5,
-    "frente": "Trastuzumab",
-    "reverso": "Terapia dirigida para ciertos cánceres de mama y estómago; requiere vigilar el corazón.",
+    "frente": "Topotecán e irinotecán",
+    "reverso": "Medicinas derivadas de la camptotecina de la camptoteca.",
     "fuentes": [
-      "F87"
+      "F107",
+      "F106"
     ]
   },
   {
     "id": "d5-f6",
     "dia": 5,
-    "frente": "¿Qué hace cierta inmunoterapia?",
-    "reverso": "Quita un freno a las defensas para que ataquen al cáncer.",
+    "frente": "Zorrilla (anamú)",
+    "reverso": "Petiveria alliacea; su extracto frenó células de cáncer en el laboratorio.",
     "fuentes": [
-      "F85"
+      "F109"
     ]
   },
   {
     "id": "d5-f7",
     "dia": 5,
-    "frente": "Miocarditis",
-    "reverso": "Inflamación del músculo del corazón.",
+    "frente": "Dulcamara",
+    "reverso": "Solanum dulcamara; tiene solasodina y solamargina; sus bayas son venenosas.",
     "fuentes": [
-      "F85"
+      "F110"
     ]
   },
   {
     "id": "d5-f8",
     "dia": 5,
-    "frente": "¿Cuándo aparece el daño de la radioterapia en el pecho?",
-    "reverso": "Años después.",
+    "frente": "Muérdago",
+    "reverso": "Sus extractos están entre los más recetados a pacientes con cáncer en Europa.",
     "fuentes": [
-      "F26"
+      "F97"
     ]
   },
   {
-    "id": "d5-f9",
-    "dia": 5,
-    "frente": "¿Qué prueba mide cuánto bombea el corazón?",
-    "reverso": "La ecografía del corazón (ecocardiograma).",
+    "id": "d6-f1",
+    "dia": 6,
+    "frente": "Cardiotoxicidad",
+    "reverso": "Daño del corazón causado por un tratamiento.",
     "fuentes": [
-      "F12"
+      "F11"
     ]
   },
   {
-    "id": "d5-f10",
-    "dia": 5,
-    "frente": "¿Quién decide cambiar un tratamiento?",
-    "reverso": "El equipo médico junto con el paciente.",
+    "id": "d6-f2",
+    "dia": 6,
+    "frente": "Caléndula en radioterapia",
+    "reverso": "Redujo la irritación fuerte de la piel del 63% al 41% en un estudio.",
     "fuentes": [
-      "F11",
-      "F12"
+      "F114"
+    ]
+  },
+  {
+    "id": "d6-f3",
+    "dia": 6,
+    "frente": "Gel de sábila",
+    "reverso": "Puede acelerar la curación de quemaduras y aliviar su dolor.",
+    "fuentes": [
+      "F112"
+    ]
+  },
+  {
+    "id": "d6-f4",
+    "dia": 6,
+    "frente": "Látex de sábila tomado",
+    "reverso": "Causa cólicos y diarrea; usado de más aumenta los efectos de la digoxina.",
+    "fuentes": [
+      "F112"
+    ]
+  },
+  {
+    "id": "d6-f5",
+    "dia": 6,
+    "frente": "Hipérico",
+    "reverso": "Le quita fuerza a medicinas como irinotecán, warfarina y digoxina.",
+    "fuentes": [
+      "F73"
+    ]
+  },
+  {
+    "id": "d6-f6",
+    "dia": 6,
+    "frente": "Ginkgo y ajo con warfarina",
+    "reverso": "Pueden aumentar el sangrado.",
+    "fuentes": [
+      "F74",
+      "F75"
+    ]
+  },
+  {
+    "id": "d6-f7",
+    "dia": 6,
+    "frente": "Té verde y medicinas",
+    "reverso": "Puede bajar el nadolol y la atorvastatina en la sangre.",
+    "fuentes": [
+      "F77"
+    ]
+  },
+  {
+    "id": "d6-f8",
+    "dia": 6,
+    "frente": "Señales de coágulo en la pierna",
+    "reverso": "Hinchazón, calor y dolor en una pierna.",
+    "fuentes": [
+      "F40"
+    ]
+  },
+  {
+    "id": "d7-f1",
+    "dia": 7,
+    "frente": "Zorrilla",
+    "reverso": "Nombre en Ecuador del anamú, Petiveria alliacea.",
+    "fuentes": [
+      "F109"
+    ]
+  },
+  {
+    "id": "d7-f2",
+    "dia": 7,
+    "frente": "Parte correcta del castaño de Indias",
+    "reverso": "El extracto de semilla preparado; la semilla cruda es tóxica.",
+    "fuentes": [
+      "F96"
+    ]
+  },
+  {
+    "id": "d7-f3",
+    "dia": 7,
+    "frente": "Chaya",
+    "reverso": "Hervir hojas y tallos verdes unos 20 minutos.",
+    "fuentes": [
+      "F105"
+    ]
+  },
+  {
+    "id": "d7-f4",
+    "dia": 7,
+    "frente": "Linaza",
+    "reverso": "Madura y molida; no cruda ni inmadura.",
+    "fuentes": [
+      "F113"
+    ]
+  },
+  {
+    "id": "d7-f5",
+    "dia": 7,
+    "frente": "FAST",
+    "reverso": "Cara, brazo, habla y tiempo de llamar a emergencias.",
+    "fuentes": [
+      "F43"
+    ]
+  },
+  {
+    "id": "d7-f6",
+    "dia": 7,
+    "frente": "Número de emergencias en Ecuador",
+    "reverso": "ECU 911.",
+    "fuentes": [
+      "F56"
     ]
   }
 ]

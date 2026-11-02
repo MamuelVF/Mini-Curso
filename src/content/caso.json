@@ -1,23 +1,45 @@
 {
  "titulo": "Caso integrador: la consulta de Rosa",
- "introduccion": "Rosa, de 58 años, recibe tratamiento por un cáncer de mama. Le han dado doxorrubicina y ahora trastuzumab. Toma warfarina por un coágulo que tuvo hace unos meses. Viene a verte porque confía en tu experiencia con plantas. Caso ficticio con fines educativos.",
+ "introduccion": "Rosa, de 58 años, tiene cáncer de mama. Ya recibió doxorrubicina y ahora va a empezar radioterapia. Toma warfarina por un coágulo que tuvo hace unos meses y tiene la presión algo alta. Viene a verte porque confía en tu conocimiento de plantas. Caso ficticio con fines educativos.",
  "inicio": "n1",
  "nodos": [
   {
    "id": "n1",
-   "texto": "Rosa te dice: \"Quiero algo natural que me ayude con el cáncer. Una vecina toma hierba de San Juan para el ánimo, ¿me sirve?\" ¿Qué le respondes?",
+   "texto": "Rosa te dice: \"Me preocupa que la radioterapia me queme la piel. ¿Qué planta me sirve?\"",
    "opciones": [
     {
-     "texto": "Le dices que el hipérico puede restar efecto a muchos medicamentos, incluida la warfarina, y que lo hable con su médico",
+     "texto": "Le hablas de la crema de caléndula, que en un estudio redujo la irritación de la piel en la radioterapia de mama, y le pides que se lo comente a su equipo",
      "siguiente": "n2",
      "segura": true,
-     "explicacion": "El hipérico activa enzimas que eliminan fármacos: puede debilitar la warfarina y algunos tratamientos contra el cáncer."
+     "explicacion": "En ese estudio, la irritación fuerte bajó del 63% al 41% y hubo menos dolor."
     },
     {
-     "texto": "Le dices que la pruebe una semana, porque es natural",
+     "texto": "Le dices que tome látex de sábila todos los días",
      "siguiente": "n2",
      "segura": false,
-     "explicacion": "Natural no significa seguro. El hipérico interactúa con la warfarina y con fármacos contra el cáncer."
+     "explicacion": "El látex tomado causa cólicos y diarrea. Para la piel se usa el gel de la hoja, y la caléndula tiene un estudio en radioterapia de mama."
+    }
+   ],
+   "fuentes": [
+    "F114",
+    "F112"
+   ]
+  },
+  {
+   "id": "n2",
+   "texto": "Rosa te cuenta: \"Una vecina toma hierba de San Juan para el ánimo, ¿me sirve?\"",
+   "opciones": [
+    {
+     "texto": "Le explicas que el hipérico puede quitarle fuerza a la warfarina y a medicinas contra el cáncer, y que lo hable con su médico",
+     "siguiente": "n3",
+     "segura": true,
+     "explicacion": "El hipérico hace que muchas medicinas funcionen peor."
+    },
+    {
+     "texto": "Le dices que la pruebe una semana",
+     "siguiente": "n3",
+     "segura": false,
+     "explicacion": "El hipérico puede debilitar la warfarina y algunos tratamientos contra el cáncer."
     }
    ],
    "fuentes": [
@@ -26,41 +48,42 @@
    ]
   },
   {
-   "id": "n2",
-   "texto": "Rosa te pregunta: \"¿Y si dejo la quimio y tomo solo plantas? Me siento cansada del tratamiento.\"",
+   "id": "n3",
+   "texto": "Rosa quiere tomar té de flor de Jamaica para la presión.",
    "opciones": [
     {
-     "texto": "Le explicas con empatía que ninguna planta reemplaza el tratamiento y la animas a hablar de su cansancio con el equipo de oncología",
-     "siguiente": "n3",
+     "texto": "Le cuentas que el hibisco bajó la presión en un estudio y que su médico debe saberlo para vigilarla junto con sus otras medicinas",
+     "siguiente": "n4",
      "segura": true,
-     "explicacion": "Ninguna terapia complementaria ha demostrado prevenir el cáncer ni hacerlo desaparecer; reemplazar o retrasar el tratamiento puede ser dañino."
+     "explicacion": "En el estudio, la presión sistólica bajó unos 7 puntos en 6 semanas."
     },
     {
-     "texto": "Le dices que algunas plantas funcionan igual que la quimio",
-     "siguiente": "n3",
+     "texto": "Le dices que el hibisco no tiene ningún efecto",
+     "siguiente": "n4",
      "segura": false,
-     "explicacion": "No es cierto. Que un fármaco provenga de una planta (como el paclitaxel) no hace que la planta sustituya al tratamiento."
+     "explicacion": "En un estudio con personas, el té de hibisco sí bajó la presión."
     }
    ],
    "fuentes": [
-    "F72"
+    "F99",
+    "F70"
    ]
   },
   {
-   "id": "n3",
+   "id": "n4",
    "texto": "Rosa te cuenta que una amiga le regaló cápsulas de ginkgo \"para la memoria\" y empezó a tomarlas hace 10 días.",
    "opciones": [
     {
      "texto": "Le dices que el ginkgo puede aumentar el sangrado con la warfarina y que avise hoy a su médico",
-     "siguiente": "n4",
+     "siguiente": "n5",
      "segura": true,
-     "explicacion": "El ginkgo está entre las plantas que interactúan con la warfarina."
+     "explicacion": "El ginkgo está entre las plantas que suman sangrado con la warfarina."
     },
     {
-     "texto": "Le dices que no pasa nada porque la dosis es pequeña",
-     "siguiente": "n4",
+     "texto": "Le dices que siga, porque son cápsulas pequeñas",
+     "siguiente": "n5",
      "segura": false,
-     "explicacion": "Con warfarina, el ginkgo puede aumentar el riesgo de sangrado aunque la cantidad parezca pequeña."
+     "explicacion": "Con warfarina, el ginkgo puede aumentar el sangrado."
     }
    ],
    "fuentes": [
@@ -69,20 +92,20 @@
    ]
   },
   {
-   "id": "n4",
-   "texto": "Mientras conversan, Rosa te muestra varios moretones en los brazos que no recuerda haberse hecho, y dice que le sangran las encías al cepillarse.",
+   "id": "n5",
+   "texto": "Mientras conversan, Rosa te muestra moretones en los brazos que no recuerda haberse hecho, y dice que le sangran las encías al cepillarse.",
    "opciones": [
     {
-     "texto": "Le recomiendas llamar a su médico de inmediato, porque pueden ser signos de sangrado por la warfarina",
-     "siguiente": "n5",
+     "texto": "Le recomiendas llamar a su médico de inmediato, porque pueden ser señales de sangrado por la warfarina",
+     "siguiente": "n6",
      "segura": true,
-     "explicacion": "Moretones fáciles y sangrado de encías son señales que MedlinePlus pide comunicar de inmediato."
+     "explicacion": "Moretones fáciles y sangrado de encías son señales que hay que comunicar de inmediato."
     },
     {
-     "texto": "Le sugieres una crema de árnica y esperar",
-     "siguiente": "n5",
+     "texto": "Le sugieres esperar a ver si se pasan",
+     "siguiente": "n6",
      "segura": false,
-     "explicacion": "Pueden ser signos de sangrado por anticoagulante: requiere consulta médica inmediata."
+     "explicacion": "Pueden ser señales de sangrado por anticoagulante: necesita consulta médica inmediata."
     }
    ],
    "fuentes": [
@@ -90,64 +113,64 @@
    ]
   },
   {
-   "id": "n5",
-   "texto": "Una semana después Rosa te escribe: le cuesta respirar al subir escaleras y se le hinchan los tobillos al final del día. Recuerda los tratamientos que recibió.",
-   "opciones": [
-    {
-     "texto": "Le dices que lo consulte pronto con su equipo, porque la doxorrubicina y el trastuzumab pueden afectar al corazón",
-     "siguiente": "n6",
-     "segura": true,
-     "explicacion": "Falta de aire e hinchazón pueden indicar insuficiencia cardiaca; ambos tratamientos exigen vigilar el corazón."
-    },
-    {
-     "texto": "Le dices que es cansancio normal por la quimio y que tome espino blanco",
-     "siguiente": "n6",
-     "segura": false,
-     "explicacion": "No se debe atribuir sin más al cansancio: pueden ser signos de problema cardiaco, que su equipo debe evaluar. Y añadir plantas sin consultar suma riesgos."
-    }
-   ],
-   "fuentes": [
-    "F86",
-    "F87",
-    "F53"
-   ]
-  },
-  {
    "id": "n6",
-   "texto": "Su cardiólogo le pide un ecocardiograma. Rosa te pregunta qué es la \"fracción de eyección\" que van a medir.",
+   "texto": "Rosa te dice: \"Leí que la zorrilla frena el cáncer. ¿La puedo tomar en vez de la radioterapia?\"",
    "opciones": [
     {
-     "texto": "El porcentaje de sangre que sale del ventrículo izquierdo en cada latido; lo normal es de 55% a 70%",
+     "texto": "Le cuentas que la zorrilla frenó células de cáncer en el laboratorio y que aún esperan estudios en personas, mientras que su radioterapia sí los tiene; y que cualquier planta la converse con su oncólogo",
      "siguiente": "n7",
      "segura": true,
-     "explicacion": "Es una de las medidas clave para vigilar el corazón durante algunos tratamientos contra el cáncer."
+     "explicacion": "Así Rosa conoce lo que se sabe de la zorrilla y sigue con el tratamiento que ya tiene pruebas en personas."
     },
     {
-     "texto": "El número de latidos por minuto",
+     "texto": "Le dices que deje la radioterapia y tome solo zorrilla",
      "siguiente": "n7",
      "segura": false,
-     "explicacion": "Eso es la frecuencia cardiaca. La FE es el porcentaje de sangre que sale en cada latido."
+     "explicacion": "Los resultados de la zorrilla son de laboratorio; la radioterapia tiene estudios en personas. Dejarla le quitaría a Rosa un tratamiento probado."
     }
    ],
    "fuentes": [
-    "F58"
+    "F109",
+    "F72"
    ]
   },
   {
    "id": "n7",
+   "texto": "Una semana después Rosa te escribe: le cuesta respirar al subir escaleras y se le hinchan los tobillos al final del día.",
+   "opciones": [
+    {
+     "texto": "Le dices que lo consulte pronto con su equipo, porque la doxorrubicina puede afectar al corazón",
+     "siguiente": "n8",
+     "segura": true,
+     "explicacion": "Falta de aire e hinchazón pueden indicar insuficiencia cardiaca."
+    },
+    {
+     "texto": "Le dices que es cansancio normal y que espere",
+     "siguiente": "n8",
+     "segura": false,
+     "explicacion": "Pueden ser señales de un problema del corazón que su equipo debe revisar pronto."
+    }
+   ],
+   "fuentes": [
+    "F86",
+    "F53"
+   ]
+  },
+  {
+   "id": "n8",
    "texto": "Días después, Rosa te llama: de repente tiene la pierna derecha hinchada y dolorida, y ahora le falta el aire y le duele el pecho al respirar hondo.",
    "opciones": [
     {
      "texto": "Le dices que llame a emergencias ahora (ECU 911)",
-     "siguiente": "n8",
+     "siguiente": "n9",
      "segura": true,
-     "explicacion": "Puede ser una trombosis con embolia pulmonar: es una urgencia, y el cáncer aumenta el riesgo de coágulos."
+     "explicacion": "Puede ser un coágulo que llegó al pulmón: es una urgencia, y el cáncer aumenta el riesgo de coágulos."
     },
     {
      "texto": "Le recomiendas elevar la pierna y esperar a mañana",
-     "siguiente": "n8",
+     "siguiente": "n9",
      "segura": false,
-     "explicacion": "Falta de aire súbita con dolor de pecho y pierna hinchada es una urgencia: no se espera."
+     "explicacion": "Falta de aire repentina con dolor de pecho y pierna hinchada es una urgencia: no se espera."
     }
    ],
    "fuentes": [
@@ -157,12 +180,12 @@
    ]
   },
   {
-   "id": "n8",
-   "texto": "Rosa recibió atención a tiempo y está estable. Su equipo agradeció que le pidieras contarles lo del ginkgo y el hipérico. Repaso: preguntaste, informaste con fuentes, reconociste las señales de alarma y derivaste a tiempo. Ese es el papel de un buen educador en salud.",
+   "id": "n9",
+   "texto": "Rosa recibió atención a tiempo y está estable. Su equipo agradeció que le contara lo del ginkgo y el hipérico, y sigue usando la crema de caléndula en la radioterapia. Repaso: sumaste una planta con pruebas, avisaste de las mezclas peligrosas, reconociste las señales de alarma y actuaste a tiempo.",
    "final": true,
    "fuentes": [
-    "F72",
-    "F12"
+    "F114",
+    "F72"
    ]
   }
  ]
